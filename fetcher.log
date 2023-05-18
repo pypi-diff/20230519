@@ -183,3 +183,81 @@
 [2023-05-19 00:08:21] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
 [2023-05-19 00:08:29] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2023-05-19 00:08:29] INFO root fetch - main [MainThread]: Store serial: [18161162]
+[2023-05-19 00:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161162]
+[2023-05-19 00:13:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gp2
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxiv-astro-summarizer
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-energy
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blazekit
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whylogs
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ioNERDSS
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cai-causal-impact
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slskd-api
+[2023-05-19 00:13:38] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [arxiv-astro-summarizer]: New version: [0.11] Old Version: [0.1]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 00:13:38] WARNING root fetch - processPackages [blazekit]: Skipping, unable to determine old version
+[2023-05-19 00:13:38] INFO root fetch - processPackages [blazekit]: Start processing: PlexPreferNonForcedSubs
+[2023-05-19 00:13:38] INFO root fetch - main [MainThread]: End processing [blazekit] error
+[2023-05-19 00:13:38] WARNING root fetch - processPackages [slskd-api]: Skipping, unable to determine old version
+[2023-05-19 00:13:38] INFO root fetch - processPackages [slskd-api]: Start processing: crossmark-jotform-api
+[2023-05-19 00:13:38] INFO root fetch - main [MainThread]: End processing [slskd-api] error
+[2023-05-19 00:13:38] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [gp2]: New version: [0.5.23.23] Old Version: [0.5.22.23]
+[2023-05-19 00:13:38] WARNING root fetch - processPackages [cai-causal-impact]: Skipping, unable to determine old version
+[2023-05-19 00:13:38] INFO root fetch - processPackages [cai-causal-impact]: Start processing: lbt-dragonfly
+[2023-05-19 00:13:38] INFO root fetch - main [MainThread]: End processing [cai-causal-impact] error
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ioNERDSS]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230519/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 00:13:38] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-19 00:13:38] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230519/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-19 00:13:38] INFO root fetch - processPackages [arxiv-astro-summarizer]: executing diffoscope
+[2023-05-19 00:13:38] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [arxiv-astro-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv-astro-summarizer-0.1.tar.gz tmp/arxiv-astro-summarizer-0.11.tar.gz --markdown 20230519/a/arxiv-astro-summarizer/0.1-0.11/diff.md --exclude *.pyd
+[2023-05-19 00:13:38] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 00:13:38] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: executing diffoscope
+[2023-05-19 00:13:38] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexPreferNonForcedSubs-2.1.4.tar.gz tmp/PlexPreferNonForcedSubs-2.1.5.tar.gz --markdown 20230519/P/PlexPreferNonForcedSubs/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-19 00:13:38] INFO root fetch - processPackages [ioNERDSS]: Downloading https://files.pythonhosted.org/packages/d7/57/566084478bd1206ecabc5f5b262cc4de486fa20a68582e32bcb122980de7/ioNERDSS-1.0.8.tar.gz
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-19 00:13:38] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230519/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-19 00:13:38] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-05-19 00:13:38] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/7f/50/8a78690ad7543c35b03492dda4eb63d2ca4d286cd3d6d0a3a79915790b88/crossmark-jotform-api-0.3.1.tar.gz
+[2023-05-19 00:13:38] INFO root fetch - processPackages [gp2]: Downloading https://files.pythonhosted.org/packages/ba/75/d43b1dc97f5e8a3551c2e133891f18e6030b991ce6b03722a4b6b0bd20ec/gp2-0.5.23.23.tar.gz
+[2023-05-19 00:13:39] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-19 00:13:39] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230519/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 00:13:39] INFO root fetch - processPackages [gp2]: executing diffoscope
+[2023-05-19 00:13:39] INFO root fetch - processPackages [gp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gp2-0.5.22.23.tar.gz tmp/gp2-0.5.23.23.tar.gz --markdown 20230519/g/gp2/0.5.22.23-0.5.23.23/diff.md --exclude *.pyd
+[2023-05-19 00:13:39] INFO root fetch - processPackages [ioNERDSS]: Downloading https://files.pythonhosted.org/packages/c2/4c/2205a9dd2320a04ad5eab8207932e7e51eb869c6fea034e74e79b6f6b4e7/ioNERDSS-1.0.9.tar.gz
+[2023-05-19 00:13:39] INFO root fetch - processPackages [ioNERDSS]: executing diffoscope
+[2023-05-19 00:13:39] INFO root fetch - processPackages [ioNERDSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioNERDSS-1.0.8.tar.gz tmp/ioNERDSS-1.0.9.tar.gz --markdown 20230519/i/ioNERDSS/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:13:39] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/84/48/fde044f233b15b0944d004fb7204b07afe22f168625b44fd0db77470de49/crossmark-jotform-api-0.3.2.tar.gz
+[2023-05-19 00:13:39] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-05-19 00:13:39] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-05-19 00:13:39] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230519/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 00:13:39] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-19 00:13:39] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.3.1.tar.gz tmp/crossmark-jotform-api-0.3.2.tar.gz --markdown 20230519/c/crossmark-jotform-api/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 00:13:39] INFO root fetch - processPackages [lbt-honeybee]: Start processing: Topyfic
+[2023-05-19 00:13:39] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-19 00:13:40] INFO root fetch - processPackages [Topyfic]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-19 00:13:40] INFO root fetch - processPackages [arxiv-astro-summarizer]: Start processing: timestep-envs-no-limit-texas-holdem
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [arxiv-astro-summarizer]: success
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [PlexPreferNonForcedSubs]: success
+[2023-05-19 00:13:40] WARNING root fetch - processPackages [timestep-envs-no-limit-texas-holdem]: Skipping, unable to determine old version
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [timestep-envs-no-limit-texas-holdem] error
+[2023-05-19 00:13:40] INFO root fetch - processPackages [Topyfic]: Downloading https://files.pythonhosted.org/packages/56/81/58b34389ded68d2fd88356e81523a122762bc56b685bc3731e1eb013b21c/Topyfic-0.2.2.tar.gz
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [gp2]: success
+[2023-05-19 00:13:40] INFO root fetch - processPackages [Topyfic]: executing diffoscope
+[2023-05-19 00:13:40] INFO root fetch - processPackages [Topyfic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Topyfic-0.2.1.tar.gz tmp/Topyfic-0.2.2.tar.gz --markdown 20230519/T/Topyfic/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-19 00:13:40] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-05-19 00:13:41] INFO root fetch - main [MainThread]: End processing [Topyfic]: success
+[2023-05-19 00:13:42] INFO root fetch - main [MainThread]: End processing [ioNERDSS]: success
+[2023-05-19 00:13:43] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-19 00:13:43] INFO root fetch - main [MainThread]: Store serial: [18161211]
