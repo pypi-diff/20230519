@@ -1,0 +1,66 @@
+[2023-05-19 00:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18160991]
+[2023-05-19 00:02:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ni-measurementlink-service
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ni-measurementlink-generator
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bifeatureanalysis
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cai-causal-fairness
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mythic-container
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwop-fast
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: honeybee-radiance-postprocess
+[2023-05-19 00:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: momento
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-service]: New version: [1.1.0.dev1] Old Version: [1.1.0.dev0]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-generator]: New version: [1.1.0.dev1] Old Version: [1.1.0.dev0]
+[2023-05-19 00:02:45] WARNING root fetch - processPackages [qwop-fast]: Skipping, unable to determine old version
+[2023-05-19 00:02:45] INFO root fetch - processPackages [qwop-fast]: Start processing: ebeer
+[2023-05-19 00:02:45] INFO root fetch - main [MainThread]: End processing [qwop-fast] error
+[2023-05-19 00:02:45] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev5] Old Version: [7.0.0.dev4]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 00:02:45] WARNING root fetch - processPackages [cai-causal-fairness]: Skipping, unable to determine old version
+[2023-05-19 00:02:45] INFO root fetch - main [MainThread]: End processing [cai-causal-fairness] error
+[2023-05-19 00:02:45] INFO root fetch - processPackages [bifeatureanalysis]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [mythic-container]: New version: [0.2.8rc5] Old Version: [0.2.8rc4]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ebeer]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [momento]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-19 00:02:45] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/3c/c1/891dc6ca7c0ca1c31b93806ddbb74db795ff04e9f271fba87438b210410f/hiddifypanel-7.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-generator]: Downloading https://files.pythonhosted.org/packages/69/45/b86953d47846326e52f7e526f504a8e7bc29e7c7e837656dd4cf00e379f7/ni_measurementlink_generator-1.1.0.dev0.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-service]: Downloading https://files.pythonhosted.org/packages/6d/5d/190f69e419c736c9e0e83249d8d783b70450a21e2f44c8c956a3f348b779/ni_measurementlink_service-1.1.0.dev0.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [bifeatureanalysis]: Downloading https://files.pythonhosted.org/packages/c6/f9/5c48b3095b16fad002148b9695abcb8519e110c76bee93b1173cdaa5483c/bifeatureanalysis-1.0.2.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/e6/33/b5de7c8867d26e5d45008579cd60b713991df8837d44e671b90e0a518d8d/ebeer-0.0.1.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/49/95/3307dbe88944e6291f186685ccc9f9acec273726065d94a1629ab556f1b4/momento-1.3.0.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230519/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [bifeatureanalysis]: Downloading https://files.pythonhosted.org/packages/cf/e2/c1ade945c45722ebcfea1e060e2be49ca1f075a5477a2774bbdc8818b65a/bifeatureanalysis-1.0.3.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230519/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc4.tar.gz tmp/mythic_container-0.2.8rc5.tar.gz --markdown 20230519/m/mythic-container/0.2.8rc4-0.2.8rc5/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-generator]: Downloading https://files.pythonhosted.org/packages/b4/99/7cca436d6f45ba067a29f15b05180e7157886d5f8462d16032a3c6476c40/ni_measurementlink_generator-1.1.0.dev1.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/a1/23/ba636c9d0197df4553ec9021dbeb411fc6a9894037f0bcf6c5affb23c480/ebeer-0.0.5.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-service]: Downloading https://files.pythonhosted.org/packages/12/5a/63b5b7a08112dd87d080622f0bb7044b954670f32d931db7c630e40938db/ni_measurementlink_service-1.1.0.dev1.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [bifeatureanalysis]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [bifeatureanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifeatureanalysis-1.0.2.tar.gz tmp/bifeatureanalysis-1.0.3.tar.gz --markdown 20230519/b/bifeatureanalysis/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/08/91/7e2bf41a36375e4bb30094cc4e4b80dedc425e9183d150418ed865f7cb35/momento-1.3.1.tar.gz
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-generator]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ni_measurementlink_generator-1.1.0.dev0.tar.gz tmp/ni_measurementlink_generator-1.1.0.dev1.tar.gz --markdown 20230519/n/ni-measurementlink-generator/1.1.0.dev0-1.1.0.dev1/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.1.tar.gz tmp/ebeer-0.0.5.tar.gz --markdown 20230519/e/ebeer/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-service]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [ni-measurementlink-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ni_measurementlink_service-1.1.0.dev0.tar.gz tmp/ni_measurementlink_service-1.1.0.dev1.tar.gz --markdown 20230519/n/ni-measurementlink-service/1.1.0.dev0-1.1.0.dev1/diff.md --exclude *.pyd
+[2023-05-19 00:02:45] INFO root fetch - processPackages [momento]: executing diffoscope
+[2023-05-19 00:02:45] INFO root fetch - processPackages [momento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-1.3.0.tar.gz tmp/momento-1.3.1.tar.gz --markdown 20230519/m/momento/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-19 00:02:46] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/5e/3d/f161306a1049678ca482f884dcba8c5346392799899bab85758d6879f35f/hiddifypanel-7.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [ni-measurementlink-generator]: success
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [bifeatureanalysis]: success
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-19 00:02:47] INFO root fetch - main [MainThread]: End processing [momento]: success
+[2023-05-19 00:02:48] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-19 00:02:48] INFO root fetch - main [MainThread]: End processing [ni-measurementlink-service]: success
+[2023-05-19 00:02:48] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-19 00:02:48] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230519/h/hiddifypanel/7.0.0.dev4-7.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-19 00:03:05] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-19 00:03:05] INFO root fetch - main [MainThread]: Store serial: [18161097]
