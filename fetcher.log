@@ -781,3 +781,75 @@
 [2023-05-19 01:02:11] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2023-05-19 01:02:42] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
 [2023-05-19 01:02:42] INFO root fetch - main [MainThread]: Store serial: [18161524]
+[2023-05-19 01:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161524]
+[2023-05-19 01:07:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usearch
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vegafusion-jupyter
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorflow-federated
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arxiv-astro-summarizer
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ardilla
+[2023-05-19 01:07:51] INFO root fetch - processPackages [ardilla]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2023-05-19 01:07:51] INFO root fetch - processPackages [arxiv-astro-summarizer]: New version: [1.0] Old Version: [0.12]
+[2023-05-19 01:07:51] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 01:07:51] INFO root fetch - processPackages [tensorflow-federated]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-19 01:07:51] INFO root fetch - processPackages [usearch]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-19 01:07:51] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.3.0rc2] Old Version: [1.3.0rc1]
+[2023-05-19 01:07:52] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-19 01:07:52] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230518] Old Version: [1.5.0.dev20230517]
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230518] Old Version: [0.7.0b20230517]
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230518] Old Version: [0.7.0b20230517]
+[2023-05-19 01:07:52] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.8a0.tar.gz tmp/ardilla-0.0.9a0.tar.gz --markdown 20230519/a/ardilla/0.0.8a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/0d/e3/e8650157faa79af5328dd2fc92ce973cab34b47d5ccf4f22b048653da956/vegafusion-jupyter-1.3.0rc1.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tensorflow-federated]: Downloading https://files.pythonhosted.org/packages/f5/b0/3ff47e8a240e05fe5b1943546ae5d647d4be46552a7b83e9d826f661106c/tensorflow_federated-0.7.0-py2.py3-none-any.whl
+[2023-05-19 01:07:52] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230519/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [arxiv-astro-summarizer]: Downloading https://files.pythonhosted.org/packages/3a/17/b8c657c49112b1d3f48976ec47f4e6030d417198591601f9e42d59e59c03/arxiv-astro-summarizer-1.0.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230519/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/9a/72/354e17fea13c6b472b9adf0dbc9f3e5d04c82e35affc545a8c224c1968a3/usearch-0.5.0-cp39-cp39-win_amd64.whl
+[2023-05-19 01:07:52] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/0c/22/f60d1c6c9cbf72589eb60e29cb5e1fbd02f70cec047735739f34cb872b2b/flwr_nightly-1.5.0.dev20230518.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/39/63/ae29d05a396fa54433d891170bc9ef7e9f2e7b4eb852187a438e70861cd5/tmnt-cu101-0.7.0b20230518.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [arxiv-astro-summarizer]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [arxiv-astro-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv-astro-summarizer-0.12.tar.gz tmp/arxiv-astro-summarizer-1.0.tar.gz --markdown 20230519/a/arxiv-astro-summarizer/0.12-1.0/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230517.tar.gz tmp/flwr_nightly-1.5.0.dev20230518.tar.gz --markdown 20230519/f/flwr-nightly/1.5.0.dev20230517-1.5.0.dev20230518/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/46/46/d58f0f914548ab1139c5e56f941e5f3eba43a817f60c2598834e089348e8/tmnt-0.7.0b20230518.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/e2/60/5968c03fdf020b9a9726b8a6a7003034455edd32804e92f52efefc780627/vegafusion-jupyter-1.3.0rc2.tar.gz
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tensorflow-federated]: Downloading https://files.pythonhosted.org/packages/9e/b9/ea984cee746438d7f67ef0a61a96c24d68a157901f39870fe0b38dc1d539/tensorflow_federated-0.9.0-py2.py3-none-any.whl
+[2023-05-19 01:07:52] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20230519/u/usearch/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230517.tar.gz tmp/tmnt-cu101-0.7.0b20230518.tar.gz --markdown 20230519/t/tmnt-cu101/0.7.0b20230517-0.7.0b20230518/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.3.0rc1.tar.gz tmp/vegafusion-jupyter-1.3.0rc2.tar.gz --markdown 20230519/v/vegafusion-jupyter/1.3.0rc1-1.3.0rc2/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230517.tar.gz tmp/tmnt-0.7.0b20230518.tar.gz --markdown 20230519/t/tmnt/0.7.0b20230517-0.7.0b20230518/diff.md --exclude *.pyd
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tensorflow-federated]: executing diffoscope
+[2023-05-19 01:07:52] INFO root fetch - processPackages [tensorflow-federated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_federated-0.7.0-py2.py3-none-any.whl.zip tmp/tensorflow_federated-0.9.0-py2.py3-none-any.whl.zip --markdown 20230519/t/tensorflow-federated/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 01:07:53] INFO root fetch - processPackages [ardilla]: Start processing: libheader
+[2023-05-19 01:07:53] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-19 01:07:53] INFO root fetch - processPackages [libheader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 01:07:53] INFO root fetch - processPackages [libheader]: executing diffoscope
+[2023-05-19 01:07:53] INFO root fetch - processPackages [libheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libheader-0.1.0.tar.gz tmp/libheader-0.1.1-py2.py3-none-any.whl.zip --markdown 20230519/l/libheader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 01:07:53] INFO root fetch - processPackages [arxiv-astro-summarizer]: Start processing: zotero-cli-tool
+[2023-05-19 01:07:53] INFO root fetch - main [MainThread]: End processing [arxiv-astro-summarizer]: success
+[2023-05-19 01:07:53] INFO root fetch - processPackages [zotero-cli-tool]: New version: [1.6.0] Old Version: [1.4.4]
+[2023-05-19 01:07:54] INFO root fetch - processPackages [zotero-cli-tool]: executing diffoscope
+[2023-05-19 01:07:54] INFO root fetch - processPackages [zotero-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zotero-cli-tool-1.4.4.tar.gz tmp/zotero-cli-tool-1.6.0.tar.gz --markdown 20230519/z/zotero-cli-tool/1.4.4-1.6.0/diff.md --exclude *.pyd
+[2023-05-19 01:07:54] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-19 01:07:54] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-19 01:07:54] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-19 01:07:54] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-19 01:07:54] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-19 01:07:55] INFO root fetch - main [MainThread]: End processing [libheader]: success
+[2023-05-19 01:07:55] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-19 01:07:55] INFO root fetch - main [MainThread]: End processing [tensorflow-federated]: success
+[2023-05-19 01:07:56] INFO root fetch - main [MainThread]: End processing [zotero-cli-tool]: success
+[2023-05-19 01:09:04] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-05-19 01:09:04] INFO root fetch - main [MainThread]: Store serial: [18161600]
