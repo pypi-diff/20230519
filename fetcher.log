@@ -261,3 +261,65 @@
 [2023-05-19 00:13:42] INFO root fetch - main [MainThread]: End processing [ioNERDSS]: success
 [2023-05-19 00:13:43] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-05-19 00:13:43] INFO root fetch - main [MainThread]: Store serial: [18161211]
+[2023-05-19 00:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161211]
+[2023-05-19 00:18:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cai-features
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cve-bin-tool
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: craft-providers
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaphor-models
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serverhttpy
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abacusai
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isoCycle
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timestep-envs-rock-paper-scissors
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlt
+[2023-05-19 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudformation-cli-java-plugin
+[2023-05-19 00:18:52] WARNING root fetch - processPackages [cai-features]: Skipping, unable to determine old version
+[2023-05-19 00:18:52] INFO root fetch - processPackages [cai-features]: Start processing: symgt
+[2023-05-19 00:18:52] INFO root fetch - main [MainThread]: End processing [cai-features] error
+[2023-05-19 00:18:52] INFO root fetch - processPackages [isoCycle]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-19 00:18:52] WARNING root fetch - processPackages [symgt]: Skipping, unable to determine old version
+[2023-05-19 00:18:52] INFO root fetch - processPackages [craft-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-19 00:18:52] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-19 00:18:52] INFO root fetch - main [MainThread]: End processing [symgt] error
+[2023-05-19 00:18:52] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 00:18:52] WARNING root fetch - processPackages [timestep-envs-rock-paper-scissors]: Skipping, unable to determine old version
+[2023-05-19 00:18:52] WARNING root fetch - processPackages [serverhttpy]: Skipping, unable to determine old version
+[2023-05-19 00:18:52] INFO root fetch - main [MainThread]: End processing [timestep-envs-rock-paper-scissors] error
+[2023-05-19 00:18:52] INFO root fetch - processPackages [cve-bin-tool]: New version: [3.2rc0] Old Version: [3.2.1rc0]
+[2023-05-19 00:18:52] INFO root fetch - main [MainThread]: End processing [serverhttpy] error
+[2023-05-19 00:18:52] INFO root fetch - processPackages [dlt]: New version: [0.2.8a0] Old Version: [0.2.7a0]
+[2023-05-19 00:18:52] INFO root fetch - processPackages [cloudformation-cli-java-plugin]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-19 00:18:53] INFO root fetch - processPackages [craft-providers]: Downloading https://files.pythonhosted.org/packages/44/28/531eb356a3b3aa7725a8cc621231f8b6a5889cc7415a1d85f8bef6aa67bf/craft-providers-1.8.1.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/e9/a5/a013d72f1632fee541c22e5bfa9e73c1d57ad7a3b8626c6565165cd158f1/dlt-0.2.7a0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cloudformation-cli-java-plugin]: Downloading https://files.pythonhosted.org/packages/b8/42/f9c0b0d91a8f2f1e4001814478603edae6682084755d436fcaa633e69f35/cloudformation-cli-java-plugin-2.0.8.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cve-bin-tool]: Downloading https://files.pythonhosted.org/packages/c2/a4/2be9c1557cec6472fe723df21e8124c620c2645e81a52fce205d66592794/cve-bin-tool-3.2.1rc0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/9c/3f/7e512d8ed5d664a620f6c100f74fcf9fb4981fb5a02c6673d2c4338eb45f/isoCycle-0.0.16.tar.gz
+[2023-05-19 00:18:53] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17973937>=10485760
+[2023-05-19 00:18:53] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 00:18:53] INFO root fetch - processPackages [craft-providers]: Downloading https://files.pythonhosted.org/packages/5a/0e/a4a42330acd8b26636376f446fc333d224299b449cbb28e4dead648e2406/craft-providers-1.9.0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cloudformation-cli-java-plugin]: Downloading https://files.pythonhosted.org/packages/be/6f/6d7f6cef96fb3cc277177c0231d418176c5ca1152e4e376f9981ac768e32/cloudformation-cli-java-plugin-2.0.9.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/8b/63/38f60c7bdbb2ce8b013829589d2372ab2e8089567c89d18af9952b6567a2/dlt-0.2.8a0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cloudformation-cli-java-plugin]: executing diffoscope
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cloudformation-cli-java-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudformation-cli-java-plugin-2.0.8.tar.gz tmp/cloudformation-cli-java-plugin-2.0.9.tar.gz --markdown 20230519/c/cloudformation-cli-java-plugin/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:18:53] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [craft-providers]: executing diffoscope
+[2023-05-19 00:18:53] INFO root fetch - processPackages [craft-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-providers-1.8.1.tar.gz tmp/craft-providers-1.9.0.tar.gz --markdown 20230519/c/craft-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 00:18:53] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-05-19 00:18:53] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230519/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-19 00:18:53] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-05-19 00:18:53] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.7a0.tar.gz tmp/dlt-0.2.8a0.tar.gz --markdown 20230519/d/dlt/0.2.7a0-0.2.8a0/diff.md --exclude *.pyd
+[2023-05-19 00:18:53] INFO root fetch - processPackages [cve-bin-tool]: Downloading https://files.pythonhosted.org/packages/f3/e2/97c884fef53815e16d358e980e40d271aa872d59d718461d439322e9b1eb/cve-bin-tool-3.2rc0.tar.gz
+[2023-05-19 00:18:53] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-05-19 00:18:53] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230519/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 00:18:54] INFO root fetch - processPackages [cve-bin-tool]: executing diffoscope
+[2023-05-19 00:18:54] INFO root fetch - processPackages [cve-bin-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cve-bin-tool-3.2.1rc0.tar.gz tmp/cve-bin-tool-3.2rc0.tar.gz --markdown 20230519/c/cve-bin-tool/3.2.1rc0-3.2rc0/diff.md --exclude *.pyd
+[2023-05-19 00:18:54] INFO root fetch - main [MainThread]: End processing [cloudformation-cli-java-plugin]: success
+[2023-05-19 00:18:54] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-05-19 00:18:55] INFO root fetch - main [MainThread]: End processing [craft-providers]: success
+[2023-05-19 00:18:55] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-05-19 00:18:56] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-05-19 00:19:35] INFO root fetch - main [MainThread]: End processing [cve-bin-tool]: success
+[2023-05-19 00:19:35] INFO root fetch - main [MainThread]: Store serial: [18161259]
