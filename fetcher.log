@@ -1116,3 +1116,58 @@
 [2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-19 01:38:47] INFO root fetch - main [MainThread]: Store serial: [18161750]
+[2023-05-19 01:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161750]
+[2023-05-19 01:43:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hf-hub-ctranslate2
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-hot-reloading
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bolt
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-jtoman-cert-2201
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ersciyt
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exaparser
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinohub-seedwork-be
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gmpg
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FMLEngine
+[2023-05-19 01:43:56] INFO root fetch - processPackages [exaparser]: New version: [2023.5.18.post1] Old Version: [2023.5.18.post0]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [pytest-hot-reloading]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ersciyt]: New version: [1.86] Old Version: [1.85]
+[2023-05-19 01:43:56] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-2201]: Skipping, unable to determine old version
+[2023-05-19 01:43:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-2201] error
+[2023-05-19 01:43:56] INFO root fetch - processPackages [FMLEngine]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [bolt]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [gmpg]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/ca/e1/e829e0ebb9387eea59270836feec53ee332e94717bbc4c80eb31d5d6459e/ersciyt-1.86.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/ac/8c/d9b6dea9488450db5b76efc1ce56c80d31e9a1f3726ce06b981c8db270c5/hf_hub_ctranslate2-2.0.4.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/e4/5b/b21ca99696c5ab5cb314309b08159429cff22c10e2868133b7689f7babd5/pytest_hot_reloading-0.1.0a5.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [exaparser]: Downloading https://files.pythonhosted.org/packages/eb/df/5dad9a3676f59950e9a37db4ac8dd546ad899f71cd8c0284234e61c5f408/exaparser-2023.5.18.post1.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/b0/b9/aaddbe8ae8cc9a097a85c0711e9c6d9607fa4d7468dfd1ab2f800d929674/bolt-0.9.0.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [FMLEngine]: Downloading https://files.pythonhosted.org/packages/99/6a/6c31360f37c559a05073bb85fa899fbfadd0541b564e366a58ca75415cd7/FMLEngine-0.0.3.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/46/fd/4a1443308efbde2f0499ea64cb49684e0ee5ec0cedb240e36f3ebbf0afb1/gmpg-0.1.3.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.85.tar.gz tmp/ersciyt-1.86.tar.gz --markdown 20230519/e/ersciyt/1.85-1.86/diff.md --exclude *.pyd
+[2023-05-19 01:43:56] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230519/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 01:43:56] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-2.0.3.tar.gz tmp/hf_hub_ctranslate2-2.0.4.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-19 01:43:56] INFO root fetch - processPackages [FMLEngine]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [FMLEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FMLEngine-0.0.2.tar.gz tmp/FMLEngine-0.0.3.tar.gz --markdown 20230519/F/FMLEngine/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 01:43:56] INFO root fetch - processPackages [pytest-hot-reloading]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [pytest-hot-reloading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_hot_reloading-0.1.0a4.tar.gz tmp/pytest_hot_reloading-0.1.0a5.tar.gz --markdown 20230519/p/pytest-hot-reloading/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-05-19 01:43:56] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/dc/87/a577d796c6d14cb3ae2977fb73e36f3ceb2524ea89df58ddec739a29e440/gmpg-0.1.4.tar.gz
+[2023-05-19 01:43:56] INFO root fetch - processPackages [exaparser]: executing diffoscope
+[2023-05-19 01:43:56] INFO root fetch - processPackages [exaparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exaparser-2023.5.18.post0.tar.gz tmp/exaparser-2023.5.18.post1.tar.gz --markdown 20230519/e/exaparser/2023.5.18.post0-2023.5.18.post1/diff.md --exclude *.pyd
+[2023-05-19 01:43:57] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/44/fb/099c90357e45099a47c6020a63bb445ee8cf608b319120018d3bcb6b4640/bolt-0.9.1.tar.gz
+[2023-05-19 01:43:57] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-05-19 01:43:57] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.3.tar.gz tmp/gmpg-0.1.4.tar.gz --markdown 20230519/g/gmpg/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 01:43:57] INFO root fetch - processPackages [bolt]: executing diffoscope
+[2023-05-19 01:43:57] INFO root fetch - processPackages [bolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt-0.9.0.tar.gz tmp/bolt-0.9.1.tar.gz --markdown 20230519/b/bolt/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 01:43:57] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [FMLEngine]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [pytest-hot-reloading]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [bolt]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-05-19 01:43:59] INFO root fetch - main [MainThread]: End processing [exaparser]: success
+[2023-05-19 01:43:59] INFO root fetch - main [MainThread]: Store serial: [18161795]
