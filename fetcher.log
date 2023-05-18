@@ -682,3 +682,33 @@
 [2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-diagnostics]: success
 [2023-05-19 00:51:06] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-19 00:51:06] INFO root fetch - main [MainThread]: Store serial: [18161458]
+[2023-05-19 00:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161458]
+[2023-05-19 00:56:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libheader
+[2023-05-19 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tike
+[2023-05-19 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TMDBTraktSyncer
+[2023-05-19 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SplatStats
+[2023-05-19 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horizonai
+[2023-05-19 00:56:15] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-19 00:56:15] WARNING root fetch - processPackages [libheader]: Skipping, unable to determine old version
+[2023-05-19 00:56:15] INFO root fetch - main [MainThread]: End processing [libheader] error
+[2023-05-19 00:56:15] INFO root fetch - processPackages [tike]: New version: [0.24.2] Old Version: [0.24.1]
+[2023-05-19 00:56:15] INFO root fetch - processPackages [SplatStats]: New version: [2.0.0] Old Version: [1.6.1]
+[2023-05-19 00:56:15] INFO root fetch - processPackages [horizonai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 00:56:15] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/03/ee/b6eb5e63a1fc6bbb62c598c779762ab1d534c906d5a676b60cd45396337b/TMDBTraktSyncer-1.0.6.tar.gz
+[2023-05-19 00:56:15] INFO root fetch - processPackages [tike]: Downloading https://files.pythonhosted.org/packages/8f/c4/2fec36428f6bf3f224abacc7d75d2bd34110f74aca8c8ea79b19c7802761/tike-0.24.1.tar.gz
+[2023-05-19 00:56:15] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-05-19 00:56:15] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.0.5.tar.gz tmp/TMDBTraktSyncer-1.0.6.tar.gz --markdown 20230519/T/TMDBTraktSyncer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-19 00:56:15] INFO root fetch - processPackages [horizonai]: Downloading https://files.pythonhosted.org/packages/47/e9/7eece4f8d133f72dae2424a981cc659f68cba711b3e5b5edf68edc11a3ec/horizonai-0.1.8.tar.gz
+[2023-05-19 00:56:15] WARNING root fetch - processPackages [tike]: Skipping package: exceeds size limit 26116851>=10485760
+[2023-05-19 00:56:15] INFO root fetch - main [MainThread]: End processing [tike] error
+[2023-05-19 00:56:15] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/27/e8/9c9c792bbc0d48738124dce59b2d635067b3e1e772116d02681a30457e56/SplatStats-2.0.0.tar.gz
+[2023-05-19 00:56:16] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-05-19 00:56:16] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-1.6.1.tar.gz tmp/SplatStats-2.0.0.tar.gz --markdown 20230519/S/SplatStats/1.6.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-19 00:56:16] INFO root fetch - processPackages [horizonai]: Downloading https://files.pythonhosted.org/packages/5a/34/7cfa8814c5ed9110dbe1bd4525f3e4d0fdc755ddc43f5acf4c8096b2d6cc/horizonai-0.1.9.tar.gz
+[2023-05-19 00:56:16] INFO root fetch - processPackages [horizonai]: executing diffoscope
+[2023-05-19 00:56:16] INFO root fetch - processPackages [horizonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizonai-0.1.8.tar.gz tmp/horizonai-0.1.9.tar.gz --markdown 20230519/h/horizonai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 00:56:16] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-05-19 00:56:17] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-05-19 00:57:00] INFO root fetch - main [MainThread]: End processing [horizonai]: success
+[2023-05-19 00:57:00] INFO root fetch - main [MainThread]: Store serial: [18161475]
