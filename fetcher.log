@@ -1063,3 +1063,56 @@
 [2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
 [2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [procuret]: success
 [2023-05-19 01:33:34] INFO root fetch - main [MainThread]: Store serial: [18161727]
+[2023-05-19 01:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161727]
+[2023-05-19 01:38:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nkt-tools
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinetstream-cli
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pz-rail-flexzboost
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwxlib
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xklb
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-19 01:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libheader
+[2023-05-19 01:38:45] INFO root fetch - processPackages [nkt-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [pz-rail-flexzboost]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [mwxlib]: New version: [0.83.5] Old Version: [0.83.4]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [sinetstream-cli]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [libheader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [gpt-review]: New version: [0.9.3rc845.post1] Old Version: [0.9.2rc840.post1]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [xklb]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [coiled]: New version: [0.6.6.dev2] Old Version: [0.6.6.dev1]
+[2023-05-19 01:38:45] INFO root fetch - processPackages [nkt-tools]: Downloading https://files.pythonhosted.org/packages/66/11/c8eb7e6a63c5cc4f20c8d6f81ba0c05207719791e18c259283b08ebbd361/nkt_tools-0.0.6.tar.gz
+[2023-05-19 01:38:45] INFO root fetch - processPackages [libheader]: Downloading https://files.pythonhosted.org/packages/b9/90/e22164f11efadf776a82645c7ec70fedafeca09feabf76a52974d77c62bf/libheader-1.0.0.tar.gz
+[2023-05-19 01:38:45] INFO root fetch - processPackages [sinetstream-cli]: Downloading https://files.pythonhosted.org/packages/d9/48/5f10aa955c9f5e4ae7b575623491affcdd5cbba0f77107bb3ee3b3f27d6e/sinetstream_cli-1.7.1-py3-none-any.whl
+[2023-05-19 01:38:45] WARNING root fetch - processPackages [nkt-tools]: Skipping package: exceeds size limit 11133793>=10485760
+[2023-05-19 01:38:45] INFO root fetch - main [MainThread]: End processing [nkt-tools] error
+[2023-05-19 01:38:45] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/00/34/a1824a841f0242c34e45cd676838d38feea06c3fbe4bfc9642dfb51d4ac3/pz-rail-flexzboost-0.0.8.tar.gz
+[2023-05-19 01:38:45] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/96/1b/c806db4d6fad3b90869d498d4a40bd86efeb44fda7114ae9094784f7f11d/mwxlib-0.83.5-py3-none-any.whl
+[2023-05-19 01:38:45] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/da/62/2e5e125342c9e644bc0dd5df626e1a84fd26161f67e47179304d03ffbad8/xklb-1.28.9.tar.gz
+[2023-05-19 01:38:45] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/bb/c0/337fc09aa616797b2dd7ae846b4a6c414cd7f1ac91776b25106dd9c15a84/coiled-0.6.6.dev2.tar.gz
+[2023-05-19 01:38:46] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a1/b1/6bec345d139fadbf60006f77c543fc37521ea83034c1baa5a70e233414e7/gpt_review-0.9.3rc845.post1.tar.gz
+[2023-05-19 01:38:46] INFO root fetch - processPackages [libheader]: Downloading https://files.pythonhosted.org/packages/d2/8e/e7ab80fe9d75d553adc9bb6fa87cd9b4a8fea6cf25ff6512fb13d125121b/libheader-1.0.1.tar.gz
+[2023-05-19 01:38:46] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.83.4-py3-none-any.whl.zip tmp/mwxlib-0.83.5-py3-none-any.whl.zip --markdown 20230519/m/mwxlib/0.83.4-0.83.5/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.8.tar.gz tmp/xklb-1.28.9.tar.gz --markdown 20230519/x/xklb/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [sinetstream-cli]: Downloading https://files.pythonhosted.org/packages/35/a1/d8a3260d510dc42e6656cbf065e0b577378f0365f0f9440d01264c886f47/sinetstream_cli-1.8.0.tar.gz
+[2023-05-19 01:38:46] INFO root fetch - processPackages [libheader]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [libheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libheader-1.0.0.tar.gz tmp/libheader-1.0.1.tar.gz --markdown 20230519/l/libheader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.6.dev1.tar.gz tmp/coiled-0.6.6.dev2.tar.gz --markdown 20230519/c/coiled/0.6.6.dev1-0.6.6.dev2/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/d2/40/e9f234372fa9ff5520716c60b2f99a3cc70af8a0e4d62197d3ead4ff76fb/pz-rail-flexzboost-0.0.9.tar.gz
+[2023-05-19 01:38:46] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.2rc840.post1.tar.gz tmp/gpt_review-0.9.3rc845.post1.tar.gz --markdown 20230519/g/gpt-review/0.9.2rc840.post1-0.9.3rc845.post1/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [sinetstream-cli]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [sinetstream-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream_cli-1.7.1-py3-none-any.whl.zip tmp/sinetstream_cli-1.8.0.tar.gz --markdown 20230519/s/sinetstream-cli/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-05-19 01:38:46] INFO root fetch - processPackages [pz-rail-flexzboost]: executing diffoscope
+[2023-05-19 01:38:46] INFO root fetch - processPackages [pz-rail-flexzboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-flexzboost-0.0.8.tar.gz tmp/pz-rail-flexzboost-0.0.9.tar.gz --markdown 20230519/p/pz-rail-flexzboost/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [libheader]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [sinetstream-cli]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [pz-rail-flexzboost]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 01:38:47] INFO root fetch - main [MainThread]: Store serial: [18161750]
