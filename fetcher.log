@@ -1171,3 +1171,48 @@
 [2023-05-19 01:43:58] INFO root fetch - main [MainThread]: End processing [gmpg]: success
 [2023-05-19 01:43:59] INFO root fetch - main [MainThread]: End processing [exaparser]: success
 [2023-05-19 01:43:59] INFO root fetch - main [MainThread]: Store serial: [18161795]
+[2023-05-19 01:49:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161795]
+[2023-05-19 01:49:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fairbench
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browsr
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procuret
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ersciyt
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FMLEngine
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hf-hub-ctranslate2
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djaodjin-saas
+[2023-05-19 01:49:07] INFO root fetch - processPackages [fairbench]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [djaodjin-saas]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [ersciyt]: New version: [1.87] Old Version: [1.86]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [FMLEngine]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 01:49:07] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:49:08] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230519/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230519/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e2/ac/072254f3b422410b9d5eddfdc13c2a3bc0d1f6a123903ed144aa8a44670e/djaodjin-saas-0.9.4.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/4a/80/1c783c59f23a0ac80e617c2d847ab6729715a47b696847aa6f389e976a66/hf_hub_ctranslate2-2.0.5.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [FMLEngine]: Downloading https://files.pythonhosted.org/packages/4b/04/6a40ff5524326bf72fb3494410aefebb8a19c66ef17fa878c2d7efba98ef/FMLEngine-0.0.4.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/63/ed/b02d688fb73516542ec34caac2aeb0fb6ebfc97948d22733f3b3d398f761/ersciyt-1.87.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-2.0.4.tar.gz tmp/hf_hub_ctranslate2-2.0.5.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.86.tar.gz tmp/ersciyt-1.87.tar.gz --markdown 20230519/e/ersciyt/1.86-1.87/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/1c/68/dc2e5182e058b166d30d41836c5f3ea2947fd25e6f21fa2a8139039fd4da/fairbench-0.2.0-py3-none-any.whl
+[2023-05-19 01:49:08] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.1.6-py3-none-any.whl.zip tmp/fairbench-0.2.0-py3-none-any.whl.zip --markdown 20230519/f/fairbench/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [FMLEngine]: Downloading https://files.pythonhosted.org/packages/4a/e5/2e68da8953096cbbb5701f6480ed55981037afac0c395e16bcc5311d3eea/FMLEngine-0.0.5.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [FMLEngine]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [FMLEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FMLEngine-0.0.4.tar.gz tmp/FMLEngine-0.0.5.tar.gz --markdown 20230519/F/FMLEngine/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 01:49:08] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e6/ac/a73ae117d10f1c5fb4d2822dd256e2fd2856a153a9ca8c10f499e9a3b490/djaodjin-saas-0.9.5.tar.gz
+[2023-05-19 01:49:08] INFO root fetch - processPackages [djaodjin-saas]: executing diffoscope
+[2023-05-19 01:49:08] INFO root fetch - processPackages [djaodjin-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-saas-0.9.4.tar.gz tmp/djaodjin-saas-0.9.5.tar.gz --markdown 20230519/d/djaodjin-saas/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-19 01:49:09] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 01:49:09] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-05-19 01:49:09] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-05-19 01:49:09] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2023-05-19 01:49:09] INFO root fetch - main [MainThread]: End processing [FMLEngine]: success
+[2023-05-19 01:49:11] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-19 01:49:12] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
+[2023-05-19 01:49:12] INFO root fetch - main [MainThread]: Store serial: [18161816]
