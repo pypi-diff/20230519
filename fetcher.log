@@ -853,3 +853,44 @@
 [2023-05-19 01:07:56] INFO root fetch - main [MainThread]: End processing [zotero-cli-tool]: success
 [2023-05-19 01:09:04] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-05-19 01:09:04] INFO root fetch - main [MainThread]: Store serial: [18161600]
+[2023-05-19 01:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161600]
+[2023-05-19 01:14:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: excersec
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hf-hub-ctranslate2
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyAutoSummarizer
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint-code
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdsfactory
+[2023-05-19 01:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SplatStats
+[2023-05-19 01:14:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-19 01:14:17] INFO root fetch - processPackages [webint-code]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-19 01:14:17] WARNING root fetch - processPackages [pyAutoSummarizer]: Skipping, unable to determine old version
+[2023-05-19 01:14:17] INFO root fetch - main [MainThread]: End processing [pyAutoSummarizer] error
+[2023-05-19 01:14:17] INFO root fetch - processPackages [SplatStats]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-19 01:14:17] WARNING root fetch - processPackages [excersec]: Skipping, unable to determine old version
+[2023-05-19 01:14:17] INFO root fetch - main [MainThread]: End processing [excersec] error
+[2023-05-19 01:14:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.325] Old Version: [0.3.324]
+[2023-05-19 01:14:17] INFO root fetch - processPackages [gdsfactory]: New version: [6.95.0] Old Version: [6.94.1]
+[2023-05-19 01:14:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ac/06/f06f6820fdb392ea82ed714c42725141a516138209744e20d71b5e39add4/pepperize.cdk-ses-smtp-credentials-0.3.324.tar.gz
+[2023-05-19 01:14:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/17/44/da8513e81e9596c44fad21a5451206f5df496ae63389efd8e67a2a4e263f/hf_hub_ctranslate2-2.0.2.tar.gz
+[2023-05-19 01:14:17] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/80/66/67bed75f0649e68a190e1193bd22e6626d515888ebb20d4da1e630c1e43f/SplatStats-2.0.1.tar.gz
+[2023-05-19 01:14:17] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/9f/f9/6fa354e305bbaaf3a71229fc9413fca6984a445dfb77fec2f6752f145aca/webint_code-0.0.14.tar.gz
+[2023-05-19 01:14:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 01:14:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-2.0.1.tar.gz tmp/hf_hub_ctranslate2-2.0.2.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-19 01:14:18] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-05-19 01:14:18] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.0.0.tar.gz tmp/SplatStats-2.0.1.tar.gz --markdown 20230519/S/SplatStats/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-19 01:14:18] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/68/76/0fbf9a4fa3f96dc2a0c48982c048aa3ed3c25465df802749b39b6ba00dde/gdsfactory-6.95.0.tar.gz
+[2023-05-19 01:14:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/0d/9e/61c71e34c108a6bbec2d65dd6826bb3f4ee57eb42f16628a7c15adaff4da/pepperize.cdk-ses-smtp-credentials-0.3.325.tar.gz
+[2023-05-19 01:14:18] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-19 01:14:18] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.94.1.tar.gz tmp/gdsfactory-6.95.0.tar.gz --markdown 20230519/g/gdsfactory/6.94.1-6.95.0/diff.md --exclude *.pyd
+[2023-05-19 01:14:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-19 01:14:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.324.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.325.tar.gz --markdown 20230519/p/pepperize.cdk-ses-smtp-credentials/0.3.324-0.3.325/diff.md --exclude *.pyd
+[2023-05-19 01:14:18] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/cd/cb/2084c141c69435e7d7d428e8ab3d3f48e7addb8f4d263e12ff508ed05ff0/webint_code-0.0.15.tar.gz
+[2023-05-19 01:14:18] INFO root fetch - processPackages [webint-code]: executing diffoscope
+[2023-05-19 01:14:18] INFO root fetch - processPackages [webint-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_code-0.0.14.tar.gz tmp/webint_code-0.0.15.tar.gz --markdown 20230519/w/webint-code/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-19 01:14:19] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-05-19 01:14:19] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 01:14:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-19 01:14:19] INFO root fetch - main [MainThread]: End processing [webint-code]: success
+[2023-05-19 01:14:24] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-19 01:14:24] INFO root fetch - main [MainThread]: Store serial: [18161627]
