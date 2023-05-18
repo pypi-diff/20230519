@@ -537,3 +537,26 @@
 [2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [ioNERDSS]: success
 [2023-05-19 00:35:20] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
 [2023-05-19 00:35:20] INFO root fetch - main [MainThread]: Store serial: [18161387]
+[2023-05-19 00:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161387]
+[2023-05-19 00:40:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-19 00:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tangerine-auth
+[2023-05-19 00:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: harlequin
+[2023-05-19 00:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guidance
+[2023-05-19 00:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mathsym-adasneves
+[2023-05-19 00:40:29] WARNING root fetch - processPackages [tangerine-auth]: Skipping, unable to determine old version
+[2023-05-19 00:40:29] INFO root fetch - processPackages [harlequin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:40:29] INFO root fetch - main [MainThread]: End processing [tangerine-auth] error
+[2023-05-19 00:40:29] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:40:29] INFO root fetch - processPackages [mathsym-adasneves]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 00:40:29] INFO root fetch - processPackages [mathsym-adasneves]: Downloading https://files.pythonhosted.org/packages/9e/45/4b8177d6b86565ec356758258d30ee8d70359476df44ccd3c2333765c77e/mathsym_adasneves-1.0.0.tar.gz
+[2023-05-19 00:40:30] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-05-19 00:40:30] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.8.tar.gz tmp/harlequin-0.0.9.tar.gz --markdown 20230519/h/harlequin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:40:30] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-19 00:40:30] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230519/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:40:30] INFO root fetch - processPackages [mathsym-adasneves]: Downloading https://files.pythonhosted.org/packages/1c/99/2b6154759439ef16ed7361e0f6985da44a6372e876feb9eb14c6bcf06d1b/mathsym_adasneves-1.0.1-py3-none-any.whl
+[2023-05-19 00:40:30] INFO root fetch - processPackages [mathsym-adasneves]: executing diffoscope
+[2023-05-19 00:40:30] INFO root fetch - processPackages [mathsym-adasneves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathsym_adasneves-1.0.0.tar.gz tmp/mathsym_adasneves-1.0.1-py3-none-any.whl.zip --markdown 20230519/m/mathsym-adasneves/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 00:40:31] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-19 00:40:31] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-05-19 00:40:31] INFO root fetch - main [MainThread]: End processing [mathsym-adasneves]: success
+[2023-05-19 00:40:31] INFO root fetch - main [MainThread]: Store serial: [18161400]
