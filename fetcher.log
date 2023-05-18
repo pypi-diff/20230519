@@ -1216,3 +1216,34 @@
 [2023-05-19 01:49:11] INFO root fetch - main [MainThread]: End processing [browsr]: success
 [2023-05-19 01:49:12] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
 [2023-05-19 01:49:12] INFO root fetch - main [MainThread]: Store serial: [18161816]
+[2023-05-19 01:54:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161816]
+[2023-05-19 01:54:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 01:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yambs
+[2023-05-19 01:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guardshield
+[2023-05-19 01:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-workflows
+[2023-05-19 01:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: procuret
+[2023-05-19 01:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libheader
+[2023-05-19 01:54:21] INFO root fetch - processPackages [libheader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 01:54:21] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:54:21] WARNING root fetch - processPackages [guardshield]: Skipping, unable to determine old version
+[2023-05-19 01:54:21] INFO root fetch - processPackages [yambs]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-19 01:54:21] INFO root fetch - main [MainThread]: End processing [guardshield] error
+[2023-05-19 01:54:21] INFO root fetch - processPackages [np-workflows]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-19 01:54:22] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-05-19 01:54:22] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230519/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:54:22] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/fd/f2/dd778f1c1547bdb696258c6d2b8fc2206a1f725f3fc1915eb56d239564cd/yambs-1.3.0.tar.gz
+[2023-05-19 01:54:22] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/4a/a0/cadfec3e0e2c0b805fdf79e6a75b88028dbd16785507e559a3b128be0d40/np_workflows-1.4.8.tar.gz
+[2023-05-19 01:54:22] INFO root fetch - processPackages [libheader]: Downloading https://files.pythonhosted.org/packages/ff/8c/13b1ad30ea99d6e727ae5aea7d2360087a3a93ed730c69878d5f6c4de4d2/libheader-1.0.2.tar.gz
+[2023-05-19 01:54:22] INFO root fetch - processPackages [libheader]: executing diffoscope
+[2023-05-19 01:54:22] INFO root fetch - processPackages [libheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libheader-1.0.1.tar.gz tmp/libheader-1.0.2.tar.gz --markdown 20230519/l/libheader/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 01:54:22] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/ed/99/a23ee9bfb873117551eec660bd84c094982c2fb7cd4151a37d8bc013b461/np_workflows-1.4.9.tar.gz
+[2023-05-19 01:54:22] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-05-19 01:54:22] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.4.8.tar.gz tmp/np_workflows-1.4.9.tar.gz --markdown 20230519/n/np-workflows/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-19 01:54:22] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/db/54/fdd26650680aca6f2136f44d826568e7c1d00a7e9c1fdbdde88794a1330c/yambs-1.3.1.tar.gz
+[2023-05-19 01:54:22] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-05-19 01:54:22] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.3.0.tar.gz tmp/yambs-1.3.1.tar.gz --markdown 20230519/y/yambs/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [libheader]: success
+[2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-05-19 01:54:23] INFO root fetch - main [MainThread]: Store serial: [18161834]
