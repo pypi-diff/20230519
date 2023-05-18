@@ -486,3 +486,54 @@
 [2023-05-19 00:30:07] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-05-19 00:30:07] INFO root fetch - main [MainThread]: End processing [miepython]: success
 [2023-05-19 00:30:07] INFO root fetch - main [MainThread]: Store serial: [18161365]
+[2023-05-19 00:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161365]
+[2023-05-19 00:35:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdforest
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ioNERDSS
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sesg
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightweight-charts
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frostaura.intelligence.zeus
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-docker
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: video-subtitles
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hf-hub-ctranslate2
+[2023-05-19 00:35:17] INFO root fetch - processPackages [mdforest]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [frostaura.intelligence.zeus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ioNERDSS]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [video-subtitles]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1684388470] Old Version: [4.3.0a1684267601]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 00:35:17] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230519/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ioNERDSS]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [ioNERDSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioNERDSS-1.0.8.tar.gz tmp/ioNERDSS-1.0.9.tar.gz --markdown 20230519/i/ioNERDSS/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [frostaura.intelligence.zeus]: Downloading https://files.pythonhosted.org/packages/ce/73/f0faa91dc5158e35d59be81b4aee0151519868ca5f76f4eb432902f74920/frostaura.intelligence.zeus-0.0.1.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/7a/36/33fbc3ae2c26463ab47d30a1cbddae2ac5924392ec068d8a263dde6a3e6c/video-subtitles-1.0.8.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/0e/56/ad1160851ced76a82424780b4bd8e35259c487eb012a1e396601a393129b/hf_hub_ctranslate2-1.0.3.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/4f/66/de7b2754205c400485b129a830996771bde985934ad53de87e95bb5e6ac4/mdforest-1.3.3.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/64/f6/28feed8cd31930c187acced5983159b7f4d2b7e660167aee2a9be565bf81/lightweight_charts-1.0.5.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.3.2.tar.gz tmp/mdforest-1.3.3.tar.gz --markdown 20230519/m/mdforest/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [frostaura.intelligence.zeus]: Downloading https://files.pythonhosted.org/packages/b6/53/d348e82bb6a8d0136da7ccc8b13f14ba4b3b9313b95add95b76ca727ef6e/frostaura.intelligence.zeus-0.0.2.tar.gz
+[2023-05-19 00:35:17] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1684267601.tar.gz tmp/pulumi_docker-4.3.0a1684388470.tar.gz --markdown 20230519/p/pulumi-docker/4.3.0a1684267601-4.3.0a1684388470/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.4.tar.gz tmp/lightweight_charts-1.0.5.tar.gz --markdown 20230519/l/lightweight-charts/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [frostaura.intelligence.zeus]: executing diffoscope
+[2023-05-19 00:35:17] INFO root fetch - processPackages [frostaura.intelligence.zeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frostaura.intelligence.zeus-0.0.1.tar.gz tmp/frostaura.intelligence.zeus-0.0.2.tar.gz --markdown 20230519/f/frostaura.intelligence.zeus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 00:35:17] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/59/2f/224aea10eb5001b96a7a0e47f859abe9271a26155beea0dd9bfb25da3d60/video-subtitles-1.0.9.tar.gz
+[2023-05-19 00:35:18] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/51/e8/251931b561af03ec2dcb9e6683474e2f57cd251ca04570bcd718099e2755/hf_hub_ctranslate2-1.0.4.tar.gz
+[2023-05-19 00:35:18] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 00:35:18] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-1.0.3.tar.gz tmp/hf_hub_ctranslate2-1.0.4.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 00:35:18] INFO root fetch - processPackages [video-subtitles]: executing diffoscope
+[2023-05-19 00:35:18] INFO root fetch - processPackages [video-subtitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-subtitles-1.0.8.tar.gz tmp/video-subtitles-1.0.9.tar.gz --markdown 20230519/v/video-subtitles/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:35:18] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-19 00:35:18] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [frostaura.intelligence.zeus]: success
+[2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-19 00:35:19] INFO root fetch - main [MainThread]: End processing [ioNERDSS]: success
+[2023-05-19 00:35:20] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
+[2023-05-19 00:35:20] INFO root fetch - main [MainThread]: Store serial: [18161387]
