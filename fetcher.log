@@ -323,3 +323,127 @@
 [2023-05-19 00:18:56] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
 [2023-05-19 00:19:35] INFO root fetch - main [MainThread]: End processing [cve-bin-tool]: success
 [2023-05-19 00:19:35] INFO root fetch - main [MainThread]: Store serial: [18161259]
+[2023-05-19 00:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161259]
+[2023-05-19 00:24:45] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isoCycle
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timestep-envs-tic-tac-toe
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IMDBTraktSyncer
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyscript
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indiek-mockdb
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blazekit
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dumbo-asp
+[2023-05-19 00:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: berteley
+[2023-05-19 00:24:45] WARNING root fetch - processPackages [blazekit]: Skipping, unable to determine old version
+[2023-05-19 00:24:45] INFO root fetch - processPackages [blazekit]: Start processing: arroba
+[2023-05-19 00:24:45] INFO root fetch - main [MainThread]: End processing [blazekit] error
+[2023-05-19 00:24:45] WARNING root fetch - processPackages [timestep-envs-tic-tac-toe]: Skipping, unable to determine old version
+[2023-05-19 00:24:45] INFO root fetch - processPackages [timestep-envs-tic-tac-toe]: Start processing: bullmq
+[2023-05-19 00:24:45] INFO root fetch - main [MainThread]: End processing [timestep-envs-tic-tac-toe] error
+[2023-05-19 00:24:45] INFO root fetch - processPackages [berteley]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [isoCycle]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [arroba]: New version: [0.2] Old Version: [0.1]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [indiek-mockdb]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.8] Old Version: [1.59.7]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [bullmq]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-19 00:24:45] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-19 00:24:46] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/14/e7/5dc3665493c91672300c54b3609f8bee4ced1ce2ff2df75ccda3fecbef40/isoCycle-0.0.17.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230519/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/d6/13/eae9206360eb83307d4199f1da75fdb942ff221056a20fa7ce467aaacba6/IMDBTraktSyncer-1.1.8.tar.gz
+[2023-05-19 00:24:46] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17973981>=10485760
+[2023-05-19 00:24:46] INFO root fetch - processPackages [isoCycle]: Start processing: pyaipersonality
+[2023-05-19 00:24:46] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 00:24:46] INFO root fetch - processPackages [arroba]: Downloading https://files.pythonhosted.org/packages/31/80/90779f57eaa52106953c769f0f93c87b557cb098d5aa064d51d9c6727b48/arroba-0.1.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [indiek-mockdb]: Downloading https://files.pythonhosted.org/packages/f3/53/45797e846b196dccc893860f2bd0b13df3d41fc8769707efeef4b372f60b/indiek-mockdb-0.1.5.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [pyaipersonality]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:24:46] INFO root fetch - processPackages [berteley]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [berteley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berteley-0.0.8.tar.gz tmp/berteley-0.0.9.tar.gz --markdown 20230519/b/berteley/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/27/74/9a37cb9497ebe4a7cad9cb517e0684e301fcdcef0412f4b7b1e4fd97cdf5/bullmq-0.3.0.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d8/15/356496c4efc929cae9bf501846c01568cc6ff25f95bad421e933df1ecc90/Simba-UW-tf-dev-1.59.8.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230519/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [pyaipersonality]: Downloading https://files.pythonhosted.org/packages/3f/6f/c7afc859721e68c1eb7aa7796d1f29fced6312812bf4df12aafa24729448/pyaipersonality-0.0.8.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [indiek-mockdb]: Downloading https://files.pythonhosted.org/packages/ba/49/218d8fa3d529183834573b5253f2698cd43c27169435f2cfe00044bb7133/indiek-mockdb-0.1.6.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230519/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/b7/09/6e4ea6488e8d84815bf9557d54c5cebbe4a1e7b7f671bef734dd175d6d67/bullmq-0.4.0.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/9e/05/93eee20aab971f7da768dcb0619ffeca56f7cbd7cbba88d27a5b57e94d1e/IMDBTraktSyncer-1.1.9.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [indiek-mockdb]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [indiek-mockdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiek-mockdb-0.1.5.tar.gz tmp/indiek-mockdb-0.1.6.tar.gz --markdown 20230519/i/indiek-mockdb/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [arroba]: Downloading https://files.pythonhosted.org/packages/15/90/0aa63f14b1578af150f069a981df70a6503625c8ea513acc060ad8d87c1f/arroba-0.2.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.59.7.tar.gz tmp/Simba-UW-tf-dev-1.59.8.tar.gz --markdown 20230519/S/Simba-UW-tf-dev/1.59.7-1.59.8/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.1.8.tar.gz tmp/IMDBTraktSyncer-1.1.9.tar.gz --markdown 20230519/I/IMDBTraktSyncer/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-0.3.0.tar.gz tmp/bullmq-0.4.0.tar.gz --markdown 20230519/b/bullmq/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [arroba]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [arroba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arroba-0.1.tar.gz tmp/arroba-0.2.tar.gz --markdown 20230519/a/arroba/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-19 00:24:46] INFO root fetch - processPackages [pyaipersonality]: Downloading https://files.pythonhosted.org/packages/08/47/bf519ee6e6536e2a5b56ad58a000cec9b367381cf6a1e027fe59b8de8ff8/pyaipersonality-0.0.9.tar.gz
+[2023-05-19 00:24:46] INFO root fetch - processPackages [pyaipersonality]: executing diffoscope
+[2023-05-19 00:24:46] INFO root fetch - processPackages [pyaipersonality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaipersonality-0.0.8.tar.gz tmp/pyaipersonality-0.0.9.tar.gz --markdown 20230519/p/pyaipersonality/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:47] INFO root fetch - processPackages [dumbo-asp]: Start processing: holdem-sim
+[2023-05-19 00:24:47] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-19 00:24:47] WARNING root fetch - processPackages [holdem-sim]: Skipping, unable to determine old version
+[2023-05-19 00:24:47] INFO root fetch - processPackages [holdem-sim]: Start processing: indiek-core
+[2023-05-19 00:24:47] INFO root fetch - main [MainThread]: End processing [holdem-sim] error
+[2023-05-19 00:24:47] INFO root fetch - processPackages [indiek-core]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-19 00:24:47] INFO root fetch - processPackages [berteley]: Start processing: deepgram-sdk
+[2023-05-19 00:24:47] INFO root fetch - main [MainThread]: End processing [berteley]: success
+[2023-05-19 00:24:47] INFO root fetch - processPackages [deepgram-sdk]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-19 00:24:47] INFO root fetch - processPackages [indiek-core]: Downloading https://files.pythonhosted.org/packages/9b/dd/07110edc20f6855385c6e362f4e24a6dd9d77f135cba79d2c8b472e65b7d/indiek-core-0.1.5.tar.gz
+[2023-05-19 00:24:47] INFO root fetch - processPackages [tinyscript]: Start processing: daimin-data
+[2023-05-19 00:24:47] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-05-19 00:24:47] INFO root fetch - processPackages [daimin-data]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 00:24:47] INFO root fetch - processPackages [indiek-core]: executing diffoscope
+[2023-05-19 00:24:47] INFO root fetch - processPackages [indiek-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiek-core-0.1.4.tar.gz tmp/indiek-core-0.1.5.tar.gz --markdown 20230519/i/indiek-core/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-19 00:24:47] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/e4/e1/7f71e23477ec513aee736c2ade2a651035a3bc54cd0bc0c1739d02f04ca4/deepgram-sdk-2.4.0.tar.gz
+[2023-05-19 00:24:47] INFO root fetch - processPackages [indiek-mockdb]: Start processing: femtocrux
+[2023-05-19 00:24:47] INFO root fetch - main [MainThread]: End processing [indiek-mockdb]: success
+[2023-05-19 00:24:47] INFO root fetch - processPackages [femtocrux]: New version: [0.2.8.post1] Old Version: [0.2.8]
+[2023-05-19 00:24:47] INFO root fetch - processPackages [daimin-data]: Downloading https://files.pythonhosted.org/packages/6a/47/a435a89807cde83c76aad445966745bb79562fc07fba223abe109a45f455/daimin_data-0.0.2.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [IMDBTraktSyncer]: Start processing: extended-json-schema-validator
+[2023-05-19 00:24:48] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-05-19 00:24:48] INFO root fetch - processPackages [femtocrux]: Downloading https://files.pythonhosted.org/packages/bd/ff/f5f8d91fae9f5626a5977449df81f02d29d6d6a2180dec408f998b0747fb/femtocrux-0.2.8-py3-none-any.whl
+[2023-05-19 00:24:48] INFO root fetch - processPackages [extended-json-schema-validator]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-19 00:24:48] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/1d/61/235b27dee5514c1ce4a4714d7e8e7bd9c270b4591f2cad31cfaa57dfd526/deepgram-sdk-2.5.0.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [bullmq]: Start processing: caikit
+[2023-05-19 00:24:48] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-05-19 00:24:48] INFO root fetch - processPackages [caikit]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-19 00:24:48] INFO root fetch - processPackages [daimin-data]: Downloading https://files.pythonhosted.org/packages/0f/22/ac2c1c289e186fc6110c444e3ebb4e4e41e39970daa8c6501d12d86dc04e/daimin_data-0.0.3.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [deepgram-sdk]: executing diffoscope
+[2023-05-19 00:24:48] INFO root fetch - processPackages [deepgram-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgram-sdk-2.4.0.tar.gz tmp/deepgram-sdk-2.5.0.tar.gz --markdown 20230519/d/deepgram-sdk/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-19 00:24:48] INFO root fetch - processPackages [daimin-data]: executing diffoscope
+[2023-05-19 00:24:48] INFO root fetch - processPackages [daimin-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daimin_data-0.0.2.tar.gz tmp/daimin_data-0.0.3.tar.gz --markdown 20230519/d/daimin-data/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 00:24:48] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/19/f6/8d7fbd30c3f0713427a5eee4294b211a70c4a3ae176b733b2f2a2d6f99d7/extended_json_schema_validator-0.9.8.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [femtocrux]: Downloading https://files.pythonhosted.org/packages/35/2e/918b5e9be039d7d78837142ab8921824d4ccd04c4b4c6b598210caddea5f/femtocrux-0.2.8.post1-py3-none-any.whl
+[2023-05-19 00:24:48] INFO root fetch - processPackages [femtocrux]: executing diffoscope
+[2023-05-19 00:24:48] INFO root fetch - processPackages [femtocrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femtocrux-0.2.8-py3-none-any.whl.zip tmp/femtocrux-0.2.8.post1-py3-none-any.whl.zip --markdown 20230519/f/femtocrux/0.2.8-0.2.8.post1/diff.md --exclude *.pyd
+[2023-05-19 00:24:48] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/6c/e3/9898ec67b4df388993981b756f9936561981cb93cdb0a8d0a37cde035eb5/caikit-0.4.4.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [arroba]: Start processing: pykx
+[2023-05-19 00:24:48] INFO root fetch - main [MainThread]: End processing [arroba]: success
+[2023-05-19 00:24:48] INFO root fetch - processPackages [pykx]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-19 00:24:48] INFO root fetch - main [MainThread]: End processing [pyaipersonality]: success
+[2023-05-19 00:24:48] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/86/b6/8ee34aeb63898e274bf584b708c63ec81e58590c59d606a4c9535f07b9d3/extended_json_schema_validator-0.9.9.tar.gz
+[2023-05-19 00:24:48] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-05-19 00:24:48] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.4.3.tar.gz tmp/caikit-0.4.4.tar.gz --markdown 20230519/c/caikit/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-19 00:24:48] INFO root fetch - processPackages [extended-json-schema-validator]: executing diffoscope
+[2023-05-19 00:24:48] INFO root fetch - processPackages [extended-json-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_json_schema_validator-0.9.8.tar.gz tmp/extended_json_schema_validator-0.9.9.tar.gz --markdown 20230519/e/extended-json-schema-validator/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 00:24:48] INFO root fetch - processPackages [pykx]: Downloading https://files.pythonhosted.org/packages/4f/1f/36e1e2b40448ebb743a183ce2b4ac5dc7d53cb6941dc09cf66d2aa597da2/pykx-1.5.4-cp39-cp39-win_amd64.whl
+[2023-05-19 00:24:49] INFO root fetch - main [MainThread]: End processing [indiek-core]: success
+[2023-05-19 00:24:49] INFO root fetch - main [MainThread]: End processing [femtocrux]: success
+[2023-05-19 00:24:49] INFO root fetch - main [MainThread]: End processing [daimin-data]: success
+[2023-05-19 00:24:49] INFO root fetch - main [MainThread]: End processing [deepgram-sdk]: success
+[2023-05-19 00:24:49] INFO root fetch - main [MainThread]: End processing [extended-json-schema-validator]: success
+[2023-05-19 00:24:49] INFO root fetch - processPackages [pykx]: executing diffoscope
+[2023-05-19 00:24:49] INFO root fetch - processPackages [pykx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykx-1.5.3-cp39-cp39-win_amd64.whl.zip tmp/pykx-1.5.4-cp39-cp39-win_amd64.whl.zip --markdown 20230519/p/pykx/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-19 00:24:51] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-05-19 00:24:53] INFO root fetch - main [MainThread]: End processing [pykx]: success
+[2023-05-19 00:24:54] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-19 00:24:54] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-19 00:24:54] INFO root fetch - main [MainThread]: Store serial: [18161348]
