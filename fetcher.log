@@ -1002,3 +1002,64 @@
 [2023-05-19 01:25:30] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2023-05-19 01:28:22] INFO root fetch - main [MainThread]: End processing [aws-flask-swagger-ui]: success
 [2023-05-19 01:28:22] INFO root fetch - main [MainThread]: Store serial: [18161688]
+[2023-05-19 01:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161688]
+[2023-05-19 01:33:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-templates
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymican
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procuret
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvosklivesubtitle
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellmaps-image-embedding
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oresat-olaf
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FMLEngine
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellmaps-image-embedding
+[2023-05-19 01:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utility-beta
+[2023-05-19 01:33:31] INFO root fetch - processPackages [shipyard-templates]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [FMLEngine]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pymican]: New version: [1.9.2] Old Version: [1.9.1.dev0]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.1.9] Old Version: [0.1.5]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-05-19 01:33:32] WARNING root fetch - processPackages [utility-beta]: Skipping, unable to determine old version
+[2023-05-19 01:33:32] INFO root fetch - main [MainThread]: End processing [utility-beta] error
+[2023-05-19 01:33:32] INFO root fetch - processPackages [oresat-olaf]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-05-19 01:33:32] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/32/05/b7380485ce673339dce08ba8bfe2c7594935bbbd9240c782d7b7f8f7cbd3/shipyard_templates-0.1.2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pymican]: Downloading https://files.pythonhosted.org/packages/e8/00/e17cea571c8191f30a1881ecbcdb2560e34c07ea796eb5f8b926ff17cc4e/pymican-1.9.1.dev0.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [FMLEngine]: Downloading https://files.pythonhosted.org/packages/9c/cd/5597889b31565c965478a3de7f4ef74ce07f19d1af14757eac36eff9ebad/FMLEngine-0.0.1.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/f3/87/70b0bc629582e4ac001b50873f1a1b27a4f915d4f071505cef7651a4b46b/pyvosklivesubtitle-0.1.5.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/db/55/e814ec1276674fee30cda18258fe788724ffe5176e4ac40a05e6d3d3c1e2/procuret-0.0.8.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: Downloading https://files.pythonhosted.org/packages/e7/3b/7db354a163c4e971f9c4f877ffdf04304b9a54ecf3ddbaa15aeaf7f9e469/cellmaps_image_embedding-0.1.0a2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: Downloading https://files.pythonhosted.org/packages/e7/3b/7db354a163c4e971f9c4f877ffdf04304b9a54ecf3ddbaa15aeaf7f9e469/cellmaps_image_embedding-0.1.0a2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/1e/b3/0efb689db7c70ca66658454f6885aae2ad0f1060c42683db019bed7e74d5/oresat-olaf-2.1.1.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/58/4c/09d8b8ae0d7a87a21a15919eeb6cfff672e3ce8febc9a7d1cba384624e10/shipyard_templates-0.1.3.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.5.tar.gz tmp/pyvosklivesubtitle-0.1.9.tar.gz --markdown 20230519/p/pyvosklivesubtitle/0.1.5-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.1.2.tar.gz tmp/shipyard_templates-0.1.3.tar.gz --markdown 20230519/s/shipyard-templates/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pymican]: Downloading https://files.pythonhosted.org/packages/67/d7/1a5322ddb8ce446020baf80aa0ea9543ed69986394b6e229b4417cdfb986/pymican-1.9.2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [FMLEngine]: Downloading https://files.pythonhosted.org/packages/ea/d2/66123ba673221c7220f4c990f3a3160773d74e36da4fa4505d3bf237d50c/FMLEngine-0.0.2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: Downloading https://files.pythonhosted.org/packages/81/6d/a15ba3b65343360ca6e36027b61ee18fa8ed7728f5e7d32d3f0d9e8fc6b0/cellmaps_image_embedding-0.1.0a3.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: Downloading https://files.pythonhosted.org/packages/81/6d/a15ba3b65343360ca6e36027b61ee18fa8ed7728f5e7d32d3f0d9e8fc6b0/cellmaps_image_embedding-0.1.0a3.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/5f/c9/e9adcd1b37abd7f211492d03204c51b8788689877f52712e843518dfc952/oresat-olaf-2.1.2.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [FMLEngine]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [FMLEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FMLEngine-0.0.1.tar.gz tmp/FMLEngine-0.0.2.tar.gz --markdown 20230519/F/FMLEngine/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pymican]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [pymican]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymican-1.9.1.dev0.tar.gz tmp/pymican-1.9.2.tar.gz --markdown 20230519/p/pymican/1.9.1.dev0-1.9.2/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/0f/55/4a26771cff6e711310604e04c804960bb8e7d3c0ef512ace7476955047a4/procuret-0.0.9.tar.gz
+[2023-05-19 01:33:32] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230519/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_image_embedding-0.1.0a2.tar.gz tmp/cellmaps_image_embedding-0.1.0a3.tar.gz --markdown 20230519/c/cellmaps-image-embedding/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [cellmaps-image-embedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_image_embedding-0.1.0a2.tar.gz tmp/cellmaps_image_embedding-0.1.0a3.tar.gz --markdown 20230519/c/cellmaps-image-embedding/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-05-19 01:33:32] INFO root fetch - processPackages [oresat-olaf]: executing diffoscope
+[2023-05-19 01:33:32] INFO root fetch - processPackages [oresat-olaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-olaf-2.1.1.tar.gz tmp/oresat-olaf-2.1.2.tar.gz --markdown 20230519/o/oresat-olaf/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-19 01:33:33] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2023-05-19 01:33:33] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-05-19 01:33:33] INFO root fetch - main [MainThread]: End processing [FMLEngine]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [cellmaps-image-embedding]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [cellmaps-image-embedding]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [pymican]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-05-19 01:33:34] INFO root fetch - main [MainThread]: Store serial: [18161727]
