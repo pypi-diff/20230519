@@ -627,3 +627,58 @@
 [2023-05-19 00:45:45] INFO root fetch - main [MainThread]: End processing [browsr]: success
 [2023-05-19 00:45:48] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-19 00:45:48] INFO root fetch - main [MainThread]: Store serial: [18161434]
+[2023-05-19 00:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161434]
+[2023-05-19 00:50:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlexPreferNonForcedSubs
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zotero-cli-tool
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motionrender
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hf-hub-ctranslate2
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-robot-stretch-diagnostics
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhOn
+[2023-05-19 00:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markdownparser
+[2023-05-19 00:50:59] INFO root fetch - processPackages [motionrender]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [markdownparser]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [zotero-cli-tool]: New version: [1.6.0] Old Version: [1.4.4]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hello-robot-stretch-diagnostics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-19 00:50:59] INFO root fetch - processPackages [zotero-cli-tool]: Downloading https://files.pythonhosted.org/packages/32/61/1b62bc8ce574c0e71b0c23aa2218797c87238a0177e675279241bd36ccad/zotero-cli-tool-1.4.4.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/19/e5/7e06390eab01c499f1e7ba05e783a4ce2fb78d6dcf6d048bb2835681f54b/markdownparser-0.4.0.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: Downloading https://files.pythonhosted.org/packages/1d/ed/87d3952b29297bf6162eff280fc6872c24dd3e2cf67be496ceee8814c603/PlexPreferNonForcedSubs-2.1.6.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/eb/71/d9dcfa3b6be3cce784bc5bad1a0102a0dbe33e1ecc634bea41fbf7b918b1/hf_hub_ctranslate2-2.0.0.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hello-robot-stretch-diagnostics]: Downloading https://files.pythonhosted.org/packages/48/37/0d1558815cb5705c8d6f7e9903aa7eb5bde53b00ff8e4449e07a5ea5e1f4/hello_robot_stretch_diagnostics-0.0.8.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [motionrender]: Downloading https://files.pythonhosted.org/packages/fe/ac/7c422b5b9e861dc8a9ebf9e9c1453123b1b4ec79c7707b3eea4efa2a5d92/motionrender-1.0.0.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 00:50:59] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-1.0.4.tar.gz tmp/hf_hub_ctranslate2-2.0.0.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-19 00:50:59] INFO root fetch - processPackages [motionrender]: executing diffoscope
+[2023-05-19 00:50:59] INFO root fetch - processPackages [motionrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motionrender-0.1.1.tar.gz tmp/motionrender-1.0.0.tar.gz --markdown 20230519/m/motionrender/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 00:50:59] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/82/d1/7333e38895efa1b574780ed6f23329adb8505f3cac5d158c9221a05656ed/markdownparser-0.4.1.tar.gz
+[2023-05-19 00:50:59] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: Downloading https://files.pythonhosted.org/packages/31/19/ec6e999e4bbbf278058633aaf484f13f2a042839d48e1441680c6de4faa0/PlexPreferNonForcedSubs-2.1.7.tar.gz
+[2023-05-19 00:51:00] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230519/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-19 00:51:00] INFO root fetch - processPackages [zotero-cli-tool]: Downloading https://files.pythonhosted.org/packages/10/e1/74352dff229f9599e8d27f9be5bf8e60c498b94596064239b77d179d339b/zotero-cli-tool-1.6.0.tar.gz
+[2023-05-19 00:51:00] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.4.0.tar.gz tmp/markdownparser-0.4.1.tar.gz --markdown 20230519/m/markdownparser/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-19 00:51:00] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexPreferNonForcedSubs-2.1.6.tar.gz tmp/PlexPreferNonForcedSubs-2.1.7.tar.gz --markdown 20230519/P/PlexPreferNonForcedSubs/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-19 00:51:00] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-05-19 00:51:00] INFO root fetch - processPackages [zotero-cli-tool]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [zotero-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zotero-cli-tool-1.4.4.tar.gz tmp/zotero-cli-tool-1.6.0.tar.gz --markdown 20230519/z/zotero-cli-tool/1.4.4-1.6.0/diff.md --exclude *.pyd
+[2023-05-19 00:51:00] INFO root fetch - processPackages [hello-robot-stretch-diagnostics]: Downloading https://files.pythonhosted.org/packages/03/1a/96e5830f0a9ec72361874679c47bb90364857e443536aa98d0acc9938928/hello_robot_stretch_diagnostics-0.0.9.tar.gz
+[2023-05-19 00:51:00] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230519/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 00:51:00] INFO root fetch - processPackages [hello-robot-stretch-diagnostics]: executing diffoscope
+[2023-05-19 00:51:00] INFO root fetch - processPackages [hello-robot-stretch-diagnostics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_diagnostics-0.0.8.tar.gz tmp/hello_robot_stretch_diagnostics-0.0.9.tar.gz --markdown 20230519/h/hello-robot-stretch-diagnostics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [PlexPreferNonForcedSubs]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [zotero-cli-tool]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [motionrender]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-05-19 00:51:01] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-diagnostics]: success
+[2023-05-19 00:51:06] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-19 00:51:06] INFO root fetch - main [MainThread]: Store serial: [18161458]
