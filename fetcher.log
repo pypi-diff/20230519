@@ -927,3 +927,78 @@
 [2023-05-19 01:19:35] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
 [2023-05-19 01:20:16] INFO root fetch - main [MainThread]: End processing [zotero-cli-tool]: success
 [2023-05-19 01:20:16] INFO root fetch - main [MainThread]: Store serial: [18161644]
+[2023-05-19 01:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161644]
+[2023-05-19 01:25:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hf-hub-ctranslate2
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstudio
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berteley
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudlanguagetools
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdmf
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smalltools-st
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djaodjin-signup
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libheader
+[2023-05-19 01:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thirdai
+[2023-05-19 01:25:25] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-19 01:25:25] INFO root fetch - processPackages [openstudio]: New version: [3.6.1rc1] Old Version: [3.6.0]
+[2023-05-19 01:25:25] INFO root fetch - processPackages [berteley]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:25:25] INFO root fetch - processPackages [cloudlanguagetools]: New version: [5.4] Old Version: [5.3]
+[2023-05-19 01:25:25] WARNING root fetch - processPackages [libheader]: Skipping, unable to determine old version
+[2023-05-19 01:25:25] INFO root fetch - processPackages [libheader]: Start processing: veilcord
+[2023-05-19 01:25:25] INFO root fetch - main [MainThread]: End processing [libheader] error
+[2023-05-19 01:25:25] INFO root fetch - processPackages [berteley]: executing diffoscope
+[2023-05-19 01:25:25] INFO root fetch - processPackages [berteley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berteley-0.0.8.tar.gz tmp/berteley-0.0.9.tar.gz --markdown 20230519/b/berteley/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [djaodjin-signup]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [smalltools-st]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [hdmf]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [coiled]: New version: [0.6.6.dev1] Old Version: [0.6.5.dev9]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [veilcord]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [thirdai]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/9e/91/309df2368eaf87c9510a48549aa2c4063d423ce95cf4b0bdf038b4e951d7/cloudlanguagetools-5.3.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [openstudio]: Downloading https://files.pythonhosted.org/packages/1f/ed/186fd896e937eb30bfb81e7ae8e97e3fc56c83c31f21129646c991db0c55/openstudio-3.6.0-py3-none-manylinux1_x86_64.whl
+[2023-05-19 01:25:26] INFO root fetch - processPackages [smalltools-st]: Downloading https://files.pythonhosted.org/packages/c5/93/e16b4949b72d30516e85844b4906c555850294fb9abee8c199a15f157fe7/smalltools_st-0.1.1.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [hdmf]: Downloading https://files.pythonhosted.org/packages/81/23/759a61e92cf26fd0b7f757ea04b1f49efda003141e797e975abeecd50c17/hdmf-3.6.0.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/8d/79/bb8e1d7ce906a43dd048f7d3e6b183e77551a800903aeef9e070a2138e20/djaodjin-signup-0.8.1.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/7d/51/d804eaa7c2359e89ac1a5c4cdd1d53eba80c74a06bb7511eed04d122bab9/thirdai-0.7.1-cp39-cp39-win_amd64.whl
+[2023-05-19 01:25:26] WARNING root fetch - processPackages [openstudio]: Skipping package: exceeds size limit 71915448>=10485760
+[2023-05-19 01:25:26] INFO root fetch - processPackages [openstudio]: Start processing: aws-flask-swagger-ui
+[2023-05-19 01:25:26] INFO root fetch - main [MainThread]: End processing [openstudio] error
+[2023-05-19 01:25:26] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/86/fd/29fd300e41eba2fd842b5c4cbb640b0f28b3dd8178f01e4b7e2549a237c9/veilcord-0.0.0.1.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/fd/dd/4b561828c83f0cb64285f923d232843066d6b4348e3b86a7b48e28033baf/hf_hub_ctranslate2-2.0.3.tar.gz
+[2023-05-19 01:25:26] WARNING root fetch - processPackages [hdmf]: Skipping package: exceeds size limit 15704668>=10485760
+[2023-05-19 01:25:26] INFO root fetch - main [MainThread]: End processing [hdmf] error
+[2023-05-19 01:25:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/76/b8/3b519d01c2ac2b3e3473ba4922ae8beedab5b5e720d5e10b61706bdc5dd0/coiled-0.6.6.dev1.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-2.0.2.tar.gz tmp/hf_hub_ctranslate2-2.0.3.tar.gz --markdown 20230519/h/hf-hub-ctranslate2/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/64/12/2dcbb347156d6d049671bcaf8723a45394743709a238eb2da47640ad475c/djaodjin-signup-0.8.2.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [smalltools-st]: Downloading https://files.pythonhosted.org/packages/38/3f/5d1f81a56d96bf8d8d6067c019285abfedcf6604b7732b8f821d7719907c/smalltools_st-0.2.0.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/aa/f9/f8332a7f0b66b7ef6d4d0b84931b4b64e8132731010cf250cad62fb489cf/cloudlanguagetools-5.4.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [aws-flask-swagger-ui]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 01:25:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev9.tar.gz tmp/coiled-0.6.6.dev1.tar.gz --markdown 20230519/c/coiled/0.6.5.dev9-0.6.6.dev1/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [veilcord]: Downloading https://files.pythonhosted.org/packages/5a/f6/d67ad958413c1b8ffc1481eee8deef9163b9d4cce4314acc013262ea1448/veilcord-0.0.0.2.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [smalltools-st]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [smalltools-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smalltools_st-0.1.1.tar.gz tmp/smalltools_st-0.2.0.tar.gz --markdown 20230519/s/smalltools-st/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-5.3.tar.gz tmp/cloudlanguagetools-5.4.tar.gz --markdown 20230519/c/cloudlanguagetools/5.3-5.4/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [djaodjin-signup]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [djaodjin-signup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-signup-0.8.1.tar.gz tmp/djaodjin-signup-0.8.2.tar.gz --markdown 20230519/d/djaodjin-signup/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [aws-flask-swagger-ui]: Downloading https://files.pythonhosted.org/packages/66/6f/1ca34dde9a8446154a1d14f254ecc6ac049b8a999e4fc2a02f320cafda94/aws-flask-swagger-ui-1.1.0.tar.gz
+[2023-05-19 01:25:26] INFO root fetch - processPackages [veilcord]: executing diffoscope
+[2023-05-19 01:25:26] INFO root fetch - processPackages [veilcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veilcord-0.0.0.1.tar.gz tmp/veilcord-0.0.0.2.tar.gz --markdown 20230519/v/veilcord/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-19 01:25:26] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/9b/4f/5fd7b7d0cc35613def7bf9d2890562c174966fa21b0e08e5abe73f3fd40a/thirdai-0.7.2-cp37-cp37m-win_amd64.whl
+[2023-05-19 01:25:27] INFO root fetch - main [MainThread]: End processing [berteley]: success
+[2023-05-19 01:25:27] INFO root fetch - processPackages [aws-flask-swagger-ui]: Downloading https://files.pythonhosted.org/packages/90/5a/eb21da795cd8d2314fe24b1241d94834c44e2f11fc02a8522a79d77e4e9d/aws-flask-swagger-ui-1.1.1.tar.gz
+[2023-05-19 01:25:27] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-05-19 01:25:27] INFO root fetch - main [MainThread]: End processing [smalltools-st]: success
+[2023-05-19 01:25:27] INFO root fetch - main [MainThread]: End processing [veilcord]: success
+[2023-05-19 01:25:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 01:25:28] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-05-19 01:25:28] INFO root fetch - processPackages [aws-flask-swagger-ui]: executing diffoscope
+[2023-05-19 01:25:28] INFO root fetch - processPackages [aws-flask-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-flask-swagger-ui-1.1.0.tar.gz tmp/aws-flask-swagger-ui-1.1.1.tar.gz --markdown 20230519/a/aws-flask-swagger-ui/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 01:25:28] INFO root fetch - main [MainThread]: End processing [djaodjin-signup]: success
+[2023-05-19 01:25:29] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-05-19 01:25:29] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.1-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.2-cp37-cp37m-win_amd64.whl.zip --markdown 20230519/t/thirdai/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-19 01:25:30] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-05-19 01:28:22] INFO root fetch - main [MainThread]: End processing [aws-flask-swagger-ui]: success
+[2023-05-19 01:28:22] INFO root fetch - main [MainThread]: Store serial: [18161688]
