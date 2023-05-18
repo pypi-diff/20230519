@@ -64,3 +64,122 @@
 [2023-05-19 00:02:48] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230519/h/hiddifypanel/7.0.0.dev4-7.0.0.dev5/diff.md --exclude *.pyd
 [2023-05-19 00:03:05] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-19 00:03:05] INFO root fetch - main [MainThread]: Store serial: [18161097]
+[2023-05-19 00:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161097]
+[2023-05-19 00:08:16] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beets-oldestdate
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beets-oldestdate
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timestep-agents-petting-zoo-agent
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seeq
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mdforest
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-uwg
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphscope-client
+[2023-05-19 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphscope
+[2023-05-19 00:08:16] INFO root fetch - processPackages [mdforest]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [beets-oldestdate]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [beets-oldestdate]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [graphscope]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [seeq]: New version: [61.0.1] Old Version: [60.2.0]
+[2023-05-19 00:08:16] WARNING root fetch - processPackages [timestep-agents-petting-zoo-agent]: Skipping, unable to determine old version
+[2023-05-19 00:08:16] INFO root fetch - processPackages [timestep-agents-petting-zoo-agent]: Start processing: virgoSuite
+[2023-05-19 00:08:16] INFO root fetch - main [MainThread]: End processing [timestep-agents-petting-zoo-agent] error
+[2023-05-19 00:08:16] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [coiled]: New version: [0.6.5.dev9] Old Version: [0.6.5.dev7]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [graphscope-client]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [virgoSuite]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-19 00:08:16] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/b0/43/90fbcba5f025a32e59b018d2ca78bb00bbfe6359a1f59ac83b952fe138aa/mdforest-1.3.1.tar.gz
+[2023-05-19 00:08:16] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/47/78/bc3edc16790fb8514614adb820c46dffb8a57f0e6e064565102c0098bd15/seeq-60.2.0.tar.gz
+[2023-05-19 00:08:16] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/3c/bc/9ae00e7036ecff314ef476f460791d87a3fe87717be35d03af5936b603ea/graphscope-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:16] INFO root fetch - processPackages [beets-oldestdate]: Downloading https://files.pythonhosted.org/packages/61/20/3ea4e493f7935150a491809c05eb707b0d5e237256628d09938e4293eec6/beets_oldestdate-1.1.3.tar.gz
+[2023-05-19 00:08:16] INFO root fetch - processPackages [beets-oldestdate]: Downloading https://files.pythonhosted.org/packages/61/20/3ea4e493f7935150a491809c05eb707b0d5e237256628d09938e4293eec6/beets_oldestdate-1.1.3.tar.gz
+[2023-05-19 00:08:16] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/30/22/2ba0f6ff90303279ac5e481dc87cdad1014b2a7b43fe9d358fc7cda0c25f/graphscope_client-0.22.0a20230517-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:16] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [virgoSuite]: Downloading https://files.pythonhosted.org/packages/c3/f0/5f6215f455f30a8a65d0760fd5e5cec0d6b8d745cc78ba2f0d1410cb2ce0/virgoSuite-1.2.1.tar.gz
+[2023-05-19 00:08:17] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 110715224>=10485760
+[2023-05-19 00:08:17] INFO root fetch - processPackages [graphscope]: Start processing: gs-apps
+[2023-05-19 00:08:17] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/e0/d2/b2f75850fe706d19c92c228676056d212d915f04f3ec553b3b45eefba6fa/mdforest-1.3.2.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:17] INFO root fetch - processPackages [virgoSuite]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [virgoSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgoSuite-1.2.0.tar.gz tmp/virgoSuite-1.2.1.tar.gz --markdown 20230519/v/virgoSuite/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 23356761>=10485760
+[2023-05-19 00:08:17] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-coordinator
+[2023-05-19 00:08:17] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-19 00:08:17] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.3.1.tar.gz tmp/mdforest-1.3.2.tar.gz --markdown 20230519/m/mdforest/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: Downloading https://files.pythonhosted.org/packages/81/21/e48a5ffa147803248a7106806da0d83a983c13fc3f3c3ca8c7fade8fba0c/beets_oldestdate-1.1.4.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: Downloading https://files.pythonhosted.org/packages/81/21/e48a5ffa147803248a7106806da0d83a983c13fc3f3c3ca8c7fade8fba0c/beets_oldestdate-1.1.4.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-coordinator]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev7.tar.gz tmp/coiled-0.6.5.dev9.tar.gz --markdown 20230519/c/coiled/0.6.5.dev7-0.6.5.dev9/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_oldestdate-1.1.3.tar.gz tmp/beets_oldestdate-1.1.4.tar.gz --markdown 20230519/b/beets-oldestdate/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [beets-oldestdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_oldestdate-1.1.3.tar.gz tmp/beets_oldestdate-1.1.4.tar.gz --markdown 20230519/b/beets-oldestdate/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/bd/32/916680d3a3464420bf088591d78ff4b39cb5403f01a9f6ae937819ec41cc/gs_apps-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:17] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-60.2.0.tar.gz tmp/seeq-61.0.1.tar.gz --markdown 20230519/s/seeq/60.2.0-61.0.1/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/af/9f/bdd5dd975bce7426555d5c3babb5320b05560fc78d66446ee3329b878cf4/gs_coordinator-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:17] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 42840691>=10485760
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-apps]: Start processing: gs-engine
+[2023-05-19 00:08:17] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-engine]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230519/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230519/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/7d/82/74d1542770b0664b73e797ffaff4df6deab66de528fe7aeb4541224ac277/gs_engine-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/69/b9/82225ab645769da18b6b2f7a30ccd9b5556e227aa97b08aff954bed88db3/gs_coordinator-0.22.0a20230518-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.22.0a20230518-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230519/g/gs-coordinator/0.22.0a20230517-0.22.0a20230518/diff.md --exclude *.pyd
+[2023-05-19 00:08:17] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/cc/c1/4d0d29540ee897945407fdc1de892687ad255ab873d56433a7bd6bbfa873/gs_engine-0.22.0a20230518-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:18] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-05-19 00:08:18] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.22.0a20230518-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230519/g/gs-engine/0.22.0a20230517-0.22.0a20230518/diff.md --exclude *.pyd
+[2023-05-19 00:08:18] INFO root fetch - processPackages [beets-oldestdate]: Start processing: gs-include
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [beets-oldestdate]: success
+[2023-05-19 00:08:18] INFO root fetch - processPackages [mdforest]: Start processing: lbt-honeybee
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-19 00:08:18] INFO root fetch - processPackages [gs-include]: New version: [0.22.0a20230518] Old Version: [0.22.0a20230517]
+[2023-05-19 00:08:18] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 00:08:18] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-19 00:08:18] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230519/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 00:08:18] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/ee/c3/55690d11b8b9c4e7834f1255b4f4d45df8c81024f57b7960ad35299be0cc/gs_include-0.22.0a20230517-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-19 00:08:18] INFO root fetch - processPackages [beets-oldestdate]: Start processing: gamutrf
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [beets-oldestdate]: success
+[2023-05-19 00:08:18] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: timestep-agents-action-mask-agent
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-05-19 00:08:18] INFO root fetch - processPackages [virgoSuite]: Start processing: lbt-dragonfly
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [virgoSuite]: success
+[2023-05-19 00:08:18] INFO root fetch - processPackages [coiled]: Start processing: PlexPreferNonForcedSubs
+[2023-05-19 00:08:18] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 00:08:19] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 30431353>=10485760
+[2023-05-19 00:08:19] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-19 00:08:19] WARNING root fetch - processPackages [timestep-agents-action-mask-agent]: Skipping, unable to determine old version
+[2023-05-19 00:08:19] INFO root fetch - main [MainThread]: End processing [timestep-agents-action-mask-agent] error
+[2023-05-19 00:08:19] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-19 00:08:19] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-19 00:08:19] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-19 00:08:19] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: Downloading https://files.pythonhosted.org/packages/ca/25/2c5096d1db1d3fa52746a66c13c5f3ef38876c076f0d51681306eb6efeb9/PlexPreferNonForcedSubs-2.1.4.tar.gz
+[2023-05-19 00:08:19] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-05-19 00:08:19] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-05-19 00:08:19] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-19 00:08:19] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-19 00:08:19] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230519/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-19 00:08:19] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-05-19 00:08:19] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-05-19 00:08:19] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230519/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-19 00:08:19] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: Downloading https://files.pythonhosted.org/packages/09/00/50bdeb8d2e6911f3cfe546b9503cd31cb77c36e612c44e709267f05d18d0/PlexPreferNonForcedSubs-2.1.5.tar.gz
+[2023-05-19 00:08:19] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-19 00:08:19] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: executing diffoscope
+[2023-05-19 00:08:19] INFO root fetch - processPackages [PlexPreferNonForcedSubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexPreferNonForcedSubs-2.1.4.tar.gz tmp/PlexPreferNonForcedSubs-2.1.5.tar.gz --markdown 20230519/P/PlexPreferNonForcedSubs/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-19 00:08:20] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-19 00:08:20] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-05-19 00:08:21] INFO root fetch - main [MainThread]: End processing [PlexPreferNonForcedSubs]: success
+[2023-05-19 00:08:21] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-05-19 00:08:29] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2023-05-19 00:08:29] INFO root fetch - main [MainThread]: Store serial: [18161162]
