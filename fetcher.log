@@ -560,3 +560,70 @@
 [2023-05-19 00:40:31] INFO root fetch - main [MainThread]: End processing [harlequin]: success
 [2023-05-19 00:40:31] INFO root fetch - main [MainThread]: End processing [mathsym-adasneves]: success
 [2023-05-19 00:40:31] INFO root fetch - main [MainThread]: Store serial: [18161400]
+[2023-05-19 00:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161400]
+[2023-05-19 00:45:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TMDBTraktSyncer
+[2023-05-19 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osconfiglib
+[2023-05-19 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arxiv-astro-summarizer
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpc-interceptor
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: browsr
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: worktoy
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygments-ansi-color
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dash-connectivity-viewer
+[2023-05-19 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitspyx
+[2023-05-19 00:45:41] INFO root fetch - processPackages [arxiv-astro-summarizer]: New version: [0.12] Old Version: [0.11]
+[2023-05-19 00:45:41] WARNING root fetch - processPackages [osconfiglib]: Skipping, unable to determine old version
+[2023-05-19 00:45:41] INFO root fetch - processPackages [osconfiglib]: Start processing: quantconnect-stubs
+[2023-05-19 00:45:41] INFO root fetch - main [MainThread]: End processing [osconfiglib] error
+[2023-05-19 00:45:41] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [grpc-interceptor]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 00:45:41] WARNING root fetch - processPackages [gitspyx]: Skipping, unable to determine old version
+[2023-05-19 00:45:41] INFO root fetch - main [MainThread]: End processing [gitspyx] error
+[2023-05-19 00:45:41] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [pygments-ansi-color]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [worktoy]: New version: [0.30.0] Old Version: [0.28.8]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-19 00:45:41] INFO root fetch - processPackages [arxiv-astro-summarizer]: Downloading https://files.pythonhosted.org/packages/63/fe/e4bb622dff7d993c9b5baaf125e87c634979d31a9392aa10571598903768/arxiv-astro-summarizer-0.12.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [grpc-interceptor]: Downloading https://files.pythonhosted.org/packages/f8/85/1787dfaeb61c77d23973199f3d08b480ae7d21dd5622f80ea3e830f91b6d/grpc-interceptor-0.8.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/ea/54/6bf13cb9d57a01641363fc9468f24695092a5666812a549bcd43fa803f56/raindancers-network.raindancers-cdk-1.9.8.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/2e/76/e5968f0b641a90ebdaab709a83b8e5d715f2b8dba99f3097ef763b5b01e5/dash-connectivity-viewer-2.0.6.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [worktoy]: Downloading https://files.pythonhosted.org/packages/eb/e6/8d5dc7df6f1573f2585c06424fa548b1552f6815a16a310bda068880b19e/worktoy-0.28.8.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [arxiv-astro-summarizer]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [arxiv-astro-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv-astro-summarizer-0.11.tar.gz tmp/arxiv-astro-summarizer-0.12.tar.gz --markdown 20230519/a/arxiv-astro-summarizer/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [pygments-ansi-color]: Downloading https://files.pythonhosted.org/packages/b2/93/af2feb6f3f436a44fbe20c0b6861641ad01f00139d96ae27a2649149bad3/pygments-ansi-color-0.2.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/73/3f/6676ffcb6a7ad2bb28d9189dc5dcba9bbd3cf0ce3703ea6d13af9acf72cb/browsr-1.9.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/8a/e9/3edd96ce83d850c35f62f817ebbc045dabb58853b8a1c595763beeef60db/TMDBTraktSyncer-1.0.5.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230519/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [worktoy]: Downloading https://files.pythonhosted.org/packages/f2/65/3a0933ba3fb02a08b1867ad7387adc01f31ee7de3f8ea7a759579baddc10/worktoy-0.30.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/09/73/4fc9bbb00c827eb1cfaf9c185410a965d4aaec814298b181d7097e685748/dash-connectivity-viewer-2.0.7.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [grpc-interceptor]: Downloading https://files.pythonhosted.org/packages/f4/67/51c327b50c4931b97f36bc44fb108232e62e97b5705e107a0b9431bca7c3/grpc-interceptor-0.9.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [pygments-ansi-color]: Downloading https://files.pythonhosted.org/packages/50/f9/7f417aaee98a74b4f757f2b72971245181fcf25d824d2e7a190345669eaf/pygments-ansi-color-0.3.0.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [grpc-interceptor]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [grpc-interceptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc-interceptor-0.8.0.tar.gz tmp/grpc-interceptor-0.9.0.tar.gz --markdown 20230519/g/grpc-interceptor/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.0.4.tar.gz tmp/TMDBTraktSyncer-1.0.5.tar.gz --markdown 20230519/T/TMDBTraktSyncer/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/9a/d5/818105d18635e2296178505d8da89a15b0b8c0c5ecdae0cbf83882f33347/raindancers-network.raindancers-cdk-1.9.9.tar.gz
+[2023-05-19 00:45:41] INFO root fetch - processPackages [worktoy]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [worktoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worktoy-0.28.8.tar.gz tmp/worktoy-0.30.0.tar.gz --markdown 20230519/w/worktoy/0.28.8-0.30.0/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.6.tar.gz tmp/dash-connectivity-viewer-2.0.7.tar.gz --markdown 20230519/d/dash-connectivity-viewer/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230519/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 00:45:41] INFO root fetch - processPackages [pygments-ansi-color]: executing diffoscope
+[2023-05-19 00:45:41] INFO root fetch - processPackages [pygments-ansi-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments-ansi-color-0.2.0.tar.gz tmp/pygments-ansi-color-0.3.0.tar.gz --markdown 20230519/p/pygments-ansi-color/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 00:45:42] INFO root fetch - main [MainThread]: End processing [arxiv-astro-summarizer]: success
+[2023-05-19 00:45:42] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-19 00:45:42] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230519/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 00:45:42] INFO root fetch - main [MainThread]: End processing [grpc-interceptor]: success
+[2023-05-19 00:45:42] INFO root fetch - main [MainThread]: End processing [pygments-ansi-color]: success
+[2023-05-19 00:45:43] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-05-19 00:45:43] INFO root fetch - main [MainThread]: End processing [worktoy]: success
+[2023-05-19 00:45:43] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-19 00:45:44] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-19 00:45:45] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-19 00:45:48] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-19 00:45:48] INFO root fetch - main [MainThread]: Store serial: [18161434]
