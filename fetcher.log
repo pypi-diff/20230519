@@ -447,3 +447,42 @@
 [2023-05-19 00:24:54] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-19 00:24:54] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-19 00:24:54] INFO root fetch - main [MainThread]: Store serial: [18161348]
+[2023-05-19 00:29:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161348]
+[2023-05-19 00:30:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indiek-gui
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miepython
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-code-ui
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvosklivesubtitle
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TMDBTraktSyncer
+[2023-05-19 00:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opvious
+[2023-05-19 00:30:04] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [indiek-gui]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [miepython]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 00:30:04] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a9/c2/e14b26d5eed9d43a46f78119dbf09cbd1dad23f3a1e57bbd3c0ff007285c/TMDBTraktSyncer-1.0.3.tar.gz
+[2023-05-19 00:30:04] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-19 00:30:04] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230519/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-19 00:30:04] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-19 00:30:04] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230519/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-19 00:30:04] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/10/b7/3284d8522a6c1b6f4f5875fd340a66f49e5ab9637c21176faaed7a1b9934/miepython-2.3.0.tar.gz
+[2023-05-19 00:30:04] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/5d/04/455aea8a9f59ce72d5862c2c94eb827b9b0fb51ddecca06fc772d5d0e94a/pyvosklivesubtitle-0.1.9.tar.gz
+[2023-05-19 00:30:05] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/f6/5c/de671b020055e208600a1e70e5dcd5e6c18d9717bd4f3a63ae683a088426/TMDBTraktSyncer-1.0.4.tar.gz
+[2023-05-19 00:30:05] INFO root fetch - processPackages [indiek-gui]: Downloading https://files.pythonhosted.org/packages/03/e3/f6de50808a9e718b0bbae8e3c79534f44ec3a85c8d10ec9eaa7a75b3595f/indiek-gui-0.0.5.tar.gz
+[2023-05-19 00:30:05] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-05-19 00:30:05] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.8.tar.gz tmp/pyvosklivesubtitle-0.1.9.tar.gz --markdown 20230519/p/pyvosklivesubtitle/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 00:30:05] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/4f/71/b49043fd38eb00f1b6039596bbd9812633a3153b44aa03d73a637496bf20/miepython-2.3.2.tar.gz
+[2023-05-19 00:30:05] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-05-19 00:30:05] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.0.3.tar.gz tmp/TMDBTraktSyncer-1.0.4.tar.gz --markdown 20230519/T/TMDBTraktSyncer/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 00:30:05] INFO root fetch - processPackages [indiek-gui]: executing diffoscope
+[2023-05-19 00:30:05] INFO root fetch - processPackages [indiek-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiek-gui-0.0.4.tar.gz tmp/indiek-gui-0.0.5.tar.gz --markdown 20230519/i/indiek-gui/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 00:30:05] INFO root fetch - processPackages [miepython]: executing diffoscope
+[2023-05-19 00:30:05] INFO root fetch - processPackages [miepython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miepython-2.3.0.tar.gz tmp/miepython-2.3.2.tar.gz --markdown 20230519/m/miepython/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 00:30:06] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-05-19 00:30:06] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-05-19 00:30:06] INFO root fetch - main [MainThread]: End processing [indiek-gui]: success
+[2023-05-19 00:30:06] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-19 00:30:07] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-19 00:30:07] INFO root fetch - main [MainThread]: End processing [miepython]: success
+[2023-05-19 00:30:07] INFO root fetch - main [MainThread]: Store serial: [18161365]
