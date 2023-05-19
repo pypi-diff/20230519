@@ -9362,3 +9362,31 @@
 [2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [remindmail]: success
 [2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [remindmail]: success
 [2023-05-19 07:37:31] INFO root fetch - main [MainThread]: Store serial: [18165997]
+[2023-05-19 07:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165997]
+[2023-05-19 07:42:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-19 07:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-json
+[2023-05-19 07:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openxlab
+[2023-05-19 07:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-19 07:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Enumerator-linux
+[2023-05-19 07:42:40] INFO root fetch - processPackages [gpt-json]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-19 07:42:40] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 07:42:40] INFO root fetch - processPackages [Enumerator-linux]: New version: [4.0] Old Version: [3.0]
+[2023-05-19 07:42:40] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230519.5.40.145277] Old Version: [20230519.4.15.749769]
+[2023-05-19 07:42:41] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/e9/e3/5e897b7a243cd1526e5089dba76432a91b9b9fde8c0ffdbeed3a2ee73cb4/gpt_json-0.1.6.tar.gz
+[2023-05-19 07:42:41] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/9f/53/f5791f582ec770ba118dfc08d55437af305282f434130b5107babb6465f3/certora-cli-alpha-rahav-cert-1987_update_regTest-20230519.4.15.749769.tar.gz
+[2023-05-19 07:42:41] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-05-19 07:42:41] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38978357>=10485760
+[2023-05-19 07:42:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-19 07:42:41] INFO root fetch - processPackages [Enumerator-linux]: Downloading https://files.pythonhosted.org/packages/04/03/c2e7a9ce977ee49bbfa7e893f4218456bd3ab7ec157641864780598ac506/Enumerator_linux-4.0.tar.gz
+[2023-05-19 07:42:41] INFO root fetch - processPackages [Enumerator-linux]: executing diffoscope
+[2023-05-19 07:42:41] INFO root fetch - processPackages [Enumerator-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Enumerator_linux-3.0.tar.gz tmp/Enumerator_linux-4.0.tar.gz --markdown 20230519/E/Enumerator-linux/3.0-4.0/diff.md --exclude *.pyd
+[2023-05-19 07:42:41] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/cb/38/c25b06898a8a9e1db07b67fa25209a67b8ae9dd0a4d77846bc3940cb1826/gpt_json-0.1.7.tar.gz
+[2023-05-19 07:42:41] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-05-19 07:42:41] INFO root fetch - processPackages [gpt-json]: executing diffoscope
+[2023-05-19 07:42:41] INFO root fetch - processPackages [gpt-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_json-0.1.6.tar.gz tmp/gpt_json-0.1.7.tar.gz --markdown 20230519/g/gpt-json/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-19 07:42:41] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-05-19 07:42:41] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230519/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 07:42:42] INFO root fetch - main [MainThread]: End processing [Enumerator-linux]: success
+[2023-05-19 07:42:42] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
+[2023-05-19 07:42:42] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-05-19 07:42:42] INFO root fetch - main [MainThread]: Store serial: [18166010]
