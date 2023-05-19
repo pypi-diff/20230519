@@ -20422,3 +20422,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:19:11] INFO root fetch - main [MainThread]: End processing [biosimulators-utils]: success
 [2023-05-19 19:20:20] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-05-19 19:20:20] INFO root fetch - main [MainThread]: Store serial: [18172975]
+[2023-05-19 19:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172975]
+[2023-05-19 19:25:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inverter-connect
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sigma-console-menu
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onboardme
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vellum-ai
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyper-requests
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spellbot
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wasm-tob
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-19 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clear-skies
+[2023-05-19 19:25:29] WARNING root fetch - processPackages [sigma-console-menu]: Skipping, unable to determine old version
+[2023-05-19 19:25:29] INFO root fetch - processPackages [sigma-console-menu]: Start processing: fast-poisson-solver
+[2023-05-19 19:25:29] INFO root fetch - main [MainThread]: End processing [sigma-console-menu] error
+[2023-05-19 19:25:29] INFO root fetch - processPackages [inverter-connect]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [wasm-tob]: New version: [1.0.2rc1] Old Version: [1.0.1]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [hyper-requests]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [onboardme]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [wasm-tob]: Downloading https://files.pythonhosted.org/packages/7b/73/fe4593d7193fbe93cacfe8be17a7d87accd794f3d1c8e79e5a4b1b2117a2/wasm-tob-1.0.1.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [hyper-requests]: Downloading https://files.pythonhosted.org/packages/97/74/bebfb0ef354c00f24288a2874a40940daf8f4f49dfaeac81ee0c18a59ea8/hyper_requests-0.0.3.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/6e/1e/17656912264c45cf913ad7fdff10a381fb50dc9987411a66fc3df7d1b01a/fast_poisson_solver-0.1.7.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/e5/c9/39dc59d815e8a206863be2e9eddf96cbbe98de785513bb949911d0e3697a/inverter-connect-0.8.0.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230519/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-19 19:25:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230519/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-19 19:25:29] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping package: exceeds size limit 12297635>=10485760
+[2023-05-19 19:25:29] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: pyliteadmin
+[2023-05-19 19:25:29] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-19 19:25:29] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:25:29] INFO root fetch - processPackages [onboardme]: Downloading https://files.pythonhosted.org/packages/91/fc/06fb464c52c9157fc815bd62aa5a6ef96ea51d75110ea73d19ef4bab1c09/onboardme-1.1.0.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [wasm-tob]: Downloading https://files.pythonhosted.org/packages/2f/a4/adddb2d9096b341859b12a3a64003e35531b361cdb6f7489eae04bc8d57f/wasm_tob-1.0.2rc1.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-05-19 19:25:29] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230519/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:25:29] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/90/1f/01a6acd4e43039a5db83a0943d8c5ff07b6c67023d327a9a77e3bf897706/inverter-connect-0.9.0.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [hyper-requests]: Downloading https://files.pythonhosted.org/packages/cf/98/fa404cb9c4fded026def32b04fa0e3258ea70fc4405b9959b7f16148d86c/hyper_requests-0.0.4.tar.gz
+[2023-05-19 19:25:29] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 19:25:29] INFO root fetch - processPackages [onboardme]: executing diffoscope
+[2023-05-19 19:25:29] INFO root fetch - processPackages [onboardme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onboardme-1.0.2.tar.gz tmp/onboardme-1.1.0.tar.gz --markdown 20230519/o/onboardme/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 19:25:29] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:25:30] INFO root fetch - processPackages [hyper-requests]: executing diffoscope
+[2023-05-19 19:25:30] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-05-19 19:25:30] INFO root fetch - processPackages [hyper-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyper_requests-0.0.3.tar.gz tmp/hyper_requests-0.0.4.tar.gz --markdown 20230519/h/hyper-requests/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 19:25:30] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.8.0.tar.gz tmp/inverter-connect-0.9.0.tar.gz --markdown 20230519/i/inverter-connect/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 19:25:30] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-05-19 19:25:30] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-05-19 19:25:30] INFO root fetch - processPackages [wasm-tob]: executing diffoscope
+[2023-05-19 19:25:30] INFO root fetch - processPackages [wasm-tob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasm-tob-1.0.1.tar.gz tmp/wasm_tob-1.0.2rc1.tar.gz --markdown 20230519/w/wasm-tob/1.0.1-1.0.2rc1/diff.md --exclude *.pyd
+[2023-05-19 19:25:30] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-19 19:25:30] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230519/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 19:25:30] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-05-19 19:25:30] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230519/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-05-19 19:25:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: nyckel
+[2023-05-19 19:25:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-19 19:25:31] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:25:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: shipyard-thoughtspot
+[2023-05-19 19:25:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-19 19:25:31] INFO root fetch - processPackages [shipyard-thoughtspot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 19:25:31] INFO root fetch - processPackages [hyper-requests]: Start processing: eventsourcing
+[2023-05-19 19:25:31] INFO root fetch - main [MainThread]: End processing [hyper-requests]: success
+[2023-05-19 19:25:31] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [eventsourcing]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-19 19:25:31] INFO root fetch - processPackages [shipyard-thoughtspot]: Downloading https://files.pythonhosted.org/packages/cb/74/0a1bd927c8cb350e2052338671f44e099aca99823645573efe10a2f27ab5/shipyard_thoughtspot-0.1.0.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [vellum-ai]: Start processing: stripe
+[2023-05-19 19:25:31] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-05-19 19:25:31] INFO root fetch - processPackages [stripe]: New version: [5.5.0b3] Old Version: [5.5.0b2]
+[2023-05-19 19:25:31] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/7e/e8/8812368881ffeace7d9254f479fe73c00ba20f2ebaf68080cc5e10ffdcb8/eventsourcing-9.2.8.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [shipyard-thoughtspot]: Downloading https://files.pythonhosted.org/packages/a5/b5/3a3ae8f23a1251aeaa57ed64fc25a695ebfafe50dcda40b0fff1b0ba6ea2/shipyard_thoughtspot-0.1.1.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [inverter-connect]: Start processing: edl-mod
+[2023-05-19 19:25:31] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-05-19 19:25:31] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/86/bc/bdf44641e8b7829940d492ad162ea757875150eccc793bdb2122e0e48ea1/stripe-5.5.0b2.tar.gz
+[2023-05-19 19:25:31] INFO root fetch - processPackages [shipyard-thoughtspot]: executing diffoscope
+[2023-05-19 19:25:31] INFO root fetch - processPackages [shipyard-thoughtspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_thoughtspot-0.1.0.tar.gz tmp/shipyard_thoughtspot-0.1.1.tar.gz --markdown 20230519/s/shipyard-thoughtspot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 19:25:31] INFO root fetch - processPackages [edl-mod]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-05-19 19:25:32] INFO root fetch - processPackages [onboardme]: Start processing: dkist-data-simulator
+[2023-05-19 19:25:32] INFO root fetch - main [MainThread]: End processing [onboardme]: success
+[2023-05-19 19:25:32] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/16/a6/c221239573e3cf1d6bf94e9ed014c86dcbb64f67330fd8c6ef88bec2d6a8/eventsourcing-9.2.9.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - processPackages [dkist-data-simulator]: New version: [3.1.6rc1] Old Version: [3.1.5rc1]
+[2023-05-19 19:25:32] INFO root fetch - processPackages [pyliteadmin]: Start processing: aio-dt-protocol
+[2023-05-19 19:25:32] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 19:25:32] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230519/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:25:32] INFO root fetch - processPackages [eventsourcing]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [eventsourcing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventsourcing-9.2.8.tar.gz tmp/eventsourcing-9.2.9.tar.gz --markdown 20230519/e/eventsourcing/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-19 19:25:32] INFO root fetch - processPackages [dkist-data-simulator]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [dkist-data-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_data_simulator-3.1.5rc1.tar.gz tmp/dkist_data_simulator-3.1.6rc1.tar.gz --markdown 20230519/d/dkist-data-simulator/3.1.5rc1-3.1.6rc1/diff.md --exclude *.pyd
+[2023-05-19 19:25:32] INFO root fetch - processPackages [aio-dt-protocol]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-19 19:25:32] INFO root fetch - processPackages [edl-mod]: Downloading https://files.pythonhosted.org/packages/aa/3d/faa7e7aeca7a3a10e2039bba1db06f544cb1ae4e817a05327bd1b659cc0b/edl-mod-0.0.32.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/e7/ad/d24ed0d8db4690790c340c80c0422800d50b7e7956593a2531bc81ac393d/stripe-5.5.0b3.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - main [MainThread]: End processing [wasm-tob]: success
+[2023-05-19 19:25:32] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/9d/3b/6ac0168c1846d80cf906c36c11dc3ffe444a6b3fe8c2e8d8dd342df317f1/aio_dt_protocol-0.9.4.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - processPackages [edl-mod]: Downloading https://files.pythonhosted.org/packages/f4/ea/b604ebc1f62284c90725ab389b72520dbbe4fb0edb27f09a6c942c9f3ac1/edl-mod-0.0.33.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-5.5.0b2.tar.gz tmp/stripe-5.5.0b3.tar.gz --markdown 20230519/s/stripe/5.5.0b2-5.5.0b3/diff.md --exclude *.pyd
+[2023-05-19 19:25:32] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-05-19 19:25:32] INFO root fetch - processPackages [edl-mod]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [edl-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edl-mod-0.0.32.tar.gz tmp/edl-mod-0.0.33.tar.gz --markdown 20230519/e/edl-mod/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-05-19 19:25:32] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/04/84/6d94eccfb0a9677ccccdb2845e94187a710a96d3f147a0aec554f7561837/aio_dt_protocol-0.9.5.tar.gz
+[2023-05-19 19:25:32] INFO root fetch - processPackages [aio-dt-protocol]: executing diffoscope
+[2023-05-19 19:25:32] INFO root fetch - processPackages [aio-dt-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_dt_protocol-0.9.4.tar.gz tmp/aio_dt_protocol-0.9.5.tar.gz --markdown 20230519/a/aio-dt-protocol/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-19 19:25:33] INFO root fetch - main [MainThread]: End processing [shipyard-thoughtspot]: success
+[2023-05-19 19:25:33] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-19 19:25:33] INFO root fetch - main [MainThread]: End processing [dkist-data-simulator]: success
+[2023-05-19 19:25:33] INFO root fetch - main [MainThread]: End processing [eventsourcing]: success
+[2023-05-19 19:25:33] INFO root fetch - main [MainThread]: End processing [edl-mod]: success
+[2023-05-19 19:25:34] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-19 19:25:35] INFO root fetch - main [MainThread]: End processing [aio-dt-protocol]: success
+[2023-05-19 19:25:35] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2023-05-19 19:25:35] INFO root fetch - main [MainThread]: Store serial: [18173036]
