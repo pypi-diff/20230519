@@ -19761,3 +19761,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:36:18] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-19 18:36:21] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-19 18:36:21] INFO root fetch - main [MainThread]: Store serial: [18172502]
+[2023-05-19 18:41:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172502]
+[2023-05-19 18:41:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpaf
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkpoint-tool
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVLMP
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lqs-client
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-qol
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: relative-addons-system
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doppkit-esri-toolbox
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opvious
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercurius-core
+[2023-05-19 18:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flagsmith-flag-engine
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [doppkit-esri-toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [lqs-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [edc-qol]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [flagsmith-flag-engine]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-05-19 18:41:30] WARNING root fetch - processPackages [mercurius-core]: Skipping, unable to determine old version
+[2023-05-19 18:41:30] INFO root fetch - processPackages [relative-addons-system]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [mercurius-core]: Start processing: pyliteadmin
+[2023-05-19 18:41:30] INFO root fetch - main [MainThread]: End processing [mercurius-core] error
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 18:41:30] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-19 18:41:30] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.8.0.tar.gz tmp/checkpoint_tool-0.9.0.tar.gz --markdown 20230519/c/checkpoint-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 18:41:30] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-19 18:41:30] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230519/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyliteadmin]: Downloading https://files.pythonhosted.org/packages/11/d2/369f6778933802e86f9fe0ab137b15841259dbaaa19b3d89b7d19cf631e9/pyliteadmin-0.0.8.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/7c/ea/35cd69b1b58b34a0c136e11b1a7e25fb86caa2cbc27af323ca3fd6a8a95f/pyVLMP-1.0.9.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/22/3e/1606e88c3327ced5222951425cfd4fc0195702c74192c6fc5aa147edb9a7/edc-qol-0.1.8.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [relative-addons-system]: Downloading https://files.pythonhosted.org/packages/1b/41/b2a4bd035f20d8e833ff15bc5b1e09d942d2845b1d19b7c8d6c8f8b68253/relative-addons-system-2.5.4.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/bb/44/dce2040a4aa1094c1e10697e3696707add36f50aaa03b48f89264ccc2560/lqs-client-0.0.8.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/ca/5d/267b0f728f7a932160188a705be9530e3c078ce07de6d4ce0a3da4aae2d1/flagsmith-flag-engine-3.4.0.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [doppkit-esri-toolbox]: Downloading https://files.pythonhosted.org/packages/e4/18/92d66b501a213f856e9a85bfe118111f0702ff3628c5da8f044b22cb73d6/doppkit-esri-toolbox-0.1.0.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230519/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 18:41:30] INFO root fetch - processPackages [relative-addons-system]: executing diffoscope
+[2023-05-19 18:41:30] INFO root fetch - processPackages [relative-addons-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative-addons-system-2.5.3.tar.gz tmp/relative-addons-system-2.5.4.tar.gz --markdown 20230519/r/relative-addons-system/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-19 18:41:30] INFO root fetch - processPackages [pyliteadmin]: Downloading https://files.pythonhosted.org/packages/bb/f2/5096383f0a9c760d4b9166950772166ac6765235fa5bda3223ae396e865d/pyliteadmin-0.0.9.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [doppkit-esri-toolbox]: Downloading https://files.pythonhosted.org/packages/5a/e8/a60efa93f3c04cd77c1b4567db54e18d6a94c65194b572ae2241c9a72d96/doppkit-esri-toolbox-0.1.1.tar.gz
+[2023-05-19 18:41:30] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/18/a8/429d7bb3725d46f1e2af74fae095fb6340eb0d16be78a468d01cd199b7fe/flagsmith-flag-engine-3.5.0.tar.gz
+[2023-05-19 18:41:31] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 18:41:31] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/dc/32/a9a01fcb52142805a5445865dc380be7baea859e5cf80d3c5d7ddaa016f5/lqs-client-0.0.9.tar.gz
+[2023-05-19 18:41:31] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/c9/4c/18db3c92b50d28f788e638b1868fc2030807b21fdff6888eb6512f6b9374/edc-qol-0.1.9.tar.gz
+[2023-05-19 18:41:31] INFO root fetch - processPackages [doppkit-esri-toolbox]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [doppkit-esri-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppkit-esri-toolbox-0.1.0.tar.gz tmp/doppkit-esri-toolbox-0.1.1.tar.gz --markdown 20230519/d/doppkit-esri-toolbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 18:41:31] INFO root fetch - processPackages [flagsmith-flag-engine]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [flagsmith-flag-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-flag-engine-3.4.0.tar.gz tmp/flagsmith-flag-engine-3.5.0.tar.gz --markdown 20230519/f/flagsmith-flag-engine/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-05-19 18:41:31] INFO root fetch - processPackages [edc-qol]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [edc-qol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-qol-0.1.8.tar.gz tmp/edc-qol-0.1.9.tar.gz --markdown 20230519/e/edc-qol/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 18:41:31] INFO root fetch - processPackages [lqs-client]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [lqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqs-client-0.0.8.tar.gz tmp/lqs-client-0.0.9.tar.gz --markdown 20230519/l/lqs-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 18:41:31] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-05-19 18:41:31] INFO root fetch - processPackages [nlpaf]: Start processing: themachinethatgoesping
+[2023-05-19 18:41:31] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-05-19 18:41:31] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-19 18:41:31] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/41/86/59fbfb9c94764077e4d5f0a685f969526b626c456da17df7ec9e30b477f9/themachinethatgoesping-0.6.8-cp39-cp39-win_amd64.whl
+[2023-05-19 18:41:31] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 13352847>=10485760
+[2023-05-19 18:41:31] INFO root fetch - processPackages [themachinethatgoesping]: Start processing: zeroshot-classifier
+[2023-05-19 18:41:31] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2023-05-19 18:41:31] INFO root fetch - processPackages [zeroshot-classifier]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 18:41:31] INFO root fetch - processPackages [zeroshot-classifier]: Downloading https://files.pythonhosted.org/packages/57/d3/4870417778f2e8645bf07681d40487d0533f2906d52c9cd9c7cf43043f62/zeroshot-classifier-0.1.2.tar.gz
+[2023-05-19 18:41:31] INFO root fetch - processPackages [zeroshot-classifier]: executing diffoscope
+[2023-05-19 18:41:31] INFO root fetch - processPackages [zeroshot-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroshot-classifier-0.1.1.tar.gz tmp/zeroshot-classifier-0.1.2.tar.gz --markdown 20230519/z/zeroshot-classifier/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 18:41:32] INFO root fetch - processPackages [checkpoint-tool]: Start processing: mizani
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-19 18:41:32] INFO root fetch - processPackages [mizani]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-19 18:41:32] INFO root fetch - processPackages [mizani]: Downloading https://files.pythonhosted.org/packages/d6/de/09ea92437024189a3c740332695ab6ccc9fd4b38a96c7246c552c0766d4f/mizani-0.9.0.tar.gz
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [relative-addons-system]: success
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [lqs-client]: success
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 18:41:32] INFO root fetch - processPackages [mizani]: Downloading https://files.pythonhosted.org/packages/80/ad/002d7f3027aa98f5a2805c1aa82e0c629a2da4e2cd6796d2c536022cc244/mizani-0.9.1.tar.gz
+[2023-05-19 18:41:32] INFO root fetch - main [MainThread]: End processing [flagsmith-flag-engine]: success
+[2023-05-19 18:41:32] INFO root fetch - processPackages [mizani]: executing diffoscope
+[2023-05-19 18:41:32] INFO root fetch - processPackages [mizani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizani-0.9.0.tar.gz tmp/mizani-0.9.1.tar.gz --markdown 20230519/m/mizani/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 18:41:33] INFO root fetch - main [MainThread]: End processing [doppkit-esri-toolbox]: success
+[2023-05-19 18:41:33] INFO root fetch - main [MainThread]: End processing [edc-qol]: success
+[2023-05-19 18:41:34] INFO root fetch - main [MainThread]: End processing [mizani]: success
+[2023-05-19 18:41:34] INFO root fetch - main [MainThread]: End processing [zeroshot-classifier]: success
+[2023-05-19 18:41:34] INFO root fetch - main [MainThread]: Store serial: [18172548]
