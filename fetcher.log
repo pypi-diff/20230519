@@ -17236,3 +17236,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:15:31] INFO root fetch - main [MainThread]: End processing [reproject]: success
 [2023-05-19 16:15:32] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-19 16:15:32] INFO root fetch - main [MainThread]: Store serial: [18170969]
+[2023-05-19 16:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170969]
+[2023-05-19 16:20:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ietfdata
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQt6-Fluent-Widgets
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heist
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dummypkggg
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt-Fluent-Widgets
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: favapy
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kangas
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckdb-engine
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aspose-pdf-for-python-via-java
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extr
+[2023-05-19 16:20:42] INFO root fetch - processPackages [dummypkggg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ietfdata]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [favapy]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [heist]: New version: [6.3.1] Old Version: [6.3.0]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: New version: [23.5] Old Version: [23.4.3]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [duckdb-engine]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [kangas]: New version: [2.4.0a1] Old Version: [2.4.0]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [dummypkggg]: Downloading https://files.pythonhosted.org/packages/c9/10/b215897b23c47eafa77d30250cf126f94bee1fa9e4ab7afe9842e05d6641/dummypkggg-0.0.1-py3-none-any.whl
+[2023-05-19 16:20:42] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-19 16:20:42] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230519/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:20:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/ef/2f/21fed07b8d17518ee79b92b130d708b57c012a4f67e79e8c2280691d6a7d/PyQt-Fluent-Widgets-0.8.8.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [heist]: Downloading https://files.pythonhosted.org/packages/f8/b1/0de69394f54ac8db4c56400c28b7015b6c608f544146e5e844c7c21581f3/heist-6.3.0.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [favapy]: Downloading https://files.pythonhosted.org/packages/02/ec/deb38202629e5f9b28dbc931ecaa8543db2015be97a4a9ce74ad0e08797e/favapy-0.3.9.2.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/fd/fa/d02e81a0a6e1a354d056d91df3ea728b07ed8178c6d15b676040f8fbd40f/ietfdata-0.6.5.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/13/52/a19371ca1fe28f881333cd5c9e0540d8008687eb850024a759af891c1382/aspose-pdf-for-python-via-java-23.4.3.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/26/71/44f613c51e85c9adaa3dcd76ce6485d2ae3595aef67dcf4bd9b989aba225/kangas-2.4.0-py3-none-any.whl
+[2023-05-19 16:20:42] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/72/fb/ea4dca0d421519d8c3833a1dd4cb74d28b35f4ecdef21b2dcdc9011b2bab/PyQt6-Fluent-Widgets-0.8.8.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/15/7a/d1b5e9108f3174832b31d6be4b88a2b7abba3c58ffd12562997f933d8fde/duckdb_engine-0.7.3.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [dummypkggg]: Downloading https://files.pythonhosted.org/packages/54/c1/5b513e2fd1038df2f5d26e2fa8efcc826401e7850e2391f0e79a477192be/dummypkggg-0.0.2-py3-none-any.whl
+[2023-05-19 16:20:42] INFO root fetch - processPackages [heist]: Downloading https://files.pythonhosted.org/packages/5f/c0/570d498ff7ade741eba4498ca134a03bd46ec80fd246d7d0b159ca12f318/heist-6.3.1.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/91/ae/83868f7adb3ac325c53b90788f3c96173c28319f05a953ca36bbf3eada0f/ietfdata-0.6.6.tar.gz
+[2023-05-19 16:20:42] WARNING root fetch - processPackages [kangas]: Skipping package: exceeds size limit 15707609>=10485760
+[2023-05-19 16:20:42] INFO root fetch - processPackages [kangas]: Start processing: Bigsansar
+[2023-05-19 16:20:42] INFO root fetch - main [MainThread]: End processing [kangas] error
+[2023-05-19 16:20:42] INFO root fetch - processPackages [Bigsansar]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-05-19 16:20:42] INFO root fetch - processPackages [favapy]: Downloading https://files.pythonhosted.org/packages/5b/5f/18f3d7978f70269b690f8aeb3b1d621222a7b707f6462b3f4cc3a07e8e6e/favapy-0.3.9.3.tar.gz
+[2023-05-19 16:20:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/3f/e3/89a90f3305c8099b080386ac6f1a40f5aaf000c937d4a713d4e62cbd9662/PyQt-Fluent-Widgets-0.9.0.tar.gz
+[2023-05-19 16:20:43] INFO root fetch - processPackages [duckdb-engine]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [duckdb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb_engine-0.7.2.tar.gz tmp/duckdb_engine-0.7.3.tar.gz --markdown 20230519/d/duckdb-engine/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [heist]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [heist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heist-6.3.0.tar.gz tmp/heist-6.3.1.tar.gz --markdown 20230519/h/heist/6.3.0-6.3.1/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [dummypkggg]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [dummypkggg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummypkggg-0.0.1-py3-none-any.whl.zip tmp/dummypkggg-0.0.2-py3-none-any.whl.zip --markdown 20230519/d/dummypkggg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [ietfdata]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [ietfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietfdata-0.6.5.tar.gz tmp/ietfdata-0.6.6.tar.gz --markdown 20230519/i/ietfdata/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.4.7.tar.gz tmp/Bigsansar-1.4.8.tar.gz --markdown 20230519/B/Bigsansar/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/ef/4a/7d3b8bbb66955765f696ccc9f7cd2f141d9b323225519d605450b3c6f743/PyQt6-Fluent-Widgets-0.9.0.tar.gz
+[2023-05-19 16:20:43] WARNING root fetch - processPackages [aspose-pdf-for-python-via-java]: Skipping package: exceeds size limit 68252668>=10485760
+[2023-05-19 16:20:43] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: Start processing: djangoldp-application
+[2023-05-19 16:20:43] INFO root fetch - main [MainThread]: End processing [aspose-pdf-for-python-via-java] error
+[2023-05-19 16:20:43] INFO root fetch - processPackages [favapy]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [favapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favapy-0.3.9.2.tar.gz tmp/favapy-0.3.9.3.tar.gz --markdown 20230519/f/favapy/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 16:20:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.8.8.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.0.tar.gz --markdown 20230519/P/PyQt6-Fluent-Widgets/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.8.8.tar.gz tmp/PyQt-Fluent-Widgets-0.9.0.tar.gz --markdown 20230519/P/PyQt-Fluent-Widgets/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 16:20:43] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/0e/60/abf0613236d1704bf921db9a6f7096a827d21083769baddda05361289929/djangoldp_application-1.1.0.tar.gz
+[2023-05-19 16:20:43] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/54/65/5384420ca5e4fcb83a813d1ea8cd7e04acee0fdeaf7ce9b79e27b4fc7214/djangoldp_application-1.1.1.tar.gz
+[2023-05-19 16:20:43] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-19 16:20:43] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.0.tar.gz tmp/djangoldp_application-1.1.1.tar.gz --markdown 20230519/d/djangoldp-application/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 16:20:44] INFO root fetch - processPackages [extr]: Start processing: shinherpro
+[2023-05-19 16:20:44] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-19 16:20:44] INFO root fetch - processPackages [shinherpro]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-05-19 16:20:44] INFO root fetch - processPackages [dummypkggg]: Start processing: govuk-frontend-django
+[2023-05-19 16:20:44] INFO root fetch - main [MainThread]: End processing [dummypkggg]: success
+[2023-05-19 16:20:44] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-19 16:20:44] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/5c/1c/a41e9933262455626655e8e06964919469bfcafa6af6add29b049a1572c4/shinherpro-1.5.0.tar.gz
+[2023-05-19 16:20:44] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-05-19 16:20:44] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.4.9.tar.gz tmp/shinherpro-1.5.0.tar.gz --markdown 20230519/s/shinherpro/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-05-19 16:20:44] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/37/b0/e63826c20213e11173d6bec7c3383380d3030a0b02cbb1c7ba7c382f1de3/govuk_frontend_django-0.3.2.tar.gz
+[2023-05-19 16:20:44] INFO root fetch - processPackages [favapy]: Start processing: xuanpolicy
+[2023-05-19 16:20:44] INFO root fetch - main [MainThread]: End processing [favapy]: success
+[2023-05-19 16:20:44] INFO root fetch - processPackages [ietfdata]: Start processing: ansys-fluent-visualization
+[2023-05-19 16:20:44] INFO root fetch - main [MainThread]: End processing [ietfdata]: success
+[2023-05-19 16:20:44] INFO root fetch - main [MainThread]: End processing [duckdb-engine]: success
+[2023-05-19 16:20:45] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/42/88/5563e68331729a74ede47ef830ddb6fb9a026ce7ac84beab94acc1500c80/govuk_frontend_django-0.3.3.tar.gz
+[2023-05-19 16:20:45] WARNING root fetch - processPackages [xuanpolicy]: Skipping, unable to determine old version
+[2023-05-19 16:20:45] INFO root fetch - main [MainThread]: End processing [xuanpolicy] error
+[2023-05-19 16:20:45] INFO root fetch - processPackages [ansys-fluent-visualization]: New version: [0.8.dev0] Old Version: [0.7.dev1]
+[2023-05-19 16:20:45] INFO root fetch - main [MainThread]: End processing [heist]: success
+[2023-05-19 16:20:45] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-05-19 16:20:45] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.2.tar.gz tmp/govuk_frontend_django-0.3.3.tar.gz --markdown 20230519/g/govuk-frontend-django/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-19 16:20:45] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-19 16:20:45] INFO root fetch - processPackages [ansys-fluent-visualization]: Downloading https://files.pythonhosted.org/packages/1d/95/c9febef2f9785b2039127b8cc0a2938bc041634a5baa0d0c5fd2cd582d7a/ansys_fluent_visualization-0.7.dev1.tar.gz
+[2023-05-19 16:20:45] INFO root fetch - processPackages [ansys-fluent-visualization]: Downloading https://files.pythonhosted.org/packages/a3/0f/6acdcb4e19d9d27e368bc9750773afb2a67a7d652bfb3776bacd7774ce43/ansys_fluent_visualization-0.8.dev0.tar.gz
+[2023-05-19 16:20:45] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-05-19 16:20:45] INFO root fetch - processPackages [ansys-fluent-visualization]: executing diffoscope
+[2023-05-19 16:20:45] INFO root fetch - processPackages [ansys-fluent-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_visualization-0.7.dev1.tar.gz tmp/ansys_fluent_visualization-0.8.dev0.tar.gz --markdown 20230519/a/ansys-fluent-visualization/0.7.dev1-0.8.dev0/diff.md --exclude *.pyd
+[2023-05-19 16:20:46] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-05-19 16:20:46] INFO root fetch - main [MainThread]: End processing [ansys-fluent-visualization]: success
+[2023-05-19 16:20:47] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-19 16:20:47] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-05-19 16:20:48] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-05-19 16:20:48] INFO root fetch - main [MainThread]: Store serial: [18171017]
