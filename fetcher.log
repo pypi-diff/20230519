@@ -17425,3 +17425,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:26:09] INFO root fetch - main [MainThread]: End processing [ibllib]: success
 [2023-05-19 16:26:14] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-19 16:26:14] INFO root fetch - main [MainThread]: Store serial: [18171060]
+[2023-05-19 16:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171060]
+[2023-05-19 16:31:24] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-ctypes-screenshots
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfkit
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peak-mas
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celerity
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamorph-airflow
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sspqdd
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: econoplots
+[2023-05-19 16:31:24] INFO root fetch - processPackages [sspqdd]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-19 16:31:24] WARNING root fetch - processPackages [fast-ctypes-screenshots]: Skipping, unable to determine old version
+[2023-05-19 16:31:24] INFO root fetch - processPackages [fast-ctypes-screenshots]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:24] INFO root fetch - main [MainThread]: End processing [fast-ctypes-screenshots] error
+[2023-05-19 16:31:24] INFO root fetch - processPackages [peak-mas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 16:31:24] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:31:24] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 16:31:24] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/70/ab/3a4e64e5f55f47b690b71dac36cdba9354e75e89d312ec9dc725f8e3a550/peak-mas-1.0.8.tar.gz
+[2023-05-19 16:31:25] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: Downloading https://files.pythonhosted.org/packages/35/2c/3ea151647c40e51ad180fb061e5b0c0d4d24f70cf23925396e7a03e07c77/SRPAstro.REM-2.3.1.tar.gz
+[2023-05-19 16:31:25] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.6.tar.gz tmp/sspqdd-1.0.7.tar.gz --markdown 20230519/s/sspqdd/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230519/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230519/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/76/48/bb15b15f3377d5d857859ffcaada7efc11e56867abff8aa939406927daa9/peak-mas-1.0.9.tar.gz
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: Downloading https://files.pythonhosted.org/packages/dc/96/1c56335422aef3c8dd1394b43c152a736b85878d6de868246b2bdc11a293/SRPAstro.REM-2.3.2-py3.9.egg
+[2023-05-19 16:31:25] INFO root fetch - processPackages [peak-mas]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [peak-mas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak-mas-1.0.8.tar.gz tmp/peak-mas-1.0.9.tar.gz --markdown 20230519/p/peak-mas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] WARNING root fetch - processPackages [econoplots]: Skipping, unable to determine old version
+[2023-05-19 16:31:25] INFO root fetch - processPackages [econoplots]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:25] INFO root fetch - main [MainThread]: End processing [econoplots] error
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230519/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:25] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:26] INFO root fetch - processPackages [sspqdd]: Start processing: iva-order-selection
+[2023-05-19 16:31:26] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 16:31:26] WARNING root fetch - processPackages [iva-order-selection]: Skipping, unable to determine old version
+[2023-05-19 16:31:26] INFO root fetch - processPackages [iva-order-selection]: Start processing: SBM-VBEM
+[2023-05-19 16:31:26] INFO root fetch - main [MainThread]: End processing [iva-order-selection] error
+[2023-05-19 16:31:26] INFO root fetch - processPackages [celerity]: Start processing: SRPAstro.REM
+[2023-05-19 16:31:26] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-19 16:31:26] INFO root fetch - processPackages [SRPAstro.REM]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-19 16:31:26] INFO root fetch - processPackages [SBM-VBEM]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-05-19 16:31:26] INFO root fetch - processPackages [SRPAstro.REM]: executing diffoscope
+[2023-05-19 16:31:26] INFO root fetch - processPackages [SRPAstro.REM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.REM-2.3.1.tar.gz tmp/SRPAstro.REM-2.3.2-py3.9.egg --markdown 20230519/S/SRPAstro.REM/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SBM-VBEM]: Downloading https://files.pythonhosted.org/packages/f2/6f/eb8409be0ce045410f65b2a48e5443c80a067dc911a35aa6bdcd18745791/sbm_vbem-0.0.11.tar.gz
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SRPAstro.REM]: Start processing: extr
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:31:27] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-19 16:31:27] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230519/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SRPAstro.REM]: Start processing: dcovlib
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:27] WARNING root fetch - processPackages [dcovlib]: Skipping, unable to determine old version
+[2023-05-19 16:31:27] INFO root fetch - processPackages [dcovlib]: Start processing: ionics-fits
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [dcovlib] error
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SBM-VBEM]: Downloading https://files.pythonhosted.org/packages/0e/1b/c94cf19882ab9a0917c1869637a80a3ce3c34dc6ad50befc58b42c9d61cc/sbm_vbem-0.0.12.tar.gz
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SRPAstro.REM]: Start processing: fabcohort
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SRPAstro.REM]: Start processing: docs-ranking-metrics
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [fabcohort]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [peak-mas]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [docs-ranking-metrics]: New version: [0.0.4.dev0] Old Version: [0.0.3]
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SBM-VBEM]: executing diffoscope
+[2023-05-19 16:31:27] INFO root fetch - processPackages [SBM-VBEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbm_vbem-0.0.11.tar.gz tmp/sbm_vbem-0.0.12.tar.gz --markdown 20230519/S/SBM-VBEM/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-05-19 16:31:27] INFO root fetch - processPackages [ionics-fits]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-19 16:31:27] INFO root fetch - processPackages [fabcohort]: executing diffoscope
+[2023-05-19 16:31:27] INFO root fetch - processPackages [fabcohort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabcohort-0.1.0.tar.gz tmp/fabcohort-0.1.1.tar.gz --markdown 20230519/f/fabcohort/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 16:31:27] INFO root fetch - processPackages [docs-ranking-metrics]: executing diffoscope
+[2023-05-19 16:31:27] INFO root fetch - processPackages [docs-ranking-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs-ranking-metrics-0.0.3.tar.gz tmp/docs-ranking-metrics-0.0.4.dev0.tar.gz --markdown 20230519/d/docs-ranking-metrics/0.0.3-0.0.4.dev0/diff.md --exclude *.pyd
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [ionics-fits]: Downloading https://files.pythonhosted.org/packages/45/d7/c8f30a47633523c756d81b7bd4c50bf62629919eede8123d0dd0bcd3aae4/ionics_fits-1.0.7.tar.gz
+[2023-05-19 16:31:27] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:27] INFO root fetch - processPackages [ionics-fits]: Downloading https://files.pythonhosted.org/packages/b1/da/478dfbaa16440d2d60583a453e87ea96db281a51eae714de8e44464017e9/ionics_fits-1.0.8.tar.gz
+[2023-05-19 16:31:27] INFO root fetch - processPackages [ionics-fits]: executing diffoscope
+[2023-05-19 16:31:27] INFO root fetch - processPackages [ionics-fits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionics_fits-1.0.7.tar.gz tmp/ionics_fits-1.0.8.tar.gz --markdown 20230519/i/ionics-fits/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-19 16:31:28] INFO root fetch - main [MainThread]: End processing [SRPAstro.REM]: success
+[2023-05-19 16:31:28] INFO root fetch - main [MainThread]: End processing [fabcohort]: success
+[2023-05-19 16:31:28] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-19 16:31:28] INFO root fetch - main [MainThread]: End processing [docs-ranking-metrics]: success
+[2023-05-19 16:31:28] INFO root fetch - main [MainThread]: End processing [ionics-fits]: success
+[2023-05-19 16:31:29] INFO root fetch - main [MainThread]: End processing [SBM-VBEM]: success
+[2023-05-19 16:31:30] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-05-19 16:31:30] INFO root fetch - main [MainThread]: Store serial: [18171122]
