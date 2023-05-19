@@ -5259,3 +5259,51 @@
 [2023-05-19 03:57:12] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-05-19 03:58:31] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
 [2023-05-19 03:58:31] INFO root fetch - main [MainThread]: Store serial: [18163906]
+[2023-05-19 04:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163906]
+[2023-05-19 04:03:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonTwitchBotFramework
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keycloak-django
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bohrium-sdk
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cukcuk
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bohrium-sdk
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cukcuk
+[2023-05-19 04:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caucase
+[2023-05-19 04:03:40] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [caucase]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [cukcuk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [cukcuk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-19 04:03:40] INFO root fetch - processPackages [PythonTwitchBotFramework]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-19 04:03:41] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.6.tar.gz tmp/bohrium-sdk-0.0.7.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.6.tar.gz tmp/bohrium-sdk-0.0.7.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [caucase]: Downloading https://files.pythonhosted.org/packages/1a/df/2591f87786514f5689f5acecd52d522087579e8ecb952428953028faad75/caucase-0.9.8.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/d2/8a/2369e0dc8502741cfc232cc10d769914aba56899e225f86e19af29c5e243/keycloak_django-1.0.5.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: Downloading https://files.pythonhosted.org/packages/e0/5b/6e0d5e1bf8a75ebf2ac961e88df137685bb2284383ffa87bde308bba9cf7/cukcuk-0.5.1.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: Downloading https://files.pythonhosted.org/packages/e0/5b/6e0d5e1bf8a75ebf2ac961e88df137685bb2284383ffa87bde308bba9cf7/cukcuk-0.5.1.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [PythonTwitchBotFramework]: Downloading https://files.pythonhosted.org/packages/fa/24/badaace0d740650bbf267396fa471ac3a10c655223f68dcdff736270fdcc/PythonTwitchBotFramework-2.8.1.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/71/77/71cb20dd228ae27d715af01186335d8795e72114230ca3dca5309e1e7056/keycloak_django-1.0.6.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: Downloading https://files.pythonhosted.org/packages/e3/7b/c7fbe0cf7d5d344eff83fb7a928cc0ec042cb1ceb730dda4ff4ce4db1966/cukcuk-0.5.2.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: Downloading https://files.pythonhosted.org/packages/e3/7b/c7fbe0cf7d5d344eff83fb7a928cc0ec042cb1ceb730dda4ff4ce4db1966/cukcuk-0.5.2.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.0.5.tar.gz tmp/keycloak_django-1.0.6.tar.gz --markdown 20230519/k/keycloak-django/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [caucase]: Downloading https://files.pythonhosted.org/packages/c6/97/120db2925153bb296d9698e63df360c2099eadec2b07cd31c48d3711e51b/caucase-0.9.9.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [PythonTwitchBotFramework]: Downloading https://files.pythonhosted.org/packages/e6/8b/54e102747e176ca44f8e543cb345e782050994d87443b308a3fc84e3f437/PythonTwitchBotFramework-2.9.0.tar.gz
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cukcuk-0.5.1.tar.gz tmp/cukcuk-0.5.2.tar.gz --markdown 20230519/c/cukcuk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [cukcuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cukcuk-0.5.1.tar.gz tmp/cukcuk-0.5.2.tar.gz --markdown 20230519/c/cukcuk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [caucase]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [caucase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caucase-0.9.8.tar.gz tmp/caucase-0.9.9.tar.gz --markdown 20230519/c/caucase/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 04:03:41] INFO root fetch - processPackages [PythonTwitchBotFramework]: executing diffoscope
+[2023-05-19 04:03:41] INFO root fetch - processPackages [PythonTwitchBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonTwitchBotFramework-2.8.1.tar.gz tmp/PythonTwitchBotFramework-2.9.0.tar.gz --markdown 20230519/P/PythonTwitchBotFramework/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-19 04:03:42] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 04:03:42] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 04:03:42] INFO root fetch - main [MainThread]: End processing [cukcuk]: success
+[2023-05-19 04:03:42] INFO root fetch - main [MainThread]: End processing [cukcuk]: success
+[2023-05-19 04:03:42] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-19 04:03:43] INFO root fetch - main [MainThread]: End processing [caucase]: success
+[2023-05-19 04:03:43] INFO root fetch - main [MainThread]: End processing [PythonTwitchBotFramework]: success
+[2023-05-19 04:03:43] INFO root fetch - main [MainThread]: Store serial: [18163929]
