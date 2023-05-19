@@ -19904,3 +19904,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:46:46] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
 [2023-05-19 18:46:54] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-19 18:46:54] INFO root fetch - main [MainThread]: Store serial: [18172608]
+[2023-05-19 18:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172608]
+[2023-05-19 18:52:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonanywhere-core
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-skimage-regionprops
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdkit-stubs
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Cr0wl3r
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyliteadmin
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prelude-parser
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boonamber
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ingit
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-poisson-solver
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: histcite-python
+[2023-05-19 18:52:05] WARNING root fetch - processPackages [Cr0wl3r]: Skipping, unable to determine old version
+[2023-05-19 18:52:05] INFO root fetch - processPackages [rdkit-stubs]: New version: [0.4] Old Version: [0.3]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [Cr0wl3r]: Start processing: videoslides
+[2023-05-19 18:52:05] INFO root fetch - main [MainThread]: End processing [Cr0wl3r] error
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pythonanywhere-core]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [prelude-parser]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [boonamber]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [napari-skimage-regionprops]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [histcite-python]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ingit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [videoslides]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [prelude-parser]: Downloading https://files.pythonhosted.org/packages/cb/ca/a67e73423aa44ae78a00f267166c80c336054e46380ce95b64c088ec1667/prelude_parser-0.1.1.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/33/c3/2ba0ee077d6fe9fca80c09238fa4efb8d0e3a1a9180fe041ecaa2d677e48/boonamber-2.0.4.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/89/99/34c583f66b2a479ca863149272ddb7034f0eea72ac5732a8468a110cc1a9/histcite-python-0.3.1.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/ae/b9/4b0c38953e4a5d5b4f37198c6e38154b4b72f5013360d845dedfd13d37f9/fast_poisson_solver-0.1.4.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [napari-skimage-regionprops]: Downloading https://files.pythonhosted.org/packages/1b/97/394bfcfdc8a1c870bc70e237e1cd8558ece6652e1cc1323928f9da9b4703/napari-skimage-regionprops-0.8.2.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [boonamber]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [boonamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boonamber-2.0.3.tar.gz tmp/boonamber-2.0.4.tar.gz --markdown 20230519/b/boonamber/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pythonanywhere-core]: Downloading https://files.pythonhosted.org/packages/8d/80/c77217e713a669b77fb77e2d7850e647bab8efdf7465a29efe7a2446b46e/pythonanywhere_core-0.1.4.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ingit]: Downloading https://files.pythonhosted.org/packages/67/ac/6cde638cdfe7b98382caee36262685da50556bdda73a3682989619376b76/ingit-0.4.8.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [rdkit-stubs]: Downloading https://files.pythonhosted.org/packages/e0/e9/eb4b12757ff49d4244e0fde9cbe91be14a34145ae7147dce3af4e3307d9b/rdkit-stubs-0.3.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [prelude-parser]: Downloading https://files.pythonhosted.org/packages/2d/f9/24b57de53c238833bd1cdfa7467d950d43ea670f81024e746947e198ac8b/prelude_parser-0.2.0.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/94/be/8a79c19956e76ed4ecbc3e934f6f701ef5a49591f2aec39a6f6c87963121/videoslides-0.0.5.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/54/8b/df85e2db43c1639b0437e36a8fd2fec84d62a57c30db7d4299fef9ebe967/histcite-python-0.3.2.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [prelude-parser]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [prelude-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude_parser-0.1.1.tar.gz tmp/prelude_parser-0.2.0.tar.gz --markdown 20230519/p/prelude-parser/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pythonanywhere-core]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [pythonanywhere-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonanywhere_core-0.1.3.tar.gz tmp/pythonanywhere_core-0.1.4.tar.gz --markdown 20230519/p/pythonanywhere-core/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/d5/80/9606d3f0fa01ba9c95a85393bf0ab45e0c89ff0fa283f7cdef9458d4419e/fast_poisson_solver-0.1.6-py3-none-any.whl
+[2023-05-19 18:52:05] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.4.tar.gz tmp/videoslides-0.0.5.tar.gz --markdown 20230519/v/videoslides/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping package: exceeds size limit 12316956>=10485760
+[2023-05-19 18:52:05] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: kolo
+[2023-05-19 18:52:05] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-19 18:52:05] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.3.1.tar.gz tmp/histcite-python-0.3.2.tar.gz --markdown 20230519/h/histcite-python/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [kolo]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-19 18:52:05] INFO root fetch - processPackages [napari-skimage-regionprops]: Downloading https://files.pythonhosted.org/packages/36/a7/5af2e19ba01424925d7525637cd9b39a5d7d21c9a8c0367d4c07da1026c5/napari-skimage-regionprops-0.9.0.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [napari-skimage-regionprops]: executing diffoscope
+[2023-05-19 18:52:05] INFO root fetch - processPackages [napari-skimage-regionprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-skimage-regionprops-0.8.2.tar.gz tmp/napari-skimage-regionprops-0.9.0.tar.gz --markdown 20230519/n/napari-skimage-regionprops/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 18:52:05] INFO root fetch - processPackages [ingit]: Downloading https://files.pythonhosted.org/packages/e2/e3/e4bab0c479febed9496de115e47ba6268ac8c70f89b34c9cea93470f6b62/ingit-0.4.9.tar.gz
+[2023-05-19 18:52:05] INFO root fetch - processPackages [rdkit-stubs]: Downloading https://files.pythonhosted.org/packages/42/f0/e6b43bc2f3377048b806c4af2a15c17192e28eb82ce31cbb5e92716adbf2/rdkit-stubs-0.4.tar.gz
+[2023-05-19 18:52:06] INFO root fetch - processPackages [rdkit-stubs]: executing diffoscope
+[2023-05-19 18:52:06] INFO root fetch - processPackages [rdkit-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdkit-stubs-0.3.tar.gz tmp/rdkit-stubs-0.4.tar.gz --markdown 20230519/r/rdkit-stubs/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-19 18:52:06] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/26/bd/424460973a675dc5e3ebad1dc5461ac2c310b035f11794fd1e0288b30324/kolo-2.9.0.tar.gz
+[2023-05-19 18:52:06] INFO root fetch - processPackages [ingit]: executing diffoscope
+[2023-05-19 18:52:06] INFO root fetch - processPackages [ingit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingit-0.4.8.tar.gz tmp/ingit-0.4.9.tar.gz --markdown 20230519/i/ingit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-19 18:52:06] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/e9/0e/6687380a48ae592067e4e356b0be2fcc2e5e621ffd9dea47db37f8643cdb/kolo-2.9.1-pp38-pypy38_pp73-win_amd64.whl
+[2023-05-19 18:52:06] INFO root fetch - processPackages [pyliteadmin]: Start processing: EclipsingBinaries
+[2023-05-19 18:52:06] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 18:52:06] INFO root fetch - processPackages [EclipsingBinaries]: New version: [2.8.4a8] Old Version: [2.8.4a7]
+[2023-05-19 18:52:06] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/06/51/c745d7d52bb8c821a65ebe96cedea1358c75fc50e61ec9b8d1b3041e45d1/EclipsingBinaries-2.8.4a7.tar.gz
+[2023-05-19 18:52:07] INFO root fetch - processPackages [kolo]: executing diffoscope
+[2023-05-19 18:52:07] INFO root fetch - processPackages [kolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolo-2.9.0.tar.gz tmp/kolo-2.9.1-pp38-pypy38_pp73-win_amd64.whl.zip --markdown 20230519/k/kolo/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-19 18:52:07] INFO root fetch - processPackages [pythonanywhere-core]: Start processing: nucleus-sdk
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [pythonanywhere-core]: success
+[2023-05-19 18:52:07] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/2d/92/be071c304f6284652f1fcee8e815e7bbf73c610f5d60cb449bfa5176142c/EclipsingBinaries-2.8.4a8.tar.gz
+[2023-05-19 18:52:07] INFO root fetch - processPackages [nucleus-sdk]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-05-19 18:52:07] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-05-19 18:52:07] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-2.8.4a7.tar.gz tmp/EclipsingBinaries-2.8.4a8.tar.gz --markdown 20230519/E/EclipsingBinaries/2.8.4a7-2.8.4a8/diff.md --exclude *.pyd
+[2023-05-19 18:52:07] INFO root fetch - processPackages [nucleus-sdk]: Downloading https://files.pythonhosted.org/packages/b8/57/0d4db61a1086466aee963ea3a5c2b76fb33959d44b48eafdc8d8a0ae1b5a/nucleus-sdk-0.1.0.tar.gz
+[2023-05-19 18:52:07] INFO root fetch - processPackages [histcite-python]: Start processing: neon-phal-plugin-core-updater
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-05-19 18:52:07] INFO root fetch - processPackages [videoslides]: Start processing: manim-chemistry
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-05-19 18:52:07] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.0.1a1] Old Version: [1.0.1a0]
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [prelude-parser]: success
+[2023-05-19 18:52:07] INFO root fetch - processPackages [nucleus-sdk]: Downloading https://files.pythonhosted.org/packages/cd/a2/bb90402be48c6327cbd518e9afd17dfe4aa93714e64a4c5e741472e39a4a/nucleus-sdk-0.1.0a0.tar.gz
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [boonamber]: success
+[2023-05-19 18:52:07] WARNING root fetch - processPackages [manim-chemistry]: Skipping, unable to determine old version
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [manim-chemistry] error
+[2023-05-19 18:52:07] INFO root fetch - processPackages [nucleus-sdk]: executing diffoscope
+[2023-05-19 18:52:07] INFO root fetch - processPackages [nucleus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus-sdk-0.1.0.tar.gz tmp/nucleus-sdk-0.1.0a0.tar.gz --markdown 20230519/n/nucleus-sdk/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2023-05-19 18:52:07] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/cf/35/74029d5648e54d43f80879840d5c9ae154eb2fb040d10ac011528bf0a8e3/neon_phal_plugin_core_updater-1.0.1a1-py3-none-any.whl
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [napari-skimage-regionprops]: success
+[2023-05-19 18:52:07] INFO root fetch - main [MainThread]: End processing [ingit]: success
+[2023-05-19 18:52:07] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-05-19 18:52:07] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.0.1a0-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.0.1a1-py3-none-any.whl.zip --markdown 20230519/n/neon-phal-plugin-core-updater/1.0.1a0-1.0.1a1/diff.md --exclude *.pyd
+[2023-05-19 18:52:08] INFO root fetch - main [MainThread]: End processing [kolo]: success
+[2023-05-19 18:52:08] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-05-19 18:52:08] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-05-19 18:52:09] INFO root fetch - main [MainThread]: End processing [nucleus-sdk]: success
+[2023-05-19 18:52:09] INFO root fetch - main [MainThread]: End processing [rdkit-stubs]: success
+[2023-05-19 18:52:09] INFO root fetch - main [MainThread]: Store serial: [18172716]
