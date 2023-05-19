@@ -8377,3 +8377,57 @@
 [2023-05-19 06:30:45] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-05-19 06:30:47] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
 [2023-05-19 06:30:47] INFO root fetch - main [MainThread]: Store serial: [18165520]
+[2023-05-19 06:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165520]
+[2023-05-19 06:35:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdf-doctor
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-tmp
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-mssql
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fyers-token-manager-v2
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galactic-messenger
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pandora-ChatGPT
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satori-playbook-validator
+[2023-05-19 06:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tangerine-auth
+[2023-05-19 06:35:55] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 06:35:55] WARNING root fetch - processPackages [satori-playbook-validator]: Skipping, unable to determine old version
+[2023-05-19 06:35:55] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator] error
+[2023-05-19 06:35:55] INFO root fetch - processPackages [galactic-messenger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-05-19 06:35:55] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.8.tar.gz tmp/macrometa-source-mssql-0.0.9.tar.gz --markdown 20230519/m/macrometa-source-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:35:55] WARNING root fetch - processPackages [mlflow-tmp]: Skipping, unable to determine old version
+[2023-05-19 06:35:55] INFO root fetch - main [MainThread]: End processing [mlflow-tmp] error
+[2023-05-19 06:35:55] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-05-19 06:35:55] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.0.8.tar.gz tmp/fyers_token_manager_v2-0.0.9.tar.gz --markdown 20230519/f/fyers-token-manager-v2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:35:55] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [rdf-doctor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-19 06:35:55] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/7a/4c/8d90e62ba1b223d191fd97f9aef2ce29867fa9e8ebaa19570602a7bf4806/galactic-messenger-0.1.0.tar.gz
+[2023-05-19 06:35:55] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/0f/dc/0086481e45921a999e0c4bb8e34cac830b555c01184b5625050db0e2b022/tangerine_auth-0.0.4-py3-none-any.whl
+[2023-05-19 06:35:55] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/02/ca/1cd62144523f0fa3969011175ae880c99371deb5776e00a7a542e0b60abb/rdf_doctor-0.2.1-py3-none-any.whl
+[2023-05-19 06:35:55] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/70/94/936448be49eb4a8ae7b8985e1d99a056bc038fc3a0ec1b6fb6c53f1326e4/Pandora-ChatGPT-1.1.2.tar.gz
+[2023-05-19 06:35:55] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/5a/a2/2df18fe9d0bbd97647dfc3d8e299294e4306cc5c4a54f8e7be352a238618/MeUtils-2023.5.5.13.0.43.tar.gz
+[2023-05-19 06:35:56] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/42/87/bcdec43ea11804c3d4f45085446d8fa8b6f1368546593ca2980f3f8710da/galactic-messenger-0.1.1.tar.gz
+[2023-05-19 06:35:56] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/bd/00/11184bd54b79ed59eadd6a74e3b8b83c5137d211535f1615f16464a84d82/rdf_doctor-0.2.2-py3-none-any.whl
+[2023-05-19 06:35:56] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/17/ed/9e3c02b7c9f114717bb67399450f08123e733b591f693e993dc1717c0dab/tangerine_auth-0.0.5-py3-none-any.whl
+[2023-05-19 06:35:56] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-05-19 06:35:56] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.2.1-py3-none-any.whl.zip tmp/rdf_doctor-0.2.2-py3-none-any.whl.zip --markdown 20230519/r/rdf-doctor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-19 06:35:56] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/51/fa/a6c98deaba9d5931411fecebb9ac875ba434d5cf354149975b8d3afd2c9a/Pandora-ChatGPT-1.1.3.tar.gz
+[2023-05-19 06:35:56] INFO root fetch - processPackages [galactic-messenger]: executing diffoscope
+[2023-05-19 06:35:56] INFO root fetch - processPackages [galactic-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galactic-messenger-0.1.0.tar.gz tmp/galactic-messenger-0.1.1.tar.gz --markdown 20230519/g/galactic-messenger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 06:35:56] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 06:35:56] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.4-py3-none-any.whl.zip tmp/tangerine_auth-0.0.5-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 06:35:56] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-19 06:35:56] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.2.tar.gz tmp/Pandora-ChatGPT-1.1.3.tar.gz --markdown 20230519/P/Pandora-ChatGPT/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-19 06:35:56] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-05-19 06:35:57] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-05-19 06:35:57] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/cc/11/fc272a2ad070c5bcd79013d99d00da0424c64a27d9a6b56187b0bfdc1c27/MeUtils-2023.5.9.15.50.17.tar.gz
+[2023-05-19 06:35:57] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-05-19 06:35:57] INFO root fetch - main [MainThread]: End processing [galactic-messenger]: success
+[2023-05-19 06:35:57] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 06:35:58] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-19 06:35:58] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-19 06:35:58] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230519/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-19 06:36:04] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-19 06:36:04] INFO root fetch - main [MainThread]: Store serial: [18165549]
