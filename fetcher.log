@@ -12525,3 +12525,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-kser]: success
 [2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [emeraldtriangles]: success
 [2023-05-19 11:15:40] INFO root fetch - main [MainThread]: Store serial: [18167762]
+[2023-05-19 11:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167762]
+[2023-05-19 11:20:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shinherpro
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snappi
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signalflow
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vdk-dag
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msaDocModels
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airflow-provider-vdk
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BioSAK
+[2023-05-19 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-05-19 11:20:49] INFO root fetch - processPackages [shinherpro]: New version: [1.4.9] Old Version: [1.4.7]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-19 11:20:49] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230519/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:20:49] INFO root fetch - processPackages [signalflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [airflow-provider-vdk]: New version: [0.0.872432630] Old Version: [0.0.870487610]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [vdk-dag]: New version: [0.1.872432630] Old Version: [0.1.861974079]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [BioSAK]: New version: [1.64.9] Old Version: [1.64.8]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/15/31/43c1638256848cb2b74c67a4b1a430c4c24388757a3e66f6c32dc8492f78/shinherpro-1.4.9.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/87/47/c9241d82908066322e6e45fe965ffd7b3732b95ebaaac20827c003b20af5/vdk-dag-0.1.861974079.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [signalflow]: Downloading https://files.pythonhosted.org/packages/3f/fe/f1ffaa50eef0577634ee938ac19f5ccf6db59089c65ffcc91f8ab9a7b94c/signalflow-0.0.2.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/e1/24/ca8bfd6fd1ae66023fba8d16057e3f008c3a93fa2356621c53e01767507f/snappi-0.9.7.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-19 11:20:49] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-05-19 11:20:49] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.4.7.tar.gz tmp/shinherpro-1.4.9.tar.gz --markdown 20230519/s/shinherpro/1.4.7-1.4.9/diff.md --exclude *.pyd
+[2023-05-19 11:20:49] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/f9/a4/e9986ffd2e1f64be085e51d19322e585ce922c2749e2db9b561595d911cc/BioSAK-1.64.8.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [airflow-provider-vdk]: Downloading https://files.pythonhosted.org/packages/4f/0a/c3b161f77ac76ade8baa9808b68d59ab4080dd13ce5e3ccb28231a1359ef/airflow-provider-vdk-0.0.872432630.tar.gz
+[2023-05-19 11:20:49] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21171011>=10485760
+[2023-05-19 11:20:49] INFO root fetch - processPackages [BioSAK]: Start processing: gnssrefl
+[2023-05-19 11:20:49] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-19 11:20:49] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive]: Start processing: uk-gov-dash-components
+[2023-05-19 11:20:49] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-19 11:20:49] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/e6/50/92ec408ee1ee5469e5fec14b8f41428ec8dd0a3675acde3a13a4c79cb7a9/vdk-dag-0.1.872432630.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [signalflow]: Downloading https://files.pythonhosted.org/packages/9b/94/5ad1b7472c681d99ef2619aa5d7c12aacc5ce88b83e0e4f2e01b8a930661/signalflow-0.0.3-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-19 11:20:49] INFO root fetch - processPackages [airflow-provider-vdk]: executing diffoscope
+[2023-05-19 11:20:49] INFO root fetch - processPackages [airflow-provider-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-vdk-0.0.870487610.tar.gz tmp/airflow-provider-vdk-0.0.872432630.tar.gz --markdown 20230519/a/airflow-provider-vdk/0.0.870487610-0.0.872432630/diff.md --exclude *.pyd
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-19 11:20:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230519/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-19 11:20:49] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [uk-gov-dash-components]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-19 11:20:49] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/09/a0/4ebf64a764adf0a4a06e6fe78f8eae91866a91f9ce7eb416b6e93d701bfa/snappi-0.9.8.tar.gz
+[2023-05-19 11:20:49] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-05-19 11:20:49] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230519/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:20:50] INFO root fetch - processPackages [vdk-dag]: executing diffoscope
+[2023-05-19 11:20:50] INFO root fetch - processPackages [vdk-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-dag-0.1.861974079.tar.gz tmp/vdk-dag-0.1.872432630.tar.gz --markdown 20230519/v/vdk-dag/0.1.861974079-0.1.872432630/diff.md --exclude *.pyd
+[2023-05-19 11:20:50] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-05-19 11:20:50] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230519/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 11:20:50] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-05-19 11:20:50] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/40/5e/c914179d5af618e6da550fc6dc416471bf2c12f81930f9de7615ff67f14e/uk_gov_dash_components-1.9.2.tar.gz
+[2023-05-19 11:20:50] INFO root fetch - processPackages [signalflow]: executing diffoscope
+[2023-05-19 11:20:50] INFO root fetch - processPackages [signalflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signalflow-0.0.2.tar.gz tmp/signalflow-0.0.3-cp39-cp39-macosx_12_0_arm64.whl.zip --markdown 20230519/s/signalflow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 11:20:50] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/1d/68/c31f252cd06b662f951b9ca487fed02c157083e1a863946c1f73cd5d0ac4/uk_gov_dash_components-1.9.3.tar.gz
+[2023-05-19 11:20:50] INFO root fetch - processPackages [uk-gov-dash-components]: executing diffoscope
+[2023-05-19 11:20:50] INFO root fetch - processPackages [uk-gov-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_gov_dash_components-1.9.2.tar.gz tmp/uk_gov_dash_components-1.9.3.tar.gz --markdown 20230519/u/uk-gov-dash-components/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-19 11:20:50] INFO root fetch - processPackages [shinherpro]: Start processing: BTKSorgu
+[2023-05-19 11:20:50] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-05-19 11:20:50] INFO root fetch - processPackages [BTKSorgu]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-19 11:20:50] INFO root fetch - processPackages [QuNet]: Start processing: spanishconjugator
+[2023-05-19 11:20:50] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-19 11:20:51] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-19 11:20:51] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.1.3.tar.gz tmp/BTKSorgu-1.1.4.tar.gz --markdown 20230519/B/BTKSorgu/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [msaDocModels]: Start processing: twilio-tap-tripactions
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-05-19 11:20:51] INFO root fetch - processPackages [twilio-tap-tripactions]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: thenerd
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230519/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-19 11:20:51] INFO root fetch - processPackages [vdk-dag]: Start processing: pydwf
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
+[2023-05-19 11:20:51] INFO root fetch - processPackages [airflow-provider-vdk]: Start processing: PatryksAutoAI
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [airflow-provider-vdk]: success
+[2023-05-19 11:20:51] WARNING root fetch - processPackages [thenerd]: Skipping, unable to determine old version
+[2023-05-19 11:20:51] INFO root fetch - processPackages [thenerd]: Start processing: akshare
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [thenerd] error
+[2023-05-19 11:20:51] INFO root fetch - processPackages [signalflow]: Start processing: spanishconjugator
+[2023-05-19 11:20:51] INFO root fetch - main [MainThread]: End processing [signalflow]: success
+[2023-05-19 11:20:51] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [twilio-tap-tripactions]: Downloading https://files.pythonhosted.org/packages/c0/ba/2db7028e1566cbd7d4a8596eb74279935df830799c5ca37015e1930d7c23/twilio-tap-tripactions-0.0.1.tar.gz
+[2023-05-19 11:20:51] INFO root fetch - processPackages [akshare]: New version: [1.9.90] Old Version: [1.9.9]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [pydwf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-19 11:20:51] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-19 11:20:51] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.9.tar.gz tmp/akshare-1.9.90.tar.gz --markdown 20230519/a/akshare/1.9.9-1.9.90/diff.md --exclude *.pyd
+[2023-05-19 11:20:51] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/e8/e3/73515590306773b7ff8aa4dd4d91bb1bda59a7baf3a154ee1c08445e7940/pydwf-1.1.8.tar.gz
+[2023-05-19 11:20:51] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/c2/dd/5270de018c6d238dbabf0a1dfd00b98771e89f5988f12c2786913529be7b/PatryksAutoAI-1.3.4.tar.gz
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-19 11:20:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230519/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-19 11:20:52] INFO root fetch - processPackages [twilio-tap-tripactions]: Downloading https://files.pythonhosted.org/packages/dc/1e/08f0eec9143a439259a3b2ac816163764891659153187ef78e4bae915eb6/twilio-tap-tripactions-0.0.2.tar.gz
+[2023-05-19 11:20:52] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 11:20:52] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.3.tar.gz tmp/PatryksAutoAI-1.3.4.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-19 11:20:52] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-05-19 11:20:52] INFO root fetch - processPackages [twilio-tap-tripactions]: executing diffoscope
+[2023-05-19 11:20:52] INFO root fetch - processPackages [twilio-tap-tripactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-tap-tripactions-0.0.1.tar.gz tmp/twilio-tap-tripactions-0.0.2.tar.gz --markdown 20230519/t/twilio-tap-tripactions/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:20:52] INFO root fetch - processPackages [BTKSorgu]: Start processing: text2phonemesequence
+[2023-05-19 11:20:52] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-19 11:20:52] WARNING root fetch - processPackages [text2phonemesequence]: Skipping, unable to determine old version
+[2023-05-19 11:20:52] INFO root fetch - processPackages [text2phonemesequence]: Start processing: signalflow
+[2023-05-19 11:20:52] INFO root fetch - main [MainThread]: End processing [text2phonemesequence] error
+[2023-05-19 11:20:52] INFO root fetch - processPackages [signalflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 11:20:52] INFO root fetch - processPackages [signalflow]: executing diffoscope
+[2023-05-19 11:20:52] INFO root fetch - processPackages [signalflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signalflow-0.0.2.tar.gz tmp/signalflow-0.0.3-cp39-cp39-macosx_12_0_arm64.whl.zip --markdown 20230519/s/signalflow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 11:20:53] INFO root fetch - processPackages [twilio-tap-tripactions]: Start processing: odoo8-addon-website-slides
+[2023-05-19 11:20:53] INFO root fetch - main [MainThread]: End processing [twilio-tap-tripactions]: success
+[2023-05-19 11:20:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-19 11:20:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 11:20:53] INFO root fetch - processPackages [odoo8-addon-website-slides]: New version: [8.0.2.0.1.99.dev7] Old Version: [8.0.2.0.1.99.dev6]
+[2023-05-19 11:20:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-19 11:20:53] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/08/01/2ee2603713263417105552a25296d5ac581ed441199411d1392669a9d935/odoo8_addon_website_slides-8.0.2.0.1.99.dev6-py2-none-any.whl
+[2023-05-19 11:20:53] INFO root fetch - main [MainThread]: End processing [signalflow]: success
+[2023-05-19 11:20:53] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-05-19 11:20:53] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230519/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-19 11:20:54] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/6a/11/6ca4e12095cf52c2729e4560fcc38174c6f183c36a37af626d803293293f/pydwf-1.1.9.tar.gz
+[2023-05-19 11:20:54] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
+[2023-05-19 11:20:55] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/16/21/44ffda7ed0abe5b25cadc8669e3c44cc6b2574e2359cb58c0c69735ae75f/odoo8_addon_website_slides-8.0.2.0.1.99.dev7-py2-none-any.whl
+[2023-05-19 11:20:56] INFO root fetch - processPackages [odoo8-addon-website-slides]: executing diffoscope
+[2023-05-19 11:20:56] INFO root fetch - processPackages [odoo8-addon-website-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev6-py2-none-any.whl.zip tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev7-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-website-slides/8.0.2.0.1.99.dev6-8.0.2.0.1.99.dev7/diff.md --exclude *.pyd
+[2023-05-19 11:20:56] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-19 11:20:56] INFO root fetch - processPackages [pydwf]: executing diffoscope
+[2023-05-19 11:20:56] INFO root fetch - processPackages [pydwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwf-1.1.8.tar.gz tmp/pydwf-1.1.9.tar.gz --markdown 20230519/p/pydwf/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 11:20:56] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-05-19 11:20:57] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-05-19 11:20:58] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
+[2023-05-19 11:20:59] INFO root fetch - main [MainThread]: End processing [pydwf]: success
+[2023-05-19 11:20:59] INFO root fetch - main [MainThread]: Store serial: [18167832]
