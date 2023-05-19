@@ -17772,3 +17772,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [mercoa]: success
 [2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-05-19 16:47:25] INFO root fetch - main [MainThread]: Store serial: [18171329]
+[2023-05-19 16:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171329]
+[2023-05-19 16:52:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tycho-api
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokit
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timeseriesflattener
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddadevops
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiogrpcclient
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.ploneintranet
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-meshing-prime
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zillionare-omicron
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphql-service-framework
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySide2-Fluent-Widgets
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiogrpcclient]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-19 16:52:34] WARNING root fetch - processPackages [collective.ploneintranet]: Skipping, unable to determine old version
+[2023-05-19 16:52:34] INFO root fetch - processPackages [collective.ploneintranet]: Start processing: sigauth
+[2023-05-19 16:52:34] INFO root fetch - main [MainThread]: End processing [collective.ploneintranet] error
+[2023-05-19 16:52:34] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-19 16:52:34] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230519/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiokit]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ansys-meshing-prime]: New version: [0.4.0.dev6] Old Version: [0.4.0.dev3]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [timeseriesflattener]: New version: [0.27.0] Old Version: [0.26.0]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [zillionare-omicron]: New version: [2.0.0a71] Old Version: [2.0.0a69]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [sigauth]: New version: [5.2.0] Old Version: [5.1.1]
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 16:52:34] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/d4/b6/809cc3816403474db9ffef7069fd377a20ba0d6e6ee5e81a51caa79e7cd7/timeseriesflattener-0.26.0.tar.gz
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiogrpcclient]: Downloading https://files.pythonhosted.org/packages/97/a1/e226f5aaf6b851255dfaf7e5dc4f0b9787e4b637513c88d5e5ec8b54d96d/aiogrpcclient-1.3.3-py3-none-any.whl
+[2023-05-19 16:52:34] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/1f/ec/299774860d73e8ac928a08b5a15152eae2605622be034d538cdab63dad04/PySide2-Fluent-Widgets-0.8.9.tar.gz
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiokit]: Downloading https://files.pythonhosted.org/packages/60/0b/edda8ff8cacba8b595ea5f6d10b1f737ca2675cb84114338d810ccc6700e/aiokit-1.2.1-py3-none-any.whl
+[2023-05-19 16:52:34] INFO root fetch - processPackages [zillionare-omicron]: Downloading https://files.pythonhosted.org/packages/3e/e2/ab7f62b42d82eabe70daed89e252d1de2e4cf0ea9b60da4864c08fc29b5c/zillionare_omicron-2.0.0a69.tar.gz
+[2023-05-19 16:52:34] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/95/b5/db59fd6585c0a448322b94c298e08fc291b2d25a825dd169de79c910c825/ansys-meshing-prime-0.4.0.dev3.tar.gz
+[2023-05-19 16:52:34] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/30/18/2d4be3e6d94ee0981e5af1e4d024016403e7e220fee37b52a4e750e6d405/tycho-api-1.9a1.dev2.tar.gz
+[2023-05-19 16:52:34] INFO root fetch - processPackages [sigauth]: Downloading https://files.pythonhosted.org/packages/bd/c2/55d588fe4dada2e8a892d8649eaeda5fec5af268640941a5cd1f8b163576/sigauth-5.1.1-py3-none-any.whl
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiogrpcclient]: Downloading https://files.pythonhosted.org/packages/8c/81/f8c8bdd1208c40f8eaa5638d8d19d7d85360a6b0beb5d6f7ab066915fb78/aiogrpcclient-1.3.4-py3-none-any.whl
+[2023-05-19 16:52:34] INFO root fetch - processPackages [aiokit]: Downloading https://files.pythonhosted.org/packages/1e/77/de70b6ec76bed9237c2f497f8e4fec987b40ef723d13beab0a6495fb7acb/aiokit-1.2.2-py3-none-any.whl
+[2023-05-19 16:52:35] INFO root fetch - processPackages [sigauth]: Downloading https://files.pythonhosted.org/packages/ee/02/3cdb6303005337feaa964b609b1e8b495c6830666f68fd92a9f5de54a17a/sigauth-5.2.0-py3-none-any.whl
+[2023-05-19 16:52:35] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/9e/a1/07f35fc2bc083282d4788d3da9b1f5d0c134a941da7973d2a45b29734c1c/PySide2-Fluent-Widgets-0.9.0.tar.gz
+[2023-05-19 16:52:35] INFO root fetch - processPackages [zillionare-omicron]: Downloading https://files.pythonhosted.org/packages/2d/35/f16115889ec0c99aa6d4bb546de7a380bf535205d9398ea5461b2e402a9f/zillionare_omicron-2.0.0a71.tar.gz
+[2023-05-19 16:52:35] INFO root fetch - processPackages [aiogrpcclient]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [aiogrpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogrpcclient-1.3.3-py3-none-any.whl.zip tmp/aiogrpcclient-1.3.4-py3-none-any.whl.zip --markdown 20230519/a/aiogrpcclient/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [aiokit]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [aiokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokit-1.2.1-py3-none-any.whl.zip tmp/aiokit-1.2.2-py3-none-any.whl.zip --markdown 20230519/a/aiokit/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/c5/83/0c06babe8ccdaac6cdadbf4ac2343f8fc2a1000b2ed6df56c1c70bbe2ea7/ansys-meshing-prime-0.4.0.dev6.tar.gz
+[2023-05-19 16:52:35] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/74/a4/b3c529c3b0436d698f0c26faa278d0fbb02bae0d515e4d6d827a53424e23/tycho-api-1.9a1.dev3.tar.gz
+[2023-05-19 16:52:35] INFO root fetch - processPackages [sigauth]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [sigauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigauth-5.1.1-py3-none-any.whl.zip tmp/sigauth-5.2.0-py3-none-any.whl.zip --markdown 20230519/s/sigauth/5.1.1-5.2.0/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [zillionare-omicron]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [zillionare-omicron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillionare_omicron-2.0.0a69.tar.gz tmp/zillionare_omicron-2.0.0a71.tar.gz --markdown 20230519/z/zillionare-omicron/2.0.0a69-2.0.0a71/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230519/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [ansys-meshing-prime]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [ansys-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-meshing-prime-0.4.0.dev3.tar.gz tmp/ansys-meshing-prime-0.4.0.dev6.tar.gz --markdown 20230519/a/ansys-meshing-prime/0.4.0.dev3-0.4.0.dev6/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-05-19 16:52:35] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.8.9.tar.gz tmp/PySide2-Fluent-Widgets-0.9.0.tar.gz --markdown 20230519/P/PySide2-Fluent-Widgets/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 16:52:35] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/f2/f4/d06d2e7a660cd7eaa3947e72ecc0490a686779ba053ac1eb93adb175b2bd/timeseriesflattener-0.27.0.tar.gz
+[2023-05-19 16:52:36] INFO root fetch - processPackages [graphql-service-framework]: Start processing: PatryksAutoAI
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-19 16:52:36] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-19 16:52:36] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-05-19 16:52:36] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-0.26.0.tar.gz tmp/timeseriesflattener-0.27.0.tar.gz --markdown 20230519/t/timeseriesflattener/0.26.0-0.27.0/diff.md --exclude *.pyd
+[2023-05-19 16:52:36] INFO root fetch - processPackages [aiogrpcclient]: Start processing: photcalib
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [aiogrpcclient]: success
+[2023-05-19 16:52:36] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/8e/1b/0b997b726590c881aa518918c585fd21e0b131eede308b1bc0dfa50c6557/PatryksAutoAI-1.3.6.tar.gz
+[2023-05-19 16:52:36] WARNING root fetch - processPackages [photcalib]: Skipping, unable to determine old version
+[2023-05-19 16:52:36] INFO root fetch - processPackages [photcalib]: Start processing: aiosumma
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [photcalib] error
+[2023-05-19 16:52:36] INFO root fetch - processPackages [aiokit]: Start processing: calitp-map-utils
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [aiokit]: success
+[2023-05-19 16:52:36] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 16:52:36] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.5.tar.gz tmp/PatryksAutoAI-1.3.6.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-19 16:52:36] INFO root fetch - processPackages [ddadevops]: Start processing: econoplots
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 16:52:36] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-19 16:52:36] WARNING root fetch - processPackages [calitp-map-utils]: Skipping, unable to determine old version
+[2023-05-19 16:52:36] INFO root fetch - processPackages [calitp-map-utils]: Start processing: vgs-api-client
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [calitp-map-utils] error
+[2023-05-19 16:52:36] WARNING root fetch - processPackages [econoplots]: Skipping, unable to determine old version
+[2023-05-19 16:52:36] INFO root fetch - processPackages [econoplots]: Start processing: xklb
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [econoplots] error
+[2023-05-19 16:52:36] INFO root fetch - main [MainThread]: End processing [sigauth]: success
+[2023-05-19 16:52:36] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-19 16:52:36] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-05-19 16:52:37] INFO root fetch - processPackages [xklb]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-05-19 16:52:37] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-05-19 16:52:37] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-05-19 16:52:37] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230519/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-19 16:52:37] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-19 16:52:37] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230519/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-19 16:52:37] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-19 16:52:37] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.8.tar.gz tmp/xklb-1.28.9.tar.gz --markdown 20230519/x/xklb/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-05-19 16:52:37] INFO root fetch - main [MainThread]: End processing [zillionare-omicron]: success
+[2023-05-19 16:52:37] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-19 16:52:38] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
+[2023-05-19 16:52:38] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-19 16:52:39] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-05-19 16:52:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 16:52:39] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-05-19 16:52:40] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-19 16:52:40] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-05-19 16:52:40] INFO root fetch - main [MainThread]: Store serial: [18171387]
