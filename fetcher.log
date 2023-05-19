@@ -1848,3 +1848,86 @@
 [2023-05-19 02:27:09] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-05-19 02:27:09] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-05-19 02:27:09] INFO root fetch - main [MainThread]: Store serial: [18162179]
+[2023-05-19 02:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162179]
+[2023-05-19 02:32:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-jenkins
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-tweet-queue
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forum-dl
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-ecs-service-extensions
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-github-actions
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dapr-dev
+[2023-05-19 02:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aeppl-nightly
+[2023-05-19 02:32:19] WARNING root fetch - processPackages [forum-dl]: Skipping, unable to determine old version
+[2023-05-19 02:32:19] INFO root fetch - processPackages [forum-dl]: Start processing: dapr-ext-workflow-dev
+[2023-05-19 02:32:19] INFO root fetch - main [MainThread]: End processing [forum-dl] error
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1553] Old Version: [1.9.0rc1.dev1551]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1553] Old Version: [0.0.1rc1.dev1551]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230519] Old Version: [0.1.4.dev20230518]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230519/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/2e/27/d4cce0b30f519de112964405e8f4c9ec272c21cdee20c5285ed797232970/dapr-ext-workflow-dev-0.0.1rc1.dev1553.tar.gz
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/54/34/85cadd2797c8dc88a4215846f4ac128c430ccf28b69c0ee2fdd31811205e/dapr-dev-1.9.0rc1.dev1553.tar.gz
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1551.tar.gz tmp/dapr-dev-1.9.0rc1.dev1553.tar.gz --markdown 20230519/d/dapr-dev/1.9.0rc1.dev1551-1.9.0rc1.dev1553/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1551.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1553.tar.gz --markdown 20230519/d/dapr-ext-workflow-dev/0.0.1rc1.dev1551-0.0.1rc1.dev1553/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230519/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230519/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230519/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/5a/c3/19a951a26ddf82b05ef13125ee75e0b53c10edd05fa57753b939f8025e0c/aeppl-nightly-0.1.4.dev20230519.tar.gz
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230519/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230519/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230519/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-19 02:32:19] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-19 02:32:19] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230518.tar.gz tmp/aeppl-nightly-0.1.4.dev20230519.tar.gz --markdown 20230519/a/aeppl-nightly/0.1.4.dev20230518-0.1.4.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: flask-dapr-dev
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1553] Old Version: [1.9.0rc1.dev1551]
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: cdktf-proxmox
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: dapr-ext-grpc-dev
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Start processing: dapr-ext-fastapi-dev
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1553] Old Version: [1.9.0rc1.dev1551]
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1553] Old Version: [1.9.0rc1.dev1551]
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/f1/93/8877e3c01a227013e3d74adb032cf6c80594048faa6127931509cc67a801/flask-dapr-dev-1.9.0rc1.dev1553.tar.gz
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/05/5c/7a6d2d33e9c754b3d6aafe44794d528e2d9cb135b30489092a50cf6333c6/cdktf-proxmox-0.0.82.tar.gz
+[2023-05-19 02:32:21] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-05-19 02:32:21] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1551.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1553.tar.gz --markdown 20230519/f/flask-dapr-dev/1.9.0rc1.dev1551-1.9.0rc1.dev1553/diff.md --exclude *.pyd
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/37/63/7879c0cf33901e7f62452e33377f5c73e8b74c093c4defe8c767fa812aa2/dapr-ext-grpc-dev-1.9.0rc1.dev1553.tar.gz
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/c5/e4/91df9d546f80febc39d6c93e10905e337fd5a0077fe429b70577b2679774/dapr-ext-fastapi-dev-1.9.0rc1.dev1553.tar.gz
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1551.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1553.tar.gz --markdown 20230519/d/dapr-ext-grpc-dev/1.9.0rc1.dev1551-1.9.0rc1.dev1553/diff.md --exclude *.pyd
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-05-19 02:32:21] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1551.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1553.tar.gz --markdown 20230519/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1551-1.9.0rc1.dev1553/diff.md --exclude *.pyd
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-05-19 02:32:21] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.82.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230519/c/cdktf-proxmox/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 02:32:21] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-05-19 02:32:23] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-05-19 02:32:23] INFO root fetch - main [MainThread]: Store serial: [18162227]
