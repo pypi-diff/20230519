@@ -15933,3 +15933,166 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:00:13] INFO root fetch - main [MainThread]: End processing [rabbitmq-broker]: success
 [2023-05-19 15:00:14] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
 [2023-05-19 15:00:14] INFO root fetch - main [MainThread]: Store serial: [18170071]
+[2023-05-19 15:05:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170071]
+[2023-05-19 15:05:25] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extr
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycompss
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-pymongo
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: character-encoding-utils
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddadevops
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptwatch
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toui
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typer-shell
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bottle
+[2023-05-19 15:05:25] WARNING root fetch - processPackages [async-pymongo]: Skipping, unable to determine old version
+[2023-05-19 15:05:25] WARNING root fetch - processPackages [typer-shell]: Skipping, unable to determine old version
+[2023-05-19 15:05:25] INFO root fetch - processPackages [async-pymongo]: Start processing: font-CLI
+[2023-05-19 15:05:25] INFO root fetch - main [MainThread]: End processing [async-pymongo] error
+[2023-05-19 15:05:25] INFO root fetch - processPackages [typer-shell]: Start processing: rubika
+[2023-05-19 15:05:25] INFO root fetch - main [MainThread]: End processing [typer-shell] error
+[2023-05-19 15:05:25] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.1.0] Old Version: [1.0.0.9]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [rubika]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [pycompss]: New version: [3.2] Old Version: [3.1]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [griptape]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [promptwatch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [character-encoding-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [toui]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-19 15:05:25] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0.9.tar.gz tmp/nonebot_plugin_bottle-1.0.1.0.tar.gz --markdown 20230519/n/nonebot-plugin-bottle/1.0.0.9-1.0.1.0/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [rubika]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [rubika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubika-6.0.5.tar.gz tmp/rubika-6.0.6.tar.gz --markdown 20230519/r/rubika/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [pycompss]: Downloading https://files.pythonhosted.org/packages/3d/3f/0f75663804448d6b47cd312441eec25bfe770401cef10136ee1d42a0309a/pycompss-3.1.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/66/ae/4efbe3539bc197bef741f8d7790a6705093c969160164a6a18973261bf8f/toui-2.1.1.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [character-encoding-utils]: Downloading https://files.pythonhosted.org/packages/68/be/73fb71d18d3601dd6689df8134664f44b393b550bf6cc6b081aabc125ea8/character-encoding-utils-0.0.2.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/b1/3b/b77bc742ff09349460843c78ce937b8ba1099c4baa417a39a7767b8a974a/promptwatch-0.1.1.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/05/fc/e6761b95fb286e7bd13d7fbc8ed5ffcebe82e5bd9149058d07f22d60b541/griptape-0.8.1.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/06/60/9a4e563794daa93134d8c5427df6bf3a3d4b52b1d2f640738b6cf7b03ea6/font-CLI-0.9.8.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.1.0.tar.gz tmp/promptwatch-0.1.1.tar.gz --markdown 20230519/p/promptwatch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [pycompss]: Downloading https://files.pythonhosted.org/packages/69/bf/7dd9e44ed4567b77b0703419440bb5c86d54a973138634e77293d663a21e/pycompss-3.2.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [character-encoding-utils]: Downloading https://files.pythonhosted.org/packages/1a/d1/88fec90cd580e1707eae1409e69ec50f243bdce0a80a29d28140a4a354b3/character-encoding-utils-0.0.3.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230519/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/2a/91/b4f14e3bdda6cfbe182c9b91ea05316e9bdab9492700f3dad104ec65fbd9/toui-2.2.0.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-05-19 15:05:25] INFO root fetch - processPackages [character-encoding-utils]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [character-encoding-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/character-encoding-utils-0.0.2.tar.gz tmp/character-encoding-utils-0.0.3.tar.gz --markdown 20230519/c/character-encoding-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [pycompss]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [pycompss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompss-3.1.tar.gz tmp/pycompss-3.2.tar.gz --markdown 20230519/p/pycompss/3.1-3.2/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-2.1.1.tar.gz tmp/toui-2.2.0.tar.gz --markdown 20230519/t/toui/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-19 15:05:25] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-05-19 15:05:25] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.8.1.tar.gz tmp/griptape-0.9.0.tar.gz --markdown 20230519/g/griptape/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 15:05:26] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/32/a2/92d8279cf0ec790d01e55a0b0024fe518128e1728d42dfbbb55e17f8a4c9/font-CLI-0.9.9.tar.gz
+[2023-05-19 15:05:26] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-05-19 15:05:26] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230519/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 15:05:27] INFO root fetch - processPackages [nonebot-plugin-bottle]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [promptwatch]: Start processing: fastkafka
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fastkafka]: New version: [0.6.1rc0] Old Version: [0.6.0rc0]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.19] Old Version: [2023.5.18]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.6.0rc0.tar.gz tmp/fastkafka-0.6.1rc0.tar.gz --markdown 20230519/f/fastkafka/0.6.0rc0-0.6.1rc0/diff.md --exclude *.pyd
+[2023-05-19 15:05:27] INFO root fetch - processPackages [extr]: Start processing: phc-ingestion
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.25] Old Version: [0.1.9]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/61/42/fc6e5815b5853d7968f297f76da9fd07cf0a6dc2eb1835cb56d7474e8f86/fbgemm_gpu_nightly_cpu-2023.5.18-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-19 15:05:27] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/84/d9/b7cc22869645159dce9f9e985b7a23e3b8918c5399556624ce81c0ad32fb/phc-ingestion-0.1.9.tar.gz
+[2023-05-19 15:05:27] INFO root fetch - processPackages [rubika]: Start processing: gallagher-restapi
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [rubika]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [character-encoding-utils]: Start processing: assemblyline-service-client
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [character-encoding-utils]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [pycompss]: Start processing: hollihop-api-client
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [pycompss]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [gallagher-restapi]: New version: [0.1.0b9] Old Version: [0.1.0b7]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:27] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-19 15:05:27] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.5.tar.gz tmp/hollihop_api_client-0.0.6.tar.gz --markdown 20230519/h/hollihop-api-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 15:05:27] INFO root fetch - processPackages [font-CLI]: Start processing: assemblyline-service-server
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/da/d9/aa33aeee1f716526ebcc3b9ca4fdaed79f42e25239f5e9fc1c89a31c4c6f/assemblyline_service_client-4.4.1.dev84-py3-none-any.whl
+[2023-05-19 15:05:27] INFO root fetch - processPackages [gallagher-restapi]: Downloading https://files.pythonhosted.org/packages/39/ef/86b3b7ccf20405f56eb72b7a315d7fdb23e920504e95e881b9b80c4b4e66/gallagher_restapi-0.1.0b7.tar.gz
+[2023-05-19 15:05:27] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7e/6d/f9ad63a3080f9c684129b7f9557e2fa3f12dee233db25e7cdc7b347e0c53/phc-ingestion-0.3.25.tar.gz
+[2023-05-19 15:05:27] INFO root fetch - processPackages [griptape]: Start processing: assemblyline-ui
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-05-19 15:05:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/26/10/9b7f29c57d87637a4f1a618b82ad8c9d7d0886ede27fe9fc42b9dac9b0b3/fbgemm_gpu_nightly_cpu-2023.5.19-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-19 15:05:27] INFO root fetch - processPackages [toui]: Start processing: oakvar
+[2023-05-19 15:05:27] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:28] INFO root fetch - processPackages [ddadevops]: Start processing: assemblyline-v4-service
+[2023-05-19 15:05:28] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 15:05:28] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.1.9.tar.gz tmp/phc-ingestion-0.3.25.tar.gz --markdown 20230519/p/phc-ingestion/0.1.9-0.3.25/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/fc/d5/c794f1c1310bbdc28b38b2023707c6d9f00dce5dad7ef4fb35db17dbaa59/assemblyline_service_server-4.4.1.dev84-py3-none-any.whl
+[2023-05-19 15:05:28] INFO root fetch - processPackages [gallagher-restapi]: Downloading https://files.pythonhosted.org/packages/0f/ad/5df12b61764fa2db5fb274f0715b0419e5bb4692a3ff2b9523e417f4cb0f/gallagher_restapi-0.1.0b9.tar.gz
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev84-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230519/a/assemblyline-service-client/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:28] INFO root fetch - processPackages [gallagher-restapi]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [gallagher-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallagher_restapi-0.1.0b7.tar.gz tmp/gallagher_restapi-0.1.0b9.tar.gz --markdown 20230519/g/gallagher-restapi/0.1.0b7-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/1c/a2/9a6eb6308b0ae7a725bd5966927ee15dfd3214e5154e38e9652e7e6219e3/assemblyline_v4_service-4.4.1.dev84-py3-none-any.whl
+[2023-05-19 15:05:28] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/f9/33/f63cca44cf48d85aa736c9a986a54c0d08ad1a875c16e2d1241d7c116a22/assemblyline_ui-4.4.1.dev84-py3-none-any.whl
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev84-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230519/a/assemblyline-service-server/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.18-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.19-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230519/f/fbgemm-gpu-nightly-cpu/2023.5.18-2023.5.19/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev84-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230519/a/assemblyline-v4-service/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev84-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230519/a/assemblyline-ui/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:28] INFO root fetch - processPackages [fastkafka]: Start processing: assemblyline
+[2023-05-19 15:05:28] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-05-19 15:05:28] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/b7/62/bb07b192336e35e41081d6211e63ed024f8f9035c56d89d403c9a528aa81/assemblyline-4.4.1.dev84.tar.gz
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev84.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230519/a/assemblyline/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-05-19 15:05:29] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-19 15:05:29] INFO root fetch - processPackages [gallagher-restapi]: Start processing: pymvola
+[2023-05-19 15:05:29] INFO root fetch - main [MainThread]: End processing [gallagher-restapi]: success
+[2023-05-19 15:05:29] WARNING root fetch - processPackages [pymvola]: Skipping, unable to determine old version
+[2023-05-19 15:05:29] INFO root fetch - processPackages [pymvola]: Start processing: scandal
+[2023-05-19 15:05:29] INFO root fetch - main [MainThread]: End processing [pymvola] error
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev84]
+[2023-05-19 15:05:29] INFO root fetch - processPackages [scandal]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/49/63/babb2f0efaedee2aafe59b7f421813a351c23879ace9acc1a715cec59168/assemblyline-core-4.4.1.dev84.tar.gz
+[2023-05-19 15:05:29] INFO root fetch - processPackages [hollihop-api-client]: Start processing: rootutils
+[2023-05-19 15:05:29] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-19 15:05:29] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/a2/d3/977d7300ceca8ffbb9d7544db5bf824b99f44313fddf1c1a822bd9efd3ff/scandal-0.1.8.tar.gz
+[2023-05-19 15:05:29] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: fedops
+[2023-05-19 15:05:29] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-19 15:05:29] INFO root fetch - processPackages [rootutils]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-19 15:05:29] INFO root fetch - processPackages [scandal]: executing diffoscope
+[2023-05-19 15:05:29] INFO root fetch - processPackages [scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandal-0.1.7.tar.gz tmp/scandal-0.1.8.tar.gz --markdown 20230519/s/scandal/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 15:05:30] WARNING root fetch - processPackages [fedops]: Skipping, unable to determine old version
+[2023-05-19 15:05:30] INFO root fetch - main [MainThread]: End processing [fedops] error
+[2023-05-19 15:05:30] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-19 15:05:30] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev84.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230519/a/assemblyline-core/4.4.1.dev84-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:05:30] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-05-19 15:05:30] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-05-19 15:05:30] INFO root fetch - processPackages [rootutils]: Downloading https://files.pythonhosted.org/packages/82/42/08c0365ac60de676f815f4d302a4d473e02b0ae9ace499c6ea2464506704/rootutils-1.0.6.tar.gz
+[2023-05-19 15:05:30] INFO root fetch - processPackages [rootutils]: Downloading https://files.pythonhosted.org/packages/16/9e/62489bd92acc537ed902fc3ebc0e055e8a96c6ca3071dfdecd9c513176ec/rootutils-1.0.7.tar.gz
+[2023-05-19 15:05:30] INFO root fetch - processPackages [rootutils]: executing diffoscope
+[2023-05-19 15:05:30] INFO root fetch - processPackages [rootutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rootutils-1.0.6.tar.gz tmp/rootutils-1.0.7.tar.gz --markdown 20230519/r/rootutils/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-19 15:05:30] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-19 15:05:30] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-05-19 15:05:30] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230519/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-05-19 15:05:31] INFO root fetch - main [MainThread]: End processing [scandal]: success
+[2023-05-19 15:05:31] INFO root fetch - main [MainThread]: End processing [rootutils]: success
+[2023-05-19 15:05:32] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-19 15:05:32] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-19 15:05:33] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-19 15:05:35] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-05-19 15:06:25] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-19 15:06:25] INFO root fetch - main [MainThread]: Store serial: [18170144]
