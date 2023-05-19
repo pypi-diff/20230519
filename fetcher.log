@@ -12926,3 +12926,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 11:34:36] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-19 11:34:50] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
 [2023-05-19 11:34:50] INFO root fetch - main [MainThread]: Store serial: [18167981]
+[2023-05-19 11:39:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167981]
+[2023-05-19 11:40:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamingcli
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cemd-metasurf
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-adjudicator
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m-abac-test
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpx-negotiate-sspi
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-adjudicator
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-dynamic-versioning
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-request
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cekit
+[2023-05-19 11:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mmenot
+[2023-05-19 11:40:04] INFO root fetch - processPackages [streamingcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [python-adjudicator]: New version: [0.1.0.post0] Old Version: [0.1.0]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [python-adjudicator]: New version: [0.1.0.post0] Old Version: [0.1.0]
+[2023-05-19 11:40:04] WARNING root fetch - processPackages [cemd-metasurf]: Skipping, unable to determine old version
+[2023-05-19 11:40:04] INFO root fetch - processPackages [httpx-negotiate-sspi]: New version: [0.2.0] Old Version: [0.1.0a2]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [cemd-metasurf]: Start processing: algokit-client-generator
+[2023-05-19 11:40:04] INFO root fetch - main [MainThread]: End processing [cemd-metasurf] error
+[2023-05-19 11:40:04] INFO root fetch - processPackages [cekit]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [15.0.1.6.0] Old Version: [15.0.1.5.0]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [mmenot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [poetry-dynamic-versioning]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2023-05-19 11:40:04] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/98/d0/23ee4e309ff75414b3d1a1b72cab39827f71e66c41e3250782c7aeaa6376/m-abac-test-1.0.2.tar.gz
+[2023-05-19 11:40:04] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/93/0f/8c49eb9bb036cf1066721fa2b931a8e5d06e5efa9dc71ebdd3f81b4bb191/python_adjudicator-0.1.0.tar.gz
+[2023-05-19 11:40:04] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/93/0f/8c49eb9bb036cf1066721fa2b931a8e5d06e5efa9dc71ebdd3f81b4bb191/python_adjudicator-0.1.0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [cekit]: Downloading https://files.pythonhosted.org/packages/21/82/a3789190b669f1f912e9a419da6b1294757210df74f36ae9b8329aa908dc/cekit-4.6.0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/cd/34/c8d6a354e40a41bd2410ca6ae5f18bbdfd7cb37a2d599da26e38b4946af5/mmenot-0.9.0-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [httpx-negotiate-sspi]: Downloading https://files.pythonhosted.org/packages/80/62/773a24890a9d4226cd02d539b7ab387ab49190757d453eb0be921763c69c/httpx_negotiate_sspi-0.2.0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/b1/d6/5a83f2b400fce07e8f10d782dbf3eadae453b1a65923418e3b0e961c5bc4/poetry-dynamic-versioning-1.0.0b2.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/b1/aa/96651c26d981df724381eeabd9ceb898d40094ce17d66d74cb457c68db33/algokit_client_generator-0.1.0b4-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/03/82/bb5bcadb79f763f68c6fc72927107e744019fb6b6d077ba3a29b8025b8cd/odoo_addon_stock_request-15.0.1.5.0-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [streamingcli]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [streamingcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcli-1.9.0.tar.gz tmp/streamingcli-1.9.1.tar.gz --markdown 20230519/s/streamingcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [httpx-negotiate-sspi]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [httpx-negotiate-sspi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_negotiate_sspi-0.1.0a2.tar.gz tmp/httpx_negotiate_sspi-0.2.0.tar.gz --markdown 20230519/h/httpx-negotiate-sspi/0.1.0a2-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/af/6d/0a5d0e1f9813f95f1975e82f00d6df43dfde6e4f36ef4b849be03041f455/m-abac-test-1.0.3.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/40/6a/f85a1df30c45578f7139affe4da7d4cbd2ae60ee822dfc922e909f3bd984/python_adjudicator-0.1.0.post0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/40/6a/f85a1df30c45578f7139affe4da7d4cbd2ae60ee822dfc922e909f3bd984/python_adjudicator-0.1.0.post0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [cekit]: Downloading https://files.pythonhosted.org/packages/ba/7f/dd7920d941bdbc61e934c7350c1f635b102b44af47d2d0714d9709d5f5e0/cekit-4.7.0.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/5b/86/c5addf185ea6fe810b6589e2a2ae7987b9103ba9524963b2a0885d46113c/mmenot-0.9.1-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/18/09/f080545b2393603d38b869fe653a60585f1f51f3342e03ef9e8abaa843f8/algokit_client_generator-0.1.0b5-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.2.tar.gz tmp/m-abac-test-1.0.3.tar.gz --markdown 20230519/m/m-abac-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.1.0.tar.gz tmp/python_adjudicator-0.1.0.post0.tar.gz --markdown 20230519/p/python-adjudicator/0.1.0-0.1.0.post0/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.1.0.tar.gz tmp/python_adjudicator-0.1.0.post0.tar.gz --markdown 20230519/p/python-adjudicator/0.1.0-0.1.0.post0/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/5c/90/05958a168491cb0c88d9148e2f5bcdfe09fb847fe1fa1f87ba85d1940b47/odoo_addon_stock_request-15.0.1.6.0-py3-none-any.whl
+[2023-05-19 11:40:05] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/81/a2/81f8bcee29b28979952b5596f15e5e16b9d160ab3644e20c449a2f15ed29/poetry-dynamic-versioning-1.0.0b3.tar.gz
+[2023-05-19 11:40:05] INFO root fetch - processPackages [cekit]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [cekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cekit-4.6.0.tar.gz tmp/cekit-4.7.0.tar.gz --markdown 20230519/c/cekit/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [mmenot]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [mmenot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmenot-0.9.0-py3-none-any.whl.zip tmp/mmenot-0.9.1-py3-none-any.whl.zip --markdown 20230519/m/mmenot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-15.0.1.5.0-py3-none-any.whl.zip tmp/odoo_addon_stock_request-15.0.1.6.0-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-stock-request/15.0.1.5.0-15.0.1.6.0/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b4-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b5-py3-none-any.whl.zip --markdown 20230519/a/algokit-client-generator/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2023-05-19 11:40:05] INFO root fetch - processPackages [poetry-dynamic-versioning]: executing diffoscope
+[2023-05-19 11:40:05] INFO root fetch - processPackages [poetry-dynamic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-dynamic-versioning-1.0.0b2.tar.gz tmp/poetry-dynamic-versioning-1.0.0b3.tar.gz --markdown 20230519/p/poetry-dynamic-versioning/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-05-19 11:40:06] INFO root fetch - processPackages [httpx-negotiate-sspi]: Start processing: odoo-addon-stock-owner-restriction
+[2023-05-19 11:40:06] INFO root fetch - main [MainThread]: End processing [httpx-negotiate-sspi]: success
+[2023-05-19 11:40:06] INFO root fetch - processPackages [odoo-addon-stock-owner-restriction]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0]
+[2023-05-19 11:40:06] INFO root fetch - processPackages [odoo-addon-stock-owner-restriction]: Downloading https://files.pythonhosted.org/packages/cd/07/55036527e25fdb7dbc028a950a593edc51f881312678adbe642b6dda804e/odoo_addon_stock_owner_restriction-15.0.1.1.0-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [poetry-dynamic-versioning]: Start processing: odoo-addon-product-multi-price
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [poetry-dynamic-versioning]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-stock-owner-restriction]: Downloading https://files.pythonhosted.org/packages/c0/a6/00cd79b84d48893d7ed2e3480b8f27e99cf55dd33dd462c27615ad533b87/odoo_addon_stock_owner_restriction-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-product-multi-price]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-19 11:40:07] INFO root fetch - processPackages [m-abac-test]: Start processing: odoo-addon-module-analysis
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [python-adjudicator]: Start processing: mingdaoyun-sdk
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-stock-owner-restriction]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-stock-owner-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_owner_restriction-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_owner_restriction-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-stock-owner-restriction/15.0.1.1.0-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mingdaoyun-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-module-analysis]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.11]
+[2023-05-19 11:40:07] INFO root fetch - processPackages [algokit-client-generator]: Start processing: auto-eval
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [auto-eval]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mmenot]: Start processing: AIsketcher
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [mmenot]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [python-adjudicator]: Start processing: easy-pickle
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [AIsketcher]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-19 11:40:07] WARNING root fetch - processPackages [easy-pickle]: Skipping, unable to determine old version
+[2023-05-19 11:40:07] INFO root fetch - processPackages [easy-pickle]: Start processing: eko
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [easy-pickle] error
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-product-multi-price]: Downloading https://files.pythonhosted.org/packages/78/25/98bc7a2c1eb4f1d88936e1abd58bd9a11d451728c1e03059fb8b5fb05d53/odoo_addon_product_multi_price-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [eko]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 11:40:07] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/81/99/804a87ce1362bcb875166c35f6ad0f57780803c6343ebe39331ec93f6573/auto-eval-0.1.9.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-module-analysis]: Downloading https://files.pythonhosted.org/packages/df/51/63e7c7f4032362b9dc3cb13b8377315e9aeeedff1b3c63a62b9e1ebb0b3d/odoo_addon_module_analysis-16.0.1.0.1-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mingdaoyun-sdk]: Downloading https://files.pythonhosted.org/packages/d7/5c/19084613cae043859a4e6059c32ff18c65db5b10e24c208eeffbf25672d2/mingdaoyun_sdk-0.0.7.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [streamingcli]: Start processing: odoo-addon-stock-picking-volume-packaging
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [streamingcli]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-stock-request]: Start processing: pyg2p
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2023-05-19 11:40:07] INFO root fetch - processPackages [AIsketcher]: Downloading https://files.pythonhosted.org/packages/6d/9f/042244d3f150329d1ac1154fe17a090570ad55eff321248da6113d3328b5/AIsketcher-0.0.0.1-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [pyg2p]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-19 11:40:07] WARNING root fetch - processPackages [odoo-addon-stock-picking-volume-packaging]: Skipping, unable to determine old version
+[2023-05-19 11:40:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-volume-packaging] error
+[2023-05-19 11:40:07] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/45/cf/9cce4d711592064a5d04a413c894450d2d8ca46b2d0f610c9956647e11e2/eko-0.9.3.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-product-multi-price]: Downloading https://files.pythonhosted.org/packages/14/99/a459ff69c2fc84685c391d82d6784875cf61bd5ab1f8aec1c925b3ac76ab/odoo_addon_product_multi_price-15.0.1.0.1-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-module-analysis]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-module-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_analysis-16.0.1.0.0.11-py3-none-any.whl.zip tmp/odoo_addon_module_analysis-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-module-analysis/16.0.1.0.0.11-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-product-multi-price]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [odoo-addon-product-multi-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_multi_price-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_multi_price-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-product-multi-price/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/d0/5b/a3bf990e582cde3cafe8656e73fe4612ecf5d0f9f94d526c5eee70ae9a0f/auto-eval-0.2.0.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mingdaoyun-sdk]: Downloading https://files.pythonhosted.org/packages/42/9e/54eddc23f77745cf0b00b942fda71dba5f081e6cd0174f7338db65e6e270/mingdaoyun_sdk-0.0.8.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [pyg2p]: Downloading https://files.pythonhosted.org/packages/b8/31/4b23b266a0cc6b06ef09c6e62af4b799503a76f25ba38fff9f3193ee6457/pyg2p-3.2.3.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [AIsketcher]: Downloading https://files.pythonhosted.org/packages/b1/6c/75dfd82fb9a89762bf9c17d0b0014a8e9ba71efa2ca147c323c6a9e9eae4/AIsketcher-0.0.0.2-py3-none-any.whl
+[2023-05-19 11:40:07] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.1.9.tar.gz tmp/auto-eval-0.2.0.tar.gz --markdown 20230519/a/auto-eval/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mingdaoyun-sdk]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [mingdaoyun-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mingdaoyun_sdk-0.0.7.tar.gz tmp/mingdaoyun_sdk-0.0.8.tar.gz --markdown 20230519/m/mingdaoyun-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/e3/9f/0abbb737b774c3716179774a3483b946c16b765cf9529b408cf58da1734c/eko-0.9.4.tar.gz
+[2023-05-19 11:40:07] INFO root fetch - processPackages [AIsketcher]: executing diffoscope
+[2023-05-19 11:40:07] INFO root fetch - processPackages [AIsketcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIsketcher-0.0.0.1-py3-none-any.whl.zip tmp/AIsketcher-0.0.0.2-py3-none-any.whl.zip --markdown 20230519/A/AIsketcher/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:40:07] INFO root fetch - processPackages [pyg2p]: Downloading https://files.pythonhosted.org/packages/3b/52/3a28aecf50bb67fc148ae1b36cfc15eb77a8cb1a51a5aa0d6c868e507c5d/pyg2p-3.2.4.tar.gz
+[2023-05-19 11:40:08] INFO root fetch - processPackages [eko]: executing diffoscope
+[2023-05-19 11:40:08] INFO root fetch - processPackages [eko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eko-0.9.3.tar.gz tmp/eko-0.9.4.tar.gz --markdown 20230519/e/eko/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 11:40:08] INFO root fetch - main [MainThread]: End processing [cekit]: success
+[2023-05-19 11:40:08] INFO root fetch - processPackages [pyg2p]: executing diffoscope
+[2023-05-19 11:40:08] INFO root fetch - processPackages [pyg2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg2p-3.2.3.tar.gz tmp/pyg2p-3.2.4.tar.gz --markdown 20230519/p/pyg2p/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-19 11:40:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-owner-restriction]: success
+[2023-05-19 11:40:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-analysis]: success
+[2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-multi-price]: success
+[2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [mingdaoyun-sdk]: success
+[2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [AIsketcher]: success
+[2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [eko]: success
+[2023-05-19 11:40:10] INFO root fetch - main [MainThread]: End processing [pyg2p]: success
+[2023-05-19 11:40:10] INFO root fetch - main [MainThread]: Store serial: [18168040]
