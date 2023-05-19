@@ -1994,3 +1994,58 @@
 [2023-05-19 02:37:35] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-05-19 02:37:36] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-05-19 02:37:36] INFO root fetch - main [MainThread]: Store serial: [18162266]
+[2023-05-19 02:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162266]
+[2023-05-19 02:42:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebeer
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyllamacpp
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathtranslate
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeoven
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lifx-cli
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ream2
+[2023-05-19 02:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CirclesGenderDetectorPython
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twitter-api-py
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ebeer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [mathtranslate]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [CirclesGenderDetectorPython]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [codeoven]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ream2]: New version: [2.6.0] Old Version: [2.5.2]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [twitter-api-py]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [lifx-cli]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [pyllamacpp]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-05-19 02:42:45] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/3f/82/ad1eab49693f76d284e889f1efc3c052043f1d5b0ca85a089b2a88b177d0/pyllamacpp-2.1.3.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [codeoven]: Downloading https://files.pythonhosted.org/packages/40/55/483847074ac3e4705d6b61302dbb3ceb68e4ddc019d10998090e62fa7c23/codeoven-0.1.3.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/00/43/b4bfb818da96bcdd99c9c4fbcefdcaea4833c5d5329c36a73696fca2b0aa/mathtranslate-2.3.0.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/d3/71/f44ec1db9dca48765ce44a3fed8ef84ab1e30177a90449c9cb6bfb4c98b2/ream2-2.5.2.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/cc/eb/b15340d1c357f2509d087c909c9052628e39e6725ea5b1440163f48219cb/ebeer-0.0.6.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/4e/3e/e37ec3cb3b58171967bf577c8f320f28cb5a99f41dc0e5338e5e36306792/twitter_api_py-0.7.1.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.2.4.tar.gz tmp/mathtranslate-2.3.0.tar.gz --markdown 20230519/m/mathtranslate/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [CirclesGenderDetectorPython]: Downloading https://files.pythonhosted.org/packages/20/7a/b910cc3590dddc02fdbd68bfcd3a125336caca1847747b6d9af0f8366c57/CirclesGenderDetectorPython-0.0.3.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.5.tar.gz tmp/ebeer-0.0.6.tar.gz --markdown 20230519/e/ebeer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [codeoven]: Downloading https://files.pythonhosted.org/packages/f7/ee/ddd857638a2b113d2adc867c56f767fac14edf10f45019f543e43277abcd/codeoven-0.1.4.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/1e/43/d6e8d90962422f93d080ff1225fa5396cc2cae963fd2bfb420a856438c3f/lifx_cli-2.5.1.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [codeoven]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [codeoven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoven-0.1.3.tar.gz tmp/codeoven-0.1.4.tar.gz --markdown 20230519/c/codeoven/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/ac/6d/8e57cfe41bee7930c3a25d8aa840a58eab0251bd6267636ee1538e677389/pyllamacpp-2.2.0.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/b3/fc/d03ebf1c94df1f6041feeaecba8337c4fa3c51735e075e41aa3272bd78c2/ream2-2.6.0.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/b2/4c/94b6dc24d500b9201e27db6639756e0f46e3feb783c2b4b5fec7cc8842f4/twitter_api_py-0.7.2.tar.gz
+[2023-05-19 02:42:45] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-2.1.3.tar.gz tmp/pyllamacpp-2.2.0.tar.gz --markdown 20230519/p/pyllamacpp/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.5.0.tar.gz tmp/lifx_cli-2.5.1.tar.gz --markdown 20230519/l/lifx-cli/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.5.2.tar.gz tmp/ream2-2.6.0.tar.gz --markdown 20230519/r/ream2/2.5.2-2.6.0/diff.md --exclude *.pyd
+[2023-05-19 02:42:45] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-19 02:42:45] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.7.1.tar.gz tmp/twitter_api_py-0.7.2.tar.gz --markdown 20230519/t/twitter-api-py/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-19 02:42:46] INFO root fetch - processPackages [CirclesGenderDetectorPython]: executing diffoscope
+[2023-05-19 02:42:46] INFO root fetch - processPackages [CirclesGenderDetectorPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CirclesGenderDetectorPython-0.0.2.tar.gz tmp/CirclesGenderDetectorPython-0.0.3.tar.gz --markdown 20230519/C/CirclesGenderDetectorPython/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 02:42:46] INFO root fetch - main [MainThread]: End processing [codeoven]: success
+[2023-05-19 02:42:46] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-19 02:42:46] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-19 02:42:46] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-05-19 02:42:47] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-05-19 02:42:47] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-05-19 02:42:47] INFO root fetch - main [MainThread]: End processing [CirclesGenderDetectorPython]: success
+[2023-05-19 02:42:49] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-19 02:42:49] INFO root fetch - main [MainThread]: Store serial: [18162328]
