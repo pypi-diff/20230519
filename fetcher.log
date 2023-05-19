@@ -13519,3 +13519,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:11:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
 [2023-05-19 12:12:27] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-19 12:12:27] INFO root fetch - main [MainThread]: Store serial: [18168336]
+[2023-05-19 12:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168336]
+[2023-05-19 12:17:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuNet
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dopplrSDK
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CADPR
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dialog-workflow-local
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddadevops
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text2phonemesequence
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rayvision-houdini
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atbu-pkg
+[2023-05-19 12:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dopplrSDK
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [text2phonemesequence]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [rayvision-houdini]: New version: [1.4.8] Old Version: [1.4.6]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [returnn]: New version: [1.20230519.94459] Old Version: [1.20230519.90323]
+[2023-05-19 12:17:37] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/07/ae/44df0c76be63b3cfc95167c8fac797939e2d9944c797e8018f75d2b12779/dopplrSDK-1.5.0-py3-none-any.whl
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/07/ae/44df0c76be63b3cfc95167c8fac797939e2d9944c797e8018f75d2b12779/dopplrSDK-1.5.0-py3-none-any.whl
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/a0/df/525bd59564b6bda8bbddb91ac1e4917e06f890247a05195a5b8a4b672d43/dialog-workflow-local-0.0.25.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [text2phonemesequence]: Downloading https://files.pythonhosted.org/packages/99/bc/744cc37d4338fa4db1e6cc29cb235457c35b1f6890493ff39aa41c2c24db/text2phonemesequence-0.0.2.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [rayvision-houdini]: Downloading https://files.pythonhosted.org/packages/b0/f9/4402dedef14856c595a08210a271440bd632d27ae79d7a0aedb83b91216c/rayvision_houdini-1.4.6.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/5c/dd/d918676ca4347b8c34919c764f29973516375b19e204cc45cb71c4ea2ef1/dialog-workflow-local-0.0.26.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/97/1c/be19dab1edfacfd8e2e3e02a4774b3163c2961e8628620eb8dbd13e29276/dopplrSDK-1.6.0-py3-none-any.whl
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/97/1c/be19dab1edfacfd8e2e3e02a4774b3163c2961e8628620eb8dbd13e29276/dopplrSDK-1.6.0-py3-none-any.whl
+[2023-05-19 12:17:37] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/92/c3/ac2968ef479c48cdebf4518baf2472427fe654a7a0da4904e124495f7799/returnn-1.20230519.94459.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230519/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [text2phonemesequence]: Downloading https://files.pythonhosted.org/packages/ae/7b/f1cd8390bce0eb4c035de89fc7b831cf0c04b4359b2ba9222e3c6290d885/text2phonemesequence-0.0.3.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-1.5.0-py3-none-any.whl.zip tmp/dopplrSDK-1.6.0-py3-none-any.whl.zip --markdown 20230519/d/dopplrSDK/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-1.5.0-py3-none-any.whl.zip tmp/dopplrSDK-1.6.0-py3-none-any.whl.zip --markdown 20230519/d/dopplrSDK/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230519.90323.tar.gz tmp/returnn-1.20230519.94459.tar.gz --markdown 20230519/r/returnn/1.20230519.90323-1.20230519.94459/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.25.tar.gz tmp/dialog-workflow-local-0.0.26.tar.gz --markdown 20230519/d/dialog-workflow-local/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230519/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:17:37] INFO root fetch - processPackages [text2phonemesequence]: executing diffoscope
+[2023-05-19 12:17:37] INFO root fetch - processPackages [text2phonemesequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2phonemesequence-0.0.2.tar.gz tmp/text2phonemesequence-0.0.3.tar.gz --markdown 20230519/t/text2phonemesequence/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 12:17:38] INFO root fetch - processPackages [rayvision-houdini]: Downloading https://files.pythonhosted.org/packages/01/bc/a4302ff4ae568e1d4f6e099b17e9b6f7c11ea8f3707c9755e060bc22fdce/rayvision_houdini-1.4.8.tar.gz
+[2023-05-19 12:17:38] INFO root fetch - processPackages [CADPR]: Start processing: proactive
+[2023-05-19 12:17:38] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 12:17:38] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-19 12:17:38] INFO root fetch - processPackages [dopplrSDK]: Start processing: django-listing
+[2023-05-19 12:17:38] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-05-19 12:17:38] INFO root fetch - processPackages [django-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:17:38] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-19 12:17:38] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-19 12:17:38] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-05-19 12:17:38] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-19 12:17:38] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-05-19 12:17:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-19 12:17:39] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-05-19 12:17:39] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.8.tar.gz tmp/django-listing-0.0.9.tar.gz --markdown 20230519/d/django-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:17:39] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-19 12:17:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-19 12:17:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230519/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-19 12:17:39] INFO root fetch - main [MainThread]: End processing [text2phonemesequence]: success
+[2023-05-19 12:17:39] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 12:17:39] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2023-05-19 12:17:39] INFO root fetch - processPackages [rayvision-houdini]: executing diffoscope
+[2023-05-19 12:17:39] INFO root fetch - processPackages [rayvision-houdini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayvision_houdini-1.4.6.tar.gz tmp/rayvision_houdini-1.4.8.tar.gz --markdown 20230519/r/rayvision-houdini/1.4.6-1.4.8/diff.md --exclude *.pyd
+[2023-05-19 12:17:40] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-19 12:17:40] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-05-19 12:17:41] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-05-19 12:17:41] INFO root fetch - main [MainThread]: End processing [rayvision-houdini]: success
+[2023-05-19 12:17:42] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-19 12:17:42] INFO root fetch - main [MainThread]: Store serial: [18168375]
