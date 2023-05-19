@@ -10249,3 +10249,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 08:50:52] INFO root fetch - main [MainThread]: End processing [data-detective-airflow]: success
 [2023-05-19 08:50:54] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
 [2023-05-19 08:50:54] INFO root fetch - main [MainThread]: Store serial: [18166438]
+[2023-05-19 08:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166438]
+[2023-05-19 08:56:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-19 08:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: univairate-monitoring
+[2023-05-19 08:56:05] WARNING root fetch - processPackages [univairate-monitoring]: Skipping, unable to determine old version
+[2023-05-19 08:56:05] INFO root fetch - main [MainThread]: End processing [univairate-monitoring] error
+[2023-05-19 08:56:05] INFO root fetch - main [MainThread]: Store serial: [18166446]
