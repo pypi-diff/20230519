@@ -19847,3 +19847,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:41:34] INFO root fetch - main [MainThread]: End processing [mizani]: success
 [2023-05-19 18:41:34] INFO root fetch - main [MainThread]: End processing [zeroshot-classifier]: success
 [2023-05-19 18:41:34] INFO root fetch - main [MainThread]: Store serial: [18172548]
+[2023-05-19 18:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172548]
+[2023-05-19 18:46:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssgpy
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-rs
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databend
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlm
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-alex-int-to-skey
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-bus-client
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: utilki
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: devioc
+[2023-05-19 18:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-ip-calulator
+[2023-05-19 18:46:44] INFO root fetch - processPackages [databend]: New version: [1.1.41] Old Version: [1.1.40]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ssgpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: New version: [20230519.16.44.278153] Old Version: [20230516.9.53.258982]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [openlm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [llm-rs]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [utilki]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-19 18:46:44] WARNING root fetch - processPackages [my-ip-calulator]: Skipping, unable to determine old version
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2023-05-19 18:46:44] INFO root fetch - main [MainThread]: End processing [my-ip-calulator] error
+[2023-05-19 18:46:44] INFO root fetch - processPackages [devioc]: New version: [2021.1.6] Old Version: [2021.1.5]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.1.8.tar.gz tmp/utilki-0.2.0.tar.gz --markdown 20230519/u/utilki/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ssgpy]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ssgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssgpy-0.1.8.tar.gz tmp/ssgpy-0.1.9.tar.gz --markdown 20230519/s/ssgpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Downloading https://files.pythonhosted.org/packages/1d/d3/4f4eaaaaaedb11ad02c0ec303f55e1d7262b90021512562a321dc56c7441/certora-cli-alpha-alex-int-to-skey-20230516.9.53.258982.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [openlm]: Downloading https://files.pythonhosted.org/packages/9d/74/72ba19f027803c5dd2cb04c9fdf4fadd1182d847d039a68f7a7c78860ef6/openlm-0.0.5.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/c9/5f/139f93dc359a17fe8f222351839384f4168e94847c29a35d49dd87a825bd/llm_rs-0.2.1.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/f2/6a/baa74cc0e497c14476fb2dbc8ecc904af907bca6f0b524b322fa8fe6dcf7/databend-1.1.40-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/26/bd/a242ad146cd80ba404bb54755c51dddf68d8365a0898e0cd8859cf78830e/ovos-bus-client-0.0.4a8.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [devioc]: Downloading https://files.pythonhosted.org/packages/eb/aa/db9fd40b90849a5dbac7ba96f568f8258384bc3d936bdc8d47bc8820dcbb/devioc-2021.1.5.tar.gz
+[2023-05-19 18:46:44] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 27394323>=10485760
+[2023-05-19 18:46:44] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-19 18:46:44] WARNING root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Skipping package: exceeds size limit 38976024>=10485760
+[2023-05-19 18:46:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-int-to-skey] error
+[2023-05-19 18:46:44] INFO root fetch - processPackages [openlm]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [openlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlm-0.0.4.tar.gz tmp/openlm-0.0.5.tar.gz --markdown 20230519/o/openlm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.2.0.tar.gz tmp/llm_rs-0.2.1.tar.gz --markdown 20230519/l/llm-rs/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230519/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [devioc]: Downloading https://files.pythonhosted.org/packages/89/16/2369a943e1adb1ed7e27810c860d47782682153170b71701d5e1d8a4ae23/devioc-2021.1.6.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [devioc]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [devioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devioc-2021.1.5.tar.gz tmp/devioc-2021.1.6.tar.gz --markdown 20230519/d/devioc/2021.1.5-2021.1.6/diff.md --exclude *.pyd
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/fe/2b/0056b831cf6af627eb711d0d69a974eb3943b5eeab777e7f2b7a7365486e/ovos-bus-client-0.0.4a9.tar.gz
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-05-19 18:46:44] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a8.tar.gz tmp/ovos-bus-client-0.0.4a9.tar.gz --markdown 20230519/o/ovos-bus-client/0.0.4a8-0.0.4a9/diff.md --exclude *.pyd
+[2023-05-19 18:46:45] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-05-19 18:46:45] INFO root fetch - main [MainThread]: End processing [openlm]: success
+[2023-05-19 18:46:45] INFO root fetch - main [MainThread]: End processing [ssgpy]: success
+[2023-05-19 18:46:45] INFO root fetch - main [MainThread]: End processing [devioc]: success
+[2023-05-19 18:46:46] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-19 18:46:46] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-05-19 18:46:54] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-19 18:46:54] INFO root fetch - main [MainThread]: Store serial: [18172608]
