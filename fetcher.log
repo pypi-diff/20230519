@@ -18380,3 +18380,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:20:37] INFO root fetch - main [MainThread]: End processing [mewpy]: success
 [2023-05-19 17:20:47] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
 [2023-05-19 17:20:47] INFO root fetch - main [MainThread]: Store serial: [18171669]
+[2023-05-19 17:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171669]
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open_source_insights_api
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-pyflyby
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr-ds
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssgpy
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calitp-map-utils
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapy-sql
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ydb
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: open_source_insights_api
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [open_source_insights_api]: Skipping, unable to determine old version
+[2023-05-19 17:26:00] INFO root fetch - processPackages [open_source_insights_api]: Start processing: cai-causalnet
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [open_source_insights_api] error
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [open_source_insights_api]: Skipping, unable to determine old version
+[2023-05-19 17:26:00] INFO root fetch - processPackages [open_source_insights_api]: Start processing: sspqdd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ssgpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [open_source_insights_api] error
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [scrapy-sql]: Skipping, unable to determine old version
+[2023-05-19 17:26:00] INFO root fetch - processPackages [scrapy-sql]: Start processing: facebook-page-info-scraper
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [scrapy-sql] error
+[2023-05-19 17:26:00] INFO root fetch - processPackages [calitp-map-utils]: New version: [2023.5.19.3] Old Version: [2023.5.19.2]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [jupyterlab-pyflyby]: New version: [5.0.0] Old Version: [4.2.0]
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [facebook-page-info-scraper]: Skipping, unable to determine old version
+[2023-05-19 17:26:00] INFO root fetch - processPackages [facebook-page-info-scraper]: Start processing: scarfer
+[2023-05-19 17:26:00] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [facebook-page-info-scraper] error
+[2023-05-19 17:26:00] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [scarfer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ydb]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [cai-causalnet]: Skipping, unable to determine old version
+[2023-05-19 17:26:00] INFO root fetch - processPackages [cai-causalnet]: Start processing: foursight
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [cai-causalnet] error
+[2023-05-19 17:26:00] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230519/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [scarfer]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [scarfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarfer-0.3.8.tar.gz tmp/scarfer-0.3.9.tar.gz --markdown 20230519/s/scarfer/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230519/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.8.tar.gz tmp/PatryksAutoAI-1.3.9.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [calitp-map-utils]: Downloading https://files.pythonhosted.org/packages/a7/75/99721a5869af6831c0401c9d6c06eaa9a845ffbe4fc1c5541e054ef9ed7c/calitp_map_utils-2023.5.19.2.tar.gz
+[2023-05-19 17:26:00] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-19 17:26:00] INFO root fetch - processPackages [edwh]: Start processing: ncbi-datasets-pylib
+[2023-05-19 17:26:00] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-19 17:26:00] INFO root fetch - processPackages [jupyterlab-pyflyby]: Downloading https://files.pythonhosted.org/packages/e7/aa/2611e9865e6ee6740991f0ae109134396b9836330e5e319d04b84be1c2b7/jupyterlab_pyflyby-4.2.0.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ssgpy]: Downloading https://files.pythonhosted.org/packages/42/2c/52e78c55b118b265a0de083272c5e88b11b952d338112c2fdb7280b0d996/ssgpy-0.1.7.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [foursight]: New version: [3.4.5] Old Version: [3.4.3.1b1]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/7a/83/cecccc46533bfc751f5d44f9adee0b199a23debbc6a5c2b1d3476a826f8e/ydb-3.3.2.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-19 17:26:00] INFO root fetch - processPackages [calitp-map-utils]: Downloading https://files.pythonhosted.org/packages/8c/d0/f5012e828e9dfbf2653da5ba6fbcceaf62b74642eebce7c940bc29f91a0e/calitp_map_utils-2023.5.19.3.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/94/49/47c26398a932948f374e75e64b5c821eae595e66bef779a852f1bbbcc9e5/foursight-3.4.3.1b1.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ssgpy]: Downloading https://files.pythonhosted.org/packages/31/98/53178572812a04b55389b1dfb9cb9a62a6c8d38b6c176eb4d83f25640ad4/ssgpy-0.1.8.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [calitp-map-utils]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [calitp-map-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_map_utils-2023.5.19.2.tar.gz tmp/calitp_map_utils-2023.5.19.3.tar.gz --markdown 20230519/c/calitp-map-utils/2023.5.19.2-2023.5.19.3/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [jupyterlab-pyflyby]: Downloading https://files.pythonhosted.org/packages/78/6f/633076dad741fb713df230544551ea7830cbb3972d87a046b4d83c213829/jupyterlab_pyflyby-5.0.0.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ssgpy]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ssgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssgpy-0.1.7.tar.gz tmp/ssgpy-0.1.8.tar.gz --markdown 20230519/s/ssgpy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [jupyterlab-pyflyby]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [jupyterlab-pyflyby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_pyflyby-4.2.0.tar.gz tmp/jupyterlab_pyflyby-5.0.0.tar.gz --markdown 20230519/j/jupyterlab-pyflyby/4.2.0-5.0.0/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/4f/92/d1f05b3efbcf940fd15be06c4d8ff9d29044a1a9d03f5a924759edd0aea9/ydb-3.3.3.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/74/3f/ecf12906105c70fc3aca0f22c3434c030b40f709713508e3146418477933/foursight-3.4.5.tar.gz
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.3.2.tar.gz tmp/ydb-3.3.3.tar.gz --markdown 20230519/y/ydb/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230519/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-19 17:26:00] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-05-19 17:26:00] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.3.1b1.tar.gz tmp/foursight-3.4.5.tar.gz --markdown 20230519/f/foursight/3.4.3.1b1-3.4.5/diff.md --exclude *.pyd
+[2023-05-19 17:26:01] INFO root fetch - processPackages [sspqdd]: Start processing: xuanpolicy
+[2023-05-19 17:26:01] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 17:26:01] INFO root fetch - processPackages [xuanpolicy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 17:26:01] INFO root fetch - processPackages [xuanpolicy]: Downloading https://files.pythonhosted.org/packages/be/25/f76b2d22bd569592bfcb02bd6bd010783fbb64d4a2beb946b5a9d722554e/xuanpolicy-0.1.0.tar.gz
+[2023-05-19 17:26:01] INFO root fetch - processPackages [calitp-map-utils]: Start processing: okama
+[2023-05-19 17:26:01] INFO root fetch - main [MainThread]: End processing [calitp-map-utils]: success
+[2023-05-19 17:26:01] INFO root fetch - processPackages [extr-ds]: Start processing: dkist
+[2023-05-19 17:26:01] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-19 17:26:02] INFO root fetch - processPackages [okama]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-05-19 17:26:02] INFO root fetch - processPackages [dkist]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-19 17:26:02] INFO root fetch - processPackages [scarfer]: Start processing: civics-cdf-validator
+[2023-05-19 17:26:02] INFO root fetch - main [MainThread]: End processing [scarfer]: success
+[2023-05-19 17:26:02] INFO root fetch - processPackages [xuanpolicy]: Downloading https://files.pythonhosted.org/packages/d9/fb/6be28a0e91992ecb2b7c758a3fe16395384d25f14cbfaef672e21e9128fa/xuanpolicy-0.1.1.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [xuanpolicy]: executing diffoscope
+[2023-05-19 17:26:02] INFO root fetch - processPackages [xuanpolicy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xuanpolicy-0.1.0.tar.gz tmp/xuanpolicy-0.1.1.tar.gz --markdown 20230519/x/xuanpolicy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 17:26:02] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-05-19 17:26:02] INFO root fetch - processPackages [okama]: Downloading https://files.pythonhosted.org/packages/7c/6a/1842df377690f7dc046b766d6124337f58d50b8461bd57ad9eef02d1c7d4/okama-1.2.3.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/a6/3e/abef3a824a906bd915094170d3244d872371aa824b8f096da7517c9f87bf/dkist-1.0.0b8.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: octis
+[2023-05-19 17:26:02] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 17:26:02] INFO root fetch - processPackages [okama]: Downloading https://files.pythonhosted.org/packages/5f/d2/6b1e5b125d202e629252bc7f25c6dde59f0a55be7b6e3fc96451472e9982/okama-1.3.0.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [foursight]: Start processing: logrouter
+[2023-05-19 17:26:02] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-05-19 17:26:02] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/23/9d/e4ab50b6e34caa093cf1d311f12a1c41dc8cbaefabf74f5641df2f9fa65a/dkist-1.0.0b9.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [octis]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-19 17:26:02] INFO root fetch - processPackages [logrouter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 17:26:02] INFO root fetch - processPackages [okama]: executing diffoscope
+[2023-05-19 17:26:02] INFO root fetch - processPackages [okama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okama-1.2.3.tar.gz tmp/okama-1.3.0.tar.gz --markdown 20230519/o/okama/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-05-19 17:26:02] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-05-19 17:26:02] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230519/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-05-19 17:26:02] INFO root fetch - processPackages [octis]: Downloading https://files.pythonhosted.org/packages/47/5a/1a8e652f3386dfc5f8bead30d122b8bef0a5d3d5ed840f8e64609b37f61a/octis-1.8.3.tar.gz
+[2023-05-19 17:26:02] INFO root fetch - processPackages [logrouter]: Downloading https://files.pythonhosted.org/packages/e6/fb/f71ed037e312f1b6835235e9a34638a204646de90f541fb797bb27d044ff/logrouter-0.0.1.tar.gz
+[2023-05-19 17:26:03] INFO root fetch - processPackages [logrouter]: Downloading https://files.pythonhosted.org/packages/44/af/269e706e6f1f023e5ce7ac3da6203d5bd5b266bc8913bad28a399efda48f/logrouter-0.0.2.tar.gz
+[2023-05-19 17:26:03] INFO root fetch - processPackages [octis]: Downloading https://files.pythonhosted.org/packages/c4/df/7c9062222780585a97f1f949512743de8a30584755642d32e71a84903963/octis-1.9.0.tar.gz
+[2023-05-19 17:26:03] INFO root fetch - processPackages [octis]: executing diffoscope
+[2023-05-19 17:26:03] INFO root fetch - processPackages [octis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octis-1.8.3.tar.gz tmp/octis-1.9.0.tar.gz --markdown 20230519/o/octis/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 17:26:03] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2023-05-19 17:26:03] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.0.0b8.tar.gz tmp/dkist-1.0.0b9.tar.gz --markdown 20230519/d/dkist/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-19 17:26:03] INFO root fetch - processPackages [logrouter]: executing diffoscope
+[2023-05-19 17:26:03] INFO root fetch - processPackages [logrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrouter-0.0.1.tar.gz tmp/logrouter-0.0.2.tar.gz --markdown 20230519/l/logrouter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 17:26:03] INFO root fetch - processPackages [xuanpolicy]: Start processing: vellum-ai
+[2023-05-19 17:26:03] INFO root fetch - main [MainThread]: End processing [xuanpolicy]: success
+[2023-05-19 17:26:03] INFO root fetch - main [MainThread]: End processing [ssgpy]: success
+[2023-05-19 17:26:03] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:26:03] INFO root fetch - main [MainThread]: End processing [jupyterlab-pyflyby]: success
+[2023-05-19 17:26:03] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-05-19 17:26:03] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2023-05-19 17:26:03] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-05-19 17:26:03] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-05-19 17:26:03] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230519/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:26:04] INFO root fetch - main [MainThread]: End processing [okama]: success
+[2023-05-19 17:26:04] INFO root fetch - main [MainThread]: End processing [logrouter]: success
+[2023-05-19 17:26:04] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-05-19 17:26:04] INFO root fetch - main [MainThread]: End processing [octis]: success
+[2023-05-19 17:26:05] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-05-19 17:26:05] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2023-05-19 17:26:05] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-05-19 17:26:05] INFO root fetch - main [MainThread]: Store serial: [18171741]
