@@ -2303,3 +2303,67 @@
 [2023-05-19 03:11:44] INFO root fetch - main [MainThread]: End processing [np-envs]: success
 [2023-05-19 03:11:45] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-05-19 03:11:45] INFO root fetch - main [MainThread]: Store serial: [18162456]
+[2023-05-19 03:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162456]
+[2023-05-19 03:16:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inhandtest
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arraykit
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-bssopenapi
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: disklru
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ebmeta
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multisig-ci
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-subminute
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-bssopenapi20171214-py2
+[2023-05-19 03:16:53] INFO root fetch - processPackages [aliyun-python-sdk-bssopenapi]: New version: [2.0.3] Old Version: [1.7.9]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ebmeta]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [disklru]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [multisig-ci]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [inhandtest]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [arraykit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [alibabacloud-bssopenapi20171214-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 03:16:53] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-19 03:16:53] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230519/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:16:53] INFO root fetch - processPackages [disklru]: Downloading https://files.pythonhosted.org/packages/2b/47/a8835defdd88c1d52b71152b8fe6aa416b9b021db6cb3157df5e92a8d285/disklru-1.0.2.tar.gz
+[2023-05-19 03:16:53] INFO root fetch - processPackages [aliyun-python-sdk-bssopenapi]: Downloading https://files.pythonhosted.org/packages/e2/c2/e26dbd20c7717c38d08316fbff4b50c5f85f242fef1fa0ffef5c0f5ff55f/aliyun-python-sdk-bssopenapi-1.7.9.tar.gz
+[2023-05-19 03:16:53] INFO root fetch - processPackages [ebmeta]: Downloading https://files.pythonhosted.org/packages/02/b6/d56bc4cefa8c9d0c81fd8ec9a000a5c81aa7f625a71999ef48f954cc5811/ebmeta-1.0.4-py3-none-any.whl
+[2023-05-19 03:16:53] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/93/63/067b9ceaaa221ea849e552c6745d6a60ed57cf080d4a03e712cfa88248ac/multisig_ci-0.4.8.tar.gz
+[2023-05-19 03:16:53] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/d4/7c/755e4cd82111465b181e015d6d23480154c7ed43f90125a83b9ac2578057/inhandtest-0.0.48.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [alibabacloud-bssopenapi20171214-py2]: Downloading https://files.pythonhosted.org/packages/d2/ba/831a84bc46687b4fafb6b403cee7310b160a4287dacc89d6bd02e2fd2e6b/alibabacloud_bssopenapi20171214_py2-1.0.8.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.4.7.tar.gz tmp/multisig_ci-0.4.8.tar.gz --markdown 20230519/m/multisig-ci/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.47.tar.gz tmp/inhandtest-0.0.48.tar.gz --markdown 20230519/i/inhandtest/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/89/8f/5d70a7d3645099a7dbbc845b4a723b0b205d04100e1d77c80a9a71ff9c7d/arraykit-0.4.2.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [ebmeta]: Downloading https://files.pythonhosted.org/packages/7a/91/ff7c9c3e7a7e609757a966dfee23552ab6add962b8ce68e6e31a86854662/ebmeta-1.0.5-py3-none-any.whl
+[2023-05-19 03:16:54] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230519/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230519/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [disklru]: Downloading https://files.pythonhosted.org/packages/3a/ef/061c69fa8c523c8c57701e8dd06f25c9a295e4ecc69772f113452c18f5f6/disklru-1.0.3.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [aliyun-python-sdk-bssopenapi]: Downloading https://files.pythonhosted.org/packages/d5/a3/0ed51c0fdd92e327cdea9ef47e97db3cbb412a9a638a1efb1d52ca08db85/aliyun-python-sdk-bssopenapi-2.0.3.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [ebmeta]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [ebmeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebmeta-1.0.4-py3-none-any.whl.zip tmp/ebmeta-1.0.5-py3-none-any.whl.zip --markdown 20230519/e/ebmeta/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.4.1.tar.gz tmp/arraykit-0.4.2.tar.gz --markdown 20230519/a/arraykit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [disklru]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [disklru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disklru-1.0.2.tar.gz tmp/disklru-1.0.3.tar.gz --markdown 20230519/d/disklru/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [aliyun-python-sdk-bssopenapi]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [aliyun-python-sdk-bssopenapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-bssopenapi-1.7.9.tar.gz tmp/aliyun-python-sdk-bssopenapi-2.0.3.tar.gz --markdown 20230519/a/aliyun-python-sdk-bssopenapi/1.7.9-2.0.3/diff.md --exclude *.pyd
+[2023-05-19 03:16:54] INFO root fetch - processPackages [alibabacloud-bssopenapi20171214-py2]: Downloading https://files.pythonhosted.org/packages/b7/9e/0698036d02acddd07c557c9546826faea8da52ddbc6bca4eccc678ee5668/alibabacloud_bssopenapi20171214_py2-1.0.9.tar.gz
+[2023-05-19 03:16:54] INFO root fetch - processPackages [alibabacloud-bssopenapi20171214-py2]: executing diffoscope
+[2023-05-19 03:16:54] INFO root fetch - processPackages [alibabacloud-bssopenapi20171214-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bssopenapi20171214_py2-1.0.8.tar.gz tmp/alibabacloud_bssopenapi20171214_py2-1.0.9.tar.gz --markdown 20230519/a/alibabacloud-bssopenapi20171214-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 03:16:55] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-05-19 03:16:55] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-19 03:16:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-19 03:16:55] INFO root fetch - main [MainThread]: End processing [ebmeta]: success
+[2023-05-19 03:16:55] INFO root fetch - main [MainThread]: End processing [disklru]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-bssopenapi]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-bssopenapi20171214-py2]: success
+[2023-05-19 03:16:56] INFO root fetch - main [MainThread]: Store serial: [18162527]
