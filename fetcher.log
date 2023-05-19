@@ -16803,3 +16803,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:48:49] INFO root fetch - main [MainThread]: End processing [kedro-graphql]: success
 [2023-05-19 15:48:50] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
 [2023-05-19 15:48:50] INFO root fetch - main [MainThread]: Store serial: [18170690]
+[2023-05-19 15:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170690]
+[2023-05-19 15:54:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcovlib
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tangerine-auth
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgeql
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boonamber
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eloquentclassifier
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddadevops
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leverage
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Bigsansar
+[2023-05-19 15:54:01] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230519094158] Old Version: [2.0.3.dev20230519093236]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [boonamber]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [bridgeql]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 15:54:01] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.71-py3-none-any.whl.zip tmp/tangerine_auth-0.0.72-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-05-19 15:54:01] INFO root fetch - processPackages [Bigsansar]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-05-19 15:54:01] WARNING root fetch - processPackages [dcovlib]: Skipping, unable to determine old version
+[2023-05-19 15:54:01] INFO root fetch - processPackages [dcovlib]: Start processing: threatingestor
+[2023-05-19 15:54:01] INFO root fetch - main [MainThread]: End processing [dcovlib] error
+[2023-05-19 15:54:01] WARNING root fetch - processPackages [eloquentclassifier]: Skipping, unable to determine old version
+[2023-05-19 15:54:01] INFO root fetch - processPackages [eloquentclassifier]: Start processing: overwatch-client
+[2023-05-19 15:54:01] INFO root fetch - main [MainThread]: End processing [eloquentclassifier] error
+[2023-05-19 15:54:01] INFO root fetch - processPackages [leverage]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 15:54:01] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:54:01] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-19 15:54:01] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230519093236.tar.gz tmp/localstack-core-2.0.3.dev20230519094158.tar.gz --markdown 20230519/l/localstack-core/2.0.3.dev20230519093236-2.0.3.dev20230519094158/diff.md --exclude *.pyd
+[2023-05-19 15:54:01] INFO root fetch - processPackages [overwatch-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [threatingestor]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 15:54:01] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/c1/1f/f127eda00ac617315b133a7aaaca17c0722a3d465888e46c25fa6c5fc100/bridgeql-0.2.0.tar.gz
+[2023-05-19 15:54:01] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/ca/c2/77f7c88695d45d99a5e882e00fd8bdfb7314cc7e51910ac262d2e3b5dd36/boonamber-2.0.2.tar.gz
+[2023-05-19 15:54:01] INFO root fetch - processPackages [leverage]: Downloading https://files.pythonhosted.org/packages/c2/6b/15d9f3b2bd622edc7ccc250048c2f2ace4f2220f618b164d6d10a51545e7/leverage-1.9.1.tar.gz
+[2023-05-19 15:54:01] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/e3/da/25cd033ec9f335524551404fc4f79a45ab89d6174264b2a7e1636eaf6b6d/Bigsansar-1.4.8.tar.gz
+[2023-05-19 15:54:01] INFO root fetch - processPackages [overwatch-client]: Downloading https://files.pythonhosted.org/packages/00/09/22010d6886a65a03f8ca6700e8bf12d81437ecfc785d0cb2dc68abdbe8bb/overwatch_client-0.1.1.tar.gz
+[2023-05-19 15:54:01] INFO root fetch - processPackages [threatingestor]: Downloading https://files.pythonhosted.org/packages/08/06/326e72f9de88829223e190aea3f0ce30d87203c1e2680368e3f523143e19/threatingestor-1.1.0.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.4.7.tar.gz tmp/Bigsansar-1.4.8.tar.gz --markdown 20230519/B/Bigsansar/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/f0/13/2cfb4d6c4cc46dfbdc5785a77a2df879a7fb95438e2894a4ad2e2466dff7/bridgeql-0.2.1.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/f3/84/34e434077233e71e5229c869d51f42e62a5ac4137864635de5e481022540/boonamber-2.0.3.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [bridgeql]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [bridgeql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeql-0.2.0.tar.gz tmp/bridgeql-0.2.1.tar.gz --markdown 20230519/b/bridgeql/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [boonamber]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [boonamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boonamber-2.0.2.tar.gz tmp/boonamber-2.0.3.tar.gz --markdown 20230519/b/boonamber/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [overwatch-client]: Downloading https://files.pythonhosted.org/packages/bc/33/790aaf89099bac007200f686c1268a8784486d70c151abcda68756c67071/overwatch_client-0.1.2.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [leverage]: Downloading https://files.pythonhosted.org/packages/c1/87/075e21a4533796abc8cb665c87d944e170b340169ec745ad65a3aa6d8cf6/leverage-1.9.2.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [threatingestor]: Downloading https://files.pythonhosted.org/packages/23/15/07857726f8254d0fe1d5aa60ccce9984f2ee89bbd3a7388c2a0001cbf76e/threatingestor-1.1.1.tar.gz
+[2023-05-19 15:54:02] INFO root fetch - processPackages [overwatch-client]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [overwatch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overwatch_client-0.1.1.tar.gz tmp/overwatch_client-0.1.2.tar.gz --markdown 20230519/o/overwatch-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230519/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [threatingestor]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [threatingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threatingestor-1.1.0.tar.gz tmp/threatingestor-1.1.1.tar.gz --markdown 20230519/t/threatingestor/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [leverage]: executing diffoscope
+[2023-05-19 15:54:02] INFO root fetch - processPackages [leverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leverage-1.9.1.tar.gz tmp/leverage-1.9.2.tar.gz --markdown 20230519/l/leverage/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-19 15:54:02] INFO root fetch - processPackages [tangerine-auth]: Start processing: crunch-cli
+[2023-05-19 15:54:02] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 15:54:03] INFO root fetch - processPackages [crunch-cli]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-19 15:54:03] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/16/12/bda3f767189775f2bb279cc99dac329f7f8af2ff1031fbf0056ea09b7f0a/crunch-cli-1.4.3.tar.gz
+[2023-05-19 15:54:03] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-19 15:54:03] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.4.2.tar.gz tmp/crunch-cli-1.4.3.tar.gz --markdown 20230519/c/crunch-cli/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-19 15:54:03] INFO root fetch - processPackages [overwatch-client]: Start processing: ESMValCore
+[2023-05-19 15:54:03] INFO root fetch - main [MainThread]: End processing [overwatch-client]: success
+[2023-05-19 15:54:03] INFO root fetch - main [MainThread]: End processing [bridgeql]: success
+[2023-05-19 15:54:03] INFO root fetch - processPackages [ESMValCore]: New version: [2.8.1rc1] Old Version: [2.8.0rc2]
+[2023-05-19 15:54:03] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 15:54:03] INFO root fetch - processPackages [ESMValCore]: Downloading https://files.pythonhosted.org/packages/67/07/ba48561963712c17d4c168f923e0eef6e10169c19daceffbe180cbe2f88f/ESMValCore-2.8.0rc2.tar.gz
+[2023-05-19 15:54:03] INFO root fetch - main [MainThread]: End processing [boonamber]: success
+[2023-05-19 15:54:04] INFO root fetch - main [MainThread]: End processing [threatingestor]: success
+[2023-05-19 15:54:04] INFO root fetch - main [MainThread]: End processing [leverage]: success
+[2023-05-19 15:54:04] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-19 15:54:04] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-19 15:54:05] INFO root fetch - processPackages [ESMValCore]: Downloading https://files.pythonhosted.org/packages/4a/3a/b739420cbd6a6b85944fa2775dc839e1d61f42114159c1330a08c5bbe919/ESMValCore-2.8.1rc1.tar.gz
+[2023-05-19 15:54:06] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-19 15:54:07] INFO root fetch - processPackages [ESMValCore]: executing diffoscope
+[2023-05-19 15:54:07] INFO root fetch - processPackages [ESMValCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ESMValCore-2.8.0rc2.tar.gz tmp/ESMValCore-2.8.1rc1.tar.gz --markdown 20230519/E/ESMValCore/2.8.0rc2-2.8.1rc1/diff.md --exclude *.pyd
+[2023-05-19 15:54:10] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-19 15:54:19] INFO root fetch - main [MainThread]: End processing [ESMValCore]: success
+[2023-05-19 15:54:19] INFO root fetch - main [MainThread]: Store serial: [18170746]
