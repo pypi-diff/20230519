@@ -11219,3 +11219,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:10:53] INFO root fetch - main [MainThread]: End processing [sysnet-persons]: success
 [2023-05-19 10:10:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-19 10:10:54] INFO root fetch - main [MainThread]: Store serial: [18166971]
+[2023-05-19 10:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166971]
+[2023-05-19 10:16:03] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huspacy-nightly
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgorithmADTs
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycryptodomex
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: httpx-negotiate-sspi
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alfred-cli
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jina
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discotoolkit
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shinherpro
+[2023-05-19 10:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sparrow-order-lib
+[2023-05-19 10:16:03] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.8.1.dev213] Old Version: [0.8.1.dev212]
+[2023-05-19 10:16:03] INFO root fetch - processPackages [alfred-cli]: New version: [2.0.0b1] Old Version: [1.2.0]
+[2023-05-19 10:16:03] INFO root fetch - processPackages [shinherpro]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.8.1.dev212-py3-none-any.whl.zip tmp/huspacy_nightly-0.8.1.dev213-py3-none-any.whl.zip --markdown 20230519/h/huspacy-nightly/0.8.1.dev212-0.8.1.dev213/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [pycryptodomex]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [alfred-cli]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [alfred-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-cli-1.2.0.tar.gz tmp/alfred_cli-2.0.0b1.tar.gz --markdown 20230519/a/alfred-cli/1.2.0-2.0.0b1/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 10:16:04] WARNING root fetch - processPackages [httpx-negotiate-sspi]: Skipping, unable to determine old version
+[2023-05-19 10:16:04] INFO root fetch - processPackages [httpx-negotiate-sspi]: Start processing: sparta-memcached
+[2023-05-19 10:16:04] INFO root fetch - processPackages [discotoolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 10:16:04] INFO root fetch - main [MainThread]: End processing [httpx-negotiate-sspi] error
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparta-memcached]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/78/02/39323fb614146800c0c66794b49ac81b9df7381a3076d0d098a2a7e18e03/shinherpro-1.4.6.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/be/59/f0c13cfb162b8649f3bd8989a0831ddd101d682fbc4dd34558719e5f9d13/sparrow-order-lib-0.1.90.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/78/0c/a0b6a3ead2d8cf6dd8b66610263bdea1ec0616fa1a72e0a39e3dd03eed95/discotoolkit-1.0.8.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [pycryptodomex]: Downloading https://files.pythonhosted.org/packages/f5/79/9d9206688385d1e7a5ff925e7aab1d685636256e34a409037aa7adbbe611/pycryptodomex-3.9.8.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.4.5.tar.gz tmp/shinherpro-1.4.6.tar.gz --markdown 20230519/s/shinherpro/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparta-memcached]: Downloading https://files.pythonhosted.org/packages/26/fd/370f5cf2a21338d5740f9e41255326323270c52571e9556efa89d2cb5b05/sparta-memcached-0.2.1.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/c3/48/ae335494ea32ad9150ef5a54762be79a7ab51639e4ba80660dbdcd455f1b/algorithmadts-0.1.2.tar.gz
+[2023-05-19 10:16:04] WARNING root fetch - processPackages [pycryptodomex]: Skipping package: exceeds size limit 15633485>=10485760
+[2023-05-19 10:16:04] INFO root fetch - processPackages [pycryptodomex]: Start processing: nonebot-plugin-bottle
+[2023-05-19 10:16:04] INFO root fetch - main [MainThread]: End processing [pycryptodomex] error
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/97/b2/2e5d681dfdc83a3527a15c9c8cd7ecbd8cd36407ed77d20c6a05090ece12/sparrow-order-lib-0.1.91.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparta-memcached]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparta-memcached]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparta-memcached-0.2.0.tar.gz tmp/sparta-memcached-0.2.1.tar.gz --markdown 20230519/s/sparta-memcached/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.1.tar.gz tmp/algorithmadts-0.1.2.tar.gz --markdown 20230519/A/AlgorithmADTs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.1.0] Old Version: [1.0.0.9]
+[2023-05-19 10:16:04] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/98/14/aa2c83a4b5ad6579838a8f42df060a643aa8e1c3454ea2401b1a201d816c/discotoolkit-1.0.9.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230519/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.90.tar.gz tmp/sparrow-order-lib-0.1.91.tar.gz --markdown 20230519/s/sparrow-order-lib/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230519/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-05-19 10:16:04] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.0.8.tar.gz tmp/discotoolkit-1.0.9.tar.gz --markdown 20230519/d/discotoolkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:16:04] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/fb/38/189615b9cf9ffb9268525b9733f87d2910a865efa001e730e233e373aeb0/nonebot_plugin_bottle-1.0.0.9.tar.gz
+[2023-05-19 10:16:04] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/1e/b5/290c7a1394ac98ebf2c42a337ad19e353448d333d423a8868f71a070f504/nonebot_plugin_bottle-1.0.1.0.tar.gz
+[2023-05-19 10:16:05] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-05-19 10:16:05] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0.9.tar.gz tmp/nonebot_plugin_bottle-1.0.1.0.tar.gz --markdown 20230519/n/nonebot-plugin-bottle/1.0.0.9-1.0.1.0/diff.md --exclude *.pyd
+[2023-05-19 10:16:05] INFO root fetch - processPackages [alfred-cli]: Start processing: kappaschedules
+[2023-05-19 10:16:05] INFO root fetch - main [MainThread]: End processing [alfred-cli]: success
+[2023-05-19 10:16:05] INFO root fetch - processPackages [kappaschedules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 10:16:05] INFO root fetch - processPackages [shinherpro]: Start processing: lanceotron
+[2023-05-19 10:16:05] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-05-19 10:16:05] INFO root fetch - processPackages [lanceotron]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-19 10:16:05] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/80/d3/59917bee87db2d991ac28ee5406bce08f6bd5fb9607f27c6adf8e1104bb5/kappaschedules-0.0.8.tar.gz
+[2023-05-19 10:16:05] INFO root fetch - processPackages [sparta-memcached]: Start processing: nvfuser-cu121
+[2023-05-19 10:16:05] INFO root fetch - main [MainThread]: End processing [sparta-memcached]: success
+[2023-05-19 10:16:05] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-19 10:16:05] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/03/3a/a15b6195d91420654a528ac2ce2f26db918193d607d34fc758a251939971/lanceotron-1.2.5.tar.gz
+[2023-05-19 10:16:05] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-19 10:16:05] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-19 10:16:05] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/23/c2/e9e2653e206134d160cab76dea124544a616ea8484276c686372afdd7bb6/kappaschedules-0.0.9.tar.gz
+[2023-05-19 10:16:05] INFO root fetch - processPackages [AlgorithmADTs]: Start processing: lbt-dragonfly
+[2023-05-19 10:16:05] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-19 10:16:05] INFO root fetch - processPackages [kappaschedules]: executing diffoscope
+[2023-05-19 10:16:05] INFO root fetch - processPackages [kappaschedules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappaschedules-0.0.8.tar.gz tmp/kappaschedules-0.0.9.tar.gz --markdown 20230519/k/kappaschedules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/0c/82/48776f35fc6ff5c4d4e7d65d33b993784f4d904fb56085d48228ae7c603b/lanceotron-1.2.6.tar.gz
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lbt-honeybee]: Start processing: peewee-async
+[2023-05-19 10:16:06] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-19 10:16:06] INFO root fetch - processPackages [peewee-async]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-19 10:16:06] INFO root fetch - processPackages [discotoolkit]: Start processing: nvfuser-cu118
+[2023-05-19 10:16:06] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-05-19 10:16:06] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.5.tar.gz tmp/lanceotron-1.2.6.tar.gz --markdown 20230519/l/lanceotron/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-19 10:16:06] INFO root fetch - processPackages [nonebot-plugin-bottle]: Start processing: tutor-cairn
+[2023-05-19 10:16:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-05-19 10:16:06] INFO root fetch - processPackages [peewee-async]: Downloading https://files.pythonhosted.org/packages/3c/64/2553d828b3809f06520b5737533b18e995902dbb4c1836732943ae33e947/peewee-async-0.8.0.tar.gz
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-19 10:16:06] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230519/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-19 10:16:06] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-05-19 10:16:06] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-19 10:16:06] INFO root fetch - processPackages [tutor-cairn]: New version: [15.0.6] Old Version: [14.0.4]
+[2023-05-19 10:16:06] INFO root fetch - processPackages [sparrow-order-lib]: Start processing: tutor-cairn
+[2023-05-19 10:16:06] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-05-19 10:16:06] INFO root fetch - processPackages [tutor-cairn]: New version: [15.0.6] Old Version: [14.0.4]
+[2023-05-19 10:16:06] INFO root fetch - processPackages [peewee-async]: Downloading https://files.pythonhosted.org/packages/2d/02/3800f670717f1a5076dfd793d497d9249963f9388d0df320bc370e377da4/peewee-async-0.8.1.tar.gz
+[2023-05-19 10:16:06] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/b4/5a/f57561b9c86a851325a4846fc2030bac31de6461622336c4e8118a44c3f1/tutor-cairn-14.0.4.tar.gz
+[2023-05-19 10:16:06] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/b4/5a/f57561b9c86a851325a4846fc2030bac31de6461622336c4e8118a44c3f1/tutor-cairn-14.0.4.tar.gz
+[2023-05-19 10:16:06] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-05-19 10:16:06] INFO root fetch - processPackages [peewee-async]: executing diffoscope
+[2023-05-19 10:16:06] INFO root fetch - processPackages [peewee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-async-0.8.0.tar.gz tmp/peewee-async-0.8.1.tar.gz --markdown 20230519/p/peewee-async/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/8f/7d/eab59a4e5d2d55900ce0c8def086c6434b1674773b2f626b16f93f44deee/tutor-cairn-15.0.6.tar.gz
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: Downloading https://files.pythonhosted.org/packages/8f/7d/eab59a4e5d2d55900ce0c8def086c6434b1674773b2f626b16f93f44deee/tutor-cairn-15.0.6.tar.gz
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: executing diffoscope
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-cairn-14.0.4.tar.gz tmp/tutor-cairn-15.0.6.tar.gz --markdown 20230519/t/tutor-cairn/14.0.4-15.0.6/diff.md --exclude *.pyd
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: executing diffoscope
+[2023-05-19 10:16:07] INFO root fetch - processPackages [tutor-cairn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-cairn-14.0.4.tar.gz tmp/tutor-cairn-15.0.6.tar.gz --markdown 20230519/t/tutor-cairn/14.0.4-15.0.6/diff.md --exclude *.pyd
+[2023-05-19 10:16:07] INFO root fetch - main [MainThread]: End processing [kappaschedules]: success
+[2023-05-19 10:16:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-19 10:16:07] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [peewee-async]: success
+[2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [tutor-cairn]: success
+[2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [tutor-cairn]: success
+[2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-19 10:16:09] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-19 10:16:09] INFO root fetch - main [MainThread]: Store serial: [18167075]
