@@ -13142,3 +13142,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 11:45:23] INFO root fetch - main [MainThread]: End processing [agsi]: success
 [2023-05-19 11:45:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-19 11:45:25] INFO root fetch - main [MainThread]: Store serial: [18168090]
+[2023-05-19 11:50:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168090]
+[2023-05-19 11:50:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rns
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rnspure
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-rs
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-declaration-of-intent
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: what-to-eat
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gunicorn_worker_healthcheck
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-pickle
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CADPR
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb
+[2023-05-19 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-client
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rns]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rnspure]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-19 11:50:36] WARNING root fetch - processPackages [easy-pickle]: Skipping, unable to determine old version
+[2023-05-19 11:50:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: New version: [14.0.1.1.5.dev2] Old Version: [14.0.1.1.5.dev1]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [easy-pickle]: Start processing: nucliadb-dataset
+[2023-05-19 11:50:36] WARNING root fetch - processPackages [gunicorn_worker_healthcheck]: Skipping, unable to determine old version
+[2023-05-19 11:50:36] INFO root fetch - main [MainThread]: End processing [easy-pickle] error
+[2023-05-19 11:50:36] INFO root fetch - processPackages [gunicorn_worker_healthcheck]: Start processing: nucliadb-models
+[2023-05-19 11:50:36] INFO root fetch - processPackages [llm-rs]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 11:50:36] INFO root fetch - main [MainThread]: End processing [gunicorn_worker_healthcheck] error
+[2023-05-19 11:50:36] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [what-to-eat]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 11:50:36] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 11:50:36] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/f1/09/4794bfe9f05f92d8f73a30a0794cc17a2c016e3230fb853b49472ddec5b2/rns-0.5.2.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/1e/89/59a9c29def1f576090573c1ea6a77635e9cdbeeb9b9a6d20fa21909a607c/rnspure-0.5.2.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [what-to-eat]: Downloading https://files.pythonhosted.org/packages/56/f6/faa03b15e54a14f8db3c3936b5d409413da8ac7abd86c251418c67e55b41/what_to_eat-1.0.1.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/4e/8a/4ccdc2f8777626be0dc61ef87f9414f0b42057587a4b1c186ca9309eeeb5/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev1-py3-none-any.whl
+[2023-05-19 11:50:36] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/19/df/8b955bdb746c7670b592020b9236d136d97188d57638519678c6ba9d3b85/llm_rs-0.1.1.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rnspure]: Downloading https://files.pythonhosted.org/packages/9d/2e/e923e834f60c1d23ffc28a5ba4904c8bc360cd8e91702c92aee9dead254b/rnspure-0.5.3.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rns]: Downloading https://files.pythonhosted.org/packages/3d/c1/5d2bb4ea7aee1a0413b09ceae02422b418601ecdd96b23ca70bb1c77303f/rns-0.5.3.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/c2/17/0698df494db1e9164ff64ce2d68b614e4159142bbe253a74aa6772dbec2b/llm_rs-0.2.0.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [what-to-eat]: Downloading https://files.pythonhosted.org/packages/5e/c5/39aaa97fd5f17bfbdc69fd6fc562c66a534459f49e33d212eb4754d98563/what_to_eat-1.0.2.tar.gz
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rns]: executing diffoscope
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rns-0.5.2.tar.gz tmp/rns-0.5.3.tar.gz --markdown 20230519/r/rns/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-19 11:50:36] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-19 11:50:36] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.1.1.tar.gz tmp/llm_rs-0.2.0.tar.gz --markdown 20230519/l/llm-rs/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 11:50:36] INFO root fetch - processPackages [what-to-eat]: executing diffoscope
+[2023-05-19 11:50:36] INFO root fetch - processPackages [what-to-eat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/what_to_eat-1.0.1.tar.gz tmp/what_to_eat-1.0.2.tar.gz --markdown 20230519/w/what-to-eat/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rnspure]: executing diffoscope
+[2023-05-19 11:50:36] INFO root fetch - processPackages [rnspure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnspure-0.5.2.tar.gz tmp/rnspure-0.5.3.tar.gz --markdown 20230519/r/rnspure/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-19 11:50:37] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/6e/71/f756dcfe480b39946bf09809efc1b8d30db100621369c45fcdf7b5b01bf2/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev2-py3-none-any.whl
+[2023-05-19 11:50:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: executing diffoscope
+[2023-05-19 11:50:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev2-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-it-declaration-of-intent/14.0.1.1.5.dev1-14.0.1.1.5.dev2/diff.md --exclude *.pyd
+[2023-05-19 11:50:38] INFO root fetch - processPackages [CADPR]: Start processing: nucliadb-protos
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-models]: Start processing: inference-client
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-19 11:50:38] INFO root fetch - processPackages [llm-rs]: Start processing: butler-connect
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [butler-connect]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-19 11:50:38] INFO root fetch - processPackages [inference-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-declaration-of-intent]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-19 11:50:38] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.5.tar.gz tmp/butler-connect-0.5.6.tar.gz --markdown 20230519/b/butler-connect/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [what-to-eat]: success
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-19 11:50:38] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:38] INFO root fetch - main [MainThread]: End processing [rns]: success
+[2023-05-19 11:50:39] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/31/bc/af25e47d8e1153245c32a6dc54814a15c013a8966c6d7d9a3105e1a95486/inference_client-0.0.3.tar.gz
+[2023-05-19 11:50:39] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-19 11:50:39] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:39] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-19 11:50:39] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-19 11:50:39] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/00/97/af273d8606298a3a2bd564eff4a5a03561a48de0ffd725fc94a7bf923def/inference_client-0.0.4.tar.gz
+[2023-05-19 11:50:39] INFO root fetch - processPackages [inference-client]: executing diffoscope
+[2023-05-19 11:50:39] INFO root fetch - processPackages [inference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_client-0.0.3.tar.gz tmp/inference_client-0.0.4.tar.gz --markdown 20230519/i/inference-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [inference-client]: success
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-19 11:50:41] INFO root fetch - main [MainThread]: End processing [rnspure]: success
+[2023-05-19 11:50:41] INFO root fetch - main [MainThread]: Store serial: [18168185]
