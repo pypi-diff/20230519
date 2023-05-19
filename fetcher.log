@@ -1247,3 +1247,92 @@
 [2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2023-05-19 01:54:23] INFO root fetch - main [MainThread]: End processing [yambs]: success
 [2023-05-19 01:54:23] INFO root fetch - main [MainThread]: Store serial: [18161834]
+[2023-05-19 01:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161834]
+[2023-05-19 01:59:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: procuret
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dapr-dev
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dapr-ext-workflow-dev
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-dapr-dev
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapr-ext-grpc-dev
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dapr-ext-fastapi-dev
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: procuret
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: default-name
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: install-pybci
+[2023-05-19 01:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1551] Old Version: [1.9.0rc1.dev1526]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1551] Old Version: [0.0.1rc1.dev1526]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1551] Old Version: [1.9.0rc1.dev1526]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [install-pybci]: New version: [0.1.2b0] Old Version: [0.0.0]
+[2023-05-19 01:59:32] WARNING root fetch - processPackages [default-name]: Skipping, unable to determine old version
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [default-name]: Start processing: cerc-geometry
+[2023-05-19 01:59:32] INFO root fetch - main [MainThread]: End processing [default-name] error
+[2023-05-19 01:59:32] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1684454230] Old Version: [0.1.1684375083]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1551] Old Version: [1.9.0rc1.dev1526]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1551] Old Version: [1.9.0rc1.dev1526]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [cerc-geometry]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230519/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/a9/91/d97eb4718ff496b9409e76f871c2e6ff437a2b969186ca6c6cc15321b61a/dapr-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/50/6a/ec4f2504c02d8d689b57629fdd4f4cefff4acb84f8617a8fc34f8cfc63cb/dapr-ext-grpc-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/34/fd/ae3cd4cdf52a34839bc1e92fbcca2a3ab1e567645c0d59b68d166de37a57/dapr-ext-workflow-dev-0.0.1rc1.dev1526.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-05-19 01:59:32] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230519/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 01:59:32] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/39/69/a464797e514df2dbd4aaf824e1906bb6b0e045a2e4e589141c8e8f66291a/install-pybci-0.0.0.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/70/1d/2108dd7597ded806a6346cd56fb1afa47aaf1e1590a1d8192a50b923290d/dapr-ext-fastapi-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/60/55/1c0786325c01e3e6f2a5a41ea9bd7378883180e889ea3b7f52be12ae32ea/flask-dapr-dev-1.9.0rc1.dev1526.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/55/9c/378f97396078a3dcbcb196a48092498162b462326b8071b1c4f9f8a052b6/cerc-geometry-1.0.1.tar.gz
+[2023-05-19 01:59:32] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/64/3e/1090a8835dcdac361b4acb12c06e317cb38bdd34f26d6075127878e36397/eia-odin-pkg-rioatmadja2018-0.1.1684454230.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1684375083.tar.gz tmp/eia-odin-pkg-rioatmadja2018-0.1.1684454230.tar.gz --markdown 20230519/e/eia-odin-pkg-rioatmadja2018/0.1.1684375083-0.1.1684454230/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/26/78/3ff370c2d2bef1bee00988c969a37e8469687f2ba1a71c42d3f422239188/install_pybci-0.1.2b0-py3-none-any.whl
+[2023-05-19 01:59:33] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/2e/03/6ab4ddc5235670090b17c651e3394e9090a42f49fdafb42ad1063500c187/cerc-geometry-1.1.1.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/b7/db/3a1bc87ee61ca3a81ab6d5a6038b1476a829d0ac63d5a675593088ef6174/dapr-ext-workflow-dev-0.0.1rc1.dev1551.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/3c/ef/720a2299ac1da664dbb02cfd65aeb29573161b12bcbc32e727a9e3b23241/dapr-ext-grpc-dev-1.9.0rc1.dev1551.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/d6/bc/dc6e65d4a482b1f2449a183607aea5ef4779ce8a7f830080bbea793ea492/dapr-dev-1.9.0rc1.dev1551.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/fe/02/3407741942e893f965457cdc9ce5e00543901327a674e5201b99f682a5d0/dapr-ext-fastapi-dev-1.9.0rc1.dev1551.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [cerc-geometry]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [cerc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-geometry-1.0.1.tar.gz tmp/cerc-geometry-1.1.1.tar.gz --markdown 20230519/c/cerc-geometry/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-pybci-0.0.0.tar.gz tmp/install_pybci-0.1.2b0-py3-none-any.whl.zip --markdown 20230519/i/install-pybci/0.0.0-0.1.2b0/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1526.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1551.tar.gz --markdown 20230519/d/dapr-ext-workflow-dev/0.0.1rc1.dev1526-0.0.1rc1.dev1551/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1526.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1551.tar.gz --markdown 20230519/d/dapr-ext-grpc-dev/1.9.0rc1.dev1526-1.9.0rc1.dev1551/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1526.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1551.tar.gz --markdown 20230519/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1526-1.9.0rc1.dev1551/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1526.tar.gz tmp/dapr-dev-1.9.0rc1.dev1551.tar.gz --markdown 20230519/d/dapr-dev/1.9.0rc1.dev1526-1.9.0rc1.dev1551/diff.md --exclude *.pyd
+[2023-05-19 01:59:33] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/9b/ce/36f1fa33cc8d25d8801e3d5574295b0d552779dfda95c7ddfec7495a3564/flask-dapr-dev-1.9.0rc1.dev1551.tar.gz
+[2023-05-19 01:59:33] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-05-19 01:59:33] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1526.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1551.tar.gz --markdown 20230519/f/flask-dapr-dev/1.9.0rc1.dev1526-1.9.0rc1.dev1551/diff.md --exclude *.pyd
+[2023-05-19 01:59:34] INFO root fetch - processPackages [install-pybci]: Start processing: ccxt
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [ccxt]: New version: [3.1.1] Old Version: [3.0.99]
+[2023-05-19 01:59:34] INFO root fetch - processPackages [cerc-geometry]: Start processing: azure-ai-ml
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [procuret]: Start processing: alacorder
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [azure-ai-ml]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [alacorder]: New version: [80.6.5] Old Version: [80.6.4]
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/d8/66/5bc52f276121c6232b7c8ac4bdcc69ca8f83e57a5480ff98701587ef7967/ccxt-3.1.1.tar.gz
+[2023-05-19 01:59:34] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-05-19 01:59:34] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-19 01:59:34] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.99.tar.gz tmp/ccxt-3.1.1.tar.gz --markdown 20230519/c/ccxt/3.0.99-3.1.1/diff.md --exclude *.pyd
+[2023-05-19 01:59:35] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/61/61/c50f2244e09000c101f29a23a585c96e7342693dc9a28064bd70eab82aa3/azure-ai-ml-1.7.2.zip
+[2023-05-19 01:59:35] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-05-19 01:59:35] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/ec/39/a0227d58a89603dcf6cacc9597396dd9e8a90a38454c991da47da64de5d4/alacorder-80.6.5.tar.gz
+[2023-05-19 01:59:35] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-19 01:59:35] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.6.4.tar.gz tmp/alacorder-80.6.5.tar.gz --markdown 20230519/a/alacorder/80.6.4-80.6.5/diff.md --exclude *.pyd
+[2023-05-19 01:59:35] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-19 01:59:36] INFO root fetch - processPackages [azure-ai-ml]: executing diffoscope
+[2023-05-19 01:59:36] INFO root fetch - processPackages [azure-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-ml-1.7.1.zip tmp/azure-ai-ml-1.7.2.zip --markdown 20230519/a/azure-ai-ml/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-19 01:59:36] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-19 01:59:45] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-19 02:00:21] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
+[2023-05-19 02:00:21] INFO root fetch - main [MainThread]: Store serial: [18161878]
