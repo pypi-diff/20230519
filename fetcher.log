@@ -9330,3 +9330,35 @@
 [2023-05-19 07:31:59] INFO root fetch - main [MainThread]: End processing [linktools]: success
 [2023-05-19 07:32:20] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
 [2023-05-19 07:32:20] INFO root fetch - main [MainThread]: Store serial: [18165975]
+[2023-05-19 07:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165975]
+[2023-05-19 07:37:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stockhelper
+[2023-05-19 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dorado
+[2023-05-19 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sonicsynth
+[2023-05-19 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remindmail
+[2023-05-19 07:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remindmail
+[2023-05-19 07:37:29] WARNING root fetch - processPackages [sonicsynth]: Skipping, unable to determine old version
+[2023-05-19 07:37:29] INFO root fetch - main [MainThread]: End processing [sonicsynth] error
+[2023-05-19 07:37:29] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 07:37:29] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 07:37:29] INFO root fetch - processPackages [remindmail]: New version: [2023.5.8.1] Old Version: [2023.5.3.1]
+[2023-05-19 07:37:29] INFO root fetch - processPackages [remindmail]: New version: [2023.5.8.1] Old Version: [2023.5.3.1]
+[2023-05-19 07:37:29] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 07:37:29] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 07:37:29] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: Downloading https://files.pythonhosted.org/packages/82/11/bc66d1d065c45dcd93a09c41e68b597c4ce59d2564d2c00ac745e90ff2f3/nonebot_plugin_stockhelper-0.1.0.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/80/0b/f3cb1c655e6c8e786170effd8bcba794dc9a4d7ebde08934ae03680c7b42/remindmail-2023.5.3.1.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/80/0b/f3cb1c655e6c8e786170effd8bcba794dc9a4d7ebde08934ae03680c7b42/remindmail-2023.5.3.1.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: Downloading https://files.pythonhosted.org/packages/32/9b/262d041d9b75197aa87e880338c7b2bbf5269d424a9c26803ef8eb07926f/nonebot_plugin_stockhelper-0.1.1.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: executing diffoscope
+[2023-05-19 07:37:30] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stockhelper-0.1.0.tar.gz tmp/nonebot_plugin_stockhelper-0.1.1.tar.gz --markdown 20230519/n/nonebot-plugin-stockhelper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/5b/fa/26bc5ec762bd0cdcf1a4ae529d4c9cb9525af141f80f99be9bdd85c41bf3/remindmail-2023.5.8.1.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/5b/fa/26bc5ec762bd0cdcf1a4ae529d4c9cb9525af141f80f99be9bdd85c41bf3/remindmail-2023.5.8.1.tar.gz
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.5.3.1.tar.gz tmp/remindmail-2023.5.8.1.tar.gz --markdown 20230519/r/remindmail/2023.5.3.1-2023.5.8.1/diff.md --exclude *.pyd
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-19 07:37:30] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.5.3.1.tar.gz tmp/remindmail-2023.5.8.1.tar.gz --markdown 20230519/r/remindmail/2023.5.3.1-2023.5.8.1/diff.md --exclude *.pyd
+[2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stockhelper]: success
+[2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-19 07:37:31] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-19 07:37:31] INFO root fetch - main [MainThread]: Store serial: [18165997]
