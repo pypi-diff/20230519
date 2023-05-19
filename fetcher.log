@@ -14168,3 +14168,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:06:14] INFO root fetch - main [MainThread]: End processing [llpy-helper-lib]: success
 [2023-05-19 13:06:31] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
 [2023-05-19 13:06:31] INFO root fetch - main [MainThread]: Store serial: [18168716]
+[2023-05-19 13:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168716]
+[2023-05-19 13:11:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chat-downloader
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etdd
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: processout
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giant-plugins
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elements
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwebclient
+[2023-05-19 13:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panml
+[2023-05-19 13:11:40] WARNING root fetch - processPackages [panml]: Skipping, unable to determine old version
+[2023-05-19 13:11:40] INFO root fetch - main [MainThread]: End processing [panml] error
+[2023-05-19 13:11:40] INFO root fetch - processPackages [etdd]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 13:11:40] INFO root fetch - processPackages [elements]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-19 13:11:40] INFO root fetch - processPackages [chat-downloader]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-19 13:11:40] INFO root fetch - processPackages [processout]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-05-19 13:11:41] INFO root fetch - processPackages [nwebclient]: New version: [1.0.93] Old Version: [1.0.92]
+[2023-05-19 13:11:41] INFO root fetch - processPackages [giant-plugins]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 13:11:41] INFO root fetch - processPackages [elements]: executing diffoscope
+[2023-05-19 13:11:41] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-0.3.2.tar.gz tmp/elements-0.4.0.tar.gz --markdown 20230519/e/elements/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 13:11:41] INFO root fetch - processPackages [processout]: Downloading https://files.pythonhosted.org/packages/be/fe/6728a925bc3b2293cbe382aceeb88e48983a1285d9b5253971482d34e7a1/processout-6.8.0.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [etdd]: Downloading https://files.pythonhosted.org/packages/d3/15/a7d035b9e34c0db2ba49a01bd6f53f10bad7bd1d3af1eecfc5f4355b6606/etdd-0.0.1.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [chat-downloader]: Downloading https://files.pythonhosted.org/packages/91/60/a27e17c8503b994006a4d3ece28997c323979b24a7d991513d7b76d9f245/chat-downloader-0.2.5.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/3a/8e/43770bc27269327662b3e05068c9dd9139c0a6f85e7efbf184f25e646fcf/nwebclient-1.0.92.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/69/bf/8fd91a052305bfeda7a7ff6147373edc51ee1f0370368e2bdd4aa36c3b84/giant-plugins-1.0.8.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [etdd]: Downloading https://files.pythonhosted.org/packages/53/05/d15634572aa1d87324a1c4f03b9f4ddf0cddcd117aa4ea4234d30a1b4821/etdd-0.0.2.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/a2/b7/bea3bd2aa68374d39d89cd04277685b0e2de2ae6942ab09e919af246baf9/nwebclient-1.0.93.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [chat-downloader]: Downloading https://files.pythonhosted.org/packages/2f/42/7f1e2d83506a864e89a47299a5c89120064e349531fad937eec660a38ca1/chat-downloader-0.2.6.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [etdd]: executing diffoscope
+[2023-05-19 13:11:41] INFO root fetch - processPackages [etdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etdd-0.0.1.tar.gz tmp/etdd-0.0.2.tar.gz --markdown 20230519/e/etdd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 13:11:41] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-19 13:11:41] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.92.tar.gz tmp/nwebclient-1.0.93.tar.gz --markdown 20230519/n/nwebclient/1.0.92-1.0.93/diff.md --exclude *.pyd
+[2023-05-19 13:11:41] INFO root fetch - processPackages [processout]: Downloading https://files.pythonhosted.org/packages/c1/0d/b8dcfe0e184e85295e07643b78bea7d3ef704aa2c8b5e4e089968b172644/processout-6.9.0.tar.gz
+[2023-05-19 13:11:41] INFO root fetch - processPackages [chat-downloader]: executing diffoscope
+[2023-05-19 13:11:41] INFO root fetch - processPackages [chat-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-downloader-0.2.5.tar.gz tmp/chat-downloader-0.2.6.tar.gz --markdown 20230519/c/chat-downloader/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-19 13:11:41] INFO root fetch - processPackages [processout]: executing diffoscope
+[2023-05-19 13:11:41] INFO root fetch - processPackages [processout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processout-6.8.0.tar.gz tmp/processout-6.9.0.tar.gz --markdown 20230519/p/processout/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-05-19 13:11:41] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/c2/6c/275688b0e041dcb282b957248ea60c9c0568685cd2f4c16beb575b762cd6/giant-plugins-1.0.9.tar.gz
+[2023-05-19 13:11:42] INFO root fetch - processPackages [giant-plugins]: executing diffoscope
+[2023-05-19 13:11:42] INFO root fetch - processPackages [giant-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant-plugins-1.0.8.tar.gz tmp/giant-plugins-1.0.9.tar.gz --markdown 20230519/g/giant-plugins/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 13:11:42] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2023-05-19 13:11:42] INFO root fetch - main [MainThread]: End processing [etdd]: success
+[2023-05-19 13:11:42] INFO root fetch - main [MainThread]: End processing [processout]: success
+[2023-05-19 13:11:43] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-19 13:11:44] INFO root fetch - main [MainThread]: End processing [chat-downloader]: success
+[2023-05-19 13:11:45] INFO root fetch - main [MainThread]: End processing [giant-plugins]: success
+[2023-05-19 13:11:45] INFO root fetch - main [MainThread]: Store serial: [18168734]
