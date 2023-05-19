@@ -4991,3 +4991,66 @@
 [2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-05-19 03:35:57] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
 [2023-05-19 03:35:57] INFO root fetch - main [MainThread]: Store serial: [18163716]
+[2023-05-19 03:41:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163716]
+[2023-05-19 03:41:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkpoint-tool
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dcdn20180115
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylibmagic
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqrack
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: megamock
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-scipy
+[2023-05-19 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-wget
+[2023-05-19 03:41:09] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [megamock]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-19 03:41:09] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/55/e3/b28b4fc7b2a62f1ca85373b7f15899f552449f837cac9df885383a357b6d/checkpoint_tool-0.8.0.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7a/42/64e4511a8818c766f333e92ad0b4066ef22b726c05b2322ec71b8cb5ee75/alibabacloud_dcdn20180115_py2-1.1.6.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/0b/13/208bce10904b6268f75d948f273c37a15be8c7923b58fbbbddf68c2c24d4/megamock-0.1.0b3.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-19 03:41:09] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230519/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:41:09] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-19 03:41:09] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230519/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-19 03:41:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/20/db/cbf0028f7c1e523b58477b543303f7bb1f6daaca6a11144d0cdf076a260b/alibabacloud_dcdn20180115-1.1.6.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/08/04/f10a3ec64d63e18c8379bd339fbee7c8b614a34a53f0a063fa20c74e352b/alibabacloud_dcdn20180115_py2-1.1.7.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/74/7c/48073ba6269f76bb4c51b60bf1ce0ee485ea758a42b303305f0b176d3b0e/checkpoint_tool-0.9.0.tar.gz
+[2023-05-19 03:41:09] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-19 03:41:09] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230519/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/b2/44/0d030d504c93dc82601034cf2d8f5f93c3b68b445f87dd90d037c59f4b0e/alibabacloud_dcdn20180115-1.1.7.tar.gz
+[2023-05-19 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230519/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.6.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.7.tar.gz --markdown 20230519/a/alibabacloud-dcdn20180115-py2/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.8.0.tar.gz tmp/checkpoint_tool-0.9.0.tar.gz --markdown 20230519/c/checkpoint-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.6.tar.gz tmp/alibabacloud_dcdn20180115-1.1.7.tar.gz --markdown 20230519/a/alibabacloud-dcdn20180115/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/35/03/7cf871e22d8097e83a66d288365bbd1dfc39af58844d9646d7ce38c1b751/megamock-0.1.0b4.tar.gz
+[2023-05-19 03:41:10] INFO root fetch - processPackages [pylibmagic]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-19 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:41:10] INFO root fetch - processPackages [megamock]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [megamock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megamock-0.1.0b3.tar.gz tmp/megamock-0.1.0b4.tar.gz --markdown 20230519/m/megamock/0.1.0b3-0.1.0b4/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [pylibmagic]: Downloading https://files.pythonhosted.org/packages/be/d8/13cbf709f3f7b5eee39c604ebade78cf2e34ae5b4fdf568588c9b36851e2/pylibmagic-0.3.0.tar.gz
+[2023-05-19 03:41:10] INFO root fetch - processPackages [pylibmagic]: Downloading https://files.pythonhosted.org/packages/f0/14/8d2610fc9e83ad4ace171a77140c2a725ae9d25d6f66a760094e02dc5bd7/pylibmagic-0.4.0.tar.gz
+[2023-05-19 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230519/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:41:10] INFO root fetch - processPackages [pylibmagic]: executing diffoscope
+[2023-05-19 03:41:10] INFO root fetch - processPackages [pylibmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibmagic-0.3.0.tar.gz tmp/pylibmagic-0.4.0.tar.gz --markdown 20230519/p/pylibmagic/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 03:41:11] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-19 03:41:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-19 03:41:11] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-19 03:41:11] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-19 03:41:11] INFO root fetch - main [MainThread]: End processing [megamock]: success
+[2023-05-19 03:41:12] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-19 03:41:12] INFO root fetch - main [MainThread]: End processing [pylibmagic]: success
+[2023-05-19 03:41:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-05-19 03:41:12] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-19 03:41:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-05-19 03:41:13] INFO root fetch - main [MainThread]: Store serial: [18163800]
