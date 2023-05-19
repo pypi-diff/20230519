@@ -12470,3 +12470,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 11:10:26] INFO root fetch - main [MainThread]: End processing [py-datastruct]: success
 [2023-05-19 11:10:27] INFO root fetch - main [MainThread]: End processing [smunger]: success
 [2023-05-19 11:10:27] INFO root fetch - main [MainThread]: Store serial: [18167731]
+[2023-05-19 11:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167731]
+[2023-05-19 11:15:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: express-pascal-voc-tools
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasmoothie-tally-client
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmif-python
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contek-timbersaw
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caft
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emeraldtriangles
+[2023-05-19 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentelemetry-instrumentation-kser
+[2023-05-19 11:15:38] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [contek-timbersaw]: New version: [2.5] Old Version: [2.4]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [caft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: New version: [0.38b1] Old Version: [0.1.8]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [emeraldtriangles]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [datasmoothie-tally-client]: New version: [0.9] Old Version: [0.8]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [mmif-python]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-19 11:15:38] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230519/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [contek-timbersaw]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [contek-timbersaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contek-timbersaw-2.4.tar.gz tmp/contek-timbersaw-2.5.tar.gz --markdown 20230519/c/contek-timbersaw/2.4-2.5/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [caft]: Downloading https://files.pythonhosted.org/packages/e4/03/b53ce166d8670b6d280dd3065617c2664b55f24de7d55543be20f8f6a0cb/caft-0.1.0.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/c2/9b/6514bd6a34e81e8043e80ded08489b55857a48379c65717ad6801457ff03/express-pascal-voc-tools-0.7.2.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/22/af/ac5232d55d6ea2c8a52820e1dd996bf7463c46aee153607c1712d4c0077f/mmif-python-0.5.1.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Downloading https://files.pythonhosted.org/packages/eb/ea/29c55114886a86bdbb5e9d76ad839223324777fbe2c76de86cf7488a1468/opentelemetry-instrumentation-kser-0.1.8.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [emeraldtriangles]: Downloading https://files.pythonhosted.org/packages/a7/40/a23f2ee5ab4d4d90325f6aa35e65e7623342bb7ce1ad2ecac56202765a60/emeraldtriangles-0.0.8.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/d7/68/356105358bdff146d508e5d4c1de9d38ace265bcd0df216d183416365909/datasmoothie-tally-client-0.8.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/d7/c7/33818aa9d7c20e029451268e74aec32258a61e98db891a0ed550377e721c/express-pascal-voc-tools-0.7.3.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/6b/ea/d24278bb764c76e1e19370657eb8db96682d82bc972940c42a3d88e4cb28/mmif-python-0.5.2.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Downloading https://files.pythonhosted.org/packages/e4/cd/ae71bfcf7dd69020ddf13f3f6006a49bd207ad09f99cf28c858ea54ad574/opentelemetry-instrumentation-kser-0.38b1.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [caft]: Downloading https://files.pythonhosted.org/packages/9e/ac/4ef054a4b567477e1c3305abe9d3d3d24cd6fa74efaf84c9017ffa2894c6/caft-0.1.1.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [mmif-python]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [mmif-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmif-python-0.5.1.tar.gz tmp/mmif-python-0.5.2.tar.gz --markdown 20230519/m/mmif-python/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [emeraldtriangles]: Downloading https://files.pythonhosted.org/packages/96/78/0bcf73b7853b3e7ff986395a1b1a8708d83ae769f1c24ae958eb12d27bca/emeraldtriangles-0.0.9.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/23/7f/f7ea96b8935288b32cccb162f69cb0fc463b4de937b3332214fa3eedc892/datasmoothie-tally-client-0.9.tar.gz
+[2023-05-19 11:15:38] INFO root fetch - processPackages [caft]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [caft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caft-0.1.0.tar.gz tmp/caft-0.1.1.tar.gz --markdown 20230519/c/caft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.7.2.tar.gz tmp/express-pascal-voc-tools-0.7.3.tar.gz --markdown 20230519/e/express-pascal-voc-tools/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-instrumentation-kser-0.1.8.tar.gz tmp/opentelemetry-instrumentation-kser-0.38b1.tar.gz --markdown 20230519/o/opentelemetry-instrumentation-kser/0.1.8-0.38b1/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [emeraldtriangles]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [emeraldtriangles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emeraldtriangles-0.0.8.tar.gz tmp/emeraldtriangles-0.0.9.tar.gz --markdown 20230519/e/emeraldtriangles/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:15:38] INFO root fetch - processPackages [datasmoothie-tally-client]: executing diffoscope
+[2023-05-19 11:15:38] INFO root fetch - processPackages [datasmoothie-tally-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasmoothie-tally-client-0.8.tar.gz tmp/datasmoothie-tally-client-0.9.tar.gz --markdown 20230519/d/datasmoothie-tally-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-19 11:15:39] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-19 11:15:39] INFO root fetch - main [MainThread]: End processing [contek-timbersaw]: success
+[2023-05-19 11:15:39] INFO root fetch - main [MainThread]: End processing [mmif-python]: success
+[2023-05-19 11:15:39] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [caft]: success
+[2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [datasmoothie-tally-client]: success
+[2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-kser]: success
+[2023-05-19 11:15:40] INFO root fetch - main [MainThread]: End processing [emeraldtriangles]: success
+[2023-05-19 11:15:40] INFO root fetch - main [MainThread]: Store serial: [18167762]
