@@ -14119,3 +14119,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:01:00] INFO root fetch - main [MainThread]: End processing [mkdocs-darkcinder]: success
 [2023-05-19 13:01:00] INFO root fetch - main [MainThread]: End processing [metaindex]: success
 [2023-05-19 13:01:00] INFO root fetch - main [MainThread]: Store serial: [18168693]
+[2023-05-19 13:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168693]
+[2023-05-19 13:06:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-l10n-it-fatturapa-out-rc
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myUniquePythonPackageName
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-skill-weather
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: butler-connect
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jdclip
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llpy-helper-lib
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isoCycle
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: r2diaphora
+[2023-05-19 13:06:11] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out-rc]: New version: [12.0.1.1.2] Old Version: [12.0.1.1.1.99.dev1]
+[2023-05-19 13:06:11] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [9.0.333] Old Version: [9.0.222]
+[2023-05-19 13:06:11] INFO root fetch - processPackages [isoCycle]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-19 13:06:11] WARNING root fetch - processPackages [jdclip]: Skipping, unable to determine old version
+[2023-05-19 13:06:11] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-19 13:06:11] INFO root fetch - main [MainThread]: End processing [jdclip] error
+[2023-05-19 13:06:11] INFO root fetch - processPackages [llpy-helper-lib]: New version: [2.13.1] Old Version: [0.2.1]
+[2023-05-19 13:06:11] INFO root fetch - processPackages [butler-connect]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ovos-skill-weather]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-05-19 13:06:11] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/e0/92/7f0738c21f66fa2f66ccc2e72a588adfe5ffd80ded890c69e2075201f9b5/isoCycle-0.0.20.tar.gz
+[2023-05-19 13:06:11] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-05-19 13:06:11] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.5.tar.gz tmp/r2diaphora-0.2.6.tar.gz --markdown 20230519/r/r2diaphora/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-19 13:06:11] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17970927>=10485760
+[2023-05-19 13:06:11] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 13:06:11] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out-rc]: Downloading https://files.pythonhosted.org/packages/9b/8b/3bae0fa6d4e7b3d54b66f27b033cbd79727717e00d347b59797be4fc8e2d/odoo12_addon_l10n_it_fatturapa_out_rc-12.0.1.1.1.99.dev1-py3-none-any.whl
+[2023-05-19 13:06:11] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/50/40/83a6a4ab2caeeb5086dce3a45d009969981988286ff719a628851b0440e6/butler-connect-0.5.7.tar.gz
+[2023-05-19 13:06:11] INFO root fetch - processPackages [ovos-skill-weather]: Downloading https://files.pythonhosted.org/packages/78/d8/74da8de39539705e9a5135e9ab8fe9327730545b00cc8d9775cc5503fe2a/ovos_skill_weather-0.0.1a6-py3-none-any.whl
+[2023-05-19 13:06:11] INFO root fetch - processPackages [llpy-helper-lib]: Downloading https://files.pythonhosted.org/packages/12/fa/80dec91820f35787b2cc716d61b04701480d850b98e8d145badaa3ee441d/llpy-helper-lib-0.2.1.tar.gz
+[2023-05-19 13:06:11] INFO root fetch - processPackages [myUniquePythonPackageName]: Downloading https://files.pythonhosted.org/packages/ce/ce/8b9d12db6f9b6de19a18a54cb52734a2ebef3a7855aaca93ddbca2e0ed0d/myUniquePythonPackageName-9.0.333.tar.gz
+[2023-05-19 13:06:12] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/5b/62/1c98d3bf84e64b8ab18013db318568b764bc2f8e564111b0fa77efc886d7/butler-connect-0.5.8.tar.gz
+[2023-05-19 13:06:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out-rc]: Downloading https://files.pythonhosted.org/packages/38/b2/9743c4c28b7244ca3ee7179bdb80f9e2af63e131b6f9c076ec0e000f759e/odoo12_addon_l10n_it_fatturapa_out_rc-12.0.1.1.2-py3-none-any.whl
+[2023-05-19 13:06:12] INFO root fetch - processPackages [ovos-skill-weather]: executing diffoscope
+[2023-05-19 13:06:12] INFO root fetch - processPackages [ovos-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_weather-0.0.1a5-py3-none-any.whl.zip tmp/ovos_skill_weather-0.0.1a6-py3-none-any.whl.zip --markdown 20230519/o/ovos-skill-weather/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-05-19 13:06:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out-rc]: executing diffoscope
+[2023-05-19 13:06:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-out-rc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_out_rc-12.0.1.1.1.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_out_rc-12.0.1.1.2-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-l10n-it-fatturapa-out-rc/12.0.1.1.1.99.dev1-12.0.1.1.2/diff.md --exclude *.pyd
+[2023-05-19 13:06:12] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-19 13:06:12] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-9.0.222.tar.gz tmp/myUniquePythonPackageName-9.0.333.tar.gz --markdown 20230519/m/myUniquePythonPackageName/9.0.222-9.0.333/diff.md --exclude *.pyd
+[2023-05-19 13:06:12] INFO root fetch - processPackages [llpy-helper-lib]: Downloading https://files.pythonhosted.org/packages/79/d0/d4a6039f8c66a30ceaef36697f80ec3b2826f75cf135e208face61c2f1d2/llpy-helper-lib-2.13.1.tar.gz
+[2023-05-19 13:06:12] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-19 13:06:12] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.7.tar.gz tmp/butler-connect-0.5.8.tar.gz --markdown 20230519/b/butler-connect/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-19 13:06:12] INFO root fetch - processPackages [llpy-helper-lib]: executing diffoscope
+[2023-05-19 13:06:12] INFO root fetch - processPackages [llpy-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llpy-helper-lib-0.2.1.tar.gz tmp/llpy-helper-lib-2.13.1.tar.gz --markdown 20230519/l/llpy-helper-lib/0.2.1-2.13.1/diff.md --exclude *.pyd
+[2023-05-19 13:06:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-out-rc]: success
+[2023-05-19 13:06:13] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-19 13:06:13] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-05-19 13:06:13] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-19 13:06:14] INFO root fetch - main [MainThread]: End processing [llpy-helper-lib]: success
+[2023-05-19 13:06:31] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
+[2023-05-19 13:06:31] INFO root fetch - main [MainThread]: Store serial: [18168716]
