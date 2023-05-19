@@ -19485,3 +19485,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:24:42] INFO root fetch - main [MainThread]: End processing [relative-addons-system]: success
 [2023-05-19 18:24:44] INFO root fetch - main [MainThread]: End processing [peegy]: success
 [2023-05-19 18:24:44] INFO root fetch - main [MainThread]: Store serial: [18172358]
+[2023-05-19 18:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172358]
+[2023-05-19 18:29:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webgui-jupyter-widgets
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pulumiservice
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llp-learn
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feathub-nightly
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyranges
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assisted-service-client
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llp-learn
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrotools.nwis-client
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaqd-dwyer
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylint-actions
+[2023-05-19 18:29:53] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.7.1a1684512508] Old Version: [0.7.0]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [pylint-actions]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [yaqd-dwyer]: New version: [2023.5.0] Old Version: [2023.1.0]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [llp-learn]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [llp-learn]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [hydrotools.nwis-client]: New version: [3.3.1] Old Version: [3.2.1]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230518] Old Version: [0.1.dev20230517]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-19 18:29:53] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d9/bc/d839f51aedf088da512b9e45c14139920de4bceb89d5ee1d8c167e207e8e/feathub_nightly-0.1.dev20230517-py3-none-any.whl
+[2023-05-19 18:29:53] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12174670>=10485760
+[2023-05-19 18:29:53] INFO root fetch - processPackages [feathub-nightly]: Start processing: odoo14-addon-purchase-order-type-dashboard
+[2023-05-19 18:29:53] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-19 18:29:53] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-05-19 18:29:53] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230519/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 18:29:53] WARNING root fetch - processPackages [odoo14-addon-purchase-order-type-dashboard]: Skipping, unable to determine old version
+[2023-05-19 18:29:53] INFO root fetch - processPackages [odoo14-addon-purchase-order-type-dashboard]: Start processing: ucampurestorage
+[2023-05-19 18:29:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-type-dashboard] error
+[2023-05-19 18:29:53] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-05-19 18:29:53] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230519/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 18:29:53] INFO root fetch - processPackages [ucampurestorage]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/18/b3/283cab669c1382ed3f0f1c10ec6bf066c85021415396cdd932d4111d06ae/llp_learn-1.0.3.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/18/b3/283cab669c1382ed3f0f1c10ec6bf066c85021415396cdd932d4111d06ae/llp_learn-1.0.3.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [yaqd-dwyer]: Downloading https://files.pythonhosted.org/packages/93/01/308dbce411937d46d669768e2d4a2b7080e9d4c045508f8cd62a87e2ac1f/yaqd-dwyer-2023.1.0.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pylint-actions]: Downloading https://files.pythonhosted.org/packages/e3/25/8d89b878408da159d9191d78c50a404877b40cffaaa17485f0a332e5e4cc/pylint_actions-0.3.1.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/51/8e/43f37e2a94e920ea565f66474a9672d4272a488bef67998b1db60796825e/pulumi_pulumiservice-0.7.0.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [hydrotools.nwis-client]: Downloading https://files.pythonhosted.org/packages/97/cc/0a51a20ed2fd16694bddfcb38e06512b9b1a07f1dda5b406a21fbb7d21dc/hydrotools.nwis_client-3.2.1.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [yaqd-dwyer]: Downloading https://files.pythonhosted.org/packages/0f/6d/f5f92fbdab3c21644a9aa971fe310d7b5c18843ee6e256e63deef427f517/yaqd_dwyer-2023.5.0.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/1f/83/b44b32c6722a96ee578cf90690cf644e04a8f60aae3349cf46ec40dc6ba2/ucampurestorage-1.0.4.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pylint-actions]: Downloading https://files.pythonhosted.org/packages/0f/4c/d1d529c3e7ce80c7f6f7f5bb479f23f30e114b0cf25da5466d18dc22e21a/pylint_actions-0.4.0.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/1d/f1/e65b64b0aa1c8a6496950f3bc0111703aba11b72570fb4e1acb6b3a747d3/pulumi_pulumiservice-0.7.1a1684512508.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/02/dc/df4c65c56ad437550f47208cd9f1fafaed6503efa46271c0c2dc77beb5dd/llp_learn-1.0.4.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/02/dc/df4c65c56ad437550f47208cd9f1fafaed6503efa46271c0c2dc77beb5dd/llp_learn-1.0.4.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [yaqd-dwyer]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [yaqd-dwyer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaqd-dwyer-2023.1.0.tar.gz tmp/yaqd_dwyer-2023.5.0.tar.gz --markdown 20230519/y/yaqd-dwyer/2023.1.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pylint-actions]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pylint-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_actions-0.3.1.tar.gz tmp/pylint_actions-0.4.0.tar.gz --markdown 20230519/p/pylint-actions/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [hydrotools.nwis-client]: Downloading https://files.pythonhosted.org/packages/ff/49/6c61aadcfd256f234fe9cf418ab5a421f26c8f6d82ddddb865acd8cfe560/hydrotools.nwis_client-3.3.1.tar.gz
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llp_learn-1.0.3.tar.gz tmp/llp_learn-1.0.4.tar.gz --markdown 20230519/l/llp-learn/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [llp-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llp_learn-1.0.3.tar.gz tmp/llp_learn-1.0.4.tar.gz --markdown 20230519/l/llp-learn/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230519/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [hydrotools.nwis-client]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [hydrotools.nwis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrotools.nwis_client-3.2.1.tar.gz tmp/hydrotools.nwis_client-3.3.1.tar.gz --markdown 20230519/h/hydrotools.nwis-client/3.2.1-3.3.1/diff.md --exclude *.pyd
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-05-19 18:29:54] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.7.0.tar.gz tmp/pulumi_pulumiservice-0.7.1a1684512508.tar.gz --markdown 20230519/p/pulumi-pulumiservice/0.7.0-0.7.1a1684512508/diff.md --exclude *.pyd
+[2023-05-19 18:29:55] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-19 18:29:55] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.3.tar.gz tmp/ucampurestorage-1.0.4.tar.gz --markdown 20230519/u/ucampurestorage/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 18:29:55] INFO root fetch - processPackages [pylint-actions]: Start processing: ansys-meshing-prime
+[2023-05-19 18:29:55] INFO root fetch - main [MainThread]: End processing [pylint-actions]: success
+[2023-05-19 18:29:55] INFO root fetch - processPackages [ansys-meshing-prime]: New version: [0.4.0.dev8] Old Version: [0.4.0.dev6]
+[2023-05-19 18:29:55] INFO root fetch - processPackages [hydrotools.nwis-client]: Start processing: netbox-cisco-maintenance
+[2023-05-19 18:29:55] INFO root fetch - main [MainThread]: End processing [hydrotools.nwis-client]: success
+[2023-05-19 18:29:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 18:29:55] INFO root fetch - processPackages [llp-learn]: Start processing: ser-Galuts
+[2023-05-19 18:29:55] INFO root fetch - main [MainThread]: End processing [llp-learn]: success
+[2023-05-19 18:29:55] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/27/68/a4ad92c1b0dfa3b8efd37cb613644159e67322c876a82af07b9c3041f787/ansys_meshing_prime-0.4.0.dev8.tar.gz
+[2023-05-19 18:29:55] WARNING root fetch - processPackages [ser-Galuts]: Skipping, unable to determine old version
+[2023-05-19 18:29:55] INFO root fetch - processPackages [ser-Galuts]: Start processing: pencode
+[2023-05-19 18:29:55] INFO root fetch - main [MainThread]: End processing [ser-Galuts] error
+[2023-05-19 18:29:55] INFO root fetch - processPackages [yaqd-dwyer]: Start processing: honeybee-doe2
+[2023-05-19 18:29:55] INFO root fetch - main [MainThread]: End processing [yaqd-dwyer]: success
+[2023-05-19 18:29:55] INFO root fetch - processPackages [pencode]: New version: [0.1.0.2] Old Version: [0.1.0.1]
+[2023-05-19 18:29:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 18:29:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 18:29:55] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-19 18:29:56] INFO root fetch - processPackages [llp-learn]: Start processing: iris-pex-embedded-python
+[2023-05-19 18:29:56] INFO root fetch - main [MainThread]: End processing [llp-learn]: success
+[2023-05-19 18:29:56] INFO root fetch - processPackages [ansys-meshing-prime]: executing diffoscope
+[2023-05-19 18:29:56] INFO root fetch - processPackages [ansys-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-meshing-prime-0.4.0.dev6.tar.gz tmp/ansys_meshing_prime-0.4.0.dev8.tar.gz --markdown 20230519/a/ansys-meshing-prime/0.4.0.dev6-0.4.0.dev8/diff.md --exclude *.pyd
+[2023-05-19 18:29:56] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pencode]: Downloading https://files.pythonhosted.org/packages/09/49/ce784eae3ae1012924666008b3b72407201cf1ca7b2edb3470dc4619772d/pencode-0.1.0.1.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/1f/43/38f3b14d7a54ee61afa943b9caae8bed7617a63695adf78f2c32e5918924/honeybee-doe2-0.3.0.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pyranges]: Start processing: configzen
+[2023-05-19 18:29:56] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-05-19 18:29:56] INFO root fetch - processPackages [configzen]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-05-19 18:29:56] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-19 18:29:56] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.2.1.tar.gz tmp/honeybee-doe2-0.3.0.tar.gz --markdown 20230519/h/honeybee-doe2/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pencode]: Downloading https://files.pythonhosted.org/packages/08/3e/76191be22e403354ec3e4531d202a466a1b9c0f15cbb3bc9c9367dac16d4/pencode-0.1.0.2.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/17/f9/bf726d13ed0731412c34bdb535f8b354ce49b6deda66df450564fbceb9b5/iris_pex_embedded_python-2.1.2.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pulumi-pulumiservice]: Start processing: bitfount
+[2023-05-19 18:29:56] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pencode]: executing diffoscope
+[2023-05-19 18:29:56] INFO root fetch - processPackages [pencode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pencode-0.1.0.1.tar.gz tmp/pencode-0.1.0.2.tar.gz --markdown 20230519/p/pencode/0.1.0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-05-19 18:29:56] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/ed/e9/5a5771575e8c306c44b70cbcc870e22f9f2957002c4dc38fdc441409a68b/configzen-0.1.16.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/4a/fd/ca7bef3deff4dacea92a072eed05ec639767a546a18e1a804205b29764ac/iris_pex_embedded_python-2.2.0.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.73]
+[2023-05-19 18:29:56] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-05-19 18:29:56] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.1.2.tar.gz tmp/iris_pex_embedded_python-2.2.0.tar.gz --markdown 20230519/i/iris-pex-embedded-python/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-19 18:29:56] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/b9/e5/e4319d1054d260d4cf2193c7e80485e943d7018e610bb40e812abc6c892b/configzen-0.1.17.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/6b/c2/5a6106548ddacd4ab4b29a9c27d3365de83f8ac6f946d4180ad296fb17d1/bitfount-0.5.73.tar.gz
+[2023-05-19 18:29:56] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-19 18:29:56] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.16.tar.gz tmp/configzen-0.1.17.tar.gz --markdown 20230519/c/configzen/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-05-19 18:29:57] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-05-19 18:29:57] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.73.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230519/b/bitfount/0.5.73-0.5.9/diff.md --exclude *.pyd
+[2023-05-19 18:29:57] INFO root fetch - main [MainThread]: End processing [pencode]: success
+[2023-05-19 18:29:57] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-19 18:29:57] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 18:29:57] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-05-19 18:29:58] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-19 18:29:58] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-19 18:30:00] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-19 18:30:01] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
+[2023-05-19 18:30:01] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-05-19 18:30:57] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-05-19 18:30:57] INFO root fetch - main [MainThread]: Store serial: [18172426]
