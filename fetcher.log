@@ -22556,3 +22556,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:50:38] INFO root fetch - main [MainThread]: End processing [sampleproject-prashant]: success
 [2023-05-19 20:50:39] INFO root fetch - main [MainThread]: End processing [redcat]: success
 [2023-05-19 20:50:39] INFO root fetch - main [MainThread]: Store serial: [18174245]
+[2023-05-19 20:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18174245]
+[2023-05-19 20:55:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noiftimer
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgmt
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: portforward
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wsi-annotations-kit
+[2023-05-19 20:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: malariagen-data
+[2023-05-19 20:55:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:55:49] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-19 20:55:49] INFO root fetch - processPackages [noiftimer]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-19 20:55:49] INFO root fetch - processPackages [wsi-annotations-kit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 20:55:49] INFO root fetch - processPackages [pkgmt]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-19 20:55:50] INFO root fetch - processPackages [malariagen-data]: New version: [7.8.0] Old Version: [7.7.0]
+[2023-05-19 20:55:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [portforward]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-19 20:55:50] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/81/4e/4639e4685ae86c07f5481f63176fbde3eafb60ea7abe5b403ee016e6098a/PatryksAutoAI-1.5.1.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [noiftimer]: Downloading https://files.pythonhosted.org/packages/57/d2/66690d8cf0bb3a9e204e49c237445c7197e715c450cb6b837807f9dee91b/noiftimer-2.1.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [wsi-annotations-kit]: Downloading https://files.pythonhosted.org/packages/67/64/ff5c72d76563d32b28b883e91c98f69e0776c5395466b720af9098cc4b59/wsi-annotations-kit-1.0.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/7a/6d/35fcc025fc47deeaf921a10c80ac2ae35db28068ef0abe5541b1cf36eeeb/pkgmt-0.5.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [portforward]: Downloading https://files.pythonhosted.org/packages/07/4a/4e3c0ffddf42981cb484f32e5ed5398d2269ce905c40b2325cc53fa0135c/portforward-0.4.5.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.5.0.tar.gz tmp/PatryksAutoAI-1.5.1.tar.gz --markdown 20230519/P/PatryksAutoAI/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/9e/29/72945bdf0a3a5a8dfc38d850dbc5fae804a684861a80c6c30679bd7256c8/malariagen_data-7.8.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [noiftimer]: Downloading https://files.pythonhosted.org/packages/f7/be/1876ab5d374fc5321e54bb35ce5720d8b80679595b51d86f8d04d286bb03/noiftimer-2.2.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/ba/c7/2e64d33d871c2d9886bd326f6e2b042bb72f94b13ac6b7cb915a51f6527a/pkgmt-0.5.1.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [wsi-annotations-kit]: Downloading https://files.pythonhosted.org/packages/b9/73/16eeac05f643681ccb754fe0cfd3ab4a4d3b6ba76296235399edd4d1782f/wsi-annotations-kit-1.0.1.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [portforward]: Downloading https://files.pythonhosted.org/packages/9d/cf/48d1b0927588d82cf6dc8e3569cce5b6e3218b766d3be00a79c24ed32fe5/portforward-0.5.0.tar.gz
+[2023-05-19 20:55:50] INFO root fetch - processPackages [malariagen-data]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [malariagen-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-7.7.0.tar.gz tmp/malariagen_data-7.8.0.tar.gz --markdown 20230519/m/malariagen-data/7.7.0-7.8.0/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [noiftimer]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [noiftimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiftimer-2.1.0.tar.gz tmp/noiftimer-2.2.0.tar.gz --markdown 20230519/n/noiftimer/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.5.0.tar.gz tmp/pkgmt-0.5.1.tar.gz --markdown 20230519/p/pkgmt/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [wsi-annotations-kit]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [wsi-annotations-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsi-annotations-kit-1.0.0.tar.gz tmp/wsi-annotations-kit-1.0.1.tar.gz --markdown 20230519/w/wsi-annotations-kit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 20:55:50] INFO root fetch - processPackages [portforward]: executing diffoscope
+[2023-05-19 20:55:50] INFO root fetch - processPackages [portforward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portforward-0.4.5.tar.gz tmp/portforward-0.5.0.tar.gz --markdown 20230519/p/portforward/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-19 20:55:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 20:55:51] INFO root fetch - main [MainThread]: End processing [wsi-annotations-kit]: success
+[2023-05-19 20:55:51] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-05-19 20:55:52] INFO root fetch - main [MainThread]: End processing [malariagen-data]: success
+[2023-05-19 20:55:52] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 20:55:52] INFO root fetch - main [MainThread]: End processing [noiftimer]: success
+[2023-05-19 20:55:54] INFO root fetch - main [MainThread]: End processing [portforward]: success
+[2023-05-19 20:55:54] INFO root fetch - main [MainThread]: Store serial: [18174278]
