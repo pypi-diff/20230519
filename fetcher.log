@@ -9116,3 +9116,89 @@
 [2023-05-19 07:09:08] INFO root fetch - main [MainThread]: End processing [nonebot-bison]: success
 [2023-05-19 07:11:04] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-19 07:11:04] INFO root fetch - main [MainThread]: Store serial: [18165852]
+[2023-05-19 07:16:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165852]
+[2023-05-19 07:16:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tangerine-auth
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gurobi-optimods
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnpy-tdx
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-support-nightly
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codepeers
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fmcapi
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-knowledge
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-document-page-approval
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-document-page-approval
+[2023-05-19 07:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-document-page-approval
+[2023-05-19 07:16:15] WARNING root fetch - processPackages [vnpy-tdx]: Skipping, unable to determine old version
+[2023-05-19 07:16:15] INFO root fetch - processPackages [vnpy-tdx]: Start processing: odoo-addon-document-page-approval
+[2023-05-19 07:16:15] INFO root fetch - main [MainThread]: End processing [vnpy-tdx] error
+[2023-05-19 07:16:15] INFO root fetch - processPackages [codepeers]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 07:16:15] WARNING root fetch - processPackages [gurobi-optimods]: Skipping, unable to determine old version
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo10-addon-knowledge]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [gurobi-optimods]: Start processing: odoo-addon-document-page-approval
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: New version: [13.0.1.3.2.dev2] Old Version: [13.0.1.3.2.dev1]
+[2023-05-19 07:16:15] INFO root fetch - main [MainThread]: End processing [gurobi-optimods] error
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: New version: [12.0.1.0.5.99.dev2] Old Version: [12.0.1.0.5.99.dev1]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: New version: [14.0.1.0.3.dev1] Old Version: [14.0.1.0.2]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.6] Old Version: [16.0.1.1.0.5]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.6] Old Version: [16.0.1.1.0.5]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [fmcapi]: New version: [20230519.0] Old Version: [20230421.0]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230518] Old Version: [0.4.4.dev20230517]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/25/16/b331327ebd5c1ba310cda502fe2f909b8abc9425b859c296d11d1d29b425/odoo_addon_document_page_approval-16.0.1.1.0.5-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/31/c2/edd5edc554fee1ff489ad361132ab5b9882c7b666b51f01237013928c765/tangerine_auth-0.0.6-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/76/a6/9266cbf8f968b0da678785882b7d7a4b46d80e960a41625e2b9c85e08141/codepeers-0.1.3-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/25/16/b331327ebd5c1ba310cda502fe2f909b8abc9425b859c296d11d1d29b425/odoo_addon_document_page_approval-16.0.1.1.0.5-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/b0/8d/ecb77a9b004cc4ce1de28ab1279ca48a6b7f129ce930283b2f9897de179c/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev1-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo10-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/f9/00/4fdbd4dba12280ba3c7ff115fa38765d352fa7a922a6aab33cbbdac5db4d/odoo10_addon_knowledge-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/67/d9/1b542211c9ad7ad8b8a65aab3b0db9e97a5adefcbea04531fb084f38a853/odoo14_addon_document_page_approval-14.0.1.0.2-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/4f/1b/e6ed5d07c6245a180c51077f79265e274d5ea18405f25678aa0025c72aba/fmcapi-20230421.0.tar.gz
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/61/98/3565c69afdba5d0dce73c91146356278928659d47d4da0755d915d4a26a7/odoo13_addon_document_page_approval-13.0.1.3.2.dev1-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/d2/a4/8c925fdc7fd84e014a9912b8efbf5342eec9bf5eeecebce18e622acc9ff3/tflite_support_nightly-0.4.4.dev20230517-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/9b/3a/1d0030f9c5947e740463bf1a3f6e5b231323b0ba5b5a21d50fdd7ba53d53/tangerine_auth-0.0.7-py3-none-any.whl
+[2023-05-19 07:16:15] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60850718>=10485760
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: TokFlow
+[2023-05-19 07:16:15] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/14/4d/3de37eeabfa777c575d1f1e12225be97cd5b4b45a6613191b47da922a53d/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/14/4d/3de37eeabfa777c575d1f1e12225be97cd5b4b45a6613191b47da922a53d/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl
+[2023-05-19 07:16:15] WARNING root fetch - processPackages [TokFlow]: Skipping, unable to determine old version
+[2023-05-19 07:16:15] INFO root fetch - processPackages [TokFlow]: Start processing: Signal8
+[2023-05-19 07:16:15] INFO root fetch - main [MainThread]: End processing [TokFlow] error
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/98/fe/d7af0269a44e87b120112984bbe7d3ed5516efb85361f67185f827742926/odoo14_addon_document_page_approval-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [Signal8]: New version: [0.7] Old Version: [0.6]
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/36/87/81874e18e1f985f30c85784410a220fa81ee733960bddaabeb70e1b8098f/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev2-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-document-page-approval/16.0.1.1.0.5-16.0.1.1.0.6/diff.md --exclude *.pyd
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-document-page-approval/16.0.1.1.0.5-16.0.1.1.0.6/diff.md --exclude *.pyd
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 07:16:15] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.6-py3-none-any.whl.zip tmp/tangerine_auth-0.0.7-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/24/74/d8719a523c74d5ac203cf75b7fce53ecfa00b073769ec0f4e4c09fc8ba4a/odoo13_addon_document_page_approval-13.0.1.3.2.dev2-py3-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/55/85/d24c31099d5b9fcf8aa756ca5ed9c649759a28030db14b3a46be97bf1ba0/fmcapi-20230519.0.tar.gz
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo10-addon-knowledge]: Downloading https://files.pythonhosted.org/packages/13/14/a1e02e337819485a64cecfe0fb6fbbafe5ab4ab8ef6485200936cb78e7bc/odoo10_addon_knowledge-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: executing diffoscope
+[2023-05-19 07:16:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page_approval-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_document_page_approval-14.0.1.0.3.dev1-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-document-page-approval/14.0.1.0.2-14.0.1.0.3.dev1/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev2-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-document-page-approval/12.0.1.0.5.99.dev1-12.0.1.0.5.99.dev2/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [fmcapi]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [fmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmcapi-20230421.0.tar.gz tmp/fmcapi-20230519.0.tar.gz --markdown 20230519/f/fmcapi/20230421.0-20230519.0/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/db/2d/e3fa951fb0bd394fd4f5e987c23f6ac55f77873f5ee9fe80818eae725fa9/Signal8-0.7.tar.gz
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev2-py3-none-any.whl.zip --markdown 20230519/o/odoo13-addon-document-page-approval/13.0.1.3.2.dev1-13.0.1.3.2.dev2/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-0.6.tar.gz tmp/Signal8-0.7.tar.gz --markdown 20230519/S/Signal8/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo10-addon-knowledge]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [odoo10-addon-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_knowledge-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo10-addon-knowledge/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 07:16:16] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/72/b6/f90549e08a343523aabb35985162a478dee1c62d32aa079955a7f1a4709f/codepeers-0.1.4-py3-none-any.whl
+[2023-05-19 07:16:16] INFO root fetch - processPackages [codepeers]: executing diffoscope
+[2023-05-19 07:16:16] INFO root fetch - processPackages [codepeers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codepeers-0.1.3-py3-none-any.whl.zip tmp/codepeers-0.1.4-py3-none-any.whl.zip --markdown 20230519/c/codepeers/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 07:16:17] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 07:16:17] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page-approval]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page-approval]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page-approval]: success
+[2023-05-19 07:16:18] INFO root fetch - main [MainThread]: End processing [odoo10-addon-knowledge]: success
+[2023-05-19 07:16:19] INFO root fetch - main [MainThread]: End processing [fmcapi]: success
+[2023-05-19 07:16:23] INFO root fetch - main [MainThread]: End processing [codepeers]: success
+[2023-05-19 07:16:23] INFO root fetch - main [MainThread]: Store serial: [18165892]
