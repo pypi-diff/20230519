@@ -18760,3 +18760,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:42:30] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-19 17:42:35] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-19 17:42:35] INFO root fetch - main [MainThread]: Store serial: [18171910]
+[2023-05-19 17:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171910]
+[2023-05-19 17:47:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpler-sf
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplebox
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: install-pybci
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance-postprocess
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PatryksAutoAI
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: github-repo-stats
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soundstorm-pytorch
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-application
+[2023-05-19 17:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modbus-wrapper
+[2023-05-19 17:47:46] INFO root fetch - processPackages [simpler-sf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 17:47:46] INFO root fetch - processPackages [install-pybci]: New version: [0.1.4b1] Old Version: [0.1.2b0]
+[2023-05-19 17:47:46] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-19 17:47:46] INFO root fetch - processPackages [soundstorm-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 17:47:46] INFO root fetch - processPackages [modbus-wrapper]: New version: [1.0.2b0] Old Version: [1.0.2a0]
+[2023-05-19 17:47:46] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simpler-sf]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simpler-sf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpler_sf-1.0.0.tar.gz tmp/simpler_sf-1.0.1.tar.gz --markdown 20230519/s/simpler-sf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230519.6.9.83137] Old Version: [20230519.5.40.145277]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a150] Old Version: [0.0.1a149]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230519/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [github-repo-stats]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install_pybci-0.1.2b0-py3-none-any.whl.zip tmp/install-pybci-0.1.4b1.tar.gz --markdown 20230519/i/install-pybci/0.1.2b0-0.1.4b1/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/43/be/80f4335f72f0878c857336a8065317872ade53c606309bffe05c2c7821c2/certora-cli-alpha-rahav-cert-1987_update_regTest-20230519.5.40.145277.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.2.tar.gz tmp/djangoldp_application-1.1.3.tar.gz --markdown 20230519/d/djangoldp-application/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38978404>=10485760
+[2023-05-19 17:47:47] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: caft
+[2023-05-19 17:47:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-19 17:47:47] INFO root fetch - processPackages [caft]: New version: [0.1.6] Old Version: [0.1.1]
+[2023-05-19 17:47:47] INFO root fetch - processPackages [modbus-wrapper]: Downloading https://files.pythonhosted.org/packages/19/f8/d031f49a289d61937a33f096e29e55bbcabfa19bc0763a2f7d380d3d53fa/modbus-wrapper-1.0.2a0.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/6c/14/2d1aba66aa5e9fb2e5a1c58e73770b0488330ce12a340f6d8724c28acea2/PatryksAutoAI-1.4.0.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.9.tar.gz tmp/PatryksAutoAI-1.4.0.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [github-repo-stats]: Downloading https://files.pythonhosted.org/packages/a2/95/18b11335fd8eed3b14a757ce03306c53522158d91dfbcd4e78ede0b43e21/github_repo_stats-0.1.1.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/af/c6/22b180eef3ee4eb74b0a54f9f7b30706b1bf7c55d4a49f5a644b395c978b/soundstorm-pytorch-0.0.7.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [caft]: Downloading https://files.pythonhosted.org/packages/63/8c/b2a21d5736ba1d12090983682cc96f944ede465e21bb58aaf160c165d0ae/caft-0.1.6.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/18/62/0f89cbd3040a17efad1ad0c6d3daabb420a56a0d01f4a46d62765db579e5/simplebox-0.0.1a150-py3-none-any.whl
+[2023-05-19 17:47:47] INFO root fetch - processPackages [soundstorm-pytorch]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [soundstorm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundstorm-pytorch-0.0.6.tar.gz tmp/soundstorm-pytorch-0.0.7.tar.gz --markdown 20230519/s/soundstorm-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [caft]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [caft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caft-0.1.1.tar.gz tmp/caft-0.1.6.tar.gz --markdown 20230519/c/caft/0.1.1-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [modbus-wrapper]: Downloading https://files.pythonhosted.org/packages/f1/6c/5b36cd50b58bbec160a916ee756e6b7674f953dccd6463ea6384093248bc/modbus-wrapper-1.0.2b0.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [github-repo-stats]: Downloading https://files.pythonhosted.org/packages/a3/20/3f2adec34a0eb4829185f8996fbc051e674d182c4ac6e29320a3c42a225f/github_repo_stats-0.1.2.tar.gz
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a149-py3-none-any.whl.zip tmp/simplebox-0.0.1a150-py3-none-any.whl.zip --markdown 20230519/s/simplebox/0.0.1a149-0.0.1a150/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [modbus-wrapper]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [modbus-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbus-wrapper-1.0.2a0.tar.gz tmp/modbus-wrapper-1.0.2b0.tar.gz --markdown 20230519/m/modbus-wrapper/1.0.2a0-1.0.2b0/diff.md --exclude *.pyd
+[2023-05-19 17:47:47] INFO root fetch - processPackages [github-repo-stats]: executing diffoscope
+[2023-05-19 17:47:47] INFO root fetch - processPackages [github-repo-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_repo_stats-0.1.1.tar.gz tmp/github_repo_stats-0.1.2.tar.gz --markdown 20230519/g/github-repo-stats/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:47:48] INFO root fetch - processPackages [install-pybci]: Start processing: sspqdd
+[2023-05-19 17:47:48] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-05-19 17:47:48] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:47:48] INFO root fetch - processPackages [simpler-sf]: Start processing: gpt-code-ui
+[2023-05-19 17:47:48] INFO root fetch - main [MainThread]: End processing [simpler-sf]: success
+[2023-05-19 17:47:48] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-19 17:47:48] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 17:47:48] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230519/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:47:48] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-19 17:47:48] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230519/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-19 17:47:48] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: strawberry-graphql
+[2023-05-19 17:47:48] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-19 17:47:48] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [caft]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [soundstorm-pytorch]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-19 17:47:49] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-05-19 17:47:49] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230519/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [github-repo-stats]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [modbus-wrapper]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-19 17:47:49] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 17:47:50] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-19 17:47:50] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-05-19 17:47:50] INFO root fetch - main [MainThread]: Store serial: [18171955]
