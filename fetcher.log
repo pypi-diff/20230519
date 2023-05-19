@@ -1931,3 +1931,66 @@
 [2023-05-19 02:32:22] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
 [2023-05-19 02:32:23] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-05-19 02:32:23] INFO root fetch - main [MainThread]: Store serial: [18162227]
+[2023-05-19 02:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162227]
+[2023-05-19 02:37:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webint-code
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybuilder-integration
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-rs2-access
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: claudia
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybuilder-integration
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathsym-adasneves
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: t2d2-sdk
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: state-machine-semaphore
+[2023-05-19 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moptipy
+[2023-05-19 02:37:32] INFO root fetch - processPackages [webint-code]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [mathsym-adasneves]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-19 02:37:32] WARNING root fetch - processPackages [NEMO-rs2-access]: Skipping, unable to determine old version
+[2023-05-19 02:37:32] INFO root fetch - processPackages [claudia]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [NEMO-rs2-access]: Start processing: js-code
+[2023-05-19 02:37:32] INFO root fetch - main [MainThread]: End processing [NEMO-rs2-access] error
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: New version: [90] Old Version: [89]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [t2d2-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: New version: [90] Old Version: [89]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [js-code]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/a0/05/411cb4fc468ef7706856ebcbdcb22e63a1eaf9d56c8f28cf7098bebe8046/pybuilder-integration-89.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/a0/05/411cb4fc468ef7706856ebcbdcb22e63a1eaf9d56c8f28cf7098bebe8046/pybuilder-integration-89.tar.gz
+[2023-05-19 02:37:32] ERROR root fetch - processPackages [js-code]: Unable to fetch info: No such project/version 'js-code' 0.0.1
+[2023-05-19 02:37:32] INFO root fetch - main [MainThread]: End processing [js-code] error
+[2023-05-19 02:37:32] INFO root fetch - processPackages [mathsym-adasneves]: Downloading https://files.pythonhosted.org/packages/91/75/9ad808f52e28f21c355b0f4ed11c5042d5b53b499b9576f4ed59c102676c/mathsym_adasneves-1.1.0.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [claudia]: Downloading https://files.pythonhosted.org/packages/05/eb/0f746b017ed4c96d7a9aee983988ddcb6196dd5ee45ec1e976c7c850c5a5/claudia-0.0.5.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [t2d2-sdk]: Downloading https://files.pythonhosted.org/packages/81/0d/630479378792c41e337304c6be2101a4594fc7ac24ae2364a066dbc61407/t2d2-sdk-0.0.3.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [mathsym-adasneves]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [mathsym-adasneves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathsym_adasneves-1.0.2.tar.gz tmp/mathsym_adasneves-1.1.0.tar.gz --markdown 20230519/m/mathsym-adasneves/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 02:37:32] INFO root fetch - processPackages [claudia]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [claudia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claudia-0.0.4.tar.gz tmp/claudia-0.0.5.tar.gz --markdown 20230519/c/claudia/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 02:37:32] INFO root fetch - processPackages [t2d2-sdk]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [t2d2-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2d2-sdk-0.0.2.tar.gz tmp/t2d2-sdk-0.0.3.tar.gz --markdown 20230519/t/t2d2-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/2e/10/af7d620be5dbdde96e0b5f4ad1351a19bb57296b12c83da04e1cb6cded72/pybuilder-integration-90.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: Downloading https://files.pythonhosted.org/packages/2e/10/af7d620be5dbdde96e0b5f4ad1351a19bb57296b12c83da04e1cb6cded72/pybuilder-integration-90.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/19/6d/760cf7a85f639ff97f5fbeb4dc4ca2f4bada636b34b8e1db0714a28d4e4d/webint_code-0.0.17.tar.gz
+[2023-05-19 02:37:32] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230519/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-19 02:37:32] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230519/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: executing diffoscope
+[2023-05-19 02:37:32] INFO root fetch - processPackages [pybuilder-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-integration-89.tar.gz tmp/pybuilder-integration-90.tar.gz --markdown 20230519/p/pybuilder-integration/89-90/diff.md --exclude *.pyd
+[2023-05-19 02:37:33] INFO root fetch - processPackages [pybuilder-integration]: executing diffoscope
+[2023-05-19 02:37:33] INFO root fetch - processPackages [pybuilder-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-integration-89.tar.gz tmp/pybuilder-integration-90.tar.gz --markdown 20230519/p/pybuilder-integration/89-90/diff.md --exclude *.pyd
+[2023-05-19 02:37:33] INFO root fetch - processPackages [webint-code]: executing diffoscope
+[2023-05-19 02:37:33] INFO root fetch - processPackages [webint-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_code-0.0.16.tar.gz tmp/webint_code-0.0.17.tar.gz --markdown 20230519/w/webint-code/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-19 02:37:33] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-05-19 02:37:33] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230519/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [mathsym-adasneves]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [t2d2-sdk]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [pybuilder-integration]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [webint-code]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [claudia]: success
+[2023-05-19 02:37:34] INFO root fetch - main [MainThread]: End processing [pybuilder-integration]: success
+[2023-05-19 02:37:35] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-19 02:37:36] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-05-19 02:37:36] INFO root fetch - main [MainThread]: Store serial: [18162266]
