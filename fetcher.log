@@ -9202,3 +9202,33 @@
 [2023-05-19 07:16:19] INFO root fetch - main [MainThread]: End processing [fmcapi]: success
 [2023-05-19 07:16:23] INFO root fetch - main [MainThread]: End processing [codepeers]: success
 [2023-05-19 07:16:23] INFO root fetch - main [MainThread]: Store serial: [18165892]
+[2023-05-19 07:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165892]
+[2023-05-19 07:21:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-19 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Enumerator-linux
+[2023-05-19 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijzeptlab-client
+[2023-05-19 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrewCo-API
+[2023-05-19 07:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strip-tags
+[2023-05-19 07:21:32] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-19 07:21:32] INFO root fetch - processPackages [Enumerator-linux]: New version: [3.0] Old Version: [2.0]
+[2023-05-19 07:21:32] INFO root fetch - processPackages [CrewCo-API]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 07:21:32] INFO root fetch - processPackages [strip-tags]: New version: [0.3] Old Version: [0.2]
+[2023-05-19 07:21:32] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/1c/1f/6049bf629585a7fbd88e883082b551d1e10948b7ac2ca03a12cb28b6464f/jijzeptlab_client-0.2.1-cp39-cp39-win_amd64.whl
+[2023-05-19 07:21:32] INFO root fetch - processPackages [Enumerator-linux]: Downloading https://files.pythonhosted.org/packages/7b/ce/66975019a06bc41668133c385091647eb3f5c2da948e13fec2e705e7eea7/Enumerator_linux-2.0.tar.gz
+[2023-05-19 07:21:32] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/59/26/8e51d46fd0061431109a74236f391de6b089467904eb0f4bf2535eb87090/strip-tags-0.2.tar.gz
+[2023-05-19 07:21:32] INFO root fetch - processPackages [CrewCo-API]: Downloading https://files.pythonhosted.org/packages/51/fa/330a5ad15b823bc569792724dae3071886545fd1537c6db34b3517c356cf/CrewCo_API-0.0.4.tar.gz
+[2023-05-19 07:21:32] INFO root fetch - processPackages [CrewCo-API]: executing diffoscope
+[2023-05-19 07:21:32] INFO root fetch - processPackages [CrewCo-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrewCo_API-0.0.3.tar.gz tmp/CrewCo_API-0.0.4.tar.gz --markdown 20230519/C/CrewCo-API/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 07:21:32] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/31/44/cd0007a233b5cc27864c5b88d3ab1c06c8c0a1bdab29bbff2518230f1116/jijzeptlab_client-0.2.2-cp39-cp39-win_amd64.whl
+[2023-05-19 07:21:32] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/86/35/10381a5f51247b5cc1c48b80375994df3c4f4cc759c6a9c6649eaf3c842c/strip-tags-0.3.tar.gz
+[2023-05-19 07:21:32] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-05-19 07:21:32] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.2.1-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230519/j/jijzeptlab-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-19 07:21:32] INFO root fetch - processPackages [Enumerator-linux]: Downloading https://files.pythonhosted.org/packages/25/2a/1728dc755108b3ba5033f3cf6f2ba41d9f440c863079120cc1ba96d988dd/Enumerator_linux-3.0.tar.gz
+[2023-05-19 07:21:32] INFO root fetch - processPackages [strip-tags]: executing diffoscope
+[2023-05-19 07:21:32] INFO root fetch - processPackages [strip-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strip-tags-0.2.tar.gz tmp/strip-tags-0.3.tar.gz --markdown 20230519/s/strip-tags/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-19 07:21:32] INFO root fetch - processPackages [Enumerator-linux]: executing diffoscope
+[2023-05-19 07:21:32] INFO root fetch - processPackages [Enumerator-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Enumerator_linux-2.0.tar.gz tmp/Enumerator_linux-3.0.tar.gz --markdown 20230519/E/Enumerator-linux/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-19 07:21:33] INFO root fetch - main [MainThread]: End processing [CrewCo-API]: success
+[2023-05-19 07:21:33] INFO root fetch - main [MainThread]: End processing [strip-tags]: success
+[2023-05-19 07:21:34] INFO root fetch - main [MainThread]: End processing [Enumerator-linux]: success
+[2023-05-19 07:21:34] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-05-19 07:21:34] INFO root fetch - main [MainThread]: Store serial: [18165932]
