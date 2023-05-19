@@ -18069,3 +18069,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-05-19 16:58:44] INFO root fetch - main [MainThread]: End processing [sherpa-ncnn] error
 [2023-05-19 16:58:44] INFO root fetch - main [MainThread]: Store serial: [18171443]
+[2023-05-19 17:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171443]
+[2023-05-19 17:03:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-application
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modbedtools
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dumbo-asp
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddadevops
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: histdata
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diamond-env
+[2023-05-19 17:03:53] INFO root fetch - processPackages [modbedtools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [diamond-env]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.484.0]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [histdata]: New version: [1.1] Old Version: [1.0]
+[2023-05-19 17:03:53] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-19 17:03:53] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230519/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:03:53] INFO root fetch - processPackages [modbedtools]: executing diffoscope
+[2023-05-19 17:03:53] INFO root fetch - processPackages [modbedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbedtools-0.1.1.tar.gz tmp/modbedtools-0.1.2.tar.gz --markdown 20230519/m/modbedtools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 17:03:53] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 17:03:53] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/d6/a0/b74ae81387d9b2d85a44340ff73a40ece357e011a6e4eef9aedf25ee0955/data-repo-client-1.484.0.tar.gz
+[2023-05-19 17:03:53] INFO root fetch - processPackages [histdata]: Downloading https://files.pythonhosted.org/packages/17/df/55c599b27192dcd20094bafca2c0920111d5870694e3f808febafaf20bb2/histdata-1.0.tar.gz
+[2023-05-19 17:03:53] INFO root fetch - processPackages [diamond-env]: Downloading https://files.pythonhosted.org/packages/49/72/1a1f553b9dc7c632d6149202fb3d9c03b71b25443eff3a458c9dd3a11f41/diamond_env-1.0.2.tar.gz
+[2023-05-19 17:03:53] INFO root fetch - processPackages [diamond-env]: executing diffoscope
+[2023-05-19 17:03:53] INFO root fetch - processPackages [diamond-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamond_env-1.0.1.tar.gz tmp/diamond_env-1.0.2.tar.gz --markdown 20230519/d/diamond-env/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 17:03:53] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/a5/bf/7ffe57aebc613bb0dfbc282b75f45a429852149394c542b1feeb7f8dd497/djangoldp_application-1.1.2.tar.gz
+[2023-05-19 17:03:54] INFO root fetch - processPackages [histdata]: Downloading https://files.pythonhosted.org/packages/fb/df/266581195350ee915f57dc896668026566347f6d56b7bf75b5d596de8dea/histdata-1.1.tar.gz
+[2023-05-19 17:03:54] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-19 17:03:54] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.1.tar.gz tmp/djangoldp_application-1.1.2.tar.gz --markdown 20230519/d/djangoldp-application/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:03:54] INFO root fetch - processPackages [histdata]: executing diffoscope
+[2023-05-19 17:03:54] INFO root fetch - processPackages [histdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histdata-1.0.tar.gz tmp/histdata-1.1.tar.gz --markdown 20230519/h/histdata/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-19 17:03:54] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-19 17:03:54] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.484.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230519/d/data-repo-client/1.484.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-19 17:03:54] INFO root fetch - main [MainThread]: End processing [modbedtools]: success
+[2023-05-19 17:03:54] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-19 17:03:55] INFO root fetch - main [MainThread]: End processing [diamond-env]: success
+[2023-05-19 17:03:55] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-19 17:03:55] INFO root fetch - main [MainThread]: End processing [histdata]: success
+[2023-05-19 17:03:55] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 17:03:57] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-19 17:03:57] INFO root fetch - main [MainThread]: Store serial: [18171470]
