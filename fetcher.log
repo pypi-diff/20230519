@@ -9232,3 +9232,53 @@
 [2023-05-19 07:21:34] INFO root fetch - main [MainThread]: End processing [Enumerator-linux]: success
 [2023-05-19 07:21:34] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
 [2023-05-19 07:21:34] INFO root fetch - main [MainThread]: Store serial: [18165932]
+[2023-05-19 07:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165932]
+[2023-05-19 07:26:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpterminal
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fosslight-util
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkpoint-tool
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CrewCo-API
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TokFlow
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-envs
+[2023-05-19 07:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flarespy
+[2023-05-19 07:26:43] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [TokFlow]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [gpterminal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [CrewCo-API]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [np-envs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 07:26:43] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-19 07:26:43] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.8.0.tar.gz tmp/checkpoint_tool-0.9.0.tar.gz --markdown 20230519/c/checkpoint-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 07:26:43] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-19 07:26:43] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230519/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 07:26:43] INFO root fetch - processPackages [TokFlow]: Downloading https://files.pythonhosted.org/packages/b8/10/c77ee8971cf123a2eea9fbcf1ee63e40f3a28e35c6769be776ed97b3924e/TokFlow-1.0.0.tar.gz
+[2023-05-19 07:26:43] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2023-05-19 07:26:43] INFO root fetch - processPackages [CrewCo-API]: Downloading https://files.pythonhosted.org/packages/73/8a/b0a41b9b55f17e9743233ae1ebe82e1e5495f6d65ff54e3e93041184cbd5/CrewCo_API-0.0.5.tar.gz
+[2023-05-19 07:26:43] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/ae/a6/49be85345948e90030d48706f4c1a3cf9cd50fe63ff4f67548cae243b156/gpterminal-0.1.9.tar.gz
+[2023-05-19 07:26:43] INFO root fetch - processPackages [np-envs]: Downloading https://files.pythonhosted.org/packages/29/dc/e8821f237d19d9c85f374abb23578d1421b631e10732d6c755e5cdbcf238/np_envs-0.1.3.tar.gz
+[2023-05-19 07:26:43] INFO root fetch - processPackages [CrewCo-API]: executing diffoscope
+[2023-05-19 07:26:43] INFO root fetch - processPackages [CrewCo-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrewCo_API-0.0.4.tar.gz tmp/CrewCo_API-0.0.5.tar.gz --markdown 20230519/C/CrewCo-API/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 07:26:43] INFO root fetch - processPackages [gpterminal]: executing diffoscope
+[2023-05-19 07:26:43] INFO root fetch - processPackages [gpterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterminal-0.1.8.tar.gz tmp/gpterminal-0.1.9.tar.gz --markdown 20230519/g/gpterminal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 07:26:44] INFO root fetch - processPackages [np-envs]: executing diffoscope
+[2023-05-19 07:26:44] INFO root fetch - processPackages [np-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_envs-0.1.2.tar.gz tmp/np_envs-0.1.3.tar.gz --markdown 20230519/n/np-envs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 07:26:44] INFO root fetch - processPackages [TokFlow]: Downloading https://files.pythonhosted.org/packages/a4/c8/efb64d8cc20df5678db21067cf87883f5f156482e186381f29917a3d9913/TokFlow-1.0.1.tar.gz
+[2023-05-19 07:26:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-05-19 07:26:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-05-19 07:26:44] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2023-05-19 07:26:44] INFO root fetch - processPackages [TokFlow]: executing diffoscope
+[2023-05-19 07:26:44] INFO root fetch - processPackages [TokFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TokFlow-1.0.0.tar.gz tmp/TokFlow-1.0.1.tar.gz --markdown 20230519/T/TokFlow/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 07:26:44] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-05-19 07:26:44] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230519/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-19 07:26:44] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-19 07:26:45] INFO root fetch - main [MainThread]: End processing [CrewCo-API]: success
+[2023-05-19 07:26:45] INFO root fetch - main [MainThread]: End processing [np-envs]: success
+[2023-05-19 07:26:45] INFO root fetch - main [MainThread]: End processing [gpterminal]: success
+[2023-05-19 07:26:45] INFO root fetch - main [MainThread]: End processing [TokFlow]: success
+[2023-05-19 07:26:46] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-19 07:26:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-05-19 07:26:47] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-05-19 07:26:47] INFO root fetch - main [MainThread]: Store serial: [18165954]
