@@ -11832,3 +11832,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:38:05] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
 [2023-05-19 10:38:07] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-user-role]: success
 [2023-05-19 10:38:07] INFO root fetch - main [MainThread]: Store serial: [18167286]
+[2023-05-19 10:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167286]
+[2023-05-19 10:43:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynut3
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-opinionated-constructs
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rqdatac
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamingcli
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uidom
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyMVola
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CADPR
+[2023-05-19 10:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tff-nightly
+[2023-05-19 10:43:17] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [uidom]: New version: [0.2a5] Old Version: [0.2a4]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230519/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [streamingcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [pynut3]: New version: [1.4.1] Old Version: [1.2.5]
+[2023-05-19 10:43:17] WARNING root fetch - processPackages [PyMVola]: Skipping, unable to determine old version
+[2023-05-19 10:43:17] INFO root fetch - processPackages [PyMVola]: Start processing: dspawpy
+[2023-05-19 10:43:17] INFO root fetch - main [MainThread]: End processing [PyMVola] error
+[2023-05-19 10:43:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230519] Old Version: [0.0.1.dev20230518]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [dspawpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-05-19 10:43:17] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/09/74/6ecb50f15c4f0b947dca32c5a901654e508c0b5528bcc09e02bf764c0aca/uidom-0.2a5.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.3-py3-none-any.whl.zip tmp/dspawpy-0.9.4-py3-none-any.whl.zip --markdown 20230519/d/dspawpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/88/65/4bfdc11acab4e5610f87e1913260b7653ba325a341ef49650474e38dad08/cdk-opinionated-constructs-2.0.1.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [streamingcli]: Downloading https://files.pythonhosted.org/packages/30/eb/ab43deed9c86738d36bdf07ef640dfbc16d6e46c95c5f6cd06470700af3d/streamingcli-1.9.0.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [pynut3]: Downloading https://files.pythonhosted.org/packages/18/30/587a7bb6ca3607e60670469d8b086079b482e21f8c072f501423d7d0cc35/pynut3-1.2.5.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.2a4.tar.gz tmp/uidom-0.2a5.tar.gz --markdown 20230519/u/uidom/0.2a4-0.2a5/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-05-19 10:43:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/66/f5/3822c1a9da71e088164ebddcd7a52d47333c6c4507adbd0329c903aae945/cdk-opinionated-constructs-2.1.0.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ae/61/75318def970f7e48bbc34dfb767b1608411abb98c9ad8820bdce71e07e1b/tff_nightly-0.0.1.dev20230519-py2.py3-none-any.whl
+[2023-05-19 10:43:17] INFO root fetch - processPackages [pynut3]: Downloading https://files.pythonhosted.org/packages/6c/ed/25df8745a0c073da1f6a379acedb8e541b6e905e33d3f17568824f4928fc/pynut3-1.4.1.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [streamingcli]: Downloading https://files.pythonhosted.org/packages/3a/19/206b09882e99925a6617ce21445352b0f94813f6cf30a684c07d7a632c76/streamingcli-1.9.1.tar.gz
+[2023-05-19 10:43:17] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230519/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [streamingcli]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [streamingcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcli-1.9.0.tar.gz tmp/streamingcli-1.9.1.tar.gz --markdown 20230519/s/streamingcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-2.0.1.tar.gz tmp/cdk-opinionated-constructs-2.1.0.tar.gz --markdown 20230519/c/cdk-opinionated-constructs/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-05-19 10:43:17] INFO root fetch - processPackages [pynut3]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [pynut3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynut3-1.2.5.tar.gz tmp/pynut3-1.4.1.tar.gz --markdown 20230519/p/pynut3/1.2.5-1.4.1/diff.md --exclude *.pyd
+[2023-05-19 10:43:17] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-05-19 10:43:17] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230519/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-05-19 10:43:18] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-19 10:43:18] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230518-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230519-py2.py3-none-any.whl.zip --markdown 20230519/t/tff-nightly/0.0.1.dev20230518-0.0.1.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 10:43:18] INFO root fetch - processPackages [langchain-serve]: Start processing: etdd
+[2023-05-19 10:43:18] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-19 10:43:19] WARNING root fetch - processPackages [etdd]: Skipping, unable to determine old version
+[2023-05-19 10:43:19] INFO root fetch - processPackages [etdd]: Start processing: volume-segmantics-vsui
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [etdd] error
+[2023-05-19 10:43:19] INFO root fetch - processPackages [volume-segmantics-vsui]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-19 10:43:19] INFO root fetch - processPackages [CADPR]: Start processing: zypl-macro
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 10:43:19] INFO root fetch - processPackages [zypl-macro]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 10:43:19] INFO root fetch - processPackages [dspawpy]: Start processing: odoo-addon-base-tier-validation
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-05-19 10:43:19] INFO root fetch - processPackages [zypl-macro]: executing diffoscope
+[2023-05-19 10:43:19] INFO root fetch - processPackages [zypl-macro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zypl_macro-1.0.1.tar.gz tmp/zypl_macro-1.0.2.tar.gz --markdown 20230519/z/zypl-macro/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 10:43:19] INFO root fetch - processPackages [volume-segmantics-vsui]: Downloading https://files.pythonhosted.org/packages/c0/85/f43933b249da336f3a29fa267d6fb23492d91741bd0c03d5fae07b64ee0c/volume_segmantics_vsui-0.3.3.tar.gz
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.20]
+[2023-05-19 10:43:19] INFO root fetch - processPackages [pynut3]: Start processing: odoo-addon-base-custom-filter
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [pynut3]: success
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [streamingcli]: success
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/fc/89/4894b75a3f271ae725175a207d0f6c852cbf75eec579c19e616a7ff46b50/odoo_addon_base_tier_validation-16.0.1.0.4.20-py3-none-any.whl
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2023-05-19 10:43:19] INFO root fetch - processPackages [volume-segmantics-vsui]: Downloading https://files.pythonhosted.org/packages/cc/bf/eb998811af5fdd4188bcaa4058fbd64dfb8a7723ce1b44470967845bd50a/volume_segmantics_vsui-0.3.4.tar.gz
+[2023-05-19 10:43:19] INFO root fetch - processPackages [volume-segmantics-vsui]: executing diffoscope
+[2023-05-19 10:43:19] INFO root fetch - processPackages [volume-segmantics-vsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volume_segmantics_vsui-0.3.3.tar.gz tmp/volume_segmantics_vsui-0.3.4.tar.gz --markdown 20230519/v/volume-segmantics-vsui/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: Downloading https://files.pythonhosted.org/packages/6b/b5/f625b719fd22d67b7279a204a3186546f7d0ea5d2812ac7f44dfaac54c00/odoo_addon_base_custom_filter-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-19 10:43:19] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-05-19 10:43:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.20-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-base-tier-validation/16.0.1.0.4.20-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-05-19 10:43:20] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: Downloading https://files.pythonhosted.org/packages/cf/f3/63e994ca9bf9278d3c9385e3038e99cfc05a332b2b91b3acd0fc88bb44a1/odoo_addon_base_custom_filter-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-19 10:43:20] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: executing diffoscope
+[2023-05-19 10:43:20] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_custom_filter-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_custom_filter-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-base-custom-filter/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-19 10:43:20] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-19 10:43:20] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-05-19 10:43:20] INFO root fetch - main [MainThread]: End processing [zypl-macro]: success
+[2023-05-19 10:43:20] INFO root fetch - main [MainThread]: End processing [volume-segmantics-vsui]: success
+[2023-05-19 10:43:21] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-19 10:43:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-05-19 10:43:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-custom-filter]: success
+[2023-05-19 10:43:21] INFO root fetch - main [MainThread]: Store serial: [18167356]
