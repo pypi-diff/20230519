@@ -18314,3 +18314,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:15:10] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
 [2023-05-19 17:15:12] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-05-19 17:15:12] INFO root fetch - main [MainThread]: Store serial: [18171617]
+[2023-05-19 17:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171617]
+[2023-05-19 17:20:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collective.ploneintranet
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-application
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: velour-client
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.runtime
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epic-free-games
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PVNet
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scikit-build-core
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynecone-debounce-input
+[2023-05-19 17:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mewpy
+[2023-05-19 17:20:22] INFO root fetch - processPackages [collective.ploneintranet]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [velour-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [epic-free-games]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [pynecone-debounce-input]: New version: [0.3] Old Version: [0.2]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [scikit-build-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-05-19 17:20:22] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230519/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:20:22] INFO root fetch - processPackages [mewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 17:20:22] INFO root fetch - processPackages [collective.ploneintranet]: Downloading https://files.pythonhosted.org/packages/52/a7/45c9aeb3061689a82a6b9269cde7b9766457e8b4cd92fc7e2180552e1d10/collective.ploneintranet-1.0.0a1.tar.gz
+[2023-05-19 17:20:22] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/45/7d/7a7303ecc1f9349096bc017c8151189fe394734b8d4ad3052c729164cca5/djangoldp_application-1.1.3.tar.gz
+[2023-05-19 17:20:22] INFO root fetch - processPackages [pynecone-debounce-input]: Downloading https://files.pythonhosted.org/packages/4d/16/97d215c7b01dd150565c827f1489658c6632cf87efa05cb8c97d05607c57/pynecone-debounce-input-0.2.tar.gz
+[2023-05-19 17:20:22] INFO root fetch - processPackages [epic-free-games]: Downloading https://files.pythonhosted.org/packages/d1/37/d6cd546375e499e3a4f8c419bb35b1a57bcd5bbfe421d376bc16e2aa7321/epic_free_games-0.1.0.tar.gz
+[2023-05-19 17:20:22] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/d0/9e/9bcfd437e921196f6d12017284db5ca1999e6c5902b08cff86bb1cc8e67a/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl
+[2023-05-19 17:20:23] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.2.tar.gz tmp/djangoldp_application-1.1.3.tar.gz --markdown 20230519/d/djangoldp-application/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [mewpy]: Downloading https://files.pythonhosted.org/packages/08/d0/df62f279555c7a06bcaa8a4af9058f4089daf4bdd0afa0cdc984105b7b63/mewpy-0.1.8.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [velour-client]: Downloading https://files.pythonhosted.org/packages/53/0d/7a1b448bfd07ff19db90956b4240ba0f37268985167835a9837ffb3c562f/velour-client-0.1.2.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/92/a8/ca494c5aa6ce022f858c5fd8901000f2cda8aa83f75aa536c359ad705f55/scikit_build_core-0.4.1.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [pynecone-debounce-input]: Downloading https://files.pythonhosted.org/packages/75/64/1c55011dba38f9d541bd33b7b1b66311436ed3a153a172bbc6aaae3b27f6/pynecone-debounce-input-0.3.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [velour-client]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [velour-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velour-client-0.1.1.tar.gz tmp/velour-client-0.1.2.tar.gz --markdown 20230519/v/velour-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230519/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.4.0.tar.gz tmp/scikit_build_core-0.4.1.tar.gz --markdown 20230519/s/scikit-build-core/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [epic-free-games]: Downloading https://files.pythonhosted.org/packages/3f/76/016dcdb02cbad9d076603c1d8384314aeb910b3da19a381cdeeee477ebcb/epic_free_games-0.1.2.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [pynecone-debounce-input]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [pynecone-debounce-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-debounce-input-0.2.tar.gz tmp/pynecone-debounce-input-0.3.tar.gz --markdown 20230519/p/pynecone-debounce-input/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [collective.ploneintranet]: Downloading https://files.pythonhosted.org/packages/4f/74/b7c0adfc4d20417abbd9cd9d958007d5b6133f17843ad2f2abf8aa5b21b0/collective.ploneintranet-1.0.0a2.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [epic-free-games]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [epic-free-games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epic_free_games-0.1.0.tar.gz tmp/epic_free_games-0.1.2.tar.gz --markdown 20230519/e/epic-free-games/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [collective.ploneintranet]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [collective.ploneintranet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.ploneintranet-1.0.0a1.tar.gz tmp/collective.ploneintranet-1.0.0a2.tar.gz --markdown 20230519/c/collective.ploneintranet/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-05-19 17:20:23] INFO root fetch - processPackages [mewpy]: Downloading https://files.pythonhosted.org/packages/8d/80/7c204f439e54a3b305b4be23041181e30c6ba9b85df6b685a5778f034a43/mewpy-0.1.9.tar.gz
+[2023-05-19 17:20:23] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/64/6b/2faea895b456da4f408b1ef4672beb2434ef0d96f377ead169004b1f76bd/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl
+[2023-05-19 17:20:23] INFO root fetch - processPackages [mewpy]: executing diffoscope
+[2023-05-19 17:20:23] INFO root fetch - processPackages [mewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mewpy-0.1.8.tar.gz tmp/mewpy-0.1.9.tar.gz --markdown 20230519/m/mewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:20:24] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-05-19 17:20:24] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-05-19 17:20:24] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip --markdown 20230519/p/pyarmor.cli.runtime/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-05-19 17:20:24] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-19 17:20:24] INFO root fetch - main [MainThread]: End processing [velour-client]: success
+[2023-05-19 17:20:24] INFO root fetch - main [MainThread]: End processing [epic-free-games]: success
+[2023-05-19 17:20:25] INFO root fetch - main [MainThread]: End processing [collective.ploneintranet]: success
+[2023-05-19 17:20:25] INFO root fetch - main [MainThread]: End processing [pynecone-debounce-input]: success
+[2023-05-19 17:20:25] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-05-19 17:20:27] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-19 17:20:37] INFO root fetch - main [MainThread]: End processing [mewpy]: success
+[2023-05-19 17:20:47] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-05-19 17:20:47] INFO root fetch - main [MainThread]: Store serial: [18171669]
