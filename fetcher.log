@@ -13060,3 +13060,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 11:40:09] INFO root fetch - main [MainThread]: End processing [eko]: success
 [2023-05-19 11:40:10] INFO root fetch - main [MainThread]: End processing [pyg2p]: success
 [2023-05-19 11:40:10] INFO root fetch - main [MainThread]: Store serial: [18168040]
+[2023-05-19 11:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168040]
+[2023-05-19 11:45:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-etcd3gw
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddadevops
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NuOCR
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semisup-segmentation
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rvctestb
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sequana-pipetools
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dialog-workflow-local
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agsi
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: butler-connect
+[2023-05-19 11:45:18] INFO root fetch - processPackages [async-etcd3gw]: New version: [0.8] Old Version: [0.7]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-19 11:45:18] WARNING root fetch - processPackages [rvctestb]: Skipping, unable to determine old version
+[2023-05-19 11:45:18] INFO root fetch - processPackages [rvctestb]: Start processing: dql-alpha
+[2023-05-19 11:45:18] INFO root fetch - main [MainThread]: End processing [rvctestb] error
+[2023-05-19 11:45:18] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230519094158] Old Version: [2.0.3.dev20230519093236]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [butler-connect]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [NuOCR]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [agsi]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [sequana-pipetools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 11:45:18] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 11:45:19] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230519/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/ec/bb180d0f13218bf331d4d59f9bee8c7df19d1695a38f436fea2643f62afb/dialog-workflow-local-0.0.23.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/57/04/f14564ce9cfecb5f3bdeaac27250e55aa64bad8718e5743dd86a22dd982a/localstack-core-2.0.3.dev20230519094158.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/b9/9b/026d86b249ac0e19b736b5ba49e470530fdf4c775e3a922364fa98071d99/sequana_pipetools-0.9.5.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/6c/96/fc92eca0eb4f3c6531e4cd27f212ba0b4946d291b0755154410d47263bed/butler-connect-0.5.5.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/ca/d3/94c2d40ab2cc728f2c771e930e587aa70a99541de404b79316e3c5a40e6c/NuOCR-0.2.4.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/f6/3f/4fa9aede550b7b2cc814880feebe0bb45c5446674a35f9d0a57786ca4f11/agsi-1.0.8.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [async-etcd3gw]: Downloading https://files.pythonhosted.org/packages/b7/53/9cc7500be8deba52991cc28513bc4060f6f49415cb1c5b4d10d0f03a4e87/async_etcd3gw-0.8.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/ee/e3/0a950954e367c8305901e004871e5196f141ae7d965766e830f7c63051d6/dialog-workflow-local-0.0.24.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230519/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.3.tar.gz tmp/NuOCR-0.2.4.tar.gz --markdown 20230519/N/NuOCR/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230519093236.tar.gz tmp/localstack-core-2.0.3.dev20230519094158.tar.gz --markdown 20230519/l/localstack-core/2.0.3.dev20230519093236-2.0.3.dev20230519094158/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/cf/8f/e03a25d505020aeb82aa541caf6ad21e33496440b057cbb3e04816e72ed4/sequana_pipetools-0.9.6.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.7.tar.gz tmp/agsi-1.0.8.tar.gz --markdown 20230519/a/agsi/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.23.tar.gz tmp/dialog-workflow-local-0.0.24.tar.gz --markdown 20230519/d/dialog-workflow-local/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [async-etcd3gw]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [async-etcd3gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_etcd3gw-0.7.tar.gz tmp/async_etcd3gw-0.8.tar.gz --markdown 20230519/a/async-etcd3gw/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [sequana-pipetools]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [sequana-pipetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pipetools-0.9.5.tar.gz tmp/sequana_pipetools-0.9.6.tar.gz --markdown 20230519/s/sequana-pipetools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/a7/e8/1df19a6c459ee0647f80592e01d2a70ca9f6aec7651b6fb11c80c5829907/butler-connect-0.5.6.tar.gz
+[2023-05-19 11:45:19] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.5.tar.gz tmp/butler-connect-0.5.6.tar.gz --markdown 20230519/b/butler-connect/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-19 11:45:19] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 11:45:19] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 11:45:20] INFO root fetch - processPackages [semisup-segmentation]: Start processing: eulertools
+[2023-05-19 11:45:20] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-19 11:45:20] INFO root fetch - processPackages [eulertools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 11:45:21] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/fd/9a/06782c275d4e8a4e539391f1aa3066c208fdca435dca9788fd588e5b19cd/eulertools-0.9.0.tar.gz
+[2023-05-19 11:45:21] INFO root fetch - processPackages [async-etcd3gw]: Start processing: auto-eval
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [async-etcd3gw]: success
+[2023-05-19 11:45:21] INFO root fetch - processPackages [dialog-workflow-local]: Start processing: odoo-addon-stock-operating-unit-access-all
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2023-05-19 11:45:21] INFO root fetch - processPackages [auto-eval]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-19 11:45:21] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2023-05-19 11:45:21] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-0.8.0.tar.gz tmp/eulertools-0.9.0.tar.gz --markdown 20230519/e/eulertools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 11:45:21] WARNING root fetch - processPackages [odoo-addon-stock-operating-unit-access-all]: Skipping, unable to determine old version
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-operating-unit-access-all] error
+[2023-05-19 11:45:21] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-19 11:45:21] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.1.9.tar.gz tmp/auto-eval-0.2.0.tar.gz --markdown 20230519/a/auto-eval/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-05-19 11:45:21] INFO root fetch - main [MainThread]: End processing [sequana-pipetools]: success
+[2023-05-19 11:45:22] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2023-05-19 11:45:22] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-19 11:45:23] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-19 11:45:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-19 11:45:25] INFO root fetch - main [MainThread]: Store serial: [18168090]
