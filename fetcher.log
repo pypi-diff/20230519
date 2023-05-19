@@ -20928,3 +20928,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:47:17] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
 [2023-05-19 19:47:17] INFO root fetch - main [MainThread]: End processing [starknet-devnet]: success
 [2023-05-19 19:47:17] INFO root fetch - main [MainThread]: Store serial: [18173277]
+[2023-05-19 19:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173277]
+[2023-05-19 19:52:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copyright-claim
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bq-meta
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecopipeline
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epic-free-games
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylipd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web3client
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certbot-dns-navercloud
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-fluent-core
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oking
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LANDMarkClassifier
+[2023-05-19 19:52:27] INFO root fetch - processPackages [epic-free-games]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [bq-meta]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-05-19 19:52:27] WARNING root fetch - processPackages [copyright-claim]: Skipping, unable to determine old version
+[2023-05-19 19:52:27] INFO root fetch - processPackages [copyright-claim]: Start processing: dcTrackClient
+[2023-05-19 19:52:27] INFO root fetch - main [MainThread]: End processing [copyright-claim] error
+[2023-05-19 19:52:27] WARNING root fetch - processPackages [certbot-dns-navercloud]: Skipping, unable to determine old version
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:52:27] INFO root fetch - main [MainThread]: End processing [certbot-dns-navercloud] error
+[2023-05-19 19:52:27] INFO root fetch - processPackages [pylipd]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [epic-free-games]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [epic-free-games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epic_free_games-0.1.0.tar.gz tmp/epic_free_games-0.1.2.tar.gz --markdown 20230519/e/epic-free-games/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [LANDMarkClassifier]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.14.dev2] Old Version: [0.14.dev1]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [web3client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 19:52:27] INFO root fetch - processPackages [dcTrackClient]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-19 19:52:27] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-19 19:52:27] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-19 19:52:27] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.5.0.tar.gz tmp/dctrackclient-0.5.1.tar.gz --markdown 20230519/d/dcTrackClient/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [bq-meta]: Downloading https://files.pythonhosted.org/packages/93/bf/03c49e0f2fff6cbb1396a1ed8b18d4b91f03614d5f8d0c93586c6d69c5dd/bq-meta-0.6.7.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/e1/e7/3dfe8368761236f2fff47a82a421b6d9f00cc98d9150689e2b676484d082/landmarkclassifier-2.0.1.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/cb/75/4560f5e82f0f4207498d2d541602a9919ddc6ae8fabf6f5226fdc7cd498d/ecopipeline-0.0.8.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [pylipd]: Downloading https://files.pythonhosted.org/packages/97/61/40df519bd426271a275b70ac5061ded6ae053de01ce123a5e83ba7679df2/pylipd-1.3.4.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/7b/a1/15c17a50480c57dda4896f676f8b18e23868fbdbb5cf5d6c100d535422d6/ansys-fluent-core-0.14.dev2.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/9b/b9/6783b3f46062fe5399353a7d3baef113fab866600552b256f2cec903317c/landmarkclassifier-2.0.2.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/7f/7f/4e0ff47d8a5473c01285a5aa69dd923bfe444e5dd6758f8fb0ac33b3d7e8/web3client-1.1.9.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [pylipd]: Downloading https://files.pythonhosted.org/packages/8d/d0/f0b835da946046f44d11acb9e4cc382af13a265ca015b0d673e5d2ff7676/pylipd-1.3.5.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/3a/ba/d8a45feb20c25eba0a4e627b0d5ebc86967c08d62663693c523c091a8486/ecopipeline-0.0.9.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [LANDMarkClassifier]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [LANDMarkClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landmarkclassifier-2.0.1.tar.gz tmp/landmarkclassifier-2.0.2.tar.gz --markdown 20230519/L/LANDMarkClassifier/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.14.dev1.tar.gz tmp/ansys-fluent-core-0.14.dev2.tar.gz --markdown 20230519/a/ansys-fluent-core/0.14.dev1-0.14.dev2/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [bq-meta]: Downloading https://files.pythonhosted.org/packages/3d/36/c8f024a02fe9736a68cf60e5d1b4e820abb3a16e6f293ed2e1f7bb002d4c/bq-meta-0.7.0.tar.gz
+[2023-05-19 19:52:27] INFO root fetch - processPackages [pylipd]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [pylipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylipd-1.3.4.tar.gz tmp/pylipd-1.3.5.tar.gz --markdown 20230519/p/pylipd/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.8.tar.gz tmp/web3client-1.1.9.tar.gz --markdown 20230519/w/web3client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230519/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:52:27] INFO root fetch - processPackages [bq-meta]: executing diffoscope
+[2023-05-19 19:52:27] INFO root fetch - processPackages [bq-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bq-meta-0.6.7.tar.gz tmp/bq-meta-0.7.0.tar.gz --markdown 20230519/b/bq-meta/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-05-19 19:52:28] INFO root fetch - main [MainThread]: End processing [epic-free-games]: success
+[2023-05-19 19:52:28] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-19 19:52:28] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier]: success
+[2023-05-19 19:52:29] INFO root fetch - main [MainThread]: End processing [pylipd]: success
+[2023-05-19 19:52:29] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-19 19:52:29] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-05-19 19:52:29] INFO root fetch - main [MainThread]: End processing [bq-meta]: success
+[2023-05-19 19:55:27] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
+[2023-05-19 19:55:27] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
+[2023-05-19 19:55:27] INFO root fetch - main [MainThread]: Store serial: [18173315]
