@@ -8181,3 +8181,35 @@
 [2023-05-19 06:07:21] INFO root fetch - main [MainThread]: End processing [openmldb-exporter]: success
 [2023-05-19 06:07:22] INFO root fetch - main [MainThread]: End processing [odoo8-addon-lettermgmt]: success
 [2023-05-19 06:07:22] INFO root fetch - main [MainThread]: Store serial: [18165411]
+[2023-05-19 06:12:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165411]
+[2023-05-19 06:12:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 06:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcwa
+[2023-05-19 06:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llp-learn
+[2023-05-19 06:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-imgexploration
+[2023-05-19 06:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-imgexploration
+[2023-05-19 06:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: johnsnowlabs-tmp
+[2023-05-19 06:12:32] WARNING root fetch - processPackages [llp-learn]: Skipping, unable to determine old version
+[2023-05-19 06:12:32] INFO root fetch - main [MainThread]: End processing [llp-learn] error
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 06:12:32] INFO root fetch - processPackages [johnsnowlabs-tmp]: New version: [4.4.5] Old Version: [4.2.9]
+[2023-05-19 06:12:32] INFO root fetch - processPackages [rcwa]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/f1/dd/42235bc1b74f9f9ff98cead93f11580e5ca8237f7627f57f67284ced4fd1/nonebot_plugin_imgexploration-0.2.3.tar.gz
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/f1/dd/42235bc1b74f9f9ff98cead93f11580e5ca8237f7627f57f67284ced4fd1/nonebot_plugin_imgexploration-0.2.3.tar.gz
+[2023-05-19 06:12:32] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/a1/8d/7abb3af244d35c10c783dab7c43a0230b73b4371fb57899ef41c7dfaf5b8/johnsnowlabs_tmp-4.2.9.tar.gz
+[2023-05-19 06:12:32] INFO root fetch - processPackages [rcwa]: Downloading https://files.pythonhosted.org/packages/8a/45/a6e7cc0db8908fc5f7c81b5b8e8afa8675b1f533dd85f0f20b72b36f1d90/rcwa-1.0.7.tar.gz
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: executing diffoscope
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_imgexploration-0.2.3.tar.gz tmp/nonebot_plugin_imgexploration-0.2.4.tar.gz --markdown 20230519/n/nonebot-plugin-imgexploration/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: executing diffoscope
+[2023-05-19 06:12:32] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_imgexploration-0.2.3.tar.gz tmp/nonebot_plugin_imgexploration-0.2.4.tar.gz --markdown 20230519/n/nonebot-plugin-imgexploration/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 06:12:32] INFO root fetch - processPackages [johnsnowlabs-tmp]: Downloading https://files.pythonhosted.org/packages/43/48/abf94f0eb199f1a00ed220abf857b65ea1a57e267bb06271313c85244497/johnsnowlabs_tmp-4.4.5.tar.gz
+[2023-05-19 06:12:33] INFO root fetch - processPackages [johnsnowlabs-tmp]: executing diffoscope
+[2023-05-19 06:12:33] INFO root fetch - processPackages [johnsnowlabs-tmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_tmp-4.2.9.tar.gz tmp/johnsnowlabs_tmp-4.4.5.tar.gz --markdown 20230519/j/johnsnowlabs-tmp/4.2.9-4.4.5/diff.md --exclude *.pyd
+[2023-05-19 06:12:33] INFO root fetch - processPackages [rcwa]: Downloading https://files.pythonhosted.org/packages/8b/47/f600fab31d0cb1b1cd01f2027ec7185ea9cf38f717e67e484a58ad132527/rcwa-1.0.9.tar.gz
+[2023-05-19 06:12:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-imgexploration]: success
+[2023-05-19 06:12:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-imgexploration]: success
+[2023-05-19 06:12:34] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-tmp]: success
+[2023-05-19 06:12:34] INFO root fetch - processPackages [rcwa]: executing diffoscope
+[2023-05-19 06:12:34] INFO root fetch - processPackages [rcwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcwa-1.0.7.tar.gz tmp/rcwa-1.0.9.tar.gz --markdown 20230519/r/rcwa/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:13:52] INFO root fetch - main [MainThread]: End processing [rcwa]: success
+[2023-05-19 06:13:52] INFO root fetch - main [MainThread]: Store serial: [18165427]
