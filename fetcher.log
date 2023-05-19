@@ -16705,3 +16705,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:43:32] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-05-19 15:43:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-execute-time]: success
 [2023-05-19 15:43:35] INFO root fetch - main [MainThread]: Store serial: [18170615]
+[2023-05-19 15:48:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170615]
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyvcf2
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkinterweb
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griptape-tools
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffenator2
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prancer-basic
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eloquentclassifier
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: censusdis
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-twine
+[2023-05-19 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pix-framework
+[2023-05-19 15:48:45] WARNING root fetch - processPackages [python-twine]: Skipping, unable to determine old version
+[2023-05-19 15:48:45] INFO root fetch - processPackages [python-twine]: Start processing: bit-saver
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: End processing [python-twine] error
+[2023-05-19 15:48:45] INFO root fetch - processPackages [pix-framework]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [diffenator2]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [cyvcf2]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-19 15:48:45] ERROR root fetch - processPackages [eloquentclassifier]: Unable to get metadata: No such project 'eloquentclassifier'
+[2023-05-19 15:48:45] INFO root fetch - processPackages [eloquentclassifier]: Start processing: pytest-when
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: End processing [eloquentclassifier] error
+[2023-05-19 15:48:45] INFO root fetch - processPackages [censusdis]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-05-19 15:48:45] WARNING root fetch - processPackages [bit-saver]: Skipping, unable to determine old version
+[2023-05-19 15:48:45] INFO root fetch - processPackages [bit-saver]: Start processing: stackoperator
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: End processing [bit-saver] error
+[2023-05-19 15:48:45] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/b3/39/84689b747f1ed0a8c22e6bb971309f5dfd48777a2a42e5268470d5c45527/pix_framework-0.8.3.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-05-19 15:48:45] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.2.tar.gz tmp/pix_framework-0.8.3.tar.gz --markdown 20230519/p/pix-framework/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-19 15:48:45] INFO root fetch - processPackages [stackoperator]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 15:48:45] WARNING root fetch - processPackages [pytest-when]: Skipping, unable to determine old version
+[2023-05-19 15:48:45] INFO root fetch - processPackages [pytest-when]: Start processing: FileInfo-Video-Audio
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: End processing [pytest-when] error
+[2023-05-19 15:48:45] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/10/4e/6ae50b94b0b0b498d12d36eee43cf9f9b84300df32b8082f6a5dada39ccd/diffenator2-0.2.1.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [cyvcf2]: Downloading https://files.pythonhosted.org/packages/e4/42/f2016a5d158dc0ab205929d74d510214c8845557d4cd8ab366dcfcb6a3da/cyvcf2-0.8.9.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/fd/18/5b7c72ee455cfb3948d868d748bf89555d2c149579a30e4a42a2e072e5bc/censusdis-0.8.8.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/57/02/67be1b2db46c06481db1f8bcab9003bb4cf75838837d3dc7b92bde0a262b/prancer-basic-3.0.5.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [FileInfo-Video-Audio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 15:48:45] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12789724>=10485760
+[2023-05-19 15:48:45] INFO root fetch - processPackages [diffenator2]: Start processing: swh.lister
+[2023-05-19 15:48:45] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2023-05-19 15:48:45] INFO root fetch - processPackages [stackoperator]: Downloading https://files.pythonhosted.org/packages/53/1a/80f4c33ee9089a66311752f87a862cbfeef54cda8759bc5b5ce50247dbdf/stackoperator-0.1.1.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-05-19 15:48:45] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230519/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-05-19 15:48:45] INFO root fetch - processPackages [swh.lister]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-05-19 15:48:45] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/ce/90/7f6b24c5a53bed2182a31470c79e93d93fe511588b55376087f614e927dd/prancer-basic-3.0.6.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [cyvcf2]: Downloading https://files.pythonhosted.org/packages/3f/21/29c8dc12e91d55e953f230bf9e96af779b224f6d59f4eacc3dcb80753d34/cyvcf2-0.9.0.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/01/ee/d48301c7bc70fbf6b088f2a29da50d64b9841cdbb919002dc1bcf8082a3a/censusdis-0.9.0.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [stackoperator]: Downloading https://files.pythonhosted.org/packages/49/e6/9e396e8d67b3168560c0665b823126b3c4af6eba4d9314f0de0578a38799/stackoperator-0.2.0.tar.gz
+[2023-05-19 15:48:45] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-05-19 15:48:45] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230519/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-19 15:48:45] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/4b/4a/5b87dce86765fa24a0f995fede06ac41bff74315b6d7165a38fbb051e4ee/swh.lister-5.3.0.tar.gz
+[2023-05-19 15:48:46] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.5.tar.gz tmp/prancer-basic-3.0.6.tar.gz --markdown 20230519/p/prancer-basic/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/7a/2c/1aefe4a712c324129b4cfcd82d83fdcdd43dcfd66c545ff4b50525a3ae07/FileInfo_Video_Audio-0.1.2.tar.gz
+[2023-05-19 15:48:46] INFO root fetch - processPackages [censusdis]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [censusdis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censusdis-0.8.8.tar.gz tmp/censusdis-0.9.0.tar.gz --markdown 20230519/c/censusdis/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [cyvcf2]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [cyvcf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyvcf2-0.8.9.tar.gz tmp/cyvcf2-0.9.0.tar.gz --markdown 20230519/c/cyvcf2/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [stackoperator]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [stackoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoperator-0.1.1.tar.gz tmp/stackoperator-0.2.0.tar.gz --markdown 20230519/s/stackoperator/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-05-19 15:48:46] INFO root fetch - processPackages [FileInfo-Video-Audio]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [FileInfo-Video-Audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileInfo_Video_Audio-0.1.1.tar.gz tmp/FileInfo_Video_Audio-0.1.2.tar.gz --markdown 20230519/F/FileInfo-Video-Audio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230519/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 15:48:46] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/93/84/08b11f0507ddf46038546cc281f1b641835910eda6ee0a8fbcef64e4c818/swh.lister-5.4.0.tar.gz
+[2023-05-19 15:48:46] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-05-19 15:48:46] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.3.0.tar.gz tmp/swh.lister-5.4.0.tar.gz --markdown 20230519/s/swh.lister/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-05-19 15:48:47] INFO root fetch - processPackages [griptape-tools]: Start processing: kedro-graphql
+[2023-05-19 15:48:47] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-05-19 15:48:47] INFO root fetch - processPackages [kedro-graphql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 15:48:47] INFO root fetch - processPackages [censusdis]: Start processing: edwh
+[2023-05-19 15:48:47] INFO root fetch - main [MainThread]: End processing [censusdis]: success
+[2023-05-19 15:48:47] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 15:48:47] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/96/26/1a769b06b91390c0fa6171853e728c29a7f50653f7e10845971a6fa916be/kedro-graphql-0.1.0.tar.gz
+[2023-05-19 15:48:47] INFO root fetch - main [MainThread]: End processing [stackoperator]: success
+[2023-05-19 15:48:47] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-05-19 15:48:47] INFO root fetch - main [MainThread]: End processing [FileInfo-Video-Audio]: success
+[2023-05-19 15:48:47] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/25/6c/2f0116ed1b61e63549d3f4af2ab41ac237a7129ff54915c2afafe2ea07a6/kedro-graphql-0.1.1.tar.gz
+[2023-05-19 15:48:47] INFO root fetch - processPackages [kedro-graphql]: executing diffoscope
+[2023-05-19 15:48:47] INFO root fetch - processPackages [kedro-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-graphql-0.1.0.tar.gz tmp/kedro-graphql-0.1.1.tar.gz --markdown 20230519/k/kedro-graphql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:48:47] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-19 15:48:48] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-19 15:48:48] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-19 15:48:48] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2023-05-19 15:48:48] INFO root fetch - main [MainThread]: End processing [cyvcf2]: success
+[2023-05-19 15:48:48] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-05-19 15:48:49] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-19 15:48:49] INFO root fetch - main [MainThread]: End processing [kedro-graphql]: success
+[2023-05-19 15:48:50] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-05-19 15:48:50] INFO root fetch - main [MainThread]: Store serial: [18170690]
