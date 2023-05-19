@@ -10255,3 +10255,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 08:56:05] WARNING root fetch - processPackages [univairate-monitoring]: Skipping, unable to determine old version
 [2023-05-19 08:56:05] INFO root fetch - main [MainThread]: End processing [univairate-monitoring] error
 [2023-05-19 08:56:05] INFO root fetch - main [MainThread]: Store serial: [18166446]
+[2023-05-19 09:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166446]
+[2023-05-19 09:01:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dorado
+[2023-05-19 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspeaker
+[2023-05-19 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coinlib
+[2023-05-19 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uzcloud-billing
+[2023-05-19 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-copilot
+[2023-05-19 09:01:14] INFO root fetch - processPackages [uzcloud-billing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 09:01:14] INFO root fetch - processPackages [pyspeaker]: New version: [9.0] Old Version: [8.0]
+[2023-05-19 09:01:14] WARNING root fetch - processPackages [data-copilot]: Skipping, unable to determine old version
+[2023-05-19 09:01:14] INFO root fetch - main [MainThread]: End processing [data-copilot] error
+[2023-05-19 09:01:14] INFO root fetch - processPackages [coinlib]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-19 09:01:14] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 09:01:14] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-19 09:01:14] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-8.0.tar.gz tmp/pyspeaker-9.0.tar.gz --markdown 20230519/p/pyspeaker/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-19 09:01:14] INFO root fetch - processPackages [coinlib]: Downloading https://files.pythonhosted.org/packages/23/b2/c2203ee70803d4ca01c6c221225b15046ed83e63530e2d1efbed579c3332/coinlib-2.2.2.tar.gz
+[2023-05-19 09:01:14] INFO root fetch - processPackages [uzcloud-billing]: executing diffoscope
+[2023-05-19 09:01:14] INFO root fetch - processPackages [uzcloud-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uzcloud-billing-0.2.8.tar.gz tmp/uzcloud-billing-0.2.9.tar.gz --markdown 20230519/u/uzcloud-billing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 09:01:14] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 09:01:14] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 09:01:14] INFO root fetch - processPackages [coinlib]: Downloading https://files.pythonhosted.org/packages/2e/5e/5679ec1b42700e1579c785f25a14c92faa0e0b7875f6068dce38eb515e3d/coinlib-2.2.3.tar.gz
+[2023-05-19 09:01:14] INFO root fetch - processPackages [coinlib]: executing diffoscope
+[2023-05-19 09:01:14] INFO root fetch - processPackages [coinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinlib-2.2.2.tar.gz tmp/coinlib-2.2.3.tar.gz --markdown 20230519/c/coinlib/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-19 09:01:15] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-19 09:01:15] INFO root fetch - main [MainThread]: End processing [uzcloud-billing]: success
+[2023-05-19 09:01:15] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 09:01:16] INFO root fetch - main [MainThread]: End processing [coinlib]: success
+[2023-05-19 09:01:16] INFO root fetch - main [MainThread]: Store serial: [18166465]
