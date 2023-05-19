@@ -8544,3 +8544,48 @@
 [2023-05-19 06:46:31] INFO root fetch - main [MainThread]: End processing [betwatch]: success
 [2023-05-19 06:46:31] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-19 06:46:31] INFO root fetch - main [MainThread]: Store serial: [18165600]
+[2023-05-19 06:51:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165600]
+[2023-05-19 06:51:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymino
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fleet-vehicle-service-kanban
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-sketcher
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudtoken
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galactic-messenger
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit-utils
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tangerine-auth
+[2023-05-19 06:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: not1mm
+[2023-05-19 06:51:40] INFO root fetch - processPackages [pymino]: New version: [1.1.8.1] Old Version: [1.1.7.9]
+[2023-05-19 06:51:40] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 06:51:40] WARNING root fetch - processPackages [ai-sketcher]: Skipping, unable to determine old version
+[2023-05-19 06:51:40] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-19 06:51:40] INFO root fetch - main [MainThread]: End processing [ai-sketcher] error
+[2023-05-19 06:51:41] INFO root fetch - processPackages [galactic-messenger]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 06:51:41] INFO root fetch - processPackages [cloudtoken]: New version: [2.1.6] Old Version: [2.1.2]
+[2023-05-19 06:51:41] INFO root fetch - processPackages [algokit-utils]: New version: [1.2.0b2] Old Version: [1.2.0b1]
+[2023-05-19 06:51:41] INFO root fetch - processPackages [not1mm]: New version: [23.5.9.2] Old Version: [23.5.9.1]
+[2023-05-19 06:51:41] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.4-py3-none-any.whl.zip tmp/tangerine_auth-0.0.5-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.2.0b1-py3-none-any.whl.zip tmp/algokit_utils-1.2.0b2-py3-none-any.whl.zip --markdown 20230519/a/algokit-utils/1.2.0b1-1.2.0b2/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/f5/3a/1ed15254e0dd6a3f2b3d478a680ec8fae1a1dd53f7a7e19ce5285fc5679f/cloudtoken-2.1.2-py3-none-any.whl
+[2023-05-19 06:51:41] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/08/2a/447b4e52c39101c5a703723c1488436956f192aa726a4d85f99c9673d2e8/galactic-messenger-0.1.2.tar.gz
+[2023-05-19 06:51:41] INFO root fetch - processPackages [galactic-messenger]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [galactic-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galactic-messenger-0.1.1.tar.gz tmp/galactic-messenger-0.1.2.tar.gz --markdown 20230519/g/galactic-messenger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/45/e0/920e771998f5c441ad728bc9363dc9e731c5365b4e685a76cdc5a0422d38/pymino-1.1.8.1.tar.gz
+[2023-05-19 06:51:41] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-fleet-vehicle-service-kanban/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.7.9.tar.gz tmp/pymino-1.1.8.1.tar.gz --markdown 20230519/p/pymino/1.1.7.9-1.1.8.1/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/96/ed/d844af9aa5dec08faecd36758b8cd6904b1c5b33bb5f271bbd7a820ad4fa/cloudtoken-2.1.6-py3-none-any.whl
+[2023-05-19 06:51:41] INFO root fetch - processPackages [cloudtoken]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [cloudtoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoken-2.1.2-py3-none-any.whl.zip tmp/cloudtoken-2.1.6-py3-none-any.whl.zip --markdown 20230519/c/cloudtoken/2.1.2-2.1.6/diff.md --exclude *.pyd
+[2023-05-19 06:51:41] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-19 06:51:41] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.9.1.tar.gz tmp/not1mm-23.5.9.2.tar.gz --markdown 20230519/n/not1mm/23.5.9.1-23.5.9.2/diff.md --exclude *.pyd
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [galactic-messenger]: success
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-service-kanban]: success
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-05-19 06:51:42] INFO root fetch - main [MainThread]: End processing [cloudtoken]: success
+[2023-05-19 06:51:46] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-19 06:51:46] INFO root fetch - main [MainThread]: Store serial: [18165625]
