@@ -14214,3 +14214,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:11:44] INFO root fetch - main [MainThread]: End processing [chat-downloader]: success
 [2023-05-19 13:11:45] INFO root fetch - main [MainThread]: End processing [giant-plugins]: success
 [2023-05-19 13:11:45] INFO root fetch - main [MainThread]: Store serial: [18168734]
+[2023-05-19 13:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168734]
+[2023-05-19 13:16:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neoxelox-invoke
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arknights-toolkit
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phiterm
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-fatturapa-out
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-fatturapa
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-fatturapa-in
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-account
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dpsa4fl-bindings
+[2023-05-19 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: documentdataextraction
+[2023-05-19 13:16:54] WARNING root fetch - processPackages [neoxelox-invoke]: Skipping, unable to determine old version
+[2023-05-19 13:16:54] INFO root fetch - processPackages [neoxelox-invoke]: Start processing: odoo-addon-sale-advance-payment
+[2023-05-19 13:16:54] INFO root fetch - main [MainThread]: End processing [neoxelox-invoke] error
+[2023-05-19 13:16:54] INFO root fetch - processPackages [nwebclient]: New version: [1.0.93] Old Version: [1.0.92]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [phiterm]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/9b/28/9d1b16a7cd5619c7ebf93577b3e562535e731305556d427845773dcbdc62/arknights_toolkit-0.5.8.tar.gz
+[2023-05-19 13:16:54] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-19 13:16:54] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.92.tar.gz tmp/nwebclient-1.0.93.tar.gz --markdown 20230519/n/nwebclient/1.0.92-1.0.93/diff.md --exclude *.pyd
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: New version: [14.0.3.4.0] Old Version: [14.0.3.3.0]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.2.dev2]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-account]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.4.dev2]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.2.dev4]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1.1]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [dpsa4fl-bindings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 13:16:54] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17444363>=10485760
+[2023-05-19 13:16:54] INFO root fetch - processPackages [arknights-toolkit]: Start processing: proteus-runtime
+[2023-05-19 13:16:54] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-19 13:16:54] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/07/75/68d9d008de244c1014248fc7b244976fdba2502ded218df8deb904aef0c4/phiterm-1.6.6.tar.gz
+[2023-05-19 13:16:54] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/7d/b3/2b85f0eace2608f191f6b9eb85a0d8a334ae71160998d3e986327678895a/odoo14_addon_l10n_it_fatturapa_in-14.0.2.0.2.dev2-py3-none-any.whl
+[2023-05-19 13:16:54] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/bc/e7/3f304bc8748d49ce4481534710501aec027e203de4ace2fc83b36184217f/odoo14_addon_l10n_it_fatturapa_out-14.0.3.3.0-py3-none-any.whl
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/47/11/5cd48a07e79d1bb958796519cc9ea351d526647400d6b476dec73f11a526/odoo_addon_sale_advance_payment-15.0.1.0.1.1-py3-none-any.whl
+[2023-05-19 13:16:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/de/34/024c76f50cf524946ccbbc22c872c8b6c6cc915a7cdd0290d7dfe4f2da15/odoo14_addon_l10n_it_account-14.0.1.2.4.dev2-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [dpsa4fl-bindings]: Downloading https://files.pythonhosted.org/packages/5c/ec/69c9ede1dc4f5e748dc4ee6b6dc2510cbafbba5651d635debd40c78e7838/dpsa4fl_bindings-0.1.8.tar.gz
+[2023-05-19 13:16:55] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.5.tar.gz tmp/phiterm-1.6.6.tar.gz --markdown 20230519/p/phiterm/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/93/28/d72c4aaa19ca486949e4b0f1d446ebd45eed9dd84cc961a9be9069a56491/proteus_runtime-0.2.8.tar.gz
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/8b/6d/6134477b5f58f6889a8d0a7675367209539bffd8f21361c0f5ebcd85c7b6/odoo14_addon_l10n_it_fatturapa-14.0.2.1.0-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/2b/fc/9cd970a60d7b91597003e4740f64fc9852cc0b41eaa86ed8e63d5109f185/odoo_addon_sale_advance_payment-15.0.1.0.2-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/21/bf/ff67fdc75b4095ab4df2869c6c08b3d870db78550617d285bac169c6752b/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.0-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.0.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-it-fatturapa/14.0.2.0.2.dev4-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [dpsa4fl-bindings]: Downloading https://files.pythonhosted.org/packages/bf/c7/747fdf5ce2d59eba7681692fd82b1b154723740c65f8ff02eeb980391b2a/dpsa4fl_bindings-0.1.9.tar.gz
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/7a/3f/3bebf923e7ef64fc24c3f2e04141a96cf19bcc82fdc4b1338419926cc427/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.0-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_advance_payment-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_advance_payment-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-sale-advance-payment/15.0.1.0.1.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.3.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_out-14.0.3.4.0-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-it-fatturapa-out/14.0.3.3.0-14.0.3.4.0/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/0e/b1/dd567093ce7a35e89ab7d89887be300efe9572cd0de898bd5389347b84fa/proteus_runtime-0.2.9.tar.gz
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/38/d2/c512a7d23359f017285cc6eb9f5b6467e8d4a675e9d654f1e14a08244b76/odoo14_addon_l10n_it_account-14.0.1.3.0-py3-none-any.whl
+[2023-05-19 13:16:55] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230519/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-it-fatturapa-in/14.0.2.0.2.dev2-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-account]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_account-14.0.1.2.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_account-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-l10n-it-account/14.0.1.2.4.dev2-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [dpsa4fl-bindings]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [dpsa4fl-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpsa4fl_bindings-0.1.8.tar.gz tmp/dpsa4fl_bindings-0.1.9.tar.gz --markdown 20230519/d/dpsa4fl-bindings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 13:16:55] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-19 13:16:55] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230519/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 13:16:56] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-19 13:16:56] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-05-19 13:16:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-advance-payment]: success
+[2023-05-19 13:16:56] INFO root fetch - main [MainThread]: End processing [dpsa4fl-bindings]: success
+[2023-05-19 13:16:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-account]: success
+[2023-05-19 13:16:57] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-19 13:16:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-out]: success
+[2023-05-19 13:16:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-in]: success
+[2023-05-19 13:16:58] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-19 13:16:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
+[2023-05-19 13:16:58] INFO root fetch - main [MainThread]: Store serial: [18168772]
