@@ -10609,3 +10609,43 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 09:28:42] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-05-19 09:28:44] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
 [2023-05-19 09:28:44] INFO root fetch - main [MainThread]: Store serial: [18166640]
+[2023-05-19 09:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166640]
+[2023-05-19 09:33:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slitflow
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hollihop-api-client
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owenpdf
+[2023-05-19 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Econ-linux
+[2023-05-19 09:33:54] INFO root fetch - processPackages [syngen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 09:33:54] INFO root fetch - processPackages [owenpdf]: New version: [2.0] Old Version: [1.0]
+[2023-05-19 09:33:54] WARNING root fetch - processPackages [Econ-linux]: Skipping, unable to determine old version
+[2023-05-19 09:33:54] INFO root fetch - main [MainThread]: End processing [Econ-linux] error
+[2023-05-19 09:33:54] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 09:33:54] INFO root fetch - processPackages [returnn]: New version: [1.20230519.90323] Old Version: [1.20230518.135029]
+[2023-05-19 09:33:54] INFO root fetch - processPackages [slitflow]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 09:33:54] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/f0/b5/e0197c7481a05af04555518c1624bb600edabffbf3c260027f4d1741d0d5/hollihop_api_client-0.0.5.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/ac/6a/93bb9a6a22b9860a8e0f79e256134aa5d299348b6e0ae4067888ef4049ad/syngen-0.1.1.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [owenpdf]: Downloading https://files.pythonhosted.org/packages/d9/f6/927b6f63727277bbeb17f06367cbdb0ca86cb0d137d9c126e966be2aaa8c/owenpdf-1.0.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [slitflow]: Downloading https://files.pythonhosted.org/packages/0f/a1/65b042fcdb7793f692eb821e2fc7dfa9a5882f6d0216be8b1f0b01de6b1e/slitflow-0.1.1.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/11/35/46a25c0a49e6e4823b5b27f50a59750465d61ab90369204b2b68916fa903/returnn-1.20230519.90323.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [owenpdf]: Downloading https://files.pythonhosted.org/packages/81/0b/7a4fca65465f3435d62fbe315ad71ca0d2aeced01d542e8dd113f0b78a1b/owenpdf-2.0.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [slitflow]: Downloading https://files.pythonhosted.org/packages/c1/96/b267bca1015f2e006e67675ad543bdee63a2e037a3030f11dc6f69e09e1f/slitflow-0.1.2.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/ee/97/eb09925d4dd17ce533fa5adfe5d98bfb03acf8a88e02a1c7bfe75c706f8e/syngen-0.1.2.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/64/23/56dd619e69713299ccfabbdf4ab5dd14f622656de025e4838f1f1789d9f0/hollihop_api_client-0.0.6.tar.gz
+[2023-05-19 09:33:54] INFO root fetch - processPackages [owenpdf]: executing diffoscope
+[2023-05-19 09:33:54] INFO root fetch - processPackages [owenpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owenpdf-1.0.tar.gz tmp/owenpdf-2.0.tar.gz --markdown 20230519/o/owenpdf/1.0-2.0/diff.md --exclude *.pyd
+[2023-05-19 09:33:54] INFO root fetch - processPackages [slitflow]: executing diffoscope
+[2023-05-19 09:33:54] INFO root fetch - processPackages [slitflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slitflow-0.1.1.tar.gz tmp/slitflow-0.1.2.tar.gz --markdown 20230519/s/slitflow/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 09:33:54] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-19 09:33:54] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.5.tar.gz tmp/hollihop_api_client-0.0.6.tar.gz --markdown 20230519/h/hollihop-api-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 09:33:55] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-19 09:33:55] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.1.tar.gz tmp/syngen-0.1.2.tar.gz --markdown 20230519/s/syngen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 09:33:55] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-19 09:33:55] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230518.135029.tar.gz tmp/returnn-1.20230519.90323.tar.gz --markdown 20230519/r/returnn/1.20230518.135029-1.20230519.90323/diff.md --exclude *.pyd
+[2023-05-19 09:33:55] INFO root fetch - main [MainThread]: End processing [owenpdf]: success
+[2023-05-19 09:33:56] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-19 09:33:56] INFO root fetch - main [MainThread]: End processing [slitflow]: success
+[2023-05-19 09:33:57] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-19 09:33:58] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-19 09:33:58] INFO root fetch - main [MainThread]: Store serial: [18166658]
