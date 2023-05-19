@@ -10812,3 +10812,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 09:44:24] INFO root fetch - main [MainThread]: End processing [skytek-utils]: success
 [2023-05-19 09:44:31] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-05-19 09:44:31] INFO root fetch - main [MainThread]: Store serial: [18166744]
+[2023-05-19 09:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166744]
+[2023-05-19 09:49:41] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owenpdf
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sybil
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-negar
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dumbo-asp
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezbeq
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cron-descriptor
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-react-admin
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twnet-parser
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-purchase-request
+[2023-05-19 09:49:41] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [fastapi-react-admin]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [sybil]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-19 09:49:41] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230519/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-05-19 09:49:41] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230519/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-19 09:49:41] INFO root fetch - processPackages [python-negar]: New version: [1.2.1] Old Version: [1.2]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [fastapi-react-admin]: executing diffoscope
+[2023-05-19 09:49:41] INFO root fetch - processPackages [owenpdf]: New version: [3.1] Old Version: [3.0]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [cron-descriptor]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [fastapi-react-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_react_admin-0.2.0.tar.gz tmp/fastapi_react_admin-1.0.0.tar.gz --markdown 20230519/f/fastapi-react-admin/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 09:49:41] INFO root fetch - processPackages [twnet-parser]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-19 09:49:41] INFO root fetch - processPackages [owenpdf]: Downloading https://files.pythonhosted.org/packages/30/46/b7768aa23db54ac4d473ae051f4b470d7e7642345fe7ade1393089012b0b/owenpdf-3.0.tar.gz
+[2023-05-19 09:49:41] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/b4/bd/85b5d0d5c3eecaa669c8c63ad508d8b9f4cce508dec289ab4475a2076b2a/python-negar-1.2.tar.gz
+[2023-05-19 09:49:41] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/3b/ed/c10914d551e72be8618073c35a034504ff251e41543f11af513c7ea1b366/sybil-5.0.1.tar.gz
+[2023-05-19 09:49:41] INFO root fetch - processPackages [cron-descriptor]: Downloading https://files.pythonhosted.org/packages/c8/f3/23c073a2589701db965a6b3d83114b943f2de2420808f44e88795a086c73/cron_descriptor-1.3.0.tar.gz
+[2023-05-19 09:49:41] INFO root fetch - processPackages [twnet-parser]: Downloading https://files.pythonhosted.org/packages/d4/10/fabfda433dc277b86c1c7d423d026bbf63feb573a9af89ec35279ba6b130/twnet_parser-0.6.0.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/3b/f1/4c8daeed5fd2fde1eeebf89517d8b0c519ff8c3abd0367bd064d8e0a65d6/python-negar-1.2.1.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/55/fc/c82a952c3365df7aa9d2d85a1c414c4c9967f7890220e77f5b8bdbcd49af/sybil-5.0.2.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [cron-descriptor]: Downloading https://files.pythonhosted.org/packages/24/a0/455f5a0181cf9a0d2e84d3a66c88de019dce5644ad9680825d1c8a403335/cron_descriptor-1.4.0.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [twnet-parser]: Downloading https://files.pythonhosted.org/packages/8c/f7/8e78101dd8d791cae0263fac9f7787c9710da7243d97361e4d037b9c90fb/twnet_parser-0.7.0.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [owenpdf]: Downloading https://files.pythonhosted.org/packages/21/0a/f506ca6f30611d6d08b3c2a30ba3822eaa9d4381d83ddc51206ddd079cfd/owenpdf-3.1.tar.gz
+[2023-05-19 09:49:42] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230519/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.tar.gz tmp/python-negar-1.2.1.tar.gz --markdown 20230519/p/python-negar/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [sybil]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [sybil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil-5.0.1.tar.gz tmp/sybil-5.0.2.tar.gz --markdown 20230519/s/sybil/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [cron-descriptor]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [cron-descriptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cron_descriptor-1.3.0.tar.gz tmp/cron_descriptor-1.4.0.tar.gz --markdown 20230519/c/cron-descriptor/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [twnet-parser]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [twnet-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twnet_parser-0.6.0.tar.gz tmp/twnet_parser-0.7.0.tar.gz --markdown 20230519/t/twnet-parser/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [owenpdf]: executing diffoscope
+[2023-05-19 09:49:42] INFO root fetch - processPackages [owenpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owenpdf-3.0.tar.gz tmp/owenpdf-3.1.tar.gz --markdown 20230519/o/owenpdf/3.0-3.1/diff.md --exclude *.pyd
+[2023-05-19 09:49:42] INFO root fetch - processPackages [fastapi-react-admin]: Start processing: webslides
+[2023-05-19 09:49:42] INFO root fetch - main [MainThread]: End processing [fastapi-react-admin]: success
+[2023-05-19 09:49:42] INFO root fetch - processPackages [dumbo-asp]: Start processing: CADPR
+[2023-05-19 09:49:42] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-19 09:49:42] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 09:49:43] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 09:49:43] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: New version: [0.6.3] Old Version: [0.6.0]
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: Downloading https://files.pythonhosted.org/packages/0e/bc/667c4278521b026b3b80e2479b7be7f053cc343b77a4191cec660a5baeb1/webslides-0.6.0.tar.gz
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: Downloading https://files.pythonhosted.org/packages/f6/54/7c25c365b3cfd42587199b19571a802c40c720e58d1bcc2016aed6b2e424/webslides-0.6.3.tar.gz
+[2023-05-19 09:49:43] INFO root fetch - processPackages [python-negar]: Start processing: webslides
+[2023-05-19 09:49:43] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: New version: [0.6.3] Old Version: [0.6.0]
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: executing diffoscope
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webslides-0.6.0.tar.gz tmp/webslides-0.6.3.tar.gz --markdown 20230519/w/webslides/0.6.0-0.6.3/diff.md --exclude *.pyd
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: executing diffoscope
+[2023-05-19 09:49:43] INFO root fetch - processPackages [webslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webslides-0.6.0.tar.gz tmp/webslides-0.6.3.tar.gz --markdown 20230519/w/webslides/0.6.0-0.6.3/diff.md --exclude *.pyd
+[2023-05-19 09:49:43] INFO root fetch - processPackages [owenpdf]: Start processing: odoo13-addon-purchase-request
+[2023-05-19 09:49:43] INFO root fetch - main [MainThread]: End processing [owenpdf]: success
+[2023-05-19 09:49:43] INFO root fetch - processPackages [odoo13-addon-purchase-request]: New version: [13.0.4.3.1.dev9] Old Version: [13.0.4.3.1.dev7]
+[2023-05-19 09:49:44] INFO root fetch - processPackages [cron-descriptor]: Start processing: hans
+[2023-05-19 09:49:44] INFO root fetch - main [MainThread]: End processing [cron-descriptor]: success
+[2023-05-19 09:49:44] INFO root fetch - processPackages [odoo13-addon-purchase-request]: executing diffoscope
+[2023-05-19 09:49:44] INFO root fetch - processPackages [odoo13-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip --markdown 20230519/o/odoo13-addon-purchase-request/13.0.4.3.1.dev7-13.0.4.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 09:49:44] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 09:49:44] INFO root fetch - processPackages [hans]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 09:49:44] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-05-19 09:49:44] INFO root fetch - main [MainThread]: End processing [sybil]: success
+[2023-05-19 09:49:44] INFO root fetch - processPackages [hans]: Downloading https://files.pythonhosted.org/packages/b7/c1/932ea68e3c4cd6fd256eb785019759919a8e0986f638f4eeaf6108c9575a/hans-0.1.2.tar.gz
+[2023-05-19 09:49:44] INFO root fetch - processPackages [hans]: Downloading https://files.pythonhosted.org/packages/d5/3a/b254d75360b579aef8bef8f87979c9d830a7af8865b4983d37266e5910a6/hans-0.1.3.tar.gz
+[2023-05-19 09:49:45] INFO root fetch - main [MainThread]: End processing [twnet-parser]: success
+[2023-05-19 09:49:45] INFO root fetch - processPackages [hans]: executing diffoscope
+[2023-05-19 09:49:45] INFO root fetch - processPackages [hans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hans-0.1.2.tar.gz tmp/hans-0.1.3.tar.gz --markdown 20230519/h/hans/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 09:49:45] INFO root fetch - main [MainThread]: End processing [webslides]: success
+[2023-05-19 09:49:45] INFO root fetch - main [MainThread]: End processing [webslides]: success
+[2023-05-19 09:49:46] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request]: success
+[2023-05-19 09:49:46] INFO root fetch - main [MainThread]: End processing [hans]: success
+[2023-05-19 09:49:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-19 09:49:54] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-05-19 09:49:54] INFO root fetch - main [MainThread]: Store serial: [18166789]
