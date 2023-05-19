@@ -20994,3 +20994,257 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:55:27] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
 [2023-05-19 19:55:27] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
 [2023-05-19 19:55:27] INFO root fetch - main [MainThread]: Store serial: [18173315]
+[2023-05-19 20:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173315]
+[2023-05-19 20:00:38] INFO root fetch - main [MainThread]: Found 40 changed packages
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capycli
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorpack
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drtools
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tera-toolbox
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tankioapi
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cigsegy
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LRU-pytorch
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devchat
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starkcore
+[2023-05-19 20:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-schema
+[2023-05-19 20:00:38] INFO root fetch - processPackages [drtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [starkcore]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 20:00:38] WARNING root fetch - processPackages [colorpack]: Skipping, unable to determine old version
+[2023-05-19 20:00:38] WARNING root fetch - processPackages [capycli]: Skipping, unable to determine old version
+[2023-05-19 20:00:38] INFO root fetch - processPackages [colorpack]: Start processing: pyliteadmin
+[2023-05-19 20:00:38] INFO root fetch - processPackages [capycli]: Start processing: shipyard-thoughtspot
+[2023-05-19 20:00:38] INFO root fetch - main [MainThread]: End processing [colorpack] error
+[2023-05-19 20:00:38] INFO root fetch - processPackages [LRU-pytorch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tankioapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tera-toolbox]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-19 20:00:38] INFO root fetch - main [MainThread]: End processing [capycli] error
+[2023-05-19 20:00:38] INFO root fetch - processPackages [devchat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [cigsegy]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [shipyard-thoughtspot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:00:38] INFO root fetch - processPackages [LRU-pytorch]: Downloading https://files.pythonhosted.org/packages/a7/f9/fbdfe1d4e7299ff3d190c8f03df579e20143fe81833285c11488064dafb0/LRU-pytorch-0.1.1.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/0c/cc/1006336009666d3d2bf4426678d613d8684734d7eecfb485bc297e0a222c/drtools-1.0.8.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [shipyard-thoughtspot]: Downloading https://files.pythonhosted.org/packages/4b/21/48a5113b044ef43fe2f36aaab86a3293849a2a539953e8c9cb13aed03226/shipyard_thoughtspot-0.1.2.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/09/b8/0c9460006555d263c4136814035cfb11a25bfad41aa27afa9f759292acb9/starkcore-0.1.0.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/42/a7/18d1c36860c5aa24fd14949a1f7db6f78ca1f1d750662c2da9660b584cad/devchat-0.1.5.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/6c/4e/8eca7be78fd9897dd8ed8fb5c7150a8625a806cce04bd77050fc18f2a77b/cigsegy-1.0.1.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tankioapi]: Downloading https://files.pythonhosted.org/packages/8b/83/07ad41251705f30e6cb206a6db83b85cbede604312c72d7e8210ff76eff0/tankioapi-1.0.0.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [LRU-pytorch]: Downloading https://files.pythonhosted.org/packages/99/b9/b892324d8ea504490e4bd265f2b1edcc038db659202aab563d1e50062588/LRU-pytorch-0.1.2.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [shipyard-thoughtspot]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [shipyard-thoughtspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_thoughtspot-0.1.1.tar.gz tmp/shipyard_thoughtspot-0.1.2.tar.gz --markdown 20230519/s/shipyard-thoughtspot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230519/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/fc/af/ad4eda9cecf60dc8d683bc46fd0dba7d4ac2854acbe39af8b5c1b6ad9fc6/devchat-0.1.6.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tera-toolbox]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tera-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tera-toolbox-0.0.5.tar.gz tmp/tera-toolbox-0.0.8.tar.gz --markdown 20230519/t/tera-toolbox/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/e0/13/902389c568de4fa217291a25a5ed33412d353f2bc68ccdd57fe9c4c47aba/cigsegy-1.1.0-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-05-19 20:00:38] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/18/2f/6897155230204fdbfc06e7d32cce6ef57db351b8fc2135337121afae8beb/drtools-1.0.9.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [LRU-pytorch]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [LRU-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LRU-pytorch-0.1.1.tar.gz tmp/LRU-pytorch-0.1.2.tar.gz --markdown 20230519/L/LRU-pytorch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tankioapi]: Downloading https://files.pythonhosted.org/packages/1e/b6/dfa3d6f89e48a4723f66e95a99ec844fd49453b825c3f03f9a613cae2624/tankioapi-1.0.1.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/12/ed/54d34d49d5915a60fc2668505807cf6393318e2f9974c4fb699b8cbac2ec/starkcore-0.1.1.tar.gz
+[2023-05-19 20:00:38] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.1.5.tar.gz tmp/devchat-0.1.6.tar.gz --markdown 20230519/d/devchat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [drtools]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [drtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtools-1.0.8.tar.gz tmp/drtools-1.0.9.tar.gz --markdown 20230519/d/drtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [starkcore]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [starkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starkcore-0.1.0.tar.gz tmp/starkcore-0.1.1.tar.gz --markdown 20230519/s/starkcore/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tankioapi]: executing diffoscope
+[2023-05-19 20:00:38] INFO root fetch - processPackages [tankioapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tankioapi-1.0.0.tar.gz tmp/tankioapi-1.0.1.tar.gz --markdown 20230519/t/tankioapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 20:00:39] INFO root fetch - processPackages [cigsegy]: executing diffoscope
+[2023-05-19 20:00:39] INFO root fetch - processPackages [cigsegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cigsegy-1.0.1.tar.gz tmp/cigsegy-1.1.0-cp39-cp39-manylinux_2_24_x86_64.whl.zip --markdown 20230519/c/cigsegy/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 20:00:40] INFO root fetch - processPackages [pyliteadmin]: Start processing: hyper-requests
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 20:00:40] INFO root fetch - processPackages [hyper-requests]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 20:00:40] INFO root fetch - processPackages [shipyard-thoughtspot]: Start processing: pycatsearch
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [shipyard-thoughtspot]: success
+[2023-05-19 20:00:40] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-05-19 20:00:40] INFO root fetch - processPackages [hyper-requests]: Downloading https://files.pythonhosted.org/packages/c2/c5/b03d847de4f3084944b8692907ccaca94c683fd100b577266557bceaf9b0/hyper_requests-0.0.5.tar.gz
+[2023-05-19 20:00:40] INFO root fetch - processPackages [hyper-requests]: executing diffoscope
+[2023-05-19 20:00:40] INFO root fetch - processPackages [hyper-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyper_requests-0.0.4.tar.gz tmp/hyper_requests-0.0.5.tar.gz --markdown 20230519/h/hyper-requests/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 20:00:40] INFO root fetch - processPackages [tera-toolbox]: Start processing: mfhpo-simulator
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [tera-toolbox]: success
+[2023-05-19 20:00:40] WARNING root fetch - processPackages [mfhpo-simulator]: Skipping, unable to determine old version
+[2023-05-19 20:00:40] INFO root fetch - processPackages [mfhpo-simulator]: Start processing: confindr
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator] error
+[2023-05-19 20:00:40] INFO root fetch - processPackages [confindr]: New version: [0.8.1] Old Version: [0.7.4]
+[2023-05-19 20:00:40] INFO root fetch - processPackages [cigsegy]: Start processing: genki-signals
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [cigsegy]: success
+[2023-05-19 20:00:40] INFO root fetch - processPackages [genki-signals]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 20:00:40] INFO root fetch - processPackages [LRU-pytorch]: Start processing: axim
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [LRU-pytorch]: success
+[2023-05-19 20:00:40] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/e9/8c/0b5ef728f16fd6e20986e35a73ceb9b255c60c485f632e3e644f99d3bbf2/pycatsearch-5.1.3.tar.gz
+[2023-05-19 20:00:40] WARNING root fetch - processPackages [axim]: Skipping, unable to determine old version
+[2023-05-19 20:00:40] INFO root fetch - processPackages [axim]: Start processing: embedops-cli
+[2023-05-19 20:00:40] INFO root fetch - main [MainThread]: End processing [axim] error
+[2023-05-19 20:00:40] INFO root fetch - processPackages [confindr]: Downloading https://files.pythonhosted.org/packages/68/2f/86d193d2f515324f4138f200a33fbbbe2818396bef90386d50b74f7d1522/confindr-0.7.4.tar.gz
+[2023-05-19 20:00:40] INFO root fetch - processPackages [embedops-cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 20:00:40] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-05-19 20:00:40] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.2.tar.gz tmp/pycatsearch-5.1.3.tar.gz --markdown 20230519/p/pycatsearch/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-05-19 20:00:40] INFO root fetch - processPackages [embedops-cli]: executing diffoscope
+[2023-05-19 20:00:40] INFO root fetch - processPackages [embedops-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedops-cli-0.3.8.tar.gz tmp/embedops-cli-0.3.9.tar.gz --markdown 20230519/e/embedops-cli/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 20:00:40] INFO root fetch - processPackages [genki-signals]: Downloading https://files.pythonhosted.org/packages/08/f0/e69eb2246753270b43c616efec19a55da15f2adf61830d4c57e73768b633/genki_signals-0.1.0.tar.gz
+[2023-05-19 20:00:40] INFO root fetch - processPackages [confindr]: Downloading https://files.pythonhosted.org/packages/72/6f/71bc6b52c855e6695c729693f27cd92017e2bcc68c1f042ca401dc31d67f/confindr-0.8.1.tar.gz
+[2023-05-19 20:00:40] INFO root fetch - processPackages [confindr]: executing diffoscope
+[2023-05-19 20:00:40] INFO root fetch - processPackages [confindr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confindr-0.7.4.tar.gz tmp/confindr-0.8.1.tar.gz --markdown 20230519/c/confindr/0.7.4-0.8.1/diff.md --exclude *.pyd
+[2023-05-19 20:00:40] INFO root fetch - processPackages [genki-signals]: Downloading https://files.pythonhosted.org/packages/33/01/f7575f5e07e3e3be5ad672936e6ef11448cadaac485965d35fe06a885ecd/genki_signals-0.1.1.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [devchat]: Start processing: cancelchain
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cancelchain]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-05-19 20:00:41] INFO root fetch - processPackages [genki-signals]: executing diffoscope
+[2023-05-19 20:00:41] INFO root fetch - processPackages [genki-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genki_signals-0.1.0.tar.gz tmp/genki_signals-0.1.1.tar.gz --markdown 20230519/g/genki-signals/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 20:00:41] INFO root fetch - processPackages [tankioapi]: Start processing: pytest-when
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [tankioapi]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [pytest-when]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 20:00:41] INFO root fetch - processPackages [starkcore]: Start processing: onboardme
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [starkcore]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/a8/08/086a974483e4b4c1d8c2564c83c87cdd3732bfa2ce274f4687c406fb08b8/pytest_when-1.0.3.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [onboardme]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cancelchain]: Downloading https://files.pythonhosted.org/packages/7a/a9/98a72d7bfd2bbf8cd5cd66ef9088917abbb81d159aaca26137f6194802e9/cancelchain-1.3.2.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [onboardme]: executing diffoscope
+[2023-05-19 20:00:41] INFO root fetch - processPackages [onboardme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onboardme-1.0.2.tar.gz tmp/onboardme-1.1.0.tar.gz --markdown 20230519/o/onboardme/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 20:00:41] INFO root fetch - processPackages [drtools]: Start processing: cloudflare
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [drtools]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/3c/7e/096cf7a5294423f8d6c907d6d81e25e2e8aa990095b495107eba201f6dcd/pytest_when-1.0.4.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cloudflare]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cancelchain]: Downloading https://files.pythonhosted.org/packages/ef/da/da3e1cc448e4592fe21a200367ff77ab01458321450ea0068081ae1cb112/cancelchain-1.4.0.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [aind-data-schema]: Start processing: dataclasses-avroschema
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [pytest-when]: executing diffoscope
+[2023-05-19 20:00:41] INFO root fetch - processPackages [pytest-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_when-1.0.3.tar.gz tmp/pytest_when-1.0.4.tar.gz --markdown 20230519/p/pytest-when/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cancelchain]: executing diffoscope
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cancelchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancelchain-1.3.2.tar.gz tmp/cancelchain-1.4.0.tar.gz --markdown 20230519/c/cancelchain/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-05-19 20:00:41] INFO root fetch - processPackages [hyper-requests]: Start processing: arg-econ-data
+[2023-05-19 20:00:41] INFO root fetch - main [MainThread]: End processing [hyper-requests]: success
+[2023-05-19 20:00:41] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/2b/a4/405176c3ae30e6029227ba41cc42bcfa24b7d85259cfeee3c464cae35706/cloudflare-2.9.8.tar.gz
+[2023-05-19 20:00:41] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 20:00:41] INFO root fetch - processPackages [arg-econ-data]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:00:42] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [arg-econ-data]: Downloading https://files.pythonhosted.org/packages/3b/5f/40491b85e6718f383c5df2f58c5614dec5dedc8620e2dcdfc85aa328eb49/arg-econ-data-0.0.8.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/dc/32/a864c11f9518273fcbedd32ae9a37ca50ad41f993b60fadbef63fc92992f/cloudflare-2.9.9.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [confindr]: Start processing: apache-airflow-providers-airbyte
+[2023-05-19 20:00:42] INFO root fetch - main [MainThread]: End processing [confindr]: success
+[2023-05-19 20:00:42] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: New version: [3.3.0rc2] Old Version: [3.3.0rc1]
+[2023-05-19 20:00:42] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-05-19 20:00:42] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230519/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 20:00:42] INFO root fetch - processPackages [cloudflare]: executing diffoscope
+[2023-05-19 20:00:42] INFO root fetch - processPackages [cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-2.9.8.tar.gz tmp/cloudflare-2.9.9.tar.gz --markdown 20230519/c/cloudflare/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-19 20:00:42] INFO root fetch - processPackages [arg-econ-data]: Downloading https://files.pythonhosted.org/packages/99/63/45c58db8a6946b1ce54398fa9079ef42f47666e04af6ab9ec4e6f887b04a/arg-econ-data-0.0.9.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Downloading https://files.pythonhosted.org/packages/e5/c1/e462dc32aa6a3730a299a7d316e140a30438cbfa08063d325bbaae4195bf/apache-airflow-providers-airbyte-3.3.0rc1.tar.gz
+[2023-05-19 20:00:42] INFO root fetch - processPackages [arg-econ-data]: executing diffoscope
+[2023-05-19 20:00:42] INFO root fetch - processPackages [arg-econ-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arg-econ-data-0.0.8.tar.gz tmp/arg-econ-data-0.0.9.tar.gz --markdown 20230519/a/arg-econ-data/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:00:42] INFO root fetch - processPackages [onboardme]: Start processing: apache-airflow-providers-alibaba
+[2023-05-19 20:00:42] INFO root fetch - main [MainThread]: End processing [onboardme]: success
+[2023-05-19 20:00:42] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Downloading https://files.pythonhosted.org/packages/07/b5/240f79724e069c1c963b3a778c2bccee57fd1e705f79e7d796b13230d9e7/apache_airflow_providers_airbyte-3.3.0rc2-py3-none-any.whl
+[2023-05-19 20:00:42] INFO root fetch - processPackages [embedops-cli]: Start processing: apache-airflow-providers-amazon
+[2023-05-19 20:00:42] INFO root fetch - main [MainThread]: End processing [embedops-cli]: success
+[2023-05-19 20:00:42] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: New version: [2.4.0rc2] Old Version: [2.4.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: New version: [8.1.0rc2] Old Version: [8.1.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [genki-signals]: Start processing: apache-airflow-providers-apache-beam
+[2023-05-19 20:00:43] INFO root fetch - main [MainThread]: End processing [genki-signals]: success
+[2023-05-19 20:00:43] INFO root fetch - processPackages [pycatsearch]: Start processing: apache-airflow-providers-apache-cassandra
+[2023-05-19 20:00:43] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/61/e4/08377cfd1bedfc6e49e3323555b8c9eb789773a4e6c7df9c2ffc7d65ed67/apache-airflow-providers-alibaba-2.4.0rc1.tar.gz
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: New version: [5.1.0rc2] Old Version: [5.1.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-airbyte-3.3.0rc1.tar.gz tmp/apache_airflow_providers_airbyte-3.3.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-airbyte/3.3.0rc1-3.3.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:43] INFO root fetch - processPackages [pytest-when]: Start processing: apache-airflow-providers-apache-drill
+[2023-05-19 20:00:43] INFO root fetch - main [MainThread]: End processing [pytest-when]: success
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/c6/03/07d2beb386dd3fdfaa036a093a3a024ac686bafd9301482fd8089f6a4167/apache-airflow-providers-amazon-8.1.0rc1.tar.gz
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-cassandra]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: New version: [2.4.0rc2] Old Version: [2.4.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Downloading https://files.pythonhosted.org/packages/7e/48/3ab65fbae01bfcfdd67f8931c42bf47db88e6f3b1e6adfc6bcb4d7a0d07d/apache-airflow-providers-apache-beam-5.1.0rc1.tar.gz
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/68/e5/5a46f1cf8f4e2ab5c2cd441342271846249e0841c09aedf01791c55a7a73/apache_airflow_providers_alibaba-2.4.0rc2-py3-none-any.whl
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-cassandra]: Downloading https://files.pythonhosted.org/packages/3a/6c/db784802dd44fe7e4175a1ed2eb3ae9f8d697e9801001e24b554ed5350c7/apache-airflow-providers-apache-cassandra-3.2.0rc1.tar.gz
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Downloading https://files.pythonhosted.org/packages/10/03/8d2e0f2053c160b7a474acee1bcfeb12dab2f4488847132eb948c7b7c5a7/apache-airflow-providers-apache-drill-2.4.0rc1.tar.gz
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/2b/e0/a6fcb83708b46fbfd2deb461fb628ac524c38851b33341cbf1df0d00faaa/apache_airflow_providers_amazon-8.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Downloading https://files.pythonhosted.org/packages/15/90/f9cdbcbfc34f93446f04dd0e0ab48cd262cb8a7266b06d8d14223499989f/apache_airflow_providers_apache_beam-5.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-alibaba-2.4.0rc1.tar.gz tmp/apache_airflow_providers_alibaba-2.4.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-alibaba/2.4.0rc1-2.4.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:43] INFO root fetch - processPackages [cancelchain]: Start processing: apache-airflow-providers-apache-druid
+[2023-05-19 20:00:43] INFO root fetch - main [MainThread]: End processing [cancelchain]: success
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-cassandra]: Downloading https://files.pythonhosted.org/packages/94/6f/df799e6efc5ee8d2671ac076638e9b8ce9ca70b305adddab09717055b6b0/apache_airflow_providers_apache_cassandra-3.2.0rc2-py3-none-any.whl
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-amazon-8.1.0rc1.tar.gz tmp/apache_airflow_providers_amazon-8.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-amazon/8.1.0rc1-8.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Downloading https://files.pythonhosted.org/packages/0e/27/2c490894e436c32b647e95a4f9d5d2cd788af91fea0f3b56c4a3582993e1/apache_airflow_providers_apache_drill-2.4.0rc2-py3-none-any.whl
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-druid]: New version: [3.4.0rc2] Old Version: [3.4.0rc1]
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-beam-5.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_beam-5.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-beam/5.1.0rc1-5.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-cassandra]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-cassandra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-cassandra-3.2.0rc1.tar.gz tmp/apache_airflow_providers_apache_cassandra-3.2.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-cassandra/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: executing diffoscope
+[2023-05-19 20:00:43] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-drill-2.4.0rc1.tar.gz tmp/apache_airflow_providers_apache_drill-2.4.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-drill/2.4.0rc1-2.4.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:44] INFO root fetch - processPackages [arg-econ-data]: Start processing: apache-airflow-providers-apache-flink
+[2023-05-19 20:00:44] INFO root fetch - main [MainThread]: End processing [arg-econ-data]: success
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-druid]: Downloading https://files.pythonhosted.org/packages/1d/66/7cf8a2674d7eb8adac574b22f52cd7300c750f9b7a60992f76c1c8d0c7e2/apache-airflow-providers-apache-druid-3.4.0rc1.tar.gz
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-flink]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-05-19 20:00:44] INFO root fetch - processPackages [dataclasses-avroschema]: Start processing: apache-airflow-providers-apache-hdfs
+[2023-05-19 20:00:44] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-05-19 20:00:44] INFO root fetch - processPackages [cloudflare]: Start processing: apache-airflow-providers-apache-hive
+[2023-05-19 20:00:44] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-druid]: Downloading https://files.pythonhosted.org/packages/d3/9c/8bca11664c07558b1a51140a9dcb9d43a7c35a7c8da72280dad436d4a153/apache_airflow_providers_apache_druid-3.4.0rc2-py3-none-any.whl
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-flink]: Downloading https://files.pythonhosted.org/packages/c1/11/16a9dedcabe65578403ece85b551aecf16aa4626064551ce3088eb7d7675/apache-airflow-providers-apache-flink-1.1.0rc1.tar.gz
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hdfs]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: New version: [6.1.0rc2] Old Version: [6.1.0rc1]
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-druid]: executing diffoscope
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-druid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-druid-3.4.0rc1.tar.gz tmp/apache_airflow_providers_apache_druid-3.4.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-druid/3.4.0rc1-3.4.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hdfs]: Downloading https://files.pythonhosted.org/packages/16/a0/b0b2075c662c4cfe220080113b24868492a603abe8abef1b73939705e0a8/apache-airflow-providers-apache-hdfs-4.0.0rc1.tar.gz
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Start processing: apache-airflow-providers-apache-impala
+[2023-05-19 20:00:44] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-airbyte]: success
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-flink]: Downloading https://files.pythonhosted.org/packages/cb/1e/21ba449addabf36de110d126a1ef2450333662cc38f569bbe99e8778b6b6/apache_airflow_providers_apache_flink-1.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/1a/f9/a1eaaff4deb8dde9860fa76db2eb81badca714e4569d623c342c2c80dc4a/apache-airflow-providers-apache-hive-6.1.0rc1.tar.gz
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-flink]: executing diffoscope
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-flink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-flink-1.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_flink-1.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-flink/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hdfs]: Downloading https://files.pythonhosted.org/packages/b4/a4/7d4a7b5e350d1c2293cdf8a3efe858698316ce16e3b8c9287cda9f9773c2/apache_airflow_providers_apache_hdfs-4.0.0rc2-py3-none-any.whl
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/35/8f/4283004ee03988f4338ed90f373f4b84f21f62451c9ef9eb161aadf498c8/apache_airflow_providers_apache_hive-6.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:44] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Downloading https://files.pythonhosted.org/packages/c9/16/5c5ec74dc3c576004158b9d6c10f06e0b02fa57e1e027d50aa2ff4015d50/apache-airflow-providers-apache-impala-1.1.0rc1.tar.gz
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-hdfs]: executing diffoscope
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-hdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-hdfs-4.0.0rc1.tar.gz tmp/apache_airflow_providers_apache_hdfs-4.0.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-hdfs/4.0.0rc1-4.0.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Start processing: apache-airflow-providers-apache-kafka
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-alibaba]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: executing diffoscope
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-hive-6.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_hive-6.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-hive/6.1.0rc1-6.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Downloading https://files.pythonhosted.org/packages/eb/1f/2d4a0c0b45fd33b58d4f2252415f0961c81381bea2af42293a109b0ba0d4/apache_airflow_providers_apache_impala-1.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Start processing: apache-airflow-providers-apache-kylin
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kylin]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: executing diffoscope
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-impala-1.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_impala-1.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-impala/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Start processing: apache-airflow-providers-apache-livy
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-drill]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/e5/96/bfe10f11d694d95de78218e1951882c65f12b63d64b7fc8ca580d4b858f8/apache-airflow-providers-apache-kafka-1.1.0rc1.tar.gz
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-beam]: Start processing: apache-airflow-providers-apache-pig
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-beam]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kylin]: Downloading https://files.pythonhosted.org/packages/61/1e/d3b0fc0e01c74dbcaff53ae83e18eec65434712451d45ddcdd1d0b877f97/apache-airflow-providers-apache-kylin-3.2.0rc1.tar.gz
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-cassandra]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: New version: [3.5.0rc2] Old Version: [3.5.0rc1]
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-pig]: New version: [4.1.0rc2] Old Version: [4.1.0rc1]
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/b9/d4/6e34b3cc901007237f01b68612e7ea16a7aa04a6a17e550e5e46bf7b2ff3/apache_airflow_providers_apache_kafka-1.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kylin]: Downloading https://files.pythonhosted.org/packages/88/87/215865c59c36313e41536cb1766a1d8c347f2307d3a21937595185ec4d68/apache_airflow_providers_apache_kylin-3.2.0rc2-py3-none-any.whl
+[2023-05-19 20:00:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-druid]: success
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Downloading https://files.pythonhosted.org/packages/8e/84/cb11b4ea921d1ef7ba486d97708a4b6c0ad87a7d60e7acf38c992bc96eac/apache-airflow-providers-apache-livy-3.5.0rc1.tar.gz
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-pig]: Downloading https://files.pythonhosted.org/packages/a7/b1/41883074cd525f277382358bfde72a65a7c643454e79be6509830b919e29/apache-airflow-providers-apache-pig-4.1.0rc1.tar.gz
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: executing diffoscope
+[2023-05-19 20:00:45] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-kafka-1.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_kafka-1.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-kafka/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-kylin]: executing diffoscope
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-kylin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-kylin-3.2.0rc1.tar.gz tmp/apache_airflow_providers_apache_kylin-3.2.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-kylin/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:46] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-flink]: success
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Downloading https://files.pythonhosted.org/packages/c2/0b/d63969cf7778fb1d1e609d92e29ebab20c32ad18e9c79c8373f5476a4e4f/apache_airflow_providers_apache_livy-3.5.0rc2-py3-none-any.whl
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-pig]: Downloading https://files.pythonhosted.org/packages/de/a4/4f9f287d67b19b652016e1fc9ed315c538c37c88502d26379b9317cf92f1/apache_airflow_providers_apache_pig-4.1.0rc2-py3-none-any.whl
+[2023-05-19 20:00:46] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-hive]: success
+[2023-05-19 20:00:46] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-hdfs]: success
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: executing diffoscope
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-livy-3.5.0rc1.tar.gz tmp/apache_airflow_providers_apache_livy-3.5.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-livy/3.5.0rc1-3.5.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-pig]: executing diffoscope
+[2023-05-19 20:00:46] INFO root fetch - processPackages [apache-airflow-providers-apache-pig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-pig-4.1.0rc1.tar.gz tmp/apache_airflow_providers_apache_pig-4.1.0rc2-py3-none-any.whl.zip --markdown 20230519/a/apache-airflow-providers-apache-pig/4.1.0rc1-4.1.0rc2/diff.md --exclude *.pyd
+[2023-05-19 20:00:46] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-impala]: success
+[2023-05-19 20:00:47] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-kafka]: success
+[2023-05-19 20:00:47] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-kylin]: success
+[2023-05-19 20:00:47] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-livy]: success
+[2023-05-19 20:00:47] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-pig]: success
+[2023-05-19 20:00:47] INFO root fetch - main [MainThread]: Store serial: [18173435]
