@@ -11339,3 +11339,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:16:08] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-05-19 10:16:09] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
 [2023-05-19 10:16:09] INFO root fetch - main [MainThread]: Store serial: [18167075]
+[2023-05-19 10:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167075]
+[2023-05-19 10:21:20] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wanna-ml
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu117
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartchart
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-sale-order-type
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcsc-data-common
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-explain
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-user-notification
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-sale-order-type
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lk-logger
+[2023-05-19 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-05-19 10:21:20] INFO root fetch - processPackages [smartchart]: New version: [6.5.6] Old Version: [6.5.5]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [wanna-ml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [torch-explain]: New version: [1.5.1] Old Version: [1.4.1]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev7]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [lk-logger]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 10:21:20] INFO root fetch - processPackages [wanna-ml]: Downloading https://files.pythonhosted.org/packages/23/f5/366f60cb7660fc223085c2152137b1c31d0009507d50f0df0fb967d8fd43/wanna-ml-0.2.8.tar.gz
+[2023-05-19 10:21:20] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/06/20/7944bb758d2d4d48043c0178d3519c0fc87c7009968562962880ce70b47d/smartchart-6.5.5.tar.gz
+[2023-05-19 10:21:20] INFO root fetch - processPackages [torch-explain]: Downloading https://files.pythonhosted.org/packages/fc/46/75e737a9493df74b7a6f2533a5d831c4163cfa63aeb6544b9139ee284282/torch_explain-1.4.1.tar.gz
+[2023-05-19 10:21:20] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/64/85/2bbacb1b9679b7a36117e944216b847a9c1eb2cfd5782610db66895104a6/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:21:20] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0a/e0/b4f79b081e708d8bf409767f90ff7905569ee0e8346868576bb612554464/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev7-py2-none-any.whl
+[2023-05-19 10:21:20] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/5c/24/364b1c24a8f5718c301b842b2e77b9d8ea345520021a923c8fd5ab81ed8e/django_user_notification-0.9.0.tar.gz
+[2023-05-19 10:21:20] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/83/6a/b6f10b62bc4778f8da58cbd1fc0e40cb70e2172d868326254f1de190499a/lk_logger-5.5.2-py3-none-any.whl
+[2023-05-19 10:21:20] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-05-19 10:21:20] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230519/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230519/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [wanna-ml]: Downloading https://files.pythonhosted.org/packages/d2/31/e24fa7241cafc732581765cfb1d4f22944b79c52e8718e2fadfab8a768a2/wanna-ml-0.2.9.tar.gz
+[2023-05-19 10:21:21] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.5.1-py3-none-any.whl.zip tmp/lk_logger-5.5.2-py3-none-any.whl.zip --markdown 20230519/l/lk-logger/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [torch-explain]: Downloading https://files.pythonhosted.org/packages/8d/3b/ca396ca117cdabd69a18849cc725ff7c9f90b4e81e0fb7e0ff7f79b77720/torch_explain-1.5.1.tar.gz
+[2023-05-19 10:21:21] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.8.2.tar.gz tmp/django_user_notification-0.9.0.tar.gz --markdown 20230519/d/django-user-notification/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [wanna-ml]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [wanna-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanna-ml-0.2.8.tar.gz tmp/wanna-ml-0.2.9.tar.gz --markdown 20230519/w/wanna-ml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/20/6b/d22e6aeb61f94941c5b4b5ba32cf5ddb58882047017b333bfcb5f651c3e7/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:21:21] INFO root fetch - processPackages [torch-explain]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [torch-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_explain-1.4.1.tar.gz tmp/torch_explain-1.5.1.tar.gz --markdown 20230519/t/torch-explain/1.4.1-1.5.1/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/fb/f6/c305c22940a2b2483c74eed7d29377c683db81fc2c369441c02e6d1c386e/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:21:21] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/6c/d4/6715ea134a34cd409762a84d003b4b6d2605612a2f2284cf6ba03b280f04/smartchart-6.5.6.tar.gz
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_order_type-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-sale-order-type/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_sale_order_type-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-sale-order-type/9.0.1.2.0.99.dev7-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:21:21] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-05-19 10:21:21] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.5.5.tar.gz tmp/smartchart-6.5.6.tar.gz --markdown 20230519/s/smartchart/6.5.5-6.5.6/diff.md --exclude *.pyd
+[2023-05-19 10:21:22] INFO root fetch - processPackages [vcsc-data-common]: Start processing: odoo8-addon-sale-automatic-workflow
+[2023-05-19 10:21:22] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-05-19 10:21:22] INFO root fetch - processPackages [QuNet]: Start processing: odoo10-addon-sale-order-type
+[2023-05-19 10:21:22] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-19 10:21:22] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: New version: [8.0.0.3.0.99.dev9] Old Version: [8.0.0.3.0.99.dev8]
+[2023-05-19 10:21:22] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: New version: [10.0.1.1.0.99.dev8] Old Version: [10.0.1.1.0.99.dev7]
+[2023-05-19 10:21:22] INFO root fetch - processPackages [django-user-notification]: Start processing: netbox-cisco-maintenance
+[2023-05-19 10:21:22] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-05-19 10:21:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 10:21:22] INFO root fetch - processPackages [lk-logger]: Start processing: llama-cli
+[2023-05-19 10:21:22] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2023-05-19 10:21:22] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/7d/38/2cc69c65329ef483ce2da748d4062ec95ce661915cc72307ace3b90678e3/odoo8_addon_sale_automatic_workflow-8.0.0.3.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:21:22] INFO root fetch - processPackages [llama-cli]: New version: [1.0.6] Old Version: [1.0.18]
+[2023-05-19 10:21:22] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/6b/98/5639ad480e524e72481850024f0933580448b67c7072b351984582f1ac10/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev7-py2-none-any.whl
+[2023-05-19 10:21:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/16/bc/a91840eb5bd343bceaa6e31d82ee1312335c1c787f1221183db463b4bd60/netbox-cisco-maintenance-0.0.7.tar.gz
+[2023-05-19 10:21:22] INFO root fetch - processPackages [llama-cli]: Downloading https://files.pythonhosted.org/packages/fd/54/b196e97eb5329b477aa2e125d2b13dfa0cfcb7e7256792b1c8e89b176de7/llama-cli-1.0.18.tar.gz
+[2023-05-19 10:21:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 10:21:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.6.tar.gz tmp/netbox-cisco-maintenance-0.0.7.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/f1/2d/9b8861e6bfb56b39fe980164aea329d3bf271361b3495d905665eb3285aa/odoo8_addon_sale_automatic_workflow-8.0.0.3.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0c/cb/f7e4947852040df5648c99c51f040616a61bca1fde147c569bda51d0ff33/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo8-addon-sale-order-type]: Start processing: odoo10-addon-sale-automatic-workflow
+[2023-05-19 10:21:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-order-type]: success
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: executing diffoscope
+[2023-05-19 10:21:23] INFO root fetch - processPackages [torch-explain]: Start processing: odoo11-addon-sale-order-type
+[2023-05-19 10:21:23] INFO root fetch - main [MainThread]: End processing [torch-explain]: success
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_automatic_workflow-8.0.0.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_automatic_workflow-8.0.0.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-sale-automatic-workflow/8.0.0.3.0.99.dev8-8.0.0.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: executing diffoscope
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_sale_order_type-10.0.1.1.0.99.dev8-py2-none-any.whl.zip --markdown 20230519/o/odoo10-addon-sale-order-type/10.0.1.1.0.99.dev7-10.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-19 10:21:23] INFO root fetch - processPackages [llama-cli]: Downloading https://files.pythonhosted.org/packages/00/d0/3353ef34b71571028fd00c8ed4a4660e13f5428d9d022ccc13c44fd156db/llama-cli-1.0.6.tar.gz
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-automatic-workflow]: New version: [10.0.1.0.2.99.dev4] Old Version: [10.0.1.0.2.99.dev3]
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo11-addon-sale-order-type]: New version: [11.0.1.4.2.99.dev9] Old Version: [11.0.1.4.2.99.dev7]
+[2023-05-19 10:21:23] INFO root fetch - processPackages [llama-cli]: executing diffoscope
+[2023-05-19 10:21:23] INFO root fetch - processPackages [llama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cli-1.0.18.tar.gz tmp/llama-cli-1.0.6.tar.gz --markdown 20230519/l/llama-cli/1.0.18-1.0.6/diff.md --exclude *.pyd
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/7d/69/e23f3953ab92aa38882f0d1625dc5e419ed8c048f16fba9a76f8e0af548f/odoo10_addon_sale_automatic_workflow-10.0.1.0.2.99.dev3-py2-none-any.whl
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo11-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/cc/3c/a6f2aafff85fb8fd97734429c8304ce209b049a4ca0abe031adbca9dc30f/odoo11_addon_sale_order_type-11.0.1.4.2.99.dev7-py2.py3-none-any.whl
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/21/3b/e6a1c9b028c3bbd508e877d81960c21b1d189d3681175090d5d00423593b/odoo10_addon_sale_automatic_workflow-10.0.1.0.2.99.dev4-py2-none-any.whl
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-automatic-workflow]: executing diffoscope
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo10-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_sale_automatic_workflow-10.0.1.0.2.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_sale_automatic_workflow-10.0.1.0.2.99.dev4-py2-none-any.whl.zip --markdown 20230519/o/odoo10-addon-sale-automatic-workflow/10.0.1.0.2.99.dev3-10.0.1.0.2.99.dev4/diff.md --exclude *.pyd
+[2023-05-19 10:21:23] INFO root fetch - processPackages [odoo9-addon-sale-order-type]: Start processing: alignmeet
+[2023-05-19 10:21:23] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-order-type]: success
+[2023-05-19 10:21:24] INFO root fetch - processPackages [odoo11-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/32/5a/937a0ae6f00f9dac44e744767e3bb6ce97e924940b656a958ee6410db9fc/odoo11_addon_sale_order_type-11.0.1.4.2.99.dev9-py2.py3-none-any.whl
+[2023-05-19 10:21:24] INFO root fetch - processPackages [wanna-ml]: Start processing: OmeSliCC
+[2023-05-19 10:21:24] INFO root fetch - main [MainThread]: End processing [wanna-ml]: success
+[2023-05-19 10:21:24] INFO root fetch - processPackages [OmeSliCC]: New version: [0.5.1b0] Old Version: [0.5.1.2]
+[2023-05-19 10:21:24] INFO root fetch - processPackages [odoo11-addon-sale-order-type]: executing diffoscope
+[2023-05-19 10:21:24] INFO root fetch - processPackages [odoo11-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_order_type-11.0.1.4.2.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_order_type-11.0.1.4.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20230519/o/odoo11-addon-sale-order-type/11.0.1.4.2.99.dev7-11.0.1.4.2.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:21:24] INFO root fetch - processPackages [alignmeet]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 10:21:24] INFO root fetch - processPackages [OmeSliCC]: executing diffoscope
+[2023-05-19 10:21:24] INFO root fetch - processPackages [OmeSliCC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmeSliCC-0.5.1.2.tar.gz tmp/OmeSliCC-0.5.1b0.tar.gz --markdown 20230519/O/OmeSliCC/0.5.1.2-0.5.1b0/diff.md --exclude *.pyd
+[2023-05-19 10:21:24] INFO root fetch - processPackages [alignmeet]: Downloading https://files.pythonhosted.org/packages/e6/92/2e872df9e6499dbb90afcacde57edc9ab744bb3fe1bc837b4ce553bdcbc3/alignmeet-1.0.8.tar.gz
+[2023-05-19 10:21:24] INFO root fetch - processPackages [alignmeet]: Downloading https://files.pythonhosted.org/packages/26/5d/7e54236481fb3246179fd128f8ea88df40af0ef579321dc65947b768f234/alignmeet-1.0.9.tar.gz
+[2023-05-19 10:21:24] INFO root fetch - processPackages [alignmeet]: executing diffoscope
+[2023-05-19 10:21:24] INFO root fetch - processPackages [alignmeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alignmeet-1.0.8.tar.gz tmp/alignmeet-1.0.9.tar.gz --markdown 20230519/a/alignmeet/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo8-addon-sale-automatic-workflow]: Start processing: odoo11-addon-sale-automatic-workflow
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-automatic-workflow]: success
+[2023-05-19 10:21:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: httpx-negotiate-sspi
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 10:21:25] WARNING root fetch - processPackages [httpx-negotiate-sspi]: Skipping, unable to determine old version
+[2023-05-19 10:21:25] INFO root fetch - processPackages [httpx-negotiate-sspi]: Start processing: InCli
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [httpx-negotiate-sspi] error
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo11-addon-sale-automatic-workflow]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo10-addon-sale-order-type]: Start processing: VSautomatic
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-order-type]: success
+[2023-05-19 10:21:25] INFO root fetch - processPackages [VSautomatic]: New version: [2.5] Old Version: [2.4]
+[2023-05-19 10:21:25] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [llama-cli]: success
+[2023-05-19 10:21:25] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/9e/6c/bf29027945df31ba685991d340f30d77cd6c36fa2dac94b651c80329dfe4/InCli-0.0.80.tar.gz
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo11-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/f7/0d/3926453f6c67db071861719480729a57ef6908e743eb8d7f2e800e536b3d/odoo11_addon_sale_automatic_workflow-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-05-19 10:21:25] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/c5/57/576b1248bcae39d49eab81f40ce8259eba1675345220d04ed284f225d952/VSautomatic-2.5.tar.gz
+[2023-05-19 10:21:25] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/6a/6e/d591caed8f8487b2af06fff97fdb31d9656df795f592f703eff31d2091d5/InCli-0.0.9.tar.gz
+[2023-05-19 10:21:25] INFO root fetch - processPackages [VSautomatic]: executing diffoscope
+[2023-05-19 10:21:25] INFO root fetch - processPackages [VSautomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VSautomatic-2.4.tar.gz tmp/VSautomatic-2.5.tar.gz --markdown 20230519/V/VSautomatic/2.4-2.5/diff.md --exclude *.pyd
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo11-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/2e/df/11ff7875c545747abd985eeec2ace80c2d00dfabf5b4ff95638fae1ce946/odoo11_addon_sale_automatic_workflow-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-05-19 10:21:25] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-automatic-workflow]: success
+[2023-05-19 10:21:25] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-05-19 10:21:25] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.80.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230519/I/InCli/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo11-addon-sale-automatic-workflow]: executing diffoscope
+[2023-05-19 10:21:25] INFO root fetch - processPackages [odoo11-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_automatic_workflow-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_automatic_workflow-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230519/o/odoo11-addon-sale-automatic-workflow/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:21:26] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-19 10:21:26] INFO root fetch - main [MainThread]: End processing [OmeSliCC]: success
+[2023-05-19 10:21:26] INFO root fetch - main [MainThread]: End processing [alignmeet]: success
+[2023-05-19 10:21:26] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-order-type]: success
+[2023-05-19 10:21:27] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-05-19 10:21:27] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
+[2023-05-19 10:21:27] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-automatic-workflow]: success
+[2023-05-19 10:21:28] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-05-19 10:21:28] INFO root fetch - main [MainThread]: Store serial: [18167138]
