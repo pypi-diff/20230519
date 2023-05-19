@@ -20143,3 +20143,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:02:37] INFO root fetch - main [MainThread]: End processing [echoloader]: success
 [2023-05-19 19:03:15] INFO root fetch - main [MainThread]: End processing [py-lav]: success
 [2023-05-19 19:03:15] INFO root fetch - main [MainThread]: Store serial: [18172815]
+[2023-05-19 19:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172815]
+[2023-05-19 19:08:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pantsbuild.pants.testutil
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formic-opcua
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyliteadmin
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylipd
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridappsd-python
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridappsd-field-bus
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: guardshield
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xlavir
+[2023-05-19 19:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyC8
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pylipd]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.5.1a6] Old Version: [2023.5.1a5]
+[2023-05-19 19:08:25] WARNING root fetch - processPackages [guardshield]: Skipping, unable to determine old version
+[2023-05-19 19:08:25] INFO root fetch - processPackages [guardshield]: Start processing: MoskaEngine
+[2023-05-19 19:08:25] INFO root fetch - main [MainThread]: End processing [guardshield] error
+[2023-05-19 19:08:25] INFO root fetch - processPackages [alacorder]: New version: [80.6.6] Old Version: [80.6.5]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [formic-opcua]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-19 19:08:25] WARNING root fetch - processPackages [gridappsd-field-bus]: Skipping, unable to determine old version
+[2023-05-19 19:08:25] INFO root fetch - processPackages [gridappsd-field-bus]: Start processing: djangocms-layouttools
+[2023-05-19 19:08:25] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus] error
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pyC8]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [xlavir]: New version: [1.0.0] Old Version: [0.6.2]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [MoskaEngine]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pylipd]: Downloading https://files.pythonhosted.org/packages/11/fe/6570fe597111290f628249ba982f7d45e571a1fffc66e97468ec7c3fef62/pylipd-1.3.2.tar.gz
+[2023-05-19 19:08:25] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/b1/50/4734e6b698bb32c706ef306cbad6734309077681c756643710b0a69a9450/gridappsd_python-2023.5.1a6.tar.gz
+[2023-05-19 19:08:25] INFO root fetch - processPackages [djangocms-layouttools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pyC8]: Downloading https://files.pythonhosted.org/packages/a6/c4/a21b390e890887e5291e9ad3061a524901c104c149e97b78614cac07a83f/pyC8-1.0.0.tar.gz
+[2023-05-19 19:08:25] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/4e/7d/aeafade716239bdbf6323e1aa8cab40ec135933628cd8b4f30180462f909/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl
+[2023-05-19 19:08:25] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-05-19 19:08:25] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.5.1a5.tar.gz tmp/gridappsd_python-2023.5.1a6.tar.gz --markdown 20230519/g/gridappsd-python/2023.5.1a5-2023.5.1a6/diff.md --exclude *.pyd
+[2023-05-19 19:08:25] INFO root fetch - processPackages [xlavir]: Downloading https://files.pythonhosted.org/packages/24/ec/c2a44b50b11a77ba896e0d6518aefe2007f0679d59925b92d70f8c3583a9/xlavir-0.6.2.tar.gz
+[2023-05-19 19:08:25] INFO root fetch - processPackages [MoskaEngine]: Downloading https://files.pythonhosted.org/packages/f5/58/e73b50bca860c57726cf65dab5339e514789333a7bf6c882569306a18225/MoskaEngine-0.1.1.tar.gz
+[2023-05-19 19:08:25] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-19 19:08:25] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.6.5.tar.gz tmp/alacorder-80.6.6.tar.gz --markdown 20230519/a/alacorder/80.6.5-80.6.6/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [formic-opcua]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [formic-opcua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formic_opcua-1.3.8.tar.gz tmp/formic_opcua-1.3.9.tar.gz --markdown 20230519/f/formic-opcua/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [djangocms-layouttools]: Downloading https://files.pythonhosted.org/packages/e2/17/86f160a12d1bc1fd911c389af0e8a318f93cdfe23949c85bf2fc7a287f7d/djangocms-layouttools-0.1.2.tar.gz
+[2023-05-19 19:08:26] WARNING root fetch - processPackages [MoskaEngine]: Skipping package: exceeds size limit 16453890>=10485760
+[2023-05-19 19:08:26] INFO root fetch - processPackages [MoskaEngine]: Start processing: lgtm-lint
+[2023-05-19 19:08:26] INFO root fetch - main [MainThread]: End processing [MoskaEngine] error
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pyC8]: Downloading https://files.pythonhosted.org/packages/a8/31/964c25e1a0ba5a661cce3f9013962215eaaee1f46955ff097afc8a2ce24b/pyC8-1.0.1.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pylipd]: Downloading https://files.pythonhosted.org/packages/c6/00/248acd850b035c972a08c1a01163593aafadd36c239cd7bf0709fefaa77d/pylipd-1.3.3.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [lgtm-lint]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pyC8]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pyC8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyC8-1.0.0.tar.gz tmp/pyC8-1.0.1.tar.gz --markdown 20230519/p/pyC8/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/99/3d/05b882eb653f3774a6e1520e5e16ce1c59df3737b664846d8bde71c8a2c1/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pylipd]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pylipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylipd-1.3.2.tar.gz tmp/pylipd-1.3.3.tar.gz --markdown 20230519/p/pylipd/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [djangocms-layouttools]: Downloading https://files.pythonhosted.org/packages/64/ac/3a246c19b8a212fc8ce84d10e502ff225fc421c9b9ce2fc726403bde03e9/djangocms-layouttools-0.1.3.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [lgtm-lint]: Downloading https://files.pythonhosted.org/packages/9f/78/0af20c1582c0fdecb009a19d23f21d36ce8f184699cc57787f63cf35df30/lgtm-lint-1.0.1.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [djangocms-layouttools]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [djangocms-layouttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-layouttools-0.1.2.tar.gz tmp/djangocms-layouttools-0.1.3.tar.gz --markdown 20230519/d/djangocms-layouttools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230519/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [lgtm-lint]: Downloading https://files.pythonhosted.org/packages/ed/75/8fabbc813382ed319f86ef176154df2bcaf66c9e5c1c9353cacddc480753/lgtm-lint-1.0.2.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [lgtm-lint]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [lgtm-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgtm-lint-1.0.1.tar.gz tmp/lgtm-lint-1.0.2.tar.gz --markdown 20230519/l/lgtm-lint/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 19:08:26] INFO root fetch - processPackages [xlavir]: Downloading https://files.pythonhosted.org/packages/81/92/0c4ec4c85e36d3c0ebdf81d274adacc5e06be1d93ad46daf80d9e33a5aa7/xlavir-1.0.0.tar.gz
+[2023-05-19 19:08:26] INFO root fetch - processPackages [xlavir]: executing diffoscope
+[2023-05-19 19:08:26] INFO root fetch - processPackages [xlavir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlavir-0.6.2.tar.gz tmp/xlavir-1.0.0.tar.gz --markdown 20230519/x/xlavir/0.6.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 19:08:27] INFO root fetch - processPackages [pyliteadmin]: Start processing: fast-poisson-solver
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 19:08:27] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-19 19:08:27] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/24/30/acfc4720d7e3a828acd1fee5a65f211466b6e459e650301e3bbd52d30dc2/fast_poisson_solver-0.1.6.tar.gz
+[2023-05-19 19:08:27] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping package: exceeds size limit 12298216>=10485760
+[2023-05-19 19:08:27] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: tsp
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-19 19:08:27] INFO root fetch - processPackages [tsp]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-19 19:08:27] INFO root fetch - processPackages [gridappsd-python]: Start processing: configzen
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-05-19 19:08:27] INFO root fetch - processPackages [configzen]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-05-19 19:08:27] INFO root fetch - processPackages [formic-opcua]: Start processing: ofscraper
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [formic-opcua]: success
+[2023-05-19 19:08:27] INFO root fetch - processPackages [ofscraper]: New version: [1.91] Old Version: [1.87]
+[2023-05-19 19:08:27] INFO root fetch - processPackages [tsp]: executing diffoscope
+[2023-05-19 19:08:27] INFO root fetch - processPackages [tsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsp-1.5.3-py3-none-any.whl.zip tmp/tsp-1.5.4-py3-none-any.whl.zip --markdown 20230519/t/tsp/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-19 19:08:27] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-19 19:08:27] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.16.tar.gz tmp/configzen-0.1.17.tar.gz --markdown 20230519/c/configzen/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-05-19 19:08:27] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/1d/8b/816e4d53607965e50093bcac2736e670438d67ebaa98bae9eaa797ca557a/ofscraper-1.91.tar.gz
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [djangocms-layouttools]: success
+[2023-05-19 19:08:27] INFO root fetch - main [MainThread]: End processing [pyC8]: success
+[2023-05-19 19:08:28] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-05-19 19:08:28] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.87.tar.gz tmp/ofscraper-1.91.tar.gz --markdown 20230519/o/ofscraper/1.87-1.91/diff.md --exclude *.pyd
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [lgtm-lint]: success
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [pylipd]: success
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [xlavir]: success
+[2023-05-19 19:08:28] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-19 19:08:29] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-05-19 19:08:30] INFO root fetch - main [MainThread]: End processing [tsp]: success
+[2023-05-19 19:08:30] INFO root fetch - main [MainThread]: Store serial: [18172884]
