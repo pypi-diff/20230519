@@ -18512,3 +18512,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:26:05] INFO root fetch - main [MainThread]: End processing [dkist]: success
 [2023-05-19 17:26:05] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
 [2023-05-19 17:26:05] INFO root fetch - main [MainThread]: Store serial: [18171741]
+[2023-05-19 17:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171741]
+[2023-05-19 17:31:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regis
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjpt
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-cli
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ardilla
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-poet
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-services
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open_source_insights_api
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: negate
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xuanpolicy
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satori-playbook-validator
+[2023-05-19 17:31:15] INFO root fetch - processPackages [recon-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ardilla]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [xuanpolicy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [poetry-poet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [negate]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [open_source_insights_api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [satori-playbook-validator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 17:31:15] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230519/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.8a0.tar.gz tmp/ardilla-0.0.9a0.tar.gz --markdown 20230519/a/ardilla/0.0.8a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [poetry-poet]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [poetry-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_poet-0.1.8.tar.gz tmp/poetry_poet-0.1.9.tar.gz --markdown 20230519/p/poetry-poet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [recon-cli]: Downloading https://files.pythonhosted.org/packages/92/7a/c641cdde71d5203d88def282fc493103dffa8e80713b3755484bd96e1ca5/recon_cli-0.0.4.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/d2/63/1e36478e2accd7d1bd6b38c01139504ce25d139073f5d2c01af5741aefa8/satori_playbook_validator-1.0.0.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 17:31:15] INFO root fetch - processPackages [negate]: Downloading https://files.pythonhosted.org/packages/b2/ff/a28cc25a408fcc1f2965e80350a624971ee7191f7e7c71ba6211d072498c/negate-0.7.8.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [open_source_insights_api]: Downloading https://files.pythonhosted.org/packages/5e/88/89cd916a13610c7bb654f6984bcbe8535f530515ce5610f18dddc0cddf03/open_source_insights_api-0.1.2.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [recon-cli]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [recon-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_cli-0.0.3.tar.gz tmp/recon_cli-0.0.4.tar.gz --markdown 20230519/r/recon-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [xuanpolicy]: Downloading https://files.pythonhosted.org/packages/af/01/3e162c2169bb8d5f8c95dc970255d184d5120fa2d05bc63ba8632f49b604/xuanpolicy-0.1.2.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [negate]: Downloading https://files.pythonhosted.org/packages/fd/5e/b1df68455f98d64706f0de09749b674002a67368dbf023e3465c4310123b/negate-0.7.9.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/ed/58/8871b90402faee76351482f093f1e55cfd880dcc57d0c63da2208231ff24/satori_playbook_validator-1.0.1.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [xuanpolicy]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [xuanpolicy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xuanpolicy-0.1.1.tar.gz tmp/xuanpolicy-0.1.2.tar.gz --markdown 20230519/x/xuanpolicy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [open_source_insights_api]: Downloading https://files.pythonhosted.org/packages/33/cb/e2bd9b0deb867f870f1e84450079485dacad72074673577671d41da1beda/open_source_insights_api-0.1.3.tar.gz
+[2023-05-19 17:31:15] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-1.0.0.tar.gz tmp/satori_playbook_validator-1.0.1.tar.gz --markdown 20230519/s/satori-playbook-validator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 17:31:15] INFO root fetch - processPackages [negate]: executing diffoscope
+[2023-05-19 17:31:15] INFO root fetch - processPackages [negate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negate-0.7.8.tar.gz tmp/negate-0.7.9.tar.gz --markdown 20230519/n/negate/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-19 17:31:16] INFO root fetch - processPackages [open_source_insights_api]: executing diffoscope
+[2023-05-19 17:31:16] INFO root fetch - processPackages [open_source_insights_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_source_insights_api-0.1.2.tar.gz tmp/open_source_insights_api-0.1.3.tar.gz --markdown 20230519/o/open_source_insights_api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 17:31:16] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 17:31:16] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-05-19 17:31:16] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230519/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-05-19 17:31:16] INFO root fetch - main [MainThread]: End processing [poetry-poet]: success
+[2023-05-19 17:31:16] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-05-19 17:31:16] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-19 17:31:17] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-05-19 17:31:17] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:31:17] INFO root fetch - main [MainThread]: End processing [recon-cli]: success
+[2023-05-19 17:31:17] INFO root fetch - main [MainThread]: End processing [xuanpolicy]: success
+[2023-05-19 17:31:17] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-05-19 17:31:17] INFO root fetch - main [MainThread]: End processing [open_source_insights_api]: success
+[2023-05-19 17:31:17] INFO root fetch - main [MainThread]: End processing [negate]: success
+[2023-05-19 17:31:18] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-05-19 17:31:28] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-05-19 17:31:28] INFO root fetch - main [MainThread]: Store serial: [18171770]
