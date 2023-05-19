@@ -5332,3 +5332,59 @@
 [2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
 [2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [webint-live]: success
 [2023-05-19 04:08:53] INFO root fetch - main [MainThread]: Store serial: [18163942]
+[2023-05-19 04:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163942]
+[2023-05-19 04:14:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canopy-platform
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dknovautils
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvesync
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aesim.simba
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metalattice
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-expense-widget-o2m
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reactpy-jupyter
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reactpy-jupyter
+[2023-05-19 04:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: daisyfl
+[2023-05-19 04:14:02] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.5.4a1]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [reactpy-jupyter]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [reactpy-jupyter]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/d4/9f/a22b1152697ff4da5dc6248a4a954dec69502837a824f3806cdea796f725/aesim.simba-2023.5.4a1-py3-none-win_amd64.whl
+[2023-05-19 04:14:02] INFO root fetch - processPackages [dknovautils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-19 04:14:02] WARNING root fetch - processPackages [odoo-addon-hr-expense-widget-o2m]: Skipping, unable to determine old version
+[2023-05-19 04:14:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-widget-o2m] error
+[2023-05-19 04:14:02] INFO root fetch - processPackages [metalattice]: New version: [0.1.21] Old Version: [0.0.25]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [pyvesync]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-19 04:14:02] INFO root fetch - processPackages [daisyfl]: New version: [0.4.1] Old Version: [0.2.0]
+[2023-05-19 04:14:02] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846590>=10485760
+[2023-05-19 04:14:02] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: Downloading https://files.pythonhosted.org/packages/8c/b1/42b1e12e551cd8d81bf478f820331c229d484fbec27de90f0a73390ad495/reactpy_jupyter-0.9.1-py3-none-any.whl
+[2023-05-19 04:14:03] INFO root fetch - processPackages [metalattice]: Downloading https://files.pythonhosted.org/packages/aa/87/05ed5a39f1673229e2bb7297c334d0b609416e00a1cbcb8a02565de5a450/metalattice-0.0.25.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: Downloading https://files.pythonhosted.org/packages/8c/b1/42b1e12e551cd8d81bf478f820331c229d484fbec27de90f0a73390ad495/reactpy_jupyter-0.9.1-py3-none-any.whl
+[2023-05-19 04:14:03] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/88/37/884362a8c0ade7e11b6d6015c5ca8073a10a0ed6775e80abcacd0762c7bb/dknovautils-0.1.5.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/7b/06/449710964b18b0729962b0596e85bd66e98b02ddea52e2e26a6b703728e2/daisyfl-0.2.0.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [pyvesync]: Downloading https://files.pythonhosted.org/packages/4f/4d/5204b9b9d1d7f23383a752c02aba87642fc45f3440443ab9918a7fcc37aa/pyvesync-2.1.6.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_jupyter-0.9.0-py3-none-any.whl.zip tmp/reactpy_jupyter-0.9.1-py3-none-any.whl.zip --markdown 20230519/r/reactpy-jupyter/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [reactpy-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_jupyter-0.9.0-py3-none-any.whl.zip tmp/reactpy_jupyter-0.9.1-py3-none-any.whl.zip --markdown 20230519/r/reactpy-jupyter/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/e6/cd/d1188fa5e22ddae2d0c43f902f54381fee4947355d5ca1221e9b994b88b0/dknovautils-0.1.6.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230519/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [pyvesync]: Downloading https://files.pythonhosted.org/packages/ea/b7/2deb8e1c74bc3778d8f1f8ec95237cb38b52f7a5a3a07010d48423797f6f/pyvesync-2.1.7.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/2e/77/bb217f314202854044202d9d79676ed409020ccfa26dd9a9ea4d6fb6e23e/daisyfl-0.4.1.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.5.tar.gz tmp/dknovautils-0.1.6.tar.gz --markdown 20230519/d/dknovautils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [metalattice]: Downloading https://files.pythonhosted.org/packages/bc/92/447cd5e2f26973ea995b07f6d2215c5728d8f30fa1b9206099563f6ad559/metalattice-0.1.21.tar.gz
+[2023-05-19 04:14:03] INFO root fetch - processPackages [metalattice]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [metalattice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalattice-0.0.25.tar.gz tmp/metalattice-0.1.21.tar.gz --markdown 20230519/m/metalattice/0.0.25-0.1.21/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [pyvesync]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [pyvesync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvesync-2.1.6.tar.gz tmp/pyvesync-2.1.7.tar.gz --markdown 20230519/p/pyvesync/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-19 04:14:03] INFO root fetch - processPackages [daisyfl]: executing diffoscope
+[2023-05-19 04:14:03] INFO root fetch - processPackages [daisyfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisyfl-0.2.0.tar.gz tmp/daisyfl-0.4.1.tar.gz --markdown 20230519/d/daisyfl/0.2.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [reactpy-jupyter]: success
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [reactpy-jupyter]: success
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [metalattice]: success
+[2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [pyvesync]: success
+[2023-05-19 04:14:07] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
+[2023-05-19 04:14:07] INFO root fetch - main [MainThread]: Store serial: [18163971]
