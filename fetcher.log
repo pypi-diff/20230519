@@ -20330,3 +20330,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:13:45] INFO root fetch - main [MainThread]: End processing [ckanext-geodatagov]: success
 [2023-05-19 19:13:56] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-05-19 19:13:56] INFO root fetch - main [MainThread]: Store serial: [18172929]
+[2023-05-19 19:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172929]
+[2023-05-19 19:19:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guardshield
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SplatStats
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: novalabs-backtest
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenFisca-France
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textagon
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-cli
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: truesight
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MoskaEngine
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tera-toolbox
+[2023-05-19 19:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: always-updates
+[2023-05-19 19:19:06] INFO root fetch - processPackages [SplatStats]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [guardshield]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [tera-toolbox]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [truesight]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [textagon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [MoskaEngine]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [invenio-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-05-19 19:19:06] INFO root fetch - processPackages [guardshield]: Downloading https://files.pythonhosted.org/packages/8d/2e/e9a2bb97948c0cf6a5cdab2f874a4b54eed7dc0a44733b86ec3dad901e4f/guardshield-1.0.1.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230519/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 19:19:06] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-19 19:19:06] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230519/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-19 19:19:06] INFO root fetch - processPackages [textagon]: Downloading https://files.pythonhosted.org/packages/61/1b/1ed6a887f6c33555e3bc2efbd90bf0d8beb34767cd57be5dd2532a7c7693/textagon-0.1.0.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [truesight]: Downloading https://files.pythonhosted.org/packages/d0/ec/d6fe341ea8892c854cb9a5ce703451891c4616233049a2c71a6abd5b8c7e/truesight-0.0.1a0.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [tera-toolbox]: Downloading https://files.pythonhosted.org/packages/87/5d/f862fec267f072f40427d1a3ebe16efacd4489d60a4a3234890a7002ed28/tera-toolbox-0.0.5.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [MoskaEngine]: Downloading https://files.pythonhosted.org/packages/a7/06/ae333f320c3e66ca3cae00b1456b44d3eb75d0287e311c572d6f4ef9cd1b/MoskaEngine-0.1.2.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [invenio-cli]: Downloading https://files.pythonhosted.org/packages/27/6a/a59ac771346c1b5b6b6cddae7dbd28db6e4bbad3c6c23e91d346c44f9bae/invenio-cli-1.0.8.tar.gz
+[2023-05-19 19:19:06] WARNING root fetch - processPackages [MoskaEngine]: Skipping package: exceeds size limit 16453482>=10485760
+[2023-05-19 19:19:06] INFO root fetch - processPackages [MoskaEngine]: Start processing: pywolle
+[2023-05-19 19:19:06] INFO root fetch - main [MainThread]: End processing [MoskaEngine] error
+[2023-05-19 19:19:06] WARNING root fetch - processPackages [pywolle]: Skipping, unable to determine old version
+[2023-05-19 19:19:06] INFO root fetch - processPackages [pywolle]: Start processing: iboxstacksops
+[2023-05-19 19:19:06] INFO root fetch - main [MainThread]: End processing [pywolle] error
+[2023-05-19 19:19:06] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/48/2a/3a708ee7acaf4db4b6b1458f41374fd8087e63fce4a6d410e78272e8a562/SplatStats-2.0.3.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [iboxstacksops]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-19 19:19:06] INFO root fetch - processPackages [guardshield]: Downloading https://files.pythonhosted.org/packages/78/6a/3f853ae6b17a5e49b2946b9e32e604b190c272ea7613f1937167f247ae1b/guardshield-1.0.2.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [textagon]: Downloading https://files.pythonhosted.org/packages/64/d9/9554282d166a55743655011662a9d675b89d16f92e78dffa60c14ae9a64b/textagon-0.1.1.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-05-19 19:19:06] INFO root fetch - processPackages [truesight]: Downloading https://files.pythonhosted.org/packages/0e/98/cf6db14975ad8a2b989b5c86fe715360ac60d56c3f5db8f4b82d436b4b85/truesight-0.0.2a0.tar.gz
+[2023-05-19 19:19:06] INFO root fetch - processPackages [tera-toolbox]: Downloading https://files.pythonhosted.org/packages/79/62/2489d1d1dadfa0ebe362ff4801b599854b303b383a8c94dbb1acc842a3e4/tera-toolbox-0.0.8.tar.gz
+[2023-05-19 19:19:07] INFO root fetch - processPackages [iboxstacksops]: Downloading https://files.pythonhosted.org/packages/89/4c/c83f2383e869dd46071ed53dbbec7cf552208207131398a5e66223681169/iboxstacksops-0.7.8.tar.gz
+[2023-05-19 19:19:07] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.0.2.tar.gz tmp/SplatStats-2.0.3.tar.gz --markdown 20230519/S/SplatStats/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [guardshield]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [guardshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardshield-1.0.1.tar.gz tmp/guardshield-1.0.2.tar.gz --markdown 20230519/g/guardshield/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [invenio-cli]: Downloading https://files.pythonhosted.org/packages/b0/0e/4a33af708fca0b6a0740f12e293fa6e65e22dcc9d866ad08fe480ef5ffb4/invenio-cli-1.0.9.tar.gz
+[2023-05-19 19:19:07] INFO root fetch - processPackages [textagon]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [textagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textagon-0.1.0.tar.gz tmp/textagon-0.1.1.tar.gz --markdown 20230519/t/textagon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [tera-toolbox]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [tera-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tera-toolbox-0.0.5.tar.gz tmp/tera-toolbox-0.0.8.tar.gz --markdown 20230519/t/tera-toolbox/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [iboxstacksops]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [iboxstacksops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iboxstacksops-0.7.7.tar.gz tmp/iboxstacksops-0.7.8.tar.gz --markdown 20230519/i/iboxstacksops/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [truesight]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [truesight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truesight-0.0.1a0.tar.gz tmp/truesight-0.0.2a0.tar.gz --markdown 20230519/t/truesight/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [invenio-cli]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [invenio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-cli-1.0.8.tar.gz tmp/invenio-cli-1.0.9.tar.gz --markdown 20230519/i/invenio-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-05-19 19:19:07] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-05-19 19:19:07] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230519/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-05-19 19:19:07] INFO root fetch - processPackages [always-updates]: Start processing: pyliteadmin
+[2023-05-19 19:19:07] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-19 19:19:08] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:19:08] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 19:19:08] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:19:08] INFO root fetch - processPackages [guardshield]: Start processing: biosimulators-utils
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [guardshield]: success
+[2023-05-19 19:19:08] INFO root fetch - processPackages [biosimulators-utils]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-19 19:19:08] INFO root fetch - processPackages [SplatStats]: Start processing: calitp-map-utils
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-05-19 19:19:08] INFO root fetch - processPackages [calitp-map-utils]: New version: [2023.5.19.4] Old Version: [2023.5.19.3]
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [tera-toolbox]: success
+[2023-05-19 19:19:08] INFO root fetch - processPackages [calitp-map-utils]: executing diffoscope
+[2023-05-19 19:19:08] INFO root fetch - processPackages [calitp-map-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_map_utils-2023.5.19.3.tar.gz tmp/calitp_map_utils-2023.5.19.4.tar.gz --markdown 20230519/c/calitp-map-utils/2023.5.19.3-2023.5.19.4/diff.md --exclude *.pyd
+[2023-05-19 19:19:08] INFO root fetch - processPackages [biosimulators-utils]: Downloading https://files.pythonhosted.org/packages/25/6c/85a159acee27368bf12148335b218a7e4fdbfde5b66d42a3f9528450acfa/biosimulators_utils-0.1.98.tar.gz
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [iboxstacksops]: success
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [textagon]: success
+[2023-05-19 19:19:08] INFO root fetch - main [MainThread]: End processing [truesight]: success
+[2023-05-19 19:19:09] INFO root fetch - main [MainThread]: End processing [invenio-cli]: success
+[2023-05-19 19:19:09] INFO root fetch - processPackages [biosimulators-utils]: Downloading https://files.pythonhosted.org/packages/79/13/33cca9b16397be074e582474230f025101eb91b9a0987551b78d9d868f85/biosimulators_utils-0.1.99.tar.gz
+[2023-05-19 19:19:09] INFO root fetch - processPackages [biosimulators-utils]: executing diffoscope
+[2023-05-19 19:19:09] INFO root fetch - processPackages [biosimulators-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosimulators_utils-0.1.98.tar.gz tmp/biosimulators_utils-0.1.99.tar.gz --markdown 20230519/b/biosimulators-utils/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-19 19:19:09] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 19:19:09] INFO root fetch - main [MainThread]: End processing [calitp-map-utils]: success
+[2023-05-19 19:19:09] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-05-19 19:19:11] INFO root fetch - main [MainThread]: End processing [biosimulators-utils]: success
+[2023-05-19 19:20:20] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-05-19 19:20:20] INFO root fetch - main [MainThread]: Store serial: [18172975]
