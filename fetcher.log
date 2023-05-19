@@ -12019,3 +12019,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:48:36] INFO root fetch - main [MainThread]: End processing [pydeps]: success
 [2023-05-19 10:48:49] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-19 10:48:49] INFO root fetch - main [MainThread]: Store serial: [18167436]
+[2023-05-19 10:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167436]
+[2023-05-19 10:53:58] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kikyo
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arithmetic-dice-roller
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmfit-additional-models
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticai-creator
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miss-hit
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miss-hit-core
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smunger
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-etcd3gw
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anaml-client
+[2023-05-19 10:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pollination-honeybee-radiance-postprocess
+[2023-05-19 10:53:58] INFO root fetch - processPackages [anaml-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 10:53:58] WARNING root fetch - processPackages [lmfit-additional-models]: Skipping, unable to determine old version
+[2023-05-19 10:53:58] INFO root fetch - processPackages [lmfit-additional-models]: Start processing: sovereign
+[2023-05-19 10:53:58] INFO root fetch - main [MainThread]: End processing [lmfit-additional-models] error
+[2023-05-19 10:53:58] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [smunger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [arithmetic-dice-roller]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [kikyo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [miss-hit-core]: New version: [0.9.39] Old Version: [0.9.38]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [async-etcd3gw]: New version: [0.7] Old Version: [0.6]
+[2023-05-19 10:53:58] INFO root fetch - processPackages [anaml-client]: executing diffoscope
+[2023-05-19 10:53:58] INFO root fetch - processPackages [anaml-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaml-client-0.8.0.tar.gz tmp/anaml-client-0.9.0.tar.gz --markdown 20230519/a/anaml-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 10:53:58] INFO root fetch - processPackages [miss-hit]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-19 10:53:59] INFO root fetch - processPackages [sovereign]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-19 10:53:59] INFO root fetch - processPackages [async-etcd3gw]: Downloading https://files.pythonhosted.org/packages/d0/77/e5b15e3f0abf88bd9757a3649399051034ff865f6adc45fb61b5b3fbfe98/async_etcd3gw-0.6.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/2a/1e/4fca949c480ed56b8069c58b528e5e151d3a8c1bf848e88f0fa187fd047c/smunger-0.0.8.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/ef/39/ae852fc738961d5113cbfc2adcc46791668d8f562d582d81307e192c7387/miss_hit_core-0.9.38.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/c2/7c/cca759481b0453b6bd05ec897d727324838ed98429ed04fa429a30638ce9/miss_hit-0.9.7.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/16/66/c3b46a06abeef18a1d1b46466cb512bed818047a532ec7eaa17231b9dd61/sovereign-0.9.6.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [arithmetic-dice-roller]: Downloading https://files.pythonhosted.org/packages/c8/14/4a714207a31e7d55d100f286980ef8cd1c54cdf701d96fb55d075bb8e5c1/arithmetic-dice-roller-0.3.1.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [kikyo]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [kikyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kikyo-0.9.1.tar.gz tmp/kikyo-0.9.2.tar.gz --markdown 20230519/k/kikyo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-radiance-postprocess-0.0.8.tar.gz tmp/pollination-honeybee-radiance-postprocess-0.0.9.tar.gz --markdown 20230519/p/pollination-honeybee-radiance-postprocess/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [async-etcd3gw]: Downloading https://files.pythonhosted.org/packages/52/4a/17dc510a757e0587b6e902f2e3951cb407bcba3c13e46ac12123a05dddf6/async_etcd3gw-0.7.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [arithmetic-dice-roller]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [arithmetic-dice-roller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetic-dice-roller-0.3.0.tar.gz tmp/arithmetic-dice-roller-0.3.1.tar.gz --markdown 20230519/a/arithmetic-dice-roller/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/f4/79/fdbd79734ca45a1bf1ac8717c98a7cc2b5ebdcbe729b7a2e357f448ce290/miss_hit_core-0.9.39.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/e0/76/04376a16bd6d5de2282fe2ef77b4c64abd7d57d40f97b9b3c0b03d66daf4/miss_hit-0.9.9.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/e1/8e/22f8ef38b7edec93026e889d0e27fb68e67399dfa55d5ff123c6657d7c42/smunger-0.0.9.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/f9/65/a5f2ada9ea293162182714fca29200f910628e13ea0168d9a55b98c5fa9a/sovereign-0.9.7.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit-0.9.7.tar.gz tmp/miss_hit-0.9.9.tar.gz --markdown 20230519/m/miss-hit/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [async-etcd3gw]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [async-etcd3gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_etcd3gw-0.6.tar.gz tmp/async_etcd3gw-0.7.tar.gz --markdown 20230519/a/async-etcd3gw/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-05-19 10:53:59] INFO root fetch - processPackages [sovereign]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [sovereign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovereign-0.9.6.tar.gz tmp/sovereign-0.9.7.tar.gz --markdown 20230519/s/sovereign/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit-core]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [miss-hit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit_core-0.9.38.tar.gz tmp/miss_hit_core-0.9.39.tar.gz --markdown 20230519/m/miss-hit-core/0.9.38-0.9.39/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230519/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 10:53:59] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-05-19 10:53:59] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.0.8.tar.gz tmp/smunger-0.0.9.tar.gz --markdown 20230519/s/smunger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:54:00] INFO root fetch - processPackages [arithmetic-dice-roller]: Start processing: cdk-opinionated-constructs
+[2023-05-19 10:54:00] INFO root fetch - main [MainThread]: End processing [arithmetic-dice-roller]: success
+[2023-05-19 10:54:00] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-19 10:54:00] INFO root fetch - processPackages [kikyo]: Start processing: tf-nightly
+[2023-05-19 10:54:00] INFO root fetch - main [MainThread]: End processing [kikyo]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: Start processing: lytest
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-radiance-postprocess]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/65/16/d727182dd81ded1a63ce33f4ac427a59e0370b4fb6ecbf68b848f6da1e75/cdk-opinionated-constructs-2.1.1.tar.gz
+[2023-05-19 10:54:01] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230519] Old Version: [2.14.0.dev20230518]
+[2023-05-19 10:54:01] INFO root fetch - processPackages [lytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 10:54:01] INFO root fetch - processPackages [async-etcd3gw]: Start processing: odoo9-addon-stock-inventory-revaluation
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [async-etcd3gw]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2023-05-19 10:54:01] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-2.1.0.tar.gz tmp/cdk-opinionated-constructs-2.1.1.tar.gz --markdown 20230519/c/cdk-opinionated-constructs/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-05-19 10:54:01] INFO root fetch - processPackages [lytest]: Downloading https://files.pythonhosted.org/packages/6c/ad/3e134fe72df0ad16a38dc7edf4c8e0d35186f69929d086c10bcd35cf1f5e/lytest-0.0.8.tar.gz
+[2023-05-19 10:54:01] INFO root fetch - processPackages [miss-hit]: Start processing: odoo8-addon-stock-inventory-revaluation
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [miss-hit]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/94/95/d444608640e1ae95de649640d28b296cfe5711286f2c214f3a4f0ca66962/tf_nightly-2.14.0.dev20230518-cp39-cp39-win_amd64.whl
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/e7/37/64e9e603cd9562fe3da42db924f3216807d51cc62d2d22642751c1aaf74e/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:54:01] INFO root fetch - processPackages [miss-hit-core]: Start processing: cvzone2
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [miss-hit-core]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [lytest]: Downloading https://files.pythonhosted.org/packages/89/ef/582a17bfa79133aaeceaf063483d9c037bd7a53cee035606c3eeab6ff45c/lytest-0.0.9.tar.gz
+[2023-05-19 10:54:01] INFO root fetch - processPackages [smunger]: Start processing: odoo8-addon-stock-traceability-operation
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-05-19 10:54:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/77/b2/51d0948c9d23bd5d4ddad6dc583d79541461682a992c83e7e30ef2b3c500/tf_nightly-2.14.0.dev20230519-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 10:54:01] INFO root fetch - processPackages [lytest]: executing diffoscope
+[2023-05-19 10:54:01] INFO root fetch - processPackages [lytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytest-0.0.8.tar.gz tmp/lytest-0.0.9.tar.gz --markdown 20230519/l/lytest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/f2/a8/e6a68fdd7a7fc4681cf0450a5aed0a1ff54c3088eceecc8c48f77f3bd0ec/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:54:01] WARNING root fetch - processPackages [cvzone2]: Skipping, unable to determine old version
+[2023-05-19 10:54:01] INFO root fetch - processPackages [cvzone2]: Start processing: hermes-mail
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [cvzone2] error
+[2023-05-19 10:54:01] WARNING root fetch - processPackages [hermes-mail]: Skipping, unable to determine old version
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [hermes-mail] error
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo8-addon-stock-traceability-operation]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-05-19 10:54:01] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 529099561>=10485760
+[2023-05-19 10:54:01] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/31/a4/b8fe9f716a6575b6e5eae67e19e769d6e4d207d9ac28164b248b87bd311b/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-stock-inventory-revaluation/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo8-addon-stock-traceability-operation]: Downloading https://files.pythonhosted.org/packages/16/26/98a53cb1416b8ac96bc0eba8afe4d4c217544df6f201cb28ae695fa576f5/odoo8_addon_stock_traceability_operation-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:54:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/a3/2b/34b7d03f2ec7fd25c43e2c1cb17ed51ae63576f813082fe3b5942dd20ea2/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:54:02] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-05-19 10:54:02] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-stock-inventory-revaluation/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:54:02] INFO root fetch - processPackages [odoo8-addon-stock-traceability-operation]: Downloading https://files.pythonhosted.org/packages/5b/42/a28d9fab5b4b0536ac43c61d7b6d1c95e4ea60f207c07ac4fc596704194c/odoo8_addon_stock_traceability_operation-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:54:02] INFO root fetch - processPackages [odoo8-addon-stock-traceability-operation]: executing diffoscope
+[2023-05-19 10:54:02] INFO root fetch - processPackages [odoo8-addon-stock-traceability-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_stock_traceability_operation-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_stock_traceability_operation-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-stock-traceability-operation/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:54:02] INFO root fetch - main [MainThread]: End processing [lytest]: success
+[2023-05-19 10:54:02] INFO root fetch - main [MainThread]: End processing [sovereign]: success
+[2023-05-19 10:54:03] INFO root fetch - main [MainThread]: End processing [anaml-client]: success
+[2023-05-19 10:54:03] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-05-19 10:54:03] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-inventory-revaluation]: success
+[2023-05-19 10:54:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-inventory-revaluation]: success
+[2023-05-19 10:54:04] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-traceability-operation]: success
+[2023-05-19 10:54:41] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2023-05-19 10:54:41] INFO root fetch - main [MainThread]: Store serial: [18167558]
