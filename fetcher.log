@@ -9282,3 +9282,51 @@
 [2023-05-19 07:26:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-05-19 07:26:47] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
 [2023-05-19 07:26:47] INFO root fetch - main [MainThread]: Store serial: [18165954]
+[2023-05-19 07:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165954]
+[2023-05-19 07:31:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rfswarm-agent
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfswarm-manager
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfswarm-reporter
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywpsrpc
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dorado
+[2023-05-19 07:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linktools
+[2023-05-19 07:31:56] INFO root fetch - processPackages [rfswarm-reporter]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-19 07:31:56] INFO root fetch - processPackages [rfswarm-agent]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-19 07:31:56] INFO root fetch - processPackages [linktools]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-19 07:31:56] INFO root fetch - processPackages [rfswarm-manager]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-19 07:31:56] INFO root fetch - processPackages [pywpsrpc]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-05-19 07:31:56] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 07:31:57] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-19 07:31:57] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/e5/4a/df6ad3c7819c022a930ecf36cda38063b3fb155e074e3a9e5d6bc7d2b105/pywpsrpc-2.3.4.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-reporter]: Downloading https://files.pythonhosted.org/packages/cc/e6/c19d5891d977e6f7795ea1f4bbc04e558cbe616e54c2967549feb8d382de/rfswarm-reporter-1.1.1.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-agent]: Downloading https://files.pythonhosted.org/packages/03/32/ad5f75a3e6a459f1eddd93cc9b82c834784046c8eed73f4d9c3edb14da72/rfswarm-agent-1.1.1.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-manager]: Downloading https://files.pythonhosted.org/packages/cb/8c/def1747c2848a5703c58beaf960d46ceeacaae6b155389dd7ca7c59b1c01/rfswarm-manager-1.1.1.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/57/1c/722df52b9e34ce7b003fd4b59d54af071bbbbf378ab7e59fd565b21ae1cf/linktools-0.7.8.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-agent]: Downloading https://files.pythonhosted.org/packages/38/ca/4900e25b5ba645463b703b3d2ef7bd9e99dfb97071e5be6839f25419b3b9/rfswarm-agent-1.1.2.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-reporter]: Downloading https://files.pythonhosted.org/packages/51/a2/eca143306e28a4e120e7fec5f49992d1171c781c61d4a233a3f1f4913a63/rfswarm-reporter-1.1.2.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230519/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-agent]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-agent-1.1.1.tar.gz tmp/rfswarm-agent-1.1.2.tar.gz --markdown 20230519/r/rfswarm-agent/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/31/52/65140e9d1c5c621546c341e2d1c56d1781f34d99dd3cf717cc04cf63a9e1/pywpsrpc-2.3.5.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-reporter]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-reporter-1.1.1.tar.gz tmp/rfswarm-reporter-1.1.2.tar.gz --markdown 20230519/r/rfswarm-reporter/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-manager]: Downloading https://files.pythonhosted.org/packages/02/2e/e1aa6d3eb872bb7a872b4a5e06a51baca2151dfeb061c7dc7492bf2aa5c8/rfswarm-manager-1.1.2.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-manager]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [rfswarm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-manager-1.1.1.tar.gz tmp/rfswarm-manager-1.1.2.tar.gz --markdown 20230519/r/rfswarm-manager/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [pywpsrpc]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [pywpsrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywpsrpc-2.3.4.tar.gz tmp/pywpsrpc-2.3.5.tar.gz --markdown 20230519/p/pywpsrpc/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-05-19 07:31:57] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/96/b7/683cc32d55c92f93797e775d4512e034d0522cfb4e7436660973a5677326/linktools-0.7.9.tar.gz
+[2023-05-19 07:31:57] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2023-05-19 07:31:57] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.7.8.tar.gz tmp/linktools-0.7.9.tar.gz --markdown 20230519/l/linktools/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-19 07:31:58] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 07:31:58] INFO root fetch - main [MainThread]: End processing [rfswarm-agent]: success
+[2023-05-19 07:31:58] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-19 07:31:58] INFO root fetch - main [MainThread]: End processing [rfswarm-reporter]: success
+[2023-05-19 07:31:58] INFO root fetch - main [MainThread]: End processing [rfswarm-manager]: success
+[2023-05-19 07:31:59] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2023-05-19 07:32:20] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
+[2023-05-19 07:32:20] INFO root fetch - main [MainThread]: Store serial: [18165975]
