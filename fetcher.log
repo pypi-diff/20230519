@@ -10461,3 +10461,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 09:17:43] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-05-19 09:18:07] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-05-19 09:18:07] INFO root fetch - main [MainThread]: Store serial: [18166560]
+[2023-05-19 09:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166560]
+[2023-05-19 09:23:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hanz
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgorithmLib
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2enetworks
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lackadaisical
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newrelic-data-exporter
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mtutils
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nautobot-bgp-models
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-finance
+[2023-05-19 09:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-finance
+[2023-05-19 09:23:25] WARNING root fetch - processPackages [newrelic-data-exporter]: Skipping, unable to determine old version
+[2023-05-19 09:23:25] INFO root fetch - processPackages [newrelic-data-exporter]: Start processing: xj-payment
+[2023-05-19 09:23:25] INFO root fetch - main [MainThread]: End processing [newrelic-data-exporter] error
+[2023-05-19 09:23:25] WARNING root fetch - processPackages [hanz]: Skipping, unable to determine old version
+[2023-05-19 09:23:25] INFO root fetch - processPackages [lackadaisical]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [hanz]: Start processing: benchling-sdk
+[2023-05-19 09:23:25] INFO root fetch - main [MainThread]: End processing [hanz] error
+[2023-05-19 09:23:25] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [nautobot-bgp-models]: New version: [0.7.1] Old Version: [0.7.0b1]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [mtutils]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230519] Old Version: [0.7.3.dev20230518]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230519/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230519/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-05-19 09:23:25] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230519/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-19 09:23:25] INFO root fetch - processPackages [benchling-sdk]: New version: [1.7.0a9] Old Version: [1.7.0a8]
+[2023-05-19 09:23:25] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-19 09:23:25] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.8.tar.gz tmp/e2enetworks-0.0.9.tar.gz --markdown 20230519/e/e2enetworks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 09:23:25] INFO root fetch - processPackages [nautobot-bgp-models]: Downloading https://files.pythonhosted.org/packages/27/a6/65d9aba26a7d6705ce3824e038df9550761bfff2dff2d2aff509f69b1a3c/nautobot-bgp-models-0.7.0b1.tar.gz
+[2023-05-19 09:23:25] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-05-19 09:23:25] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/2a/4a/0cfd80118ffc7223f734f2bccef98a4128976b00d6c8f46d266d0a313d3c/mtutils-2.1.8.tar.gz
+[2023-05-19 09:23:25] INFO root fetch - processPackages [lackadaisical]: Downloading https://files.pythonhosted.org/packages/3f/f6/e4e1a7f80123135fa1830fb3a2de3eb32aa7b983ecc77a29e15a9a98f8c4/lackadaisical-1.0.0a2-py3-none-any.whl
+[2023-05-19 09:23:25] INFO root fetch - processPackages [lackadaisical]: executing diffoscope
+[2023-05-19 09:23:25] INFO root fetch - processPackages [lackadaisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lackadaisical-1.0.0a1-py3-none-any.whl.zip tmp/lackadaisical-1.0.0a2-py3-none-any.whl.zip --markdown 20230519/l/lackadaisical/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-05-19 09:23:25] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/67/af/e1e3bcb470cf53ad796d5b5ae9fd50e5b3150007c92638c8411d4686cbc5/tfq_nightly-0.7.3.dev20230518-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 09:23:25] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-05-19 09:23:25] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-05-19 09:23:25] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/05/c9/a1dcf774406878708a38b0f53fbf14df56fe36076d0bc4d79801a6d45934/benchling_sdk-1.7.0a8.tar.gz
+[2023-05-19 09:23:25] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-05-19 09:23:25] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-19 09:23:26] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/09/0b/f97ea00148e58ba821750da9233f98bde684788e7383c8b5006b35858f3e/mtutils-2.1.9.tar.gz
+[2023-05-19 09:23:26] INFO root fetch - processPackages [nautobot-bgp-models]: Downloading https://files.pythonhosted.org/packages/6e/32/33351a92bf89c1d57cc7ac28acd4d75a0f56230eeef3940736f5be803cbe/nautobot_bgp_models-0.7.1.tar.gz
+[2023-05-19 09:23:26] INFO root fetch - processPackages [mtutils]: executing diffoscope
+[2023-05-19 09:23:26] INFO root fetch - processPackages [mtutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtutils-2.1.8.tar.gz tmp/mtutils-2.1.9.tar.gz --markdown 20230519/m/mtutils/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-19 09:23:26] INFO root fetch - processPackages [nautobot-bgp-models]: executing diffoscope
+[2023-05-19 09:23:26] INFO root fetch - processPackages [nautobot-bgp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot-bgp-models-0.7.0b1.tar.gz tmp/nautobot_bgp_models-0.7.1.tar.gz --markdown 20230519/n/nautobot-bgp-models/0.7.0b1-0.7.1/diff.md --exclude *.pyd
+[2023-05-19 09:23:26] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/94/bb/9c54a4e06b4b47acd303da07a72952d5d07f8ba5974f3447358c4b12eeb9/benchling_sdk-1.7.0a9.tar.gz
+[2023-05-19 09:23:26] INFO root fetch - processPackages [benchling-sdk]: executing diffoscope
+[2023-05-19 09:23:26] INFO root fetch - processPackages [benchling-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_sdk-1.7.0a8.tar.gz tmp/benchling_sdk-1.7.0a9.tar.gz --markdown 20230519/b/benchling-sdk/1.7.0a8-1.7.0a9/diff.md --exclude *.pyd
+[2023-05-19 09:23:26] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [lackadaisical]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [nautobot-bgp-models]: success
+[2023-05-19 09:23:27] INFO root fetch - main [MainThread]: End processing [mtutils]: success
+[2023-05-19 09:23:28] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
+[2023-05-19 09:23:28] INFO root fetch - main [MainThread]: Store serial: [18166599]
