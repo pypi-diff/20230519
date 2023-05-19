@@ -11729,3 +11729,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:32:52] INFO root fetch - main [MainThread]: End processing [pytest-testinfra]: success
 [2023-05-19 10:32:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
 [2023-05-19 10:32:52] INFO root fetch - main [MainThread]: Store serial: [18167243]
+[2023-05-19 10:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167243]
+[2023-05-19 10:38:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniagent
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slap-cli
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typodoo
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-equilibrium
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-base-user-role
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-base-user-role
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hkkang-utils
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crosslab-api-client
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crosslab-soa-client
+[2023-05-19 10:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crosslab-soa-service-electrical
+[2023-05-19 10:38:01] INFO root fetch - processPackages [slap-cli]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-05-19 10:38:01] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.9.2.tar.gz tmp/slap_cli-1.9.3.tar.gz --markdown 20230519/s/slap-cli/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:01] INFO root fetch - processPackages [miniagent]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [typodoo]: New version: [0.3] Old Version: [0.2]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-19 10:38:01] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.80.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230519/h/hkkang-utils/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 10:38:01] INFO root fetch - processPackages [python-equilibrium]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [crosslab-soa-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [odoo9-addon-base-user-role]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [odoo8-addon-base-user-role]: New version: [8.0.1.2.0.99.dev8] Old Version: [8.0.1.2.0.99.dev7]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [crosslab-soa-service-electrical]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [crosslab-api-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:01] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/8f/a1/99fc3969168be061d3652b06b18d63504a9952e95e1425ee2309cff1a406/miniagent-0.0.6-py3-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [typodoo]: Downloading https://files.pythonhosted.org/packages/db/73/9e820664ac11f7edf7dfdf3b6c0f82836356be169e68631e2a78c7b70931/typodoo-0.2.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/c1/26/994b87415c850613134f034343a355932b01c34505c4aee4526a736fe939/python_equilibrium-0.3.0.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/89/cc/0db35fde4a4d3f3dc092ae1995e544b0fddd07a511292f8bee69c67c57c9/crosslab_soa_service_electrical-0.2.2.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/2d/05/3fb78733db5162fc4e9b3f3ce556e53d1a19d4ce301e7755a7b58dda690c/crosslab_api_client-0.2.2.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo8-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/fc/4e/9ee41e0e57695e432b6bd5d4e34696f50c9c1636b628e6a5f4ec9a2802ed/odoo8_addon_base_user_role-8.0.1.2.0.99.dev7-py2-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/b7/28/a6b5bbede943135c1730f2194288febc9128ff27496a22cedd43fee676e3/crosslab_soa_client-0.2.2.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo9-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/fd/13/ab0e6f182f6c592de3e0681e38433628cb43c66015bf9febf50b9374e987/odoo9_addon_base_user_role-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/7d/4c/19e99b20ba83be654a9157ac43532aa18f849aad3a5b99994483dc102911/miniagent-0.0.7-py3-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/11/be/9e711a72c4201e098a4d23e4b2c881986588f2696b283d67bba457fb5e5c/python_equilibrium-0.3.1.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/27/88/5ad494a7aeb8508756d54e689c3549d4317767c9325803539f3f3a42c105/crosslab_soa_client-0.2.3.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [typodoo]: Downloading https://files.pythonhosted.org/packages/7c/0c/363b0a6e6cf64dedd5ab042ed63faa908be1291588759496d65f0646347f/typodoo-0.3.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/c9/11/c6d722a517dcef110a6e324d619f2a6936ef98a130e131cc6a8b734dfae7/crosslab_soa_service_electrical-0.2.3.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.6-py3-none-any.whl.zip tmp/miniagent-0.0.7-py3-none-any.whl.zip --markdown 20230519/m/miniagent/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/43/96/8103b93976407199b6dd6ffa87e1b21d56f4c8aeb80f6f4e15820d4f9113/crosslab_api_client-0.2.3.tar.gz
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-client]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_client-0.2.2.tar.gz tmp/crosslab_soa_client-0.2.3.tar.gz --markdown 20230519/c/crosslab-soa-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-service-electrical]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-soa-service-electrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_electrical-0.2.2.tar.gz tmp/crosslab_soa_service_electrical-0.2.3.tar.gz --markdown 20230519/c/crosslab-soa-service-electrical/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [typodoo]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [typodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typodoo-0.2.tar.gz tmp/typodoo-0.3.tar.gz --markdown 20230519/t/typodoo/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo8-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/83/b5/381027915a747ce93de709f9c30173f78579fb41a7e3b33ea93603f475af/odoo8_addon_base_user_role-8.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo9-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/a2/f5/f557d934ad7948c0bdfc9f0e7d01d8fd0a9d82f8a9dfb93a5b6d3fefcb9a/odoo9_addon_base_user_role-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-api-client]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [crosslab-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_api_client-0.2.2.tar.gz tmp/crosslab_api_client-0.2.3.tar.gz --markdown 20230519/c/crosslab-api-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [python-equilibrium]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [python-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_equilibrium-0.3.0.tar.gz tmp/python_equilibrium-0.3.1.tar.gz --markdown 20230519/p/python-equilibrium/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo9-addon-base-user-role]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo9-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_user_role-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_user_role-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-base-user-role/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo8-addon-base-user-role]: executing diffoscope
+[2023-05-19 10:38:02] INFO root fetch - processPackages [odoo8-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_user_role-8.0.1.2.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_base_user_role-8.0.1.2.0.99.dev8-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-base-user-role/8.0.1.2.0.99.dev7-8.0.1.2.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-19 10:38:02] INFO root fetch - processPackages [hkkang-utils]: Start processing: crosslab-soa-service-file
+[2023-05-19 10:38:02] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-file]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/83/46/99863ceb057401317ab9e2c426884bd367b6e3f8371367435ecfc5285df8/crosslab_soa_service_file-0.2.2.tar.gz
+[2023-05-19 10:38:03] INFO root fetch - processPackages [slap-cli]: Start processing: crosslab-soa-service-message
+[2023-05-19 10:38:03] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/06/7c/c8bde932cc7bb563ad2b057e3e4488c9d92ad34acb85553fef55df0efdb5/crosslab_soa_service_file-0.2.3.tar.gz
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-message]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-file]: executing diffoscope
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_file-0.2.2.tar.gz tmp/crosslab_soa_service_file-0.2.3.tar.gz --markdown 20230519/c/crosslab-soa-service-file/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/fb/1e/f7be0e84d9306aa8ebc209c75bffbc48807e2cd0182224e105bc901cbcbb/crosslab_soa_service_message-0.2.2.tar.gz
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-client]: Start processing: odoo10-addon-base-user-role
+[2023-05-19 10:38:03] INFO root fetch - main [MainThread]: End processing [crosslab-soa-client]: success
+[2023-05-19 10:38:03] INFO root fetch - processPackages [miniagent]: Start processing: crosslab-soa-service-webcam
+[2023-05-19 10:38:03] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-05-19 10:38:03] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/cb/6f/4ffecb29bc3be0b5befd967f8c165a4d11e1eaedc63c1eb6197b706853f0/crosslab_soa_service_message-0.2.3.tar.gz
+[2023-05-19 10:38:04] INFO root fetch - processPackages [odoo10-addon-base-user-role]: New version: [10.0.1.0.3.99.dev9] Old Version: [10.0.1.0.3.99.dev7]
+[2023-05-19 10:38:04] INFO root fetch - processPackages [python-equilibrium]: Start processing: netbox-cisco-maintenance
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [python-equilibrium]: success
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-webcam]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 10:38:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-electrical]: success
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-message]: executing diffoscope
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_message-0.2.2.tar.gz tmp/crosslab_soa_service_message-0.2.3.tar.gz --markdown 20230519/c/crosslab-soa-service-message/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [typodoo]: success
+[2023-05-19 10:38:04] INFO root fetch - processPackages [odoo10-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/c0/8c/4c6aaddf4f836dc0d925c27b9b9272d5b3c5b8b54335529b60a27c1ec26e/odoo10_addon_base_user_role-10.0.1.0.3.99.dev7-py2-none-any.whl
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/68/8c/6feb87272e98678d31d1d9a0faf03b53d61b664feac76b36ed03e037169b/crosslab_soa_service_webcam-0.2.2.tar.gz
+[2023-05-19 10:38:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/c7/0a/23030ab806d7c0cb62c5f36307b435d2832f67f6a099d087e1d17d4d5f5a/netbox-cisco-maintenance-0.0.8.tar.gz
+[2023-05-19 10:38:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 10:38:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.7.tar.gz tmp/netbox-cisco-maintenance-0.0.8.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-user-role]: success
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/d7/eb/162e299277d84cb52a8ab5cff5c064ba9df5a593bad3eba8590753671bdf/crosslab_soa_service_webcam-0.2.3.tar.gz
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-user-role]: success
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-webcam]: executing diffoscope
+[2023-05-19 10:38:04] INFO root fetch - processPackages [crosslab-soa-service-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_webcam-0.2.2.tar.gz tmp/crosslab_soa_service_webcam-0.2.3.tar.gz --markdown 20230519/c/crosslab-soa-service-webcam/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 10:38:04] INFO root fetch - processPackages [odoo10-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/15/45/c2cd8d524be6729608cb7447a731ba10aa78c1c23463e09fd5268979c845/odoo10_addon_base_user_role-10.0.1.0.3.99.dev9-py2-none-any.whl
+[2023-05-19 10:38:04] INFO root fetch - processPackages [odoo10-addon-base-user-role]: executing diffoscope
+[2023-05-19 10:38:04] INFO root fetch - processPackages [odoo10-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_base_user_role-10.0.1.0.3.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_base_user_role-10.0.1.0.3.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo10-addon-base-user-role/10.0.1.0.3.99.dev7-10.0.1.0.3.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 10:38:04] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-file]: success
+[2023-05-19 10:38:05] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-message]: success
+[2023-05-19 10:38:05] INFO root fetch - main [MainThread]: End processing [crosslab-api-client]: success
+[2023-05-19 10:38:05] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-webcam]: success
+[2023-05-19 10:38:05] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 10:38:07] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-user-role]: success
+[2023-05-19 10:38:07] INFO root fetch - main [MainThread]: Store serial: [18167286]
