@@ -15091,3 +15091,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 14:05:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-19 14:05:19] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-19 14:05:19] INFO root fetch - main [MainThread]: Store serial: [18169453]
+[2023-05-19 14:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18169453]
+[2023-05-19 14:10:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viggonuvemfiscal
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helsing-scm
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onboardme
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuto
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utils-mavisoft
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skytek-utils
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vida-gridlight
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mse-lib-sgx
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: negate
+[2023-05-19 14:10:28] INFO root fetch - processPackages [skytek-utils]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-19 14:10:28] WARNING root fetch - processPackages [helsing-scm]: Skipping, unable to determine old version
+[2023-05-19 14:10:28] INFO root fetch - processPackages [negate]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [helsing-scm]: Start processing: ddadevops
+[2023-05-19 14:10:28] INFO root fetch - main [MainThread]: End processing [helsing-scm] error
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 14:10:28] WARNING root fetch - processPackages [utils-mavisoft]: Skipping, unable to determine old version
+[2023-05-19 14:10:28] INFO root fetch - processPackages [utils-mavisoft]: Start processing: kuto
+[2023-05-19 14:10:28] INFO root fetch - processPackages [skytek-utils]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - main [MainThread]: End processing [utils-mavisoft] error
+[2023-05-19 14:10:28] INFO root fetch - processPackages [skytek-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytek-utils-0.3.1.tar.gz tmp/skytek-utils-0.4.0.tar.gz --markdown 20230519/s/skytek-utils/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 14:10:28] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a3] Old Version: [2.0a2]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [viggonuvemfiscal]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 14:10:28] WARNING root fetch - processPackages [vida-gridlight]: Skipping, unable to determine old version
+[2023-05-19 14:10:28] INFO root fetch - processPackages [vida-gridlight]: Start processing: charactr-api-sdk
+[2023-05-19 14:10:28] INFO root fetch - main [MainThread]: End processing [vida-gridlight] error
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230519/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 14:10:28] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - processPackages [onboardme]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230519/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-19 14:10:28] INFO root fetch - processPackages [negate]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - processPackages [negate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negate-0.7.6.tar.gz tmp/negate-0.7.7.tar.gz --markdown 20230519/n/negate/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 14:10:28] INFO root fetch - processPackages [charactr-api-sdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-19 14:10:28] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230519/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 14:10:29] INFO root fetch - processPackages [charactr-api-sdk]: executing diffoscope
+[2023-05-19 14:10:29] INFO root fetch - processPackages [charactr-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactr_api_sdk-1.0.1.tar.gz tmp/charactr_api_sdk-1.1.0.tar.gz --markdown 20230519/c/charactr-api-sdk/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 14:10:29] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/e9/41/eb63601121278719a4d02b78e78cd6140ef0175d410b117448f66d0962ac/viggonuvemfiscal-1.1.0.tar.gz
+[2023-05-19 14:10:29] INFO root fetch - processPackages [onboardme]: Downloading https://files.pythonhosted.org/packages/f9/ae/abe160fb058739938a927821220d722022b5f5cb28e26db241bd063ee1b9/onboardme-1.0.1.tar.gz
+[2023-05-19 14:10:29] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/59/f2/77dc992bdff63dc4ec87682f17f7eeac2296ad19e7671bcfda59177d60c0/mse_lib_sgx-2.0a3.tar.gz
+[2023-05-19 14:10:29] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/36/1b/6da597a15cca4b557549d3d14c8a8663c18184971793166b7f6253b4608c/viggonuvemfiscal-1.1.1.tar.gz
+[2023-05-19 14:10:29] INFO root fetch - processPackages [onboardme]: Downloading https://files.pythonhosted.org/packages/16/d8/475bd5ecdbf2ba027d487b3a0f90879a27a839c3d8d270175369cd55ce06/onboardme-1.0.2.tar.gz
+[2023-05-19 14:10:29] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-19 14:10:29] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a2.tar.gz tmp/mse_lib_sgx-2.0a3.tar.gz --markdown 20230519/m/mse-lib-sgx/2.0a2-2.0a3/diff.md --exclude *.pyd
+[2023-05-19 14:10:29] INFO root fetch - processPackages [viggonuvemfiscal]: executing diffoscope
+[2023-05-19 14:10:29] INFO root fetch - processPackages [viggonuvemfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggonuvemfiscal-1.1.0.tar.gz tmp/viggonuvemfiscal-1.1.1.tar.gz --markdown 20230519/v/viggonuvemfiscal/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 14:10:29] INFO root fetch - processPackages [onboardme]: executing diffoscope
+[2023-05-19 14:10:29] INFO root fetch - processPackages [onboardme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onboardme-1.0.1.tar.gz tmp/onboardme-1.0.2.tar.gz --markdown 20230519/o/onboardme/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 14:10:30] INFO root fetch - processPackages [kuto]: Start processing: pix-framework
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-19 14:10:30] INFO root fetch - processPackages [skytek-utils]: Start processing: serializator-scocs
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [skytek-utils]: success
+[2023-05-19 14:10:30] INFO root fetch - processPackages [serializator-scocs]: New version: [1.2] Old Version: [1.1]
+[2023-05-19 14:10:30] INFO root fetch - processPackages [pix-framework]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-19 14:10:30] INFO root fetch - processPackages [serializator-scocs]: executing diffoscope
+[2023-05-19 14:10:30] INFO root fetch - processPackages [serializator-scocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializator-scocs-1.1.tar.gz tmp/serializator-scocs-1.2.tar.gz --markdown 20230519/s/serializator-scocs/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-19 14:10:30] INFO root fetch - processPackages [negate]: Start processing: pytorch-optimizer
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [negate]: success
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [charactr-api-sdk]: success
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-19 14:10:30] INFO root fetch - processPackages [pytorch-optimizer]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-19 14:10:30] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 14:10:30] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/b4/df/412ea86b1ee143153df976e729f38e6ead0142f730c9f6d64d512578f759/pix_framework-0.8.1.tar.gz
+[2023-05-19 14:10:30] INFO root fetch - processPackages [pytorch-optimizer]: Downloading https://files.pythonhosted.org/packages/73/dd/958bea5c2ea0b585e76e0ad35d1222438949ec6d21a73b8e4fd70e4a95f5/pytorch_optimizer-2.9.0.tar.gz
+[2023-05-19 14:10:31] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-05-19 14:10:31] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.0.tar.gz tmp/pix_framework-0.8.1.tar.gz --markdown 20230519/p/pix-framework/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-19 14:10:31] INFO root fetch - processPackages [pytorch-optimizer]: Downloading https://files.pythonhosted.org/packages/85/87/6b72005aaa0539e6a2bf4390c181cfc88f81721f62e02885fc8d748c99b3/pytorch_optimizer-2.9.1.tar.gz
+[2023-05-19 14:10:31] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-19 14:10:31] INFO root fetch - processPackages [pytorch-optimizer]: executing diffoscope
+[2023-05-19 14:10:31] INFO root fetch - processPackages [pytorch-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_optimizer-2.9.0.tar.gz tmp/pytorch_optimizer-2.9.1.tar.gz --markdown 20230519/p/pytorch-optimizer/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-19 14:10:31] INFO root fetch - main [MainThread]: End processing [viggonuvemfiscal]: success
+[2023-05-19 14:10:31] INFO root fetch - main [MainThread]: End processing [onboardme]: success
+[2023-05-19 14:10:31] INFO root fetch - main [MainThread]: End processing [serializator-scocs]: success
+[2023-05-19 14:10:32] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-05-19 14:10:32] INFO root fetch - main [MainThread]: End processing [pytorch-optimizer]: success
+[2023-05-19 14:10:36] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-19 14:10:36] INFO root fetch - main [MainThread]: Store serial: [18169505]
