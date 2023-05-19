@@ -19430,3 +19430,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:19:26] INFO root fetch - main [MainThread]: End processing [zeroshot-classifier]: success
 [2023-05-19 18:19:29] INFO root fetch - main [MainThread]: End processing [codecov-cli]: success
 [2023-05-19 18:19:29] INFO root fetch - main [MainThread]: Store serial: [18172330]
+[2023-05-19 18:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172330]
+[2023-05-19 18:24:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 18:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyper-requests
+[2023-05-19 18:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pencode
+[2023-05-19 18:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cwsearch-utils
+[2023-05-19 18:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ms-general-utils
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peegy
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: relative-addons-system
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pencode
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-when
+[2023-05-19 18:24:40] INFO root fetch - processPackages [peegy]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [pencode]: New version: [0.1.0.1] Old Version: [0.1]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [pencode]: New version: [0.1.0.1] Old Version: [0.1]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [pytest-when]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [relative-addons-system]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [hyper-requests]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ms-general-utils]: New version: [1.4.1] Old Version: [1.4]
+[2023-05-19 18:24:40] INFO root fetch - processPackages [coiled]: New version: [0.6.6.dev6] Old Version: [0.6.6.dev5]
+[2023-05-19 18:24:40] ERROR root fetch - processPackages [pencode]: Unable to fetch info: No such project/version 'pencode' 0.1
+[2023-05-19 18:24:40] ERROR root fetch - processPackages [pencode]: Unable to fetch info: No such project/version 'pencode' 0.1
+[2023-05-19 18:24:40] INFO root fetch - main [MainThread]: End processing [pencode] error
+[2023-05-19 18:24:40] INFO root fetch - main [MainThread]: End processing [pencode] error
+[2023-05-19 18:24:40] INFO root fetch - processPackages [pytest-when]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [pytest-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_when-1.0.1.tar.gz tmp/pytest_when-1.0.2.tar.gz --markdown 20230519/p/pytest-when/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230519/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/bd/80/9036e598897534f14474fbe310f7e65acf065a4cfc39e98a07d852222095/ms_general_utils-1.4.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [relative-addons-system]: Downloading https://files.pythonhosted.org/packages/72/7b/47e5a60bb068d3c539316e7d83c0646ae84c0af020bd1bd570f67f456e40/relative-addons-system-2.5.2.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [peegy]: Downloading https://files.pythonhosted.org/packages/a8/6e/51a1b312adfab49af46f03f133a8fa202b290c10b8c8c05ea603322c882a/peegy-1.4.3.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [hyper-requests]: Downloading https://files.pythonhosted.org/packages/ba/83/aa7f4fe341abc8af2ca9a027a579e69684c471713d9b88e979ca2d0cec28/hyper_requests-0.0.2.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b7/2d/7274f6e55cf61e5b012709ba6a5844cc2ab7f08c7834f47356b8490e1c53/coiled-0.6.6.dev6.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [hyper-requests]: Downloading https://files.pythonhosted.org/packages/8d/05/f653cac45ccce155ecaf5eea2e93ca179bbfb56301f8ebf1e40a4e4df017/hyper-requests-0.0.3.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/3d/c9/805d0765509458564cc2095843c0206cf339f0990b66e8c6f9df4e339765/ms_general_utils-1.4.1.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.6.dev5.tar.gz tmp/coiled-0.6.6.dev6.tar.gz --markdown 20230519/c/coiled/0.6.6.dev5-0.6.6.dev6/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [relative-addons-system]: Downloading https://files.pythonhosted.org/packages/ea/b0/2884d0e4f6d36ead8790ac757fdbbf6263d0ba686d3f2dce0642003898e9/relative-addons-system-2.5.3.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [hyper-requests]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [hyper-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyper_requests-0.0.2.tar.gz tmp/hyper-requests-0.0.3.tar.gz --markdown 20230519/h/hyper-requests/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.4.tar.gz tmp/ms_general_utils-1.4.1.tar.gz --markdown 20230519/m/ms-general-utils/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [relative-addons-system]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [relative-addons-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative-addons-system-2.5.2.tar.gz tmp/relative-addons-system-2.5.3.tar.gz --markdown 20230519/r/relative-addons-system/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-05-19 18:24:40] INFO root fetch - processPackages [peegy]: Downloading https://files.pythonhosted.org/packages/ca/29/91d2aae406acfb3561c076ee94faad0d0ee054937a95e6a7cf7f7648aeac/peegy-1.4.4.tar.gz
+[2023-05-19 18:24:40] INFO root fetch - processPackages [peegy]: executing diffoscope
+[2023-05-19 18:24:40] INFO root fetch - processPackages [peegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peegy-1.4.3.tar.gz tmp/peegy-1.4.4.tar.gz --markdown 20230519/p/peegy/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-19 18:24:41] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-19 18:24:41] INFO root fetch - main [MainThread]: End processing [pytest-when]: success
+[2023-05-19 18:24:41] INFO root fetch - main [MainThread]: End processing [hyper-requests]: success
+[2023-05-19 18:24:41] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-05-19 18:24:41] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 18:24:42] INFO root fetch - main [MainThread]: End processing [relative-addons-system]: success
+[2023-05-19 18:24:44] INFO root fetch - main [MainThread]: End processing [peegy]: success
+[2023-05-19 18:24:44] INFO root fetch - main [MainThread]: Store serial: [18172358]
