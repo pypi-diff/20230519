@@ -10375,3 +10375,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-contact-gender]: success
 [2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
 [2023-05-19 09:11:52] INFO root fetch - main [MainThread]: Store serial: [18166513]
+[2023-05-19 09:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166513]
+[2023-05-19 09:17:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-training
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.connector
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CADPR
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-akshare
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visual-compare
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sa-package
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-partner-contact-gender
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unitlab
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: waveformtools
+[2023-05-19 09:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-19 09:17:02] INFO root fetch - processPackages [visual-compare]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 09:17:02] WARNING root fetch - processPackages [vnpy-akshare]: Skipping, unable to determine old version
+[2023-05-19 09:17:02] INFO root fetch - processPackages [deep-training]: New version: [0.1.6] Old Version: [0.1.5.post4]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [vnpy-akshare]: Start processing: superpowered-sdk
+[2023-05-19 09:17:02] INFO root fetch - main [MainThread]: End processing [vnpy-akshare] error
+[2023-05-19 09:17:02] INFO root fetch - processPackages [perun.connector]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [unitlab]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [odoo12-addon-partner-contact-gender]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [waveformtools]: New version: [2023.5.19] Old Version: [2023.5.17]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [sa-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 09:17:02] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-05-19 09:17:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-19 09:17:03] INFO root fetch - processPackages [sa-package]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [sa-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sa_package-0.0.8.tar.gz tmp/sa_package-0.0.9.tar.gz --markdown 20230519/s/sa-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/8a/34/6bcf1db766d1fbcfd6b6ffd7d1cde4e3286a06e0ac1b0207d419551f9ac7/visual-compare-1.0.1.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/71/34/3285483ed1c3d10add32f3406892f117bcde4c7fd2ea00f615c0014b5427/deep_training-0.1.6-py3-none-any.whl
+[2023-05-19 09:17:03] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/09/4b/898d890a92facecfa79812105bbeb27b8741280f068dc8d18d4ff02fb36e/unitlab-1.8.3.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [odoo12-addon-partner-contact-gender]: Downloading https://files.pythonhosted.org/packages/57/91/80c64550d4e7c3609da23b5b5cdff526a98de0a9f6c66722190984d2439a/odoo12_addon_partner_contact_gender-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-19 09:17:03] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [perun.connector]: Downloading https://files.pythonhosted.org/packages/59/21/3682fb33d09f3a78481c240568c24a9a2a824adabcbde8d84e76be489aae/perun.connector-3.7.0.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.5.post4-py3-none-any.whl.zip tmp/deep_training-0.1.6-py3-none-any.whl.zip --markdown 20230519/d/deep-training/0.1.5.post4-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/a5/b3/ab949ca2f329e9f4abaa5f9b517a3d2bc0eeb407a9888473cb72e95d58ce/waveformtools-2023.5.19.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/4f/d2/224938da0120a0d017fe7ce26adf956ff763a2223b5f9e6065c464be20dc/superpowered-sdk-0.1.1.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/15/19/eb4aa349e4e2c8ea4bca5f32715f9a4840b596be943bb5fdd21fbe180731/unitlab-1.8.4.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230519/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/a1/7a/ec089cde5637445c7d5670fcb2e0f070bc0d9cf0cb4ced71af5e5dc78a10/visual-compare-1.0.2.tar.gz
+[2023-05-19 09:17:03] INFO root fetch - processPackages [perun.connector]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [perun.connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.connector-3.6.0.tar.gz tmp/perun.connector-3.7.0.tar.gz --markdown 20230519/p/perun.connector/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [waveformtools]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [waveformtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveformtools-2023.5.17.tar.gz tmp/waveformtools-2023.5.19.tar.gz --markdown 20230519/w/waveformtools/2023.5.17-2023.5.19/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [odoo12-addon-partner-contact-gender]: Downloading https://files.pythonhosted.org/packages/72/e8/e7e8f78b91da74d5a5e2429509e9ab4994f08c46127b81ec5ac78d0034d8/odoo12_addon_partner_contact_gender-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-19 09:17:03] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.3.tar.gz tmp/unitlab-1.8.4.tar.gz --markdown 20230519/u/unitlab/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [visual-compare]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [visual-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual-compare-1.0.1.tar.gz tmp/visual-compare-1.0.2.tar.gz --markdown 20230519/v/visual-compare/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.0.9.tar.gz tmp/superpowered-sdk-0.1.1.tar.gz --markdown 20230519/s/superpowered-sdk/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 09:17:03] INFO root fetch - processPackages [odoo12-addon-partner-contact-gender]: executing diffoscope
+[2023-05-19 09:17:03] INFO root fetch - processPackages [odoo12-addon-partner-contact-gender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_contact_gender-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_partner_contact_gender-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-partner-contact-gender/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 09:17:04] INFO root fetch - processPackages [sa-package]: Start processing: jennifer-python
+[2023-05-19 09:17:04] INFO root fetch - main [MainThread]: End processing [sa-package]: success
+[2023-05-19 09:17:04] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-05-19 09:17:04] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-05-19 09:17:04] INFO root fetch - processPackages [CADPR]: Start processing: UnivariateMonitoring
+[2023-05-19 09:17:04] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 09:17:04] WARNING root fetch - processPackages [UnivariateMonitoring]: Skipping, unable to determine old version
+[2023-05-19 09:17:04] INFO root fetch - processPackages [UnivariateMonitoring]: Start processing: checkpoint-tool
+[2023-05-19 09:17:04] INFO root fetch - main [MainThread]: End processing [UnivariateMonitoring] error
+[2023-05-19 09:17:04] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 09:17:04] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-19 09:17:04] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.8.0.tar.gz tmp/checkpoint_tool-0.9.0.tar.gz --markdown 20230519/c/checkpoint-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 09:17:05] INFO root fetch - processPackages [unitlab]: Start processing: webgui-jupyter-widgets
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [visual-compare]: success
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [waveformtools]: success
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-05-19 09:17:05] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-contact-gender]: success
+[2023-05-19 09:17:05] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-05-19 09:17:05] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230519/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 09:17:05] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-19 09:17:06] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-05-19 09:17:06] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-05-19 09:17:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-19 09:17:07] INFO root fetch - main [MainThread]: End processing [perun.connector]: success
+[2023-05-19 09:17:07] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-05-19 09:17:07] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230519/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-05-19 09:17:43] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-05-19 09:18:07] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-05-19 09:18:07] INFO root fetch - main [MainThread]: Store serial: [18166560]
