@@ -11154,3 +11154,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:05:37] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-05-19 10:05:40] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-19 10:05:40] INFO root fetch - main [MainThread]: Store serial: [18166941]
+[2023-05-19 10:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166941]
+[2023-05-19 10:10:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotsos
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: section-to-course
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sysnet-persons
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playmolecule
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjaws
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PrSpiders
+[2023-05-19 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinybird-cli
+[2023-05-19 10:10:49] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [playmolecule]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post1] Old Version: [1.1.14]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230519] Old Version: [0.3.1.dev20230518]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [sysnet-persons]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [section-to-course]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-19 10:10:49] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.7.8.tar.gz tmp/playmolecule-1.7.9.tar.gz --markdown 20230519/p/playmolecule/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-19 10:10:49] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [pyjaws]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 10:10:49] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/69/f8/6313a675858d342b583d4240334885ae409ab471082122a2ea048efe81e3/PatryksAutoAI-1.3.3.tar.gz
+[2023-05-19 10:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/68/3f/05deaacaf5ef61c1ff34782b01a8e06aa7b109224ec3d2e0fbcaa02282ce/netbox-cisco-maintenance-0.0.6.tar.gz
+[2023-05-19 10:10:49] INFO root fetch - processPackages [pyjaws]: Downloading https://files.pythonhosted.org/packages/7e/37/7e32e66f7f2243b8303dfc3eff81b805cb76b06ba6e183c03337ce222974/pyjaws-0.1.1.tar.gz
+[2023-05-19 10:10:49] INFO root fetch - processPackages [sysnet-persons]: Downloading https://files.pythonhosted.org/packages/70/34/c6ab819c8de364400e7faa38c7b87492db987666cfd89e0f8c122f899869/sysnet-persons-1.0.0.tar.gz
+[2023-05-19 10:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 10:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.5.tar.gz tmp/netbox-cisco-maintenance-0.0.6.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 10:10:49] INFO root fetch - processPackages [section-to-course]: Downloading https://files.pythonhosted.org/packages/d1/66/313fa0399e6cc3d1e1e87466223c147769732f16407b032e0a7eff733383/section-to-course-0.3.0.tar.gz
+[2023-05-19 10:10:49] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/e6/8d/e90ec58e2463ae2db5e13e1d78c9d4ca6d421275d48650ca455f721ab58c/PrSpiders-0.4.7.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/80/18/13c922e62b884d1fe1aa640eb237e9d8c1cba9e9f62f6cad5d085addeada/hotsos-1.1.14.post1.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/86/08/8e64a0c063165fa3988a9874842b64b2584f7ea4c1b123d8f9a41adcba45/pyglove-0.3.1.dev20230519.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.2.tar.gz tmp/PatryksAutoAI-1.3.3.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.tar.gz tmp/hotsos-1.1.14.post1.tar.gz --markdown 20230519/h/hotsos/1.1.14-1.1.14.post1/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230518.tar.gz tmp/pyglove-0.3.1.dev20230519.tar.gz --markdown 20230519/p/pyglove/0.3.1.dev20230518-0.3.1.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyjaws]: Downloading https://files.pythonhosted.org/packages/1e/ca/edd048b4efc21a60a985ffb456fa423608d5f427bdc2a9e7ed7a48610fc2/pyjaws-0.1.2.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [section-to-course]: Downloading https://files.pythonhosted.org/packages/43/ec/97a5a4a9b044d4fb1a8a83583e505d35cf9028f90d9c5360bab6dfc16f24/section-to-course-0.4.0.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [sysnet-persons]: Downloading https://files.pythonhosted.org/packages/e7/c4/9a53369b626ddcfd40a0bd23c16e1ce706c1fca9b29586b09b7d7cccfc33/sysnet-persons-1.0.1.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/14/33/c6e0eb956b979028ea30d15a61d57fbd65bdc76c648ae5b53f29c596732e/PrSpiders-0.4.8.tar.gz
+[2023-05-19 10:10:50] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyjaws]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [pyjaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjaws-0.1.1.tar.gz tmp/pyjaws-0.1.2.tar.gz --markdown 20230519/p/pyjaws/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [section-to-course]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [section-to-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/section-to-course-0.3.0.tar.gz tmp/section-to-course-0.4.0.tar.gz --markdown 20230519/s/section-to-course/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [sysnet-persons]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [sysnet-persons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysnet-persons-1.0.0.tar.gz tmp/sysnet-persons-1.0.1.tar.gz --markdown 20230519/s/sysnet-persons/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.7.tar.gz tmp/PrSpiders-0.4.8.tar.gz --markdown 20230519/P/PrSpiders/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-19 10:10:50] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-19 10:10:50] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230519/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-19 10:10:51] INFO root fetch - main [MainThread]: End processing [pyjaws]: success
+[2023-05-19 10:10:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 10:10:51] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-19 10:10:51] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-19 10:10:51] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-19 10:10:52] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 10:10:52] INFO root fetch - main [MainThread]: End processing [section-to-course]: success
+[2023-05-19 10:10:53] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-19 10:10:53] INFO root fetch - main [MainThread]: End processing [sysnet-persons]: success
+[2023-05-19 10:10:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-19 10:10:54] INFO root fetch - main [MainThread]: Store serial: [18166971]
