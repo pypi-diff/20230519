@@ -18112,3 +18112,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:03:55] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
 [2023-05-19 17:03:57] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2023-05-19 17:03:57] INFO root fetch - main [MainThread]: Store serial: [18171470]
+[2023-05-19 17:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171470]
+[2023-05-19 17:09:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: novalabs-backtest
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flywheel-cli
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-shelly-touchupDump
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: the-spymaster-api
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-text-nightly
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gameyamlspiderandgenerator
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryton-core
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataquality
+[2023-05-19 17:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cai-causal-models
+[2023-05-19 17:09:08] INFO root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: New version: [20230519.15.4.666034] Old Version: [20230518.14.42.325614]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [the-spymaster-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 17:09:08] WARNING root fetch - processPackages [cai-causal-models]: Skipping, unable to determine old version
+[2023-05-19 17:09:08] INFO root fetch - main [MainThread]: End processing [cai-causal-models] error
+[2023-05-19 17:09:08] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230519] Old Version: [2.14.0.dev20230518]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [cryton-core]: New version: [2023.1.2] Old Version: [2022.2.2]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-19 17:09:08] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2023-05-19 17:09:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/22/d0/32e7fc305ee378cf286fd347321479af053af0c8aad9500ce1ad594356a2/gameyamlspiderandgenerator-1.4.4.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [the-spymaster-api]: Downloading https://files.pythonhosted.org/packages/07/19/46ccec2d1948cb355c9b4420d7294eb96859752ff9e67e87cbc1675270f3/the_spymaster_api-1.9.1.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Downloading https://files.pythonhosted.org/packages/63/cb/a12ab0c70a8d5fe08100a524b474bd93b83d1f2e21929b5b970ce03b0cf0/certora-cli-alpha-shelly-touchupDump-20230518.14.42.325614.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/96/78/bf32843b4206d90b939c0d91d6b366a4a9e043e6880f825526946237e001/novalabs-backtest-1.1.8.tar.gz
+[2023-05-19 17:09:08] WARNING root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Skipping package: exceeds size limit 38976203>=10485760
+[2023-05-19 17:09:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-touchupDump] error
+[2023-05-19 17:09:08] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/6b/5d/c3233f74c68d744289122c1e971ac76b4e1d5ed0ad3ac117f3350c96cfcd/cryton_core-2022.2.2.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [the-spymaster-api]: Downloading https://files.pythonhosted.org/packages/fe/da/d5a404562415a1a6cd285510f94e4db786d2fa661d35586aa99b7973ed27/the_spymaster_api-1.9.2.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/12/7b/75a21e72c2ea639401ba66d026509cdefa730cfb275895786a30b6b3628b/gameyamlspiderandgenerator-1.5.0.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/ba/d7/03249ed808565e5cf4afaa4e9759efaec4530b3df068fae05447d61bab4c/tensorflow_text_nightly-2.14.0.dev20230519-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 17:09:08] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-19 17:09:08] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230519/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-19 17:09:08] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2023-05-19 17:09:08] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/a2/38/1bb46fca8aa87d5375b99b0927a732739b47b6f4d60dfa183990acf5110f/novalabs-backtest-1.1.9.tar.gz
+[2023-05-19 17:09:08] INFO root fetch - processPackages [the-spymaster-api]: executing diffoscope
+[2023-05-19 17:09:08] INFO root fetch - processPackages [the-spymaster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_spymaster_api-1.9.1.tar.gz tmp/the_spymaster_api-1.9.2.tar.gz --markdown 20230519/t/the-spymaster-api/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-19 17:09:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-05-19 17:09:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.4.4.tar.gz tmp/gameyamlspiderandgenerator-1.5.0.tar.gz --markdown 20230519/g/gameyamlspiderandgenerator/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-05-19 17:09:08] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2023-05-19 17:09:08] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20230519/f/flywheel-cli/9.0.2.dev1-9.0.3/diff.md --exclude *.pyd
+[2023-05-19 17:09:08] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-05-19 17:09:08] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230519/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:09:09] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/68/ea/7ec6d0ef3cfd9033fd246235295d5d97561c68326e90578e68cc57ad7fad/cryton_core-2023.1.2.tar.gz
+[2023-05-19 17:09:09] INFO root fetch - main [MainThread]: End processing [the-spymaster-api]: success
+[2023-05-19 17:09:10] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-05-19 17:09:10] INFO root fetch - processPackages [cryton-core]: executing diffoscope
+[2023-05-19 17:09:10] INFO root fetch - processPackages [cryton-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_core-2022.2.2.tar.gz tmp/cryton_core-2023.1.2.tar.gz --markdown 20230519/c/cryton-core/2022.2.2-2023.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:09:10] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-19 17:09:10] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230518-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230519-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/t/tensorflow-text-nightly/2.14.0.dev20230518-2.14.0.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 17:09:10] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2023-05-19 17:09:10] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-19 17:09:11] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-05-19 17:09:13] INFO root fetch - main [MainThread]: End processing [cryton-core]: success
+[2023-05-19 17:09:49] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-19 17:09:49] INFO root fetch - main [MainThread]: Store serial: [18171498]
