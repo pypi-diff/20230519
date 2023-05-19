@@ -16977,3 +16977,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:59:35] INFO root fetch - main [MainThread]: End processing [capabilities]: success
 [2023-05-19 15:59:36] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-19 15:59:36] INFO root fetch - main [MainThread]: Store serial: [18170801]
+[2023-05-19 16:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170801]
+[2023-05-19 16:04:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vedro-replay
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonfinder
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuneflow-devkit-py
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MCPoly
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysigma-backend-qradar-aql
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isoCycle
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupytercards
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typos
+[2023-05-19 16:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opensesame-extension-osweb
+[2023-05-19 16:04:47] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [tuneflow-devkit-py]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-19 16:04:47] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230519/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-19 16:04:47] INFO root fetch - processPackages [vedro-replay]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 16:04:47] WARNING root fetch - processPackages [MCPoly]: Skipping, unable to determine old version
+[2023-05-19 16:04:47] INFO root fetch - processPackages [jupytercards]: New version: [2.5.3] Old Version: [2.5.1]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-19 16:04:47] INFO root fetch - main [MainThread]: End processing [MCPoly] error
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pythonfinder]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [isoCycle]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [typos]: New version: [1.14.9] Old Version: [1.14.8]
+[2023-05-19 16:04:47] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/ca/3b/4679f55774a86df1b6fe59b50621e8980156e6a315bea87e5c2979e31837/isoCycle-0.0.22.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/7d/a6/cf27b894bfb391bc04a6d5fb3a360c5ac9bd6acf6f695acd3d93c5dfe5f0/tuneflow-devkit-py-0.8.1.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: Downloading https://files.pythonhosted.org/packages/17/b4/b834caeb4e6ba0e984ac76180935be842f812cc2a658df318c68df7d14fe/pysigma_backend_qradar_aql-0.1.1.tar.gz
+[2023-05-19 16:04:47] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17970944>=10485760
+[2023-05-19 16:04:47] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/e5/d7/fdfe4dc6b0479fa84a18e5a0d734e73fe5c494dae2015b5f8e121fa488a3/pythonfinder-2.0.1.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/da/e0/4fbe16fe7f66b579bd52f2230245d3f0111bc13093f588ab7f163b178c3f/typos-1.14.8.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/79/2d/b90eee6071d9681a3f12321f5ac60605dec342072d91005bc13354fbc47b/tuneflow-devkit-py-0.8.2.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: Downloading https://files.pythonhosted.org/packages/31/b5/9770a2498a7da9267d54a60489b48a4a47b66559116dd79f426847f6df0a/pysigma_backend_qradar_aql-0.1.3.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [vedro-replay]: Downloading https://files.pythonhosted.org/packages/8d/18/dc2952a41f787b979f85c86d4d04d31b329469d97da04a1c25d203e65c2f/vedro-replay-0.1.2.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/21/0f/9a413ddafab13fdbd24249fd68643cc6f6a1640f53501be51aeadf07a6bb/jupytercards-2.5.3.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/91/92/103ed7248eab398241fe9e69adf0e48e22404733b70d59110c6f965e19eb/typos-1.14.9.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/9c/15/e10fb2757ad0a9983908d0c6c879414b0a9dadb13401f0e40b764f9ff823/pythonfinder-2.0.2.tar.gz
+[2023-05-19 16:04:47] INFO root fetch - processPackages [tuneflow-devkit-py]: executing diffoscope
+[2023-05-19 16:04:47] INFO root fetch - processPackages [tuneflow-devkit-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-devkit-py-0.8.1.tar.gz tmp/tuneflow-devkit-py-0.8.2.tar.gz --markdown 20230519/t/tuneflow-devkit-py/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: executing diffoscope
+[2023-05-19 16:04:47] INFO root fetch - processPackages [pysigma-backend-qradar-aql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_qradar_aql-0.1.1.tar.gz tmp/pysigma_backend_qradar_aql-0.1.3.tar.gz --markdown 20230519/p/pysigma-backend-qradar-aql/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 16:04:47] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-05-19 16:04:47] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.14.8.tar.gz tmp/typos-1.14.9.tar.gz --markdown 20230519/t/typos/1.14.8-1.14.9/diff.md --exclude *.pyd
+[2023-05-19 16:04:47] INFO root fetch - processPackages [vedro-replay]: Downloading https://files.pythonhosted.org/packages/49/26/f16f441e530fa1fc411bed45bc11ba62e317f13957b4114e925619673484/vedro-replay-0.1.3.tar.gz
+[2023-05-19 16:04:48] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-19 16:04:48] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.5.1.tar.gz tmp/jupytercards-2.5.3.tar.gz --markdown 20230519/j/jupytercards/2.5.1-2.5.3/diff.md --exclude *.pyd
+[2023-05-19 16:04:48] INFO root fetch - processPackages [pythonfinder]: executing diffoscope
+[2023-05-19 16:04:48] INFO root fetch - processPackages [pythonfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonfinder-2.0.1.tar.gz tmp/pythonfinder-2.0.2.tar.gz --markdown 20230519/p/pythonfinder/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-19 16:04:48] INFO root fetch - processPackages [vedro-replay]: executing diffoscope
+[2023-05-19 16:04:48] INFO root fetch - processPackages [vedro-replay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-replay-0.1.2.tar.gz tmp/vedro-replay-0.1.3.tar.gz --markdown 20230519/v/vedro-replay/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 16:04:49] INFO root fetch - main [MainThread]: End processing [tuneflow-devkit-py]: success
+[2023-05-19 16:04:49] INFO root fetch - main [MainThread]: End processing [pysigma-backend-qradar-aql]: success
+[2023-05-19 16:04:49] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-19 16:04:49] INFO root fetch - main [MainThread]: End processing [vedro-replay]: success
+[2023-05-19 16:04:49] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-19 16:04:52] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-05-19 16:04:55] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
+[2023-05-19 16:04:55] INFO root fetch - main [MainThread]: Store serial: [18170846]
