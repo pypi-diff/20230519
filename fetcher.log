@@ -7446,3 +7446,32 @@
 [2023-05-19 05:08:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
 [2023-05-19 05:08:54] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
 [2023-05-19 05:08:54] INFO root fetch - main [MainThread]: Store serial: [18165047]
+[2023-05-19 05:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165047]
+[2023-05-19 05:14:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 05:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algokit-client-generator
+[2023-05-19 05:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canopy-platform
+[2023-05-19 05:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galactic-messenger
+[2023-05-19 05:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: base-system
+[2023-05-19 05:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2023-05-19 05:14:03] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-05-19 05:14:03] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-19 05:14:03] INFO root fetch - processPackages [base-system]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-19 05:14:03] WARNING root fetch - processPackages [galactic-messenger]: Skipping, unable to determine old version
+[2023-05-19 05:14:03] INFO root fetch - main [MainThread]: End processing [galactic-messenger] error
+[2023-05-19 05:14:03] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-19 05:14:03] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-19 05:14:03] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230519/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-19 05:14:03] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/27/08/2ab81d952f30349fe8af0308312f59e6b3976bc6d0a5769be76c8e434d2c/base_system-0.2.7.tar.gz
+[2023-05-19 05:14:03] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/1d/43/1bb668e061cae76d577df65ee2aea26866106a8c6b014268f8ad9310fd3d/algokit_client_generator-0.1.0b3-py3-none-any.whl
+[2023-05-19 05:14:04] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-05-19 05:14:04] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b2-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b3-py3-none-any.whl.zip --markdown 20230519/a/algokit-client-generator/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-05-19 05:14:04] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-19 05:14:04] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230519/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 05:14:04] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/ce/a8/87baa480974641361b73401f1043b65dd79ba4d0e5a39e028f475964251e/base_system-0.2.8.tar.gz
+[2023-05-19 05:14:04] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-19 05:14:04] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.2.7.tar.gz tmp/base_system-0.2.8.tar.gz --markdown 20230519/b/base-system/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-19 05:14:04] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-19 05:14:05] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-19 05:14:05] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-05-19 05:14:05] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-19 05:14:05] INFO root fetch - main [MainThread]: Store serial: [18165062]
