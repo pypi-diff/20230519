@@ -8264,3 +8264,65 @@
 [2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
 [2023-05-19 06:19:04] INFO root fetch - main [MainThread]: Store serial: [18165451]
+[2023-05-19 06:24:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165451]
+[2023-05-19 06:24:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CrewCo-API
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-training
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rcwa
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: new-component
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdsfactory
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satori-playbook-validator
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llp-learn
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cads-sdk
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flarespy
+[2023-05-19 06:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: videoslides
+[2023-05-19 06:24:13] WARNING root fetch - processPackages [llp-learn]: Skipping, unable to determine old version
+[2023-05-19 06:24:13] INFO root fetch - processPackages [llp-learn]: Start processing: llp-learn
+[2023-05-19 06:24:13] INFO root fetch - main [MainThread]: End processing [llp-learn] error
+[2023-05-19 06:24:13] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 06:24:13] INFO root fetch - processPackages [rcwa]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-19 06:24:13] WARNING root fetch - processPackages [llp-learn]: Skipping, unable to determine old version
+[2023-05-19 06:24:13] INFO root fetch - main [MainThread]: End processing [llp-learn] error
+[2023-05-19 06:24:14] WARNING root fetch - processPackages [satori-playbook-validator]: Skipping, unable to determine old version
+[2023-05-19 06:24:14] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator] error
+[2023-05-19 06:24:14] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [new-component]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [videoslides]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [deep-training]: New version: [0.1.5.post3] Old Version: [0.1.5.post2]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [CrewCo-API]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [gdsfactory]: New version: [6.96.0] Old Version: [6.95.0]
+[2023-05-19 06:24:14] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230519/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [rcwa]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [rcwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcwa-1.0.7.tar.gz tmp/rcwa-1.0.9.tar.gz --markdown 20230519/r/rcwa/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/aa/fe/2f1dbf081e3a96006f6d1f87bb59e373f8dbc555872dfe64c50990dcf5ac/videoslides-0.0.3.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [new-component]: Downloading https://files.pythonhosted.org/packages/1f/1a/6c860403d4024b3d71f37da4d3862a0050d1f370e1dc71fa2c8553da6286/new-component-0.3.1.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [CrewCo-API]: Downloading https://files.pythonhosted.org/packages/6e/c8/c877f7670297ff3517bde005ec2fc2eac9af698a20c1dc45ee8eaaac71f3/CrewCo_API-0.0.1.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/21/32/65edb230935f3c75e78a368e2566e6b87dd6726cf6bb6224befb916b3094/cads_sdk-0.0.23-py3-none-any.whl
+[2023-05-19 06:24:14] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.22-py3-none-any.whl.zip tmp/cads_sdk-0.0.23-py3-none-any.whl.zip --markdown 20230519/c/cads-sdk/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/01/f8/1d5d39299ee52f24fa5a3bd79cca479b6a2ca174e642776a79c400520501/gdsfactory-6.96.0.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/4f/3a/7799c9325a02b0b2c45494dbd16522600a6bb4d1dfea6bff90fdfdfdf50c/deep_training-0.1.5.post2-py3-none-any.whl
+[2023-05-19 06:24:14] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/9f/02/3d1645f1c7d66d6a9545189db9d469bf23501ce6d159a7a3d0bf3052619a/videoslides-0.0.4.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [new-component]: Downloading https://files.pythonhosted.org/packages/af/c1/9882adc1f79ef6b5b2e619a579167cbc7666702eebfdb87d40e290fe87c3/new-component-0.3.2.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [CrewCo-API]: Downloading https://files.pythonhosted.org/packages/1c/c2/f5b72f03e5889a5419de922e1cd1daa2a7692a5c921e2d8ff159c3d5e87b/CrewCo_API-0.0.3.tar.gz
+[2023-05-19 06:24:14] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.95.0.tar.gz tmp/gdsfactory-6.96.0.tar.gz --markdown 20230519/g/gdsfactory/6.95.0-6.96.0/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.3.tar.gz tmp/videoslides-0.0.4.tar.gz --markdown 20230519/v/videoslides/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [new-component]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [new-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new-component-0.3.1.tar.gz tmp/new-component-0.3.2.tar.gz --markdown 20230519/n/new-component/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [CrewCo-API]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [CrewCo-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrewCo_API-0.0.1.tar.gz tmp/CrewCo_API-0.0.3.tar.gz --markdown 20230519/C/CrewCo-API/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 06:24:14] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/e0/c3/05d94160dbd2052768a8a57b964ff389651d85f06b638212d128547de0d8/deep_training-0.1.5.post3-py3-none-any.whl
+[2023-05-19 06:24:14] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-05-19 06:24:14] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.5.post2-py3-none-any.whl.zip tmp/deep_training-0.1.5.post3-py3-none-any.whl.zip --markdown 20230519/d/deep-training/0.1.5.post2-0.1.5.post3/diff.md --exclude *.pyd
+[2023-05-19 06:24:15] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-05-19 06:24:15] INFO root fetch - main [MainThread]: End processing [new-component]: success
+[2023-05-19 06:24:15] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-05-19 06:24:15] INFO root fetch - main [MainThread]: End processing [CrewCo-API]: success
+[2023-05-19 06:24:16] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-19 06:24:17] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-05-19 06:24:21] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-19 06:25:32] INFO root fetch - main [MainThread]: End processing [rcwa]: success
+[2023-05-19 06:25:32] INFO root fetch - main [MainThread]: Store serial: [18165486]
