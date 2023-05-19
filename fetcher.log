@@ -13897,3 +13897,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-19 12:39:57] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-05-19 12:39:57] INFO root fetch - main [MainThread]: Store serial: [18168539]
+[2023-05-19 12:45:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168539]
+[2023-05-19 12:45:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medsenger-api
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khash
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cacheyou
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dkms-transfer-python
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scarf
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellgeometry
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: introspection
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-dkms-transfer-python2
+[2023-05-19 12:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-19 12:45:07] INFO root fetch - processPackages [khash]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [cacheyou]: New version: [23.1] Old Version: [23.0]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [introspection]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [scarf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [cellgeometry]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python2]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-19 12:45:07] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python]: Downloading https://files.pythonhosted.org/packages/96/b9/37f90c59284304ab5364c22f25e7df926ab2b9a06f62bd4e0a821b52d05a/alibabacloud-dkms-transfer-python-0.0.7.tar.gz
+[2023-05-19 12:45:07] INFO root fetch - processPackages [khash]: Downloading https://files.pythonhosted.org/packages/a8/c2/733ce61acad2870418927d4b495022dbaaaaf83f41c09451bc306e2eef17/khash-0.5.0a3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-19 12:45:07] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/10/9d/f7b13ad5e8383a001014af80b53c81b80a73fdea5ca4268b557a703efd93/medsenger_api-0.1.8.tar.gz
+[2023-05-19 12:45:07] INFO root fetch - processPackages [cacheyou]: Downloading https://files.pythonhosted.org/packages/70/5d/c31c56e0ca2a0fb904bbc188ad791c72273e69a4f01c04969a0ab523dbb5/cacheyou-23.1.tar.gz
+[2023-05-19 12:45:07] INFO root fetch - processPackages [introspection]: Downloading https://files.pythonhosted.org/packages/49/3b/d39d1ed0e3ec7aea54ca771f21373b1b8ef9f467fdc25bd1fefa3c23620e/introspection-1.5.1.tar.gz
+[2023-05-19 12:45:07] INFO root fetch - processPackages [scarf]: Downloading https://files.pythonhosted.org/packages/09/e7/4ea209b5347da0ae564a838ce1592bf96adf9908e700c1ae491efb480291/scarf-0.9.1.tar.gz
+[2023-05-19 12:45:07] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python2]: Downloading https://files.pythonhosted.org/packages/01/33/0d5e935108245291a9fa625be40e4537eff7683a2ed642827e22ce3a8e71/alibabacloud-dkms-transfer-python2-0.0.6.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [cacheyou]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [cacheyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheyou-23.0.tar.gz tmp/cacheyou-23.1.tar.gz --markdown 20230519/c/cacheyou/23.0-23.1/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python]: Downloading https://files.pythonhosted.org/packages/a6/d2/102eb393097acded20b3033c11af5be114bfc9a41cad0db348b0598b341e/alibabacloud-dkms-transfer-python-0.1.0.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [khash]: Downloading https://files.pythonhosted.org/packages/94/b5/89a7a8d9a6254b1b4f5c2173bcfa778dd0ebc86bada29c0e3f15501624ca/khash-0.5.0a4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-19 12:45:08] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/e9/26/e1fbb78bfd4a0de98e7c9b2573d47a63aa0aa5bcf1942047b2e443591ac7/medsenger_api-0.1.9.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [cellgeometry]: Downloading https://files.pythonhosted.org/packages/a6/52/43c47ebcaddbbcb34adf33d7fdb07364a15cf4ec7c236a896aac8f606977/cellgeometry-0.1.2.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud-dkms-transfer-python-0.0.7.tar.gz tmp/alibabacloud-dkms-transfer-python-0.1.0.tar.gz --markdown 20230519/a/alibabacloud-dkms-transfer-python/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python2]: Downloading https://files.pythonhosted.org/packages/49/ad/f2f9334ad9c95854f5fbc710ef87f1f9b1a5f67ad859a11c8515c2dd52d3/alibabacloud-dkms-transfer-python2-0.1.0.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230519/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [cellgeometry]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [introspection]: Downloading https://files.pythonhosted.org/packages/c0/35/a35159e306d9bc809313d100d9163468acae81c6bc5fb3749984d252c01b/introspection-1.5.2.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [cellgeometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellgeometry-0.1.1.tar.gz tmp/cellgeometry-0.1.2.tar.gz --markdown 20230519/c/cellgeometry/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [scarf]: Downloading https://files.pythonhosted.org/packages/20/2e/9cddf2e55e2fbdeca9fa26dfd69fecf6344b726c13b2566168560bb2c44f/scarf-0.9.2.tar.gz
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python2]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [alibabacloud-dkms-transfer-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud-dkms-transfer-python2-0.0.6.tar.gz tmp/alibabacloud-dkms-transfer-python2-0.1.0.tar.gz --markdown 20230519/a/alibabacloud-dkms-transfer-python2/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230519/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [khash]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [khash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khash-0.5.0a3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/khash-0.5.0a4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230519/k/khash/0.5.0a3-0.5.0a4/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [scarf]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarf-0.9.1.tar.gz tmp/scarf-0.9.2.tar.gz --markdown 20230519/s/scarf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-19 12:45:08] INFO root fetch - processPackages [introspection]: executing diffoscope
+[2023-05-19 12:45:08] INFO root fetch - processPackages [introspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/introspection-1.5.1.tar.gz tmp/introspection-1.5.2.tar.gz --markdown 20230519/i/introspection/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-19 12:45:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dkms-transfer-python]: success
+[2023-05-19 12:45:09] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-19 12:45:09] INFO root fetch - main [MainThread]: End processing [cellgeometry]: success
+[2023-05-19 12:45:09] INFO root fetch - main [MainThread]: End processing [cacheyou]: success
+[2023-05-19 12:45:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dkms-transfer-python2]: success
+[2023-05-19 12:45:11] INFO root fetch - main [MainThread]: End processing [scarf]: success
+[2023-05-19 12:45:11] INFO root fetch - main [MainThread]: End processing [khash]: success
+[2023-05-19 12:45:12] INFO root fetch - main [MainThread]: End processing [introspection]: success
+[2023-05-19 12:45:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-19 12:45:14] INFO root fetch - main [MainThread]: Store serial: [18168613]
