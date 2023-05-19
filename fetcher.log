@@ -11926,3 +11926,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 10:43:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
 [2023-05-19 10:43:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-custom-filter]: success
 [2023-05-19 10:43:21] INFO root fetch - main [MainThread]: Store serial: [18167356]
+[2023-05-19 10:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167356]
+[2023-05-19 10:48:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: koios-api
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlabform
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptwatch
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gqt
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aequilibrae
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acstore
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arithmetic-dice-roller
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aequilibrae
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: butler-connect
+[2023-05-19 10:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-05-19 10:48:32] INFO root fetch - processPackages [butler-connect]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [acstore]: New version: [20230519] Old Version: [20230325]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [promptwatch]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [arithmetic-dice-roller]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [koios-api]: New version: [1.0.10.2] Old Version: [1.0.10]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: New version: [0.9.2.dev0] Old Version: [0.9.2]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gitlabform]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: New version: [0.9.2.dev0] Old Version: [0.9.2]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/8d/bd/2dfce0149bd77b46eb3777f7a079897a0be63c069dd977d488a4b272d3ef/butler-connect-0.5.4.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [acstore]: Downloading https://files.pythonhosted.org/packages/83/ed/13f352c03619fbaccd9ee4d82cc26300e4d172adc916d53bd497ea21577d/acstore-20230325.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/19/45/2efd0a483d0536ff10df3768c914480d2dd59f7aa05ccb08dc07bf69ed2a/promptwatch-0.0.8.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [arithmetic-dice-roller]: Downloading https://files.pythonhosted.org/packages/21/a8/2c882e0828b3b6c0724446a405ce9ce78e9c255fce81cf4290ec699c4928/arithmetic-dice-roller-0.2.4.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: Downloading https://files.pythonhosted.org/packages/61/07/b0279dd9efb2daebe03550dd8eeda9b05c5de18bfea275f6281e71b28a7d/aequilibrae-0.9.2-cp39-cp39-win_amd64.whl
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/6d/1d/45dd5488ce9a07ce6033b0a8ec6eddea7d5a9803c6e2b62628e0e323f981/gitlabform-3.5.0.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: Downloading https://files.pythonhosted.org/packages/61/07/b0279dd9efb2daebe03550dd8eeda9b05c5de18bfea275f6281e71b28a7d/aequilibrae-0.9.2-cp39-cp39-win_amd64.whl
+[2023-05-19 10:48:32] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/13/96/2fb42e858e6535c8e5aa602c7a05574efdec248b0a4a25995d719de81434/koios-api-1.0.10.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.3.tar.gz tmp/butler-connect-0.5.4.tar.gz --markdown 20230519/b/butler-connect/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] WARNING root fetch - processPackages [aequilibrae]: Skipping package: exceeds size limit 10588831>=10485760
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: Start processing: cdk-opinionated-constructs
+[2023-05-19 10:48:32] INFO root fetch - main [MainThread]: End processing [aequilibrae] error
+[2023-05-19 10:48:32] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [acstore]: Downloading https://files.pythonhosted.org/packages/9e/33/cbf0cf994fe8195c55c80eacf8f3335919159199304003973e0e86154e94/acstore-20230519.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [arithmetic-dice-roller]: Downloading https://files.pythonhosted.org/packages/bb/01/62909de4cdd4509b262525f4884f065da8a7f265ac57141b27bd1b097646/arithmetic-dice-roller-0.3.0.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230519/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/a3/f3/63a4839188c71df687200fc9fa942e83a1ba8b679b5246011af2ec5f1307/gitlabform-3.6.0.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/d6/2c/4129af0f1446b76036c6779c2a3ba40e223392e1d3b52adf474348e2b2a1/promptwatch-0.1.0.tar.gz
+[2023-05-19 10:48:32] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-2.0.1.tar.gz tmp/cdk-opinionated-constructs-2.1.0.tar.gz --markdown 20230519/c/cdk-opinionated-constructs/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230519/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/0b/3f/ebab07ce0902612976889d07f56cced2a169caa213bd89e2c737f05ce7cd/koios-api-1.0.10.2.tar.gz
+[2023-05-19 10:48:32] WARNING root fetch - processPackages [aequilibrae]: Skipping package: exceeds size limit 10588831>=10485760
+[2023-05-19 10:48:32] INFO root fetch - processPackages [aequilibrae]: Start processing: google-generativeai
+[2023-05-19 10:48:32] INFO root fetch - main [MainThread]: End processing [aequilibrae] error
+[2023-05-19 10:48:32] INFO root fetch - processPackages [acstore]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [acstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acstore-20230325.tar.gz tmp/acstore-20230519.tar.gz --markdown 20230519/a/acstore/20230325-20230519/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [arithmetic-dice-roller]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [arithmetic-dice-roller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetic-dice-roller-0.2.4.tar.gz tmp/arithmetic-dice-roller-0.3.0.tar.gz --markdown 20230519/a/arithmetic-dice-roller/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.0.8.tar.gz tmp/promptwatch-0.1.0.tar.gz --markdown 20230519/p/promptwatch/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gitlabform]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [gitlabform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabform-3.5.0.tar.gz tmp/gitlabform-3.6.0.tar.gz --markdown 20230519/g/gitlabform/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:32] INFO root fetch - processPackages [google-generativeai]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-05-19 10:48:32] INFO root fetch - processPackages [koios-api]: executing diffoscope
+[2023-05-19 10:48:32] INFO root fetch - processPackages [koios-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koios-api-1.0.10.tar.gz tmp/koios-api-1.0.10.2.tar.gz --markdown 20230519/k/koios-api/1.0.10-1.0.10.2/diff.md --exclude *.pyd
+[2023-05-19 10:48:33] INFO root fetch - processPackages [google-generativeai]: Downloading https://files.pythonhosted.org/packages/d8/2b/5d580a5cf315371d83f4b1c22a0bd3ab851c6ef13e3a27e0018f7811830e/google_generativeai-0.1.0rc2-py3-none-any.whl
+[2023-05-19 10:48:33] INFO root fetch - processPackages [google-generativeai]: Downloading https://files.pythonhosted.org/packages/58/78/7d063fd329a52f714f7cdd5a545fe0b2345cf6baae25e227a6afa552c6d4/google_generativeai-0.1.0rc3-py3-none-any.whl
+[2023-05-19 10:48:33] INFO root fetch - processPackages [google-generativeai]: executing diffoscope
+[2023-05-19 10:48:33] INFO root fetch - processPackages [google-generativeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_generativeai-0.1.0rc2-py3-none-any.whl.zip tmp/google_generativeai-0.1.0rc3-py3-none-any.whl.zip --markdown 20230519/g/google-generativeai/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-05-19 10:48:34] INFO root fetch - processPackages [butler-connect]: Start processing: astyle
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [gqt]: Start processing: pytonconnect
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [cdk-opinionated-constructs]: Start processing: pydeps
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pytonconnect]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 10:48:34] WARNING root fetch - processPackages [astyle]: Skipping, unable to determine old version
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [astyle] error
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pydeps]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [arithmetic-dice-roller]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pytonconnect]: Downloading https://files.pythonhosted.org/packages/59/fc/dcaa24ab770129d974d47a070c5295bb1f85d69b81fca0bb02d5587978cd/pytonconnect-0.1.1.tar.gz
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pydeps]: Downloading https://files.pythonhosted.org/packages/ce/1e/1988b89b44ebad8aa4e95f90570ac9c28954fdda26b8acefa1e013a3fb3f/pydeps-1.9.8.tar.gz
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [koios-api]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pytonconnect]: Downloading https://files.pythonhosted.org/packages/e6/0a/ba38015b41560a96c43c0b4701f818977747ea91e86a6022fbc3059fded3/pytonconnect-0.2.0.tar.gz
+[2023-05-19 10:48:34] INFO root fetch - main [MainThread]: End processing [acstore]: success
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pytonconnect]: executing diffoscope
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pytonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonconnect-0.1.1.tar.gz tmp/pytonconnect-0.2.0.tar.gz --markdown 20230519/p/pytonconnect/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 10:48:34] INFO root fetch - processPackages [pydeps]: Downloading https://files.pythonhosted.org/packages/54/58/de7146f26af679bee4beb60206ce1b275bad50d608b6895ab83c7b5fdde2/pydeps-1.9.9.tar.gz
+[2023-05-19 10:48:35] INFO root fetch - processPackages [pydeps]: executing diffoscope
+[2023-05-19 10:48:35] INFO root fetch - processPackages [pydeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeps-1.9.8.tar.gz tmp/pydeps-1.9.9.tar.gz --markdown 20230519/p/pydeps/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 10:48:35] INFO root fetch - main [MainThread]: End processing [google-generativeai]: success
+[2023-05-19 10:48:35] INFO root fetch - main [MainThread]: End processing [gitlabform]: success
+[2023-05-19 10:48:35] INFO root fetch - main [MainThread]: End processing [pytonconnect]: success
+[2023-05-19 10:48:36] INFO root fetch - main [MainThread]: End processing [pydeps]: success
+[2023-05-19 10:48:49] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-19 10:48:49] INFO root fetch - main [MainThread]: Store serial: [18167436]
