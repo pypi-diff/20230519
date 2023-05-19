@@ -20241,3 +20241,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:08:29] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2023-05-19 19:08:30] INFO root fetch - main [MainThread]: End processing [tsp]: success
 [2023-05-19 19:08:30] INFO root fetch - main [MainThread]: Store serial: [18172884]
+[2023-05-19 19:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172884]
+[2023-05-19 19:13:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SAPsim
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmfs
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-services
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calitp-map-utils
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaskosql
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucleus-sdk
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-core
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-rigetti
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckanext-geodatagov
+[2023-05-19 19:13:39] INFO root fetch - processPackages [SAPsim]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-19 19:13:39] WARNING root fetch - processPackages [flaskosql]: Skipping, unable to determine old version
+[2023-05-19 19:13:39] INFO root fetch - processPackages [flaskosql]: Start processing: cirq
+[2023-05-19 19:13:39] INFO root fetch - main [MainThread]: End processing [flaskosql] error
+[2023-05-19 19:13:39] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5137]
+[2023-05-19 19:13:39] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-05-19 19:13:39] INFO root fetch - processPackages [calitp-map-utils]: New version: [2023.5.19.4] Old Version: [2023.5.19.3]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ckanext-geodatagov]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 19:13:40] WARNING root fetch - processPackages [nucleus-sdk]: Skipping, unable to determine old version
+[2023-05-19 19:13:40] INFO root fetch - processPackages [nucleus-sdk]: Start processing: cirq-ionq
+[2023-05-19 19:13:40] INFO root fetch - main [MainThread]: End processing [nucleus-sdk] error
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230519/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/d5/ac/95702c16c00b4f797fed49553ca84c40ceb9c9f09c87e8d73439fc17f7eb/SAPsim-1.0.9.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/43/6c/746857f4a3561ec07640311f08b5baf9cc61c062c4ccfc0fcfcdb8b7037d/hmfs-1.1.5137.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [calitp-map-utils]: Downloading https://files.pythonhosted.org/packages/b1/6e/4f19c06c58d3531053aca45768256c1a8dac9e3053bd3fd541d2070b4e30/calitp_map_utils-2023.5.19.4.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:40] INFO root fetch - processPackages [calitp-map-utils]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ckanext-geodatagov]: Downloading https://files.pythonhosted.org/packages/fe/71/ef8d16f09b54174840f92470e9e3b19396eb4b64ed1a55aa3c94bf8a369c/ckanext-geodatagov-0.1.8.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [calitp-map-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_map_utils-2023.5.19.3.tar.gz tmp/calitp_map_utils-2023.5.19.4.tar.gz --markdown 20230519/c/calitp-map-utils/2023.5.19.3-2023.5.19.4/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/55/21/f2e25ae32b15da4218cdd762efdd12fffe39a52cec9c12de19cd80875f04/SAPsim-1.1.0.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/bf/36/b9237d05edb36d2ad8f7ff195e0f2f01b5976d4a7354d927a233772f419a/cirq-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:40] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-1.0.9.tar.gz tmp/SAPsim-1.1.0.tar.gz --markdown 20230519/S/SAPsim/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/2a/c8/9954e8b489ac26f5aeb029678b1072a047ff7fd5ff3c29d424616e2bbd21/cirq_core-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/71/bb/4d9dea8c593975c69b36f99c1b673626245d5c3e92cedf8602db3f95353b/cirq_rigetti-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/a7/c2/677fce68a413357f715b65e6a8a2aea0e51851c611ba7f07b7ba67756606/cirq_ionq-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ckanext-geodatagov]: Downloading https://files.pythonhosted.org/packages/5e/1b/7b3da57e0d681ba2f41b01eafae9a13fbe015cd2f4721b016f9e2f5ad387/ckanext-geodatagov-0.1.9.tar.gz
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/f8/6c/4c69fffaa39ec922d2b90eb439616584fb6ca4333f44fb838de31083db83/cirq_google-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ckanext-geodatagov]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [ckanext-geodatagov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-geodatagov-0.1.8.tar.gz tmp/ckanext-geodatagov-0.1.9.tar.gz --markdown 20230519/c/ckanext-geodatagov/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-rigetti/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-ionq/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-core/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-google/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:40] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-05-19 19:13:40] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5137.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230519/h/hmfs/1.1.5137-1.1.6/diff.md --exclude *.pyd
+[2023-05-19 19:13:41] INFO root fetch - processPackages [calitp-map-utils]: Start processing: cirq-pasqal
+[2023-05-19 19:13:41] INFO root fetch - main [MainThread]: End processing [calitp-map-utils]: success
+[2023-05-19 19:13:41] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:41] INFO root fetch - processPackages [cirq]: Start processing: cirq-web
+[2023-05-19 19:13:41] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-05-19 19:13:41] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c7/d9/a7058e36a3ceb990601db723ffc4f45a6816dc425a3932d8863104bd6aba/cirq_pasqal-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-pasqal/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-ionq]: Start processing: cirq-aqt
+[2023-05-19 19:13:42] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/18/95/e6bbfb61610e83bb9b09526f573943758deef1cb6cb0ec09b01ab43a3f6a/cirq_web-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:42] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-05-19 19:13:42] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230519171213] Old Version: [1.2.0.dev20230519015255]
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-web/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/d2/fa/eb8f97324b4f4b99a2346d35a030c12acefc7cf73fb420a8b477618c8ca3/cirq_aqt-1.2.0.dev20230519171213-py3-none-any.whl
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-05-19 19:13:42] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230519015255-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230519171213-py3-none-any.whl.zip --markdown 20230519/c/cirq-aqt/1.2.0.dev20230519015255-1.2.0.dev20230519171213/diff.md --exclude *.pyd
+[2023-05-19 19:13:43] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-05-19 19:13:43] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-05-19 19:13:44] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-05-19 19:13:44] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-05-19 19:13:44] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-05-19 19:13:45] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-05-19 19:13:45] INFO root fetch - main [MainThread]: End processing [ckanext-geodatagov]: success
+[2023-05-19 19:13:56] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-05-19 19:13:56] INFO root fetch - main [MainThread]: Store serial: [18172929]
