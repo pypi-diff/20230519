@@ -8213,3 +8213,54 @@
 [2023-05-19 06:12:34] INFO root fetch - processPackages [rcwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcwa-1.0.7.tar.gz tmp/rcwa-1.0.9.tar.gz --markdown 20230519/r/rcwa/1.0.7-1.0.9/diff.md --exclude *.pyd
 [2023-05-19 06:13:52] INFO root fetch - main [MainThread]: End processing [rcwa]: success
 [2023-05-19 06:13:52] INFO root fetch - main [MainThread]: Store serial: [18165427]
+[2023-05-19 06:18:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165427]
+[2023-05-19 06:19:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lite-tools
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tyke-agent
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tangerine-auth
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: references-parser
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-delivery-roulier
+[2023-05-19 06:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-editor
+[2023-05-19 06:19:01] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230519.3.42.795996] Old Version: [20230518.9.46.894574]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [references-parser]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tyke-agent]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [odoo9-addon-delivery-roulier]: New version: [9.0.2.0.0.99.dev5] Old Version: [9.0.2.0.0.99.dev4]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [references-parser]: executing diffoscope
+[2023-05-19 06:19:01] INFO root fetch - processPackages [references-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/references_parser-1.1.0.tar.gz tmp/references_parser-1.1.1.tar.gz --markdown 20230519/r/references-parser/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 06:19:01] INFO root fetch - processPackages [auto-editor]: New version: [23.8.1] Old Version: [23.4.1]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [coiled]: New version: [0.6.6.dev4] Old Version: [0.6.6.dev3]
+[2023-05-19 06:19:01] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/98/37/f8c9b18a2c034f33c8af56af6320aa9861e62f800bbed3f54c1ecbc9746d/certora-cli-alpha-rahav-cert-1987_update_regTest-20230518.9.46.894574.tar.gz
+[2023-05-19 06:19:01] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tyke-agent]: Downloading https://files.pythonhosted.org/packages/2f/1f/ff9750f49abd50843d771cb4e496884a182a0f83c161e7235c8eb2c35a17/tyke-agent-0.1.7.tar.gz
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/c6/3b/f7ce8437a28e9e08ee6393526c4746f87e12d7f4a04ac1655a4d7c92e7d2/tangerine_auth-0.0.3-py3-none-any.whl
+[2023-05-19 06:19:01] INFO root fetch - processPackages [odoo9-addon-delivery-roulier]: Downloading https://files.pythonhosted.org/packages/d7/65/5dfadc9a05b29448ffee03bfae3799225a2555413345d85cfa2efbf6d70b/odoo9_addon_delivery_roulier-9.0.2.0.0.99.dev4-py2-none-any.whl
+[2023-05-19 06:19:01] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38976339>=10485760
+[2023-05-19 06:19:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.2-py3-none-any.whl.zip tmp/tangerine_auth-0.0.3-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 06:19:01] INFO root fetch - processPackages [tyke-agent]: Downloading https://files.pythonhosted.org/packages/ae/07/a609230d5e7779c519598eb279a72de63b9fa182e8a72dea055564dd8882/tyke-agent-0.1.8.tar.gz
+[2023-05-19 06:19:02] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2023-05-19 06:19:02] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-23.4.1.tar.gz tmp/auto-editor-23.8.1.tar.gz --markdown 20230519/a/auto-editor/23.4.1-23.8.1/diff.md --exclude *.pyd
+[2023-05-19 06:19:02] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/0b/48/21775f1d6ac3781e73b6c3ef2a5674015f703f77e4310b12228c8d7254ba/coiled-0.6.6.dev4.tar.gz
+[2023-05-19 06:19:02] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-05-19 06:19:02] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-05-19 06:19:02] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230519/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-05-19 06:19:02] INFO root fetch - processPackages [odoo9-addon-delivery-roulier]: Downloading https://files.pythonhosted.org/packages/03/6a/c2e1a2eef701315960bc936cfc98a52c01bbf560c4fc323320b04b33a7bf/odoo9_addon_delivery_roulier-9.0.2.0.0.99.dev5-py2-none-any.whl
+[2023-05-19 06:19:02] INFO root fetch - processPackages [tyke-agent]: executing diffoscope
+[2023-05-19 06:19:02] INFO root fetch - processPackages [tyke-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyke-agent-0.1.7.tar.gz tmp/tyke-agent-0.1.8.tar.gz --markdown 20230519/t/tyke-agent/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 06:19:02] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 06:19:02] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.6.dev3.tar.gz tmp/coiled-0.6.6.dev4.tar.gz --markdown 20230519/c/coiled/0.6.6.dev3-0.6.6.dev4/diff.md --exclude *.pyd
+[2023-05-19 06:19:02] INFO root fetch - processPackages [odoo9-addon-delivery-roulier]: executing diffoscope
+[2023-05-19 06:19:02] INFO root fetch - processPackages [odoo9-addon-delivery-roulier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_delivery_roulier-9.0.2.0.0.99.dev4-py2-none-any.whl.zip tmp/odoo9_addon_delivery_roulier-9.0.2.0.0.99.dev5-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-delivery-roulier/9.0.2.0.0.99.dev4-9.0.2.0.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-19 06:19:02] INFO root fetch - main [MainThread]: End processing [references-parser]: success
+[2023-05-19 06:19:03] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 06:19:03] INFO root fetch - main [MainThread]: End processing [odoo9-addon-delivery-roulier]: success
+[2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [tyke-agent]: success
+[2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 06:19:04] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-05-19 06:19:04] INFO root fetch - main [MainThread]: Store serial: [18165451]
