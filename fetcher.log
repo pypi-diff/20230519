@@ -2049,3 +2049,59 @@
 [2023-05-19 02:42:47] INFO root fetch - main [MainThread]: End processing [CirclesGenderDetectorPython]: success
 [2023-05-19 02:42:49] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-19 02:42:49] INFO root fetch - main [MainThread]: Store serial: [18162328]
+[2023-05-19 02:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162328]
+[2023-05-19 02:47:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskiq-aiohttp
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotraders
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SplatStats
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stpmex
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projen
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubric-nightly
+[2023-05-19 02:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-slack-chatbot
+[2023-05-19 02:47:58] INFO root fetch - processPackages [autotraders]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [taskiq-aiohttp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [SplatStats]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [stpmex]: New version: [3.9.3.dev0] Old Version: [3.9.2]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/de/02/e842d329de2cc2ea36af849262742cf1f299505650f246d0c5f3ce697840/autotraders-1.0.4.tar.gz
+[2023-05-19 02:47:58] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305190044] Old Version: [4.9.2.dev202305180044]
+[2023-05-19 02:47:58] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/71/1a/8fd775be65187e300f8d1928d7679cf5fa2f308d552b9ec8a59c132cd4f2/taskiq_aiohttp-0.1.2.tar.gz
+[2023-05-19 02:47:58] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/96/ef/ab1b1702fc2ae6eb6838ba428c3a3c855c5354980f08d718acd680ea31d1/SplatStats-2.0.2.tar.gz
+[2023-05-19 02:47:58] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-19 02:47:58] INFO root fetch - processPackages [stpmex]: executing diffoscope
+[2023-05-19 02:47:58] INFO root fetch - processPackages [stpmex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stpmex-3.9.2.tar.gz tmp/stpmex-3.9.3.dev0.tar.gz --markdown 20230519/s/stpmex/3.9.2-3.9.3.dev0/diff.md --exclude *.pyd
+[2023-05-19 02:47:58] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-19 02:47:58] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-19 02:47:59] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-05-19 02:47:59] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.0.1.tar.gz tmp/SplatStats-2.0.2.tar.gz --markdown 20230519/S/SplatStats/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-19 02:47:59] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/af/25/35eb33916700aa7f9174d47bce12a66c5fca40bd54d3af209c7bb61ae7a4/taskiq_aiohttp-0.1.3.tar.gz
+[2023-05-19 02:47:59] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/be/3d/2eb5f4b50c77feea9025a966bb0b5ce49cb4f7941fe8eaa91e45025925c8/autotraders-1.0.5.tar.gz
+[2023-05-19 02:47:59] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230519/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [taskiq-aiohttp]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [taskiq-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aiohttp-0.1.2.tar.gz tmp/taskiq_aiohttp-0.1.3.tar.gz --markdown 20230519/t/taskiq-aiohttp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/1f/42/afc2ec67f356b8b18645df4009fb9e675844d1b0d26524d5b44ac4e02b5a/tfds-nightly-4.9.2.dev202305190044.tar.gz
+[2023-05-19 02:47:59] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.0.4.tar.gz tmp/autotraders-1.0.5.tar.gz --markdown 20230519/a/autotraders/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305180044.tar.gz tmp/tfds-nightly-4.9.2.dev202305190044.tar.gz --markdown 20230519/t/tfds-nightly/4.9.2.dev202305180044-4.9.2.dev202305190044/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-05-19 02:47:59] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230519/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-19 02:47:59] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-05-19 02:47:59] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230519/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [stpmex]: success
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [taskiq-aiohttp]: success
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-05-19 02:48:00] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-19 02:48:01] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-19 02:48:10] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-19 02:48:10] INFO root fetch - main [MainThread]: Store serial: [18162356]
