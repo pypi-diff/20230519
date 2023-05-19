@@ -9786,3 +9786,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 08:19:22] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-19 08:19:22] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-05-19 08:19:22] INFO root fetch - main [MainThread]: Store serial: [18166181]
+[2023-05-19 08:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166181]
+[2023-05-19 08:24:31] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyt-gpt
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-thailand
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: device-controller-test
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyt-gpt
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arthub-api
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geodata-harvester
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scandal
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatGPTWeb
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Lshengpackage
+[2023-05-19 08:24:31] INFO root fetch - processPackages [geodata-harvester]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 08:24:31] WARNING root fetch - processPackages [device-controller-test]: Skipping, unable to determine old version
+[2023-05-19 08:24:31] INFO root fetch - processPackages [device-controller-test]: Start processing: agsi
+[2023-05-19 08:24:31] INFO root fetch - main [MainThread]: End processing [device-controller-test] error
+[2023-05-19 08:24:31] INFO root fetch - processPackages [scandal]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [Lshengpackage]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: New version: [16.0.20221214.0] Old Version: [15.0.20230518.0]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-19 08:24:31] INFO root fetch - processPackages [agsi]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-19 08:24:32] INFO root fetch - processPackages [arthub-api]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-19 08:24:32] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230519] Old Version: [2.4.0.dev20230518]
+[2023-05-19 08:24:32] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/8a/cd/f3f431947b16a08df46eb16fa09b069fec6b19543e98239012a755841f99/ChatGPTWeb-0.0.7.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: Downloading https://files.pythonhosted.org/packages/b0/8f/9674666a2ba670748696d0eaecf5ff0ef8d1396336eb140371ffacab1fcf/odoo_addons_oca_l10n_thailand-15.0.20230518.0-py3-none-any.whl
+[2023-05-19 08:24:32] INFO root fetch - processPackages [geodata-harvester]: Downloading https://files.pythonhosted.org/packages/04/6d/78c7e2f29d5659b3393631a8c4168781b4a5fd7cf4e149e4cef99a105ea7/geodata-harvester-1.0.0.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/9c/e5/7c8589415e73b46f35da9d5cb38fd0c0fa4964f2be1cc15c02734bae8746/Lshengpackage-0.4.4.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/54/55/f8479ce9a5db18e78ce46882d5866e522429daa9147601ee24140951af84/agsi-1.0.6.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/cb/3a/6c5531a2221d6bc2629925e7c4774fdae5c6c79705ce7ba899ebfe11157f/scandal-0.1.7.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [scandal]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandal-0.1.6.tar.gz tmp/scandal-0.1.7.tar.gz --markdown 20230519/s/scandal/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/a1/ab/be6053c87b6ce3b5efa487903fbf1fba39b9035a977605ef5013dfdc2ba2/ChatGPTWeb-0.0.8.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/82/b9/a2aeb79158aa5d2c9b95df1b4458e718fc5c6113b5cfa679b3fab03c4641/Lshengpackage-0.4.5.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/fe/cd/a75734dab19e16d803f6e4e677d6dee8ae38350ce401b7fe8f89dc8844c1/arthub_api-1.6.9.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230519/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230519/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/64/f2/c3023fa6ce569305eb4d478f1c38632373e7ab224365778bd4f3f9c93a15/agsi-1.0.7.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/32/b7/d472caa780db03676e6b33da9f7e8034319ee937de65c95f25f418eb0103/pyg_nightly-2.4.0.dev20230519.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.0.7.tar.gz tmp/ChatGPTWeb-0.0.8.tar.gz --markdown 20230519/C/ChatGPTWeb/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [geodata-harvester]: Downloading https://files.pythonhosted.org/packages/95/8e/23be9d85d691620165e467d76a1156516f05e7e48292bfc13de60c4c43b0/geodata-harvester-1.0.1.tar.gz
+[2023-05-19 08:24:32] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.4.4.tar.gz tmp/Lshengpackage-0.4.5.tar.gz --markdown 20230519/L/Lshengpackage/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: Downloading https://files.pythonhosted.org/packages/65/d0/5fe800001c2cbbddac92e44bcaf146ed35e04dcaa57fe1028496ece8e4f0/odoo_addons_oca_l10n_thailand-16.0.20221214.0-py3-none-any.whl
+[2023-05-19 08:24:32] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.6.8.tar.gz tmp/arthub_api-1.6.9.tar.gz --markdown 20230519/a/arthub-api/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.6.tar.gz tmp/agsi-1.0.7.tar.gz --markdown 20230519/a/agsi/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [geodata-harvester]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [geodata-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodata-harvester-1.0.0.tar.gz tmp/geodata-harvester-1.0.1.tar.gz --markdown 20230519/g/geodata-harvester/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_thailand-15.0.20230518.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_thailand-16.0.20221214.0-py3-none-any.whl.zip --markdown 20230519/o/odoo-addons-oca-l10n-thailand/15.0.20230518.0-16.0.20221214.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:32] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-19 08:24:32] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230518.tar.gz tmp/pyg_nightly-2.4.0.dev20230519.tar.gz --markdown 20230519/p/pyg-nightly/2.4.0.dev20230518-2.4.0.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 08:24:33] INFO root fetch - processPackages [scandal]: Start processing: voxx-cli
+[2023-05-19 08:24:33] INFO root fetch - main [MainThread]: End processing [scandal]: success
+[2023-05-19 08:24:33] INFO root fetch - processPackages [voxx-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 08:24:33] INFO root fetch - processPackages [voxx-cli]: Downloading https://files.pythonhosted.org/packages/19/d9/6765390d02457180414f20e2b5d57cdb4c47a67c0ad03567b3f4e0d7cbea/voxx-cli-1.0.8.tar.gz
+[2023-05-19 08:24:34] INFO root fetch - processPackages [voxx-cli]: Downloading https://files.pythonhosted.org/packages/e6/8e/e3d160c989f4bf72ad3cbf20942f0ccf47a1ddb21d5b79647f01ecce03a7/voxx-cli-1.0.9.tar.gz
+[2023-05-19 08:24:34] INFO root fetch - processPackages [voxx-cli]: executing diffoscope
+[2023-05-19 08:24:34] INFO root fetch - processPackages [voxx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxx-cli-1.0.8.tar.gz tmp/voxx-cli-1.0.9.tar.gz --markdown 20230519/v/voxx-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 08:24:34] INFO root fetch - processPackages [odoo-addons-oca-l10n-thailand]: Start processing: gardener-cicd-base
+[2023-05-19 08:24:34] INFO root fetch - processPackages [ChatGPTWeb]: Start processing: gardener-cicd-cli
+[2023-05-19 08:24:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-thailand]: success
+[2023-05-19 08:24:34] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2023-05-19 08:24:34] INFO root fetch - processPackages [hyt-gpt]: Start processing: fake-bpy-module-latest
+[2023-05-19 08:24:34] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-19 08:24:34] INFO root fetch - processPackages [agsi]: Start processing: gardener-cicd-dso
+[2023-05-19 08:24:34] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-19 08:24:34] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230519] Old Version: [20230518]
+[2023-05-19 08:24:34] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2059.0] Old Version: [1.2057.0]
+[2023-05-19 08:24:34] INFO root fetch - processPackages [hyt-gpt]: Start processing: gardener-cicd-libs
+[2023-05-19 08:24:34] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-19 08:24:34] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2059.0] Old Version: [1.2057.0]
+[2023-05-19 08:24:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/1d/d5/aa7eb1c3f4bae7c0f038b15a488526bd7d9b8f157973b16771a98e5aa7ff/fake-bpy-module-latest-20230519.tar.gz
+[2023-05-19 08:24:34] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2059.0] Old Version: [1.2057.0]
+[2023-05-19 08:24:34] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/fd/e9/22751f85f6d68cdd95c0dc8664829e486ed338ee7a72ed9a05d98ce6a1dd/gardener_cicd_dso-1.2059.0-py3-none-any.whl
+[2023-05-19 08:24:34] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b1/b1/45fea2d4707da8f8ff9bc7eac06ca710a2159afa505f81b1cf191e085396/gardener-cicd-cli-1.2059.0.tar.gz
+[2023-05-19 08:24:34] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-19 08:24:34] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230518.tar.gz tmp/fake-bpy-module-latest-20230519.tar.gz --markdown 20230519/f/fake-bpy-module-latest/20230518-20230519/diff.md --exclude *.pyd
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2057.0.tar.gz tmp/gardener-cicd-cli-1.2059.0.tar.gz --markdown 20230519/g/gardener-cicd-cli/1.2057.0-1.2059.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/e9/0e/5f02ed8bc48e0dc5a4eca7049444c496b8908eb75ff190402e2248dff85b/gardener-cicd-base-1.2059.0.tar.gz
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2057.0.tar.gz tmp/gardener_cicd_dso-1.2059.0-py3-none-any.whl.zip --markdown 20230519/g/gardener-cicd-dso/1.2057.0-1.2059.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2059.0] Old Version: [1.2057.0]
+[2023-05-19 08:24:35] INFO root fetch - processPackages [voxx-cli]: Start processing: gardener-cicd-whd
+[2023-05-19 08:24:35] INFO root fetch - main [MainThread]: End processing [voxx-cli]: success
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2057.0.tar.gz tmp/gardener-cicd-base-1.2059.0.tar.gz --markdown 20230519/g/gardener-cicd-base/1.2057.0-1.2059.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:35] INFO root fetch - processPackages [arthub-api]: Start processing: gardener-oci
+[2023-05-19 08:24:35] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2059.0] Old Version: [1.2057.0]
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/43/a4/a7bc83f958cf188244155a1d649f62b9273e44dba7c2f5091e5538f4c4ad/gardener_cicd_libs-1.2059.0-py3-none-any.whl
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/d3/81/899add162603030776cb9db021c3e6926eb6a4bed421b3be8a472ba100e1/gardener_cicd_whd-1.2059.0-py3-none-any.whl
+[2023-05-19 08:24:35] INFO root fetch - main [MainThread]: End processing [geodata-harvester]: success
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-19 08:24:35] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2057.0.tar.gz tmp/gardener_cicd_libs-1.2059.0-py3-none-any.whl.zip --markdown 20230519/g/gardener-cicd-libs/1.2057.0-1.2059.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:36] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-19 08:24:36] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2057.0.tar.gz tmp/gardener_cicd_whd-1.2059.0-py3-none-any.whl.zip --markdown 20230519/g/gardener-cicd-whd/1.2057.0-1.2059.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:36] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-19 08:24:36] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-19 08:24:36] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-19 08:24:36] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-19 08:24:36] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230519/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-19 08:24:36] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-19 08:24:37] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-19 08:24:37] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-19 08:24:37] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-19 08:24:37] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-19 08:24:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-19 08:24:41] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-19 08:24:41] INFO root fetch - main [MainThread]: Store serial: [18166227]
