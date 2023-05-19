@@ -14089,3 +14089,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:55:47] INFO root fetch - main [MainThread]: End processing [pytest-xdist]: success
 [2023-05-19 12:55:49] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
 [2023-05-19 12:55:49] INFO root fetch - main [MainThread]: Store serial: [18168674]
+[2023-05-19 13:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168674]
+[2023-05-19 13:00:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semisup-segmentation
+[2023-05-19 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-source-fivetran
+[2023-05-19 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-darkcinder
+[2023-05-19 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qprsim
+[2023-05-19 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metaindex
+[2023-05-19 13:00:58] INFO root fetch - processPackages [metaindex]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-19 13:00:58] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 13:00:58] INFO root fetch - processPackages [metaindex]: executing diffoscope
+[2023-05-19 13:00:58] INFO root fetch - processPackages [metaindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaindex-2.0.0.tar.gz tmp/metaindex-2.1.0.tar.gz --markdown 20230519/m/metaindex/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-19 13:00:58] INFO root fetch - processPackages [grai-source-fivetran]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 13:00:58] INFO root fetch - processPackages [mkdocs-darkcinder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 13:00:58] WARNING root fetch - processPackages [qprsim]: Skipping, unable to determine old version
+[2023-05-19 13:00:58] INFO root fetch - main [MainThread]: End processing [qprsim] error
+[2023-05-19 13:00:58] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-19 13:00:58] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230519/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 13:00:59] INFO root fetch - processPackages [mkdocs-darkcinder]: Downloading https://files.pythonhosted.org/packages/cb/26/7969159586f3f2bbd6bdfc490e4f50976f7dcfe198182d4a93b8b072da07/mkdocs-darkcinder-0.0.1.tar.gz
+[2023-05-19 13:00:59] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/9a/d5/f1502196f148cda94e2b0520a372d6162bbff1ab171732c125ba8b5b2d45/grai_source_fivetran-0.0.5.tar.gz
+[2023-05-19 13:00:59] INFO root fetch - processPackages [mkdocs-darkcinder]: Downloading https://files.pythonhosted.org/packages/c1/00/d92f20ac1c5e523c04f633ece39171987d3ea61fad12a3465421cabd489a/mkdocs-darkcinder-0.0.2.tar.gz
+[2023-05-19 13:00:59] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/6a/f3/aac5701d938ae5d0326d9b596bc43e8a55fc16bed17cd6b4b0df4830e129/grai_source_fivetran-0.0.6.tar.gz
+[2023-05-19 13:00:59] INFO root fetch - processPackages [grai-source-fivetran]: executing diffoscope
+[2023-05-19 13:00:59] INFO root fetch - processPackages [grai-source-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_fivetran-0.0.5.tar.gz tmp/grai_source_fivetran-0.0.6.tar.gz --markdown 20230519/g/grai-source-fivetran/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 13:00:59] INFO root fetch - processPackages [mkdocs-darkcinder]: executing diffoscope
+[2023-05-19 13:00:59] INFO root fetch - processPackages [mkdocs-darkcinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-darkcinder-0.0.1.tar.gz tmp/mkdocs-darkcinder-0.0.2.tar.gz --markdown 20230519/m/mkdocs-darkcinder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 13:00:59] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-19 13:01:00] INFO root fetch - main [MainThread]: End processing [grai-source-fivetran]: success
+[2023-05-19 13:01:00] INFO root fetch - main [MainThread]: End processing [mkdocs-darkcinder]: success
+[2023-05-19 13:01:00] INFO root fetch - main [MainThread]: End processing [metaindex]: success
+[2023-05-19 13:01:00] INFO root fetch - main [MainThread]: Store serial: [18168693]
