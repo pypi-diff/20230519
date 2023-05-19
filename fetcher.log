@@ -13383,3 +13383,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:01:07] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
 [2023-05-19 12:01:09] INFO root fetch - main [MainThread]: End processing [scalecodec]: success
 [2023-05-19 12:01:09] INFO root fetch - main [MainThread]: Store serial: [18168258]
+[2023-05-19 12:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168258]
+[2023-05-19 12:06:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CADPR
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masonite-servicing
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astronomer-providers
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PVNet
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logger-local-python-package
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-expense-operating-unit-access-all
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solar-system-ephemerides
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smunger
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-barcodes-generator-product-multi-barcode
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dialog-workflow-local
+[2023-05-19 12:06:20] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [smunger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [logger-local-python-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.0.8.tar.gz tmp/smunger-0.0.9.tar.gz --markdown 20230519/s/smunger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.23.tar.gz tmp/dialog-workflow-local-0.0.24.tar.gz --markdown 20230519/d/dialog-workflow-local/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230519/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] WARNING root fetch - processPackages [odoo14-addon-barcodes-generator-product-multi-barcode]: Skipping, unable to determine old version
+[2023-05-19 12:06:20] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product-multi-barcode]: Start processing: ddadevops
+[2023-05-19 12:06:20] WARNING root fetch - processPackages [odoo-addon-hr-expense-operating-unit-access-all]: Skipping, unable to determine old version
+[2023-05-19 12:06:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-barcodes-generator-product-multi-barcode] error
+[2023-05-19 12:06:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-operating-unit-access-all] error
+[2023-05-19 12:06:20] INFO root fetch - processPackages [solar-system-ephemerides]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 12:06:20] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/d2/87/e1e9132a46bdf44c25a14ce9ce2f6e6f2552b71345eb074a1e2c65b8f3fb/masonite-servicing-0.0.8.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] INFO root fetch - processPackages [logger-local-python-package]: Downloading https://files.pythonhosted.org/packages/f6/2b/8d60f3bfb0a9f2067c82bd721a859c931b8fef01e1f68ac4ce8c54518912/logger-local-python-package-0.0.1.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [solar-system-ephemerides]: Downloading https://files.pythonhosted.org/packages/d8/30/7d5c6febbcd0afbf9919017318f19286ed75012ac9baf54a86b29f08d72b/solar_system_ephemerides-0.1.0.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230519/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] WARNING root fetch - processPackages [solar-system-ephemerides]: Skipping package: exceeds size limit 88741455>=10485760
+[2023-05-19 12:06:20] INFO root fetch - main [MainThread]: End processing [solar-system-ephemerides] error
+[2023-05-19 12:06:20] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/1e/c8/a3853a0ea6941f87025f8420de941735f4173551eb8d939d4e9a5ff4fe63/masonite-servicing-0.0.9.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.8.tar.gz tmp/masonite-servicing-0.0.9.tar.gz --markdown 20230519/m/masonite-servicing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20230519/a/astronomer-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 12:06:20] INFO root fetch - processPackages [logger-local-python-package]: Downloading https://files.pythonhosted.org/packages/d1/ac/32594ec5783d0a06e3233da8dbcce48b056c4a70f91aadfdcb84a2ebef60/logger-local-python-package-0.0.2.tar.gz
+[2023-05-19 12:06:20] INFO root fetch - processPackages [logger-local-python-package]: executing diffoscope
+[2023-05-19 12:06:20] INFO root fetch - processPackages [logger-local-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-python-package-0.0.1.tar.gz tmp/logger-local-python-package-0.0.2.tar.gz --markdown 20230519/l/logger-local-python-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 12:06:21] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2023-05-19 12:06:21] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-05-19 12:06:21] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: End processing [logger-local-python-package]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2023-05-19 12:06:22] INFO root fetch - main [MainThread]: Store serial: [18168301]
