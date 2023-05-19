@@ -7559,3 +7559,66 @@
 [2023-05-19 05:19:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-payment-order]: success
 [2023-05-19 05:19:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
 [2023-05-19 05:19:20] INFO root fetch - main [MainThread]: Store serial: [18165094]
+[2023-05-19 05:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165094]
+[2023-05-19 05:24:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-account-payment-order
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-account-banking-mandate
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-account-banking-mandate
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-banking-mandate
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-banking-mandate
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-payment-order
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webint-live
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-banking-mandate
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canopy-platform
+[2023-05-19 05:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discord-rich-presence
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: New version: [12.0.2.0.3.99.dev8] Old Version: [12.0.2.0.3.99.dev7]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: New version: [11.0.1.4.0.99.dev4] Old Version: [11.0.1.4.0.99.dev3]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: New version: [14.0.2.0.1.dev9] Old Version: [14.0.2.0.1.dev7]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230519/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev3-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev4-py2.py3-none-any.whl.zip --markdown 20230519/o/odoo11-addon-account-payment-order/11.0.1.4.0.99.dev3-11.0.1.4.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.4]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.4]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [discord-rich-presence]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230519/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.3.dev6] Old Version: [14.0.2.0.3.dev5]
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-account-banking-mandate/12.0.2.0.3.99.dev7-12.0.2.0.3.99.dev8/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-account-banking-mandate/14.0.2.0.1.dev7-14.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:24:29] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230519/o/odoo13-addon-account-banking-mandate/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-19 05:24:29] INFO root fetch - processPackages [discord-rich-presence]: Downloading https://files.pythonhosted.org/packages/c6/c3/4bad4fa441b535f3f85f583d26f459e0dde30b76f4ff1b11614d685f4e4a/discord-rich-presence-1.0.0.post1.tar.gz
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/a6/a6/c983f64c87b7fc2d949e0ed2615f85c4df1e64ce5093bc937b2d59da6e28/odoo_addon_account_banking_mandate-16.0.1.0.2.5-py3-none-any.whl
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/a6/a6/c983f64c87b7fc2d949e0ed2615f85c4df1e64ce5093bc937b2d59da6e28/odoo_addon_account_banking_mandate-16.0.1.0.2.5-py3-none-any.whl
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/7a/a9/b74824b0e82889fdaff3d7e263a8aee59e4814fe4646767c9cc79ea72cc8/odoo14_addon_account_payment_order-14.0.2.0.3.dev6-py3-none-any.whl
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-account-banking-mandate/16.0.1.0.2.4-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-account-banking-mandate/16.0.1.0.2.4-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-05-19 05:24:30] INFO root fetch - processPackages [discord-rich-presence]: Downloading https://files.pythonhosted.org/packages/07/a0/7a2a0429aa6a32c65f0f8c6874c93140788cb6cc90cc31980c9074a6e531/discord-rich-presence-1.0.1.tar.gz
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-05-19 05:24:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.3.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.3.dev6-py3-none-any.whl.zip --markdown 20230519/o/odoo14-addon-account-payment-order/14.0.2.0.3.dev5-14.0.2.0.3.dev6/diff.md --exclude *.pyd
+[2023-05-19 05:24:30] INFO root fetch - processPackages [discord-rich-presence]: executing diffoscope
+[2023-05-19 05:24:30] INFO root fetch - processPackages [discord-rich-presence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-rich-presence-1.0.0.post1.tar.gz tmp/discord-rich-presence-1.0.1.tar.gz --markdown 20230519/d/discord-rich-presence/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 05:24:31] INFO root fetch - processPackages [webint-live]: Start processing: tccli-intl-en
+[2023-05-19 05:24:31] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-05-19 05:24:31] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-19 05:24:31] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-19 05:24:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-banking-mandate]: success
+[2023-05-19 05:24:31] INFO root fetch - main [MainThread]: End processing [discord-rich-presence]: success
+[2023-05-19 05:24:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-mandate]: success
+[2023-05-19 05:24:31] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-05-19 05:24:31] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230519/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-19 05:24:32] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
+[2023-05-19 05:24:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-05-19 05:24:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-05-19 05:24:32] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-payment-order]: success
+[2023-05-19 05:24:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-05-19 05:24:35] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-05-19 05:24:35] INFO root fetch - main [MainThread]: Store serial: [18165120]
