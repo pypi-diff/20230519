@@ -9390,3 +9390,38 @@
 [2023-05-19 07:42:42] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
 [2023-05-19 07:42:42] INFO root fetch - main [MainThread]: End processing [openxlab]: success
 [2023-05-19 07:42:42] INFO root fetch - main [MainThread]: Store serial: [18166010]
+[2023-05-19 07:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166010]
+[2023-05-19 07:47:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-apimatic-calculator
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcema
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compact-json
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorado
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlxu
+[2023-05-19 07:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-component-model
+[2023-05-19 07:47:51] INFO root fetch - processPackages [compact-json]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-19 07:47:51] WARNING root fetch - processPackages [python-apimatic-calculator]: Skipping, unable to determine old version
+[2023-05-19 07:47:51] INFO root fetch - main [MainThread]: End processing [python-apimatic-calculator] error
+[2023-05-19 07:47:51] WARNING root fetch - processPackages [rcema]: Skipping, unable to determine old version
+[2023-05-19 07:47:51] INFO root fetch - main [MainThread]: End processing [rcema] error
+[2023-05-19 07:47:51] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 07:47:51] INFO root fetch - processPackages [mlxu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 07:47:51] INFO root fetch - processPackages [gardener-component-model]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-05-19 07:47:51] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 07:47:51] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 07:47:51] INFO root fetch - processPackages [compact-json]: Downloading https://files.pythonhosted.org/packages/53/26/f2bd054335a10697adea1c36463f1d830751e5a8ea5e2d0512ec9fc6d4e4/compact_json-1.5.1-py3-none-any.whl
+[2023-05-19 07:47:51] INFO root fetch - processPackages [gardener-component-model]: Downloading https://files.pythonhosted.org/packages/a2/d2/0704f0170e9ec1cf4ef8e95eb3ebe71a2f92eb0d0542f1b3dbc19a02ed10/gardener-component-model-0.0.92.tar.gz
+[2023-05-19 07:47:51] INFO root fetch - processPackages [mlxu]: Downloading https://files.pythonhosted.org/packages/d4/40/f4df23c10a2b819136449ffee8c740e62f6a05f4288a12777d50c1b06567/mlxu-0.1.8.tar.gz
+[2023-05-19 07:47:51] INFO root fetch - processPackages [compact-json]: Downloading https://files.pythonhosted.org/packages/df/ed/b31d6bac38f644513ea333d3acae9017d38ca5cf6f1c89ba3d9410e72bdf/compact_json-1.5.2.tar.gz
+[2023-05-19 07:47:51] INFO root fetch - processPackages [gardener-component-model]: Downloading https://files.pythonhosted.org/packages/fb/fc/0c9cca10afdc49becd037f307c4a25150ca4b4d90dc7d8c9b04232ae07fe/gardener-component-model-0.0.93.tar.gz
+[2023-05-19 07:47:51] INFO root fetch - processPackages [compact-json]: executing diffoscope
+[2023-05-19 07:47:51] INFO root fetch - processPackages [compact-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compact_json-1.5.1-py3-none-any.whl.zip tmp/compact_json-1.5.2.tar.gz --markdown 20230519/c/compact-json/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-19 07:47:51] INFO root fetch - processPackages [mlxu]: Downloading https://files.pythonhosted.org/packages/d3/da/da0d47ee44b85fd2f900b13a917b425d58d8ddf496bee7da0902dd4f0e37/mlxu-0.1.9.tar.gz
+[2023-05-19 07:47:51] INFO root fetch - processPackages [mlxu]: executing diffoscope
+[2023-05-19 07:47:51] INFO root fetch - processPackages [mlxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlxu-0.1.8.tar.gz tmp/mlxu-0.1.9.tar.gz --markdown 20230519/m/mlxu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 07:47:51] INFO root fetch - processPackages [gardener-component-model]: executing diffoscope
+[2023-05-19 07:47:51] INFO root fetch - processPackages [gardener-component-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-component-model-0.0.92.tar.gz tmp/gardener-component-model-0.0.93.tar.gz --markdown 20230519/g/gardener-component-model/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [compact-json]: success
+[2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [mlxu]: success
+[2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [gardener-component-model]: success
+[2023-05-19 07:47:52] INFO root fetch - main [MainThread]: Store serial: [18166039]
