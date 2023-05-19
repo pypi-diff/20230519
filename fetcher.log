@@ -22297,3 +22297,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:34:08] INFO root fetch - main [MainThread]: End processing [basicco]: success
 [2023-05-19 20:34:08] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
 [2023-05-19 20:34:08] INFO root fetch - main [MainThread]: Store serial: [18174092]
+[2023-05-19 20:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18174092]
+[2023-05-19 20:39:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmanage
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tailraiders
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copyright-claim
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bthome-ble
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mprov-ldap-manager
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellworld-pid-controller-service
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-grasshopper
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Simba-UW-tf-dev
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ciphercore
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-19 20:39:18] INFO root fetch - processPackages [copyright-claim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lmanage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [mprov-ldap-manager]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [bthome-ble]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-19 20:39:18] WARNING root fetch - processPackages [cellworld-pid-controller-service]: Skipping, unable to determine old version
+[2023-05-19 20:39:18] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.4.9.tar.gz tmp/PatryksAutoAI-1.5.0.tar.gz --markdown 20230519/P/PatryksAutoAI/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ciphercore]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [tailraiders]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [cellworld-pid-controller-service]: Start processing: lbt-grasshopper
+[2023-05-19 20:39:18] INFO root fetch - main [MainThread]: End processing [cellworld-pid-controller-service] error
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ladybug-grasshopper]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.9] Old Version: [1.59.8]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [copyright-claim]: Downloading https://files.pythonhosted.org/packages/c1/11/57ba997cfff3d906a0f02f945274bda45af47fa843bd97892ee9ee5a6ee0/copyright_claim-0.0.3.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/06/01/291b16f862c076ce7d41e568a3165866abb01450ba80b6365c2333644291/lmanage-0.3.8.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [mprov-ldap-manager]: Downloading https://files.pythonhosted.org/packages/26/5a/ac4e947a2cdc5b60723dd21a486ca794b7f63ad213a214d7bbb7da3f109c/mprov_ldap_manager-0.0.1.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-19 20:39:18] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/6c/94/9637d1c06123e829578f5368b4736b68933e23ac67e0c023490e1141c6c0/tailraiders-0.0.2.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/e9/0f/9ca2cf96ba3a52a2a6b9a741ac53b57b00c27e1007839331c2f61d234930/bthome_ble-2.8.0.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [copyright-claim]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [copyright-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyright_claim-0.0.2.tar.gz tmp/copyright_claim-0.0.3.tar.gz --markdown 20230519/c/copyright-claim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ciphercore]: Downloading https://files.pythonhosted.org/packages/43/dd/b71e320be09be6a60758e3b96a38b855a7481a27bbf4d7291582e91316d1/ciphercore-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 20:39:18] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/ec/49/777f995c954f015074487d7ab75a2c03b29bfd7c9fba5b15f7370a04139a/ladybug-grasshopper-1.9.3.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/a1/72/f54276bf05f9f3cec80e155d7902a80d59298efef42fc7b3389878fc02c8/Simba-UW-tf-dev-1.59.9.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/e8/73/99c30a80197df09d029f7da8097dd599c0b2ece4b65a8ef982af3a7e9b32/tailraiders-0.0.3.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/d4/2e/45e2ac8fabb03178e415d273d64259ee0a3a310fc4aaa21d87a6acade773/lmanage-0.3.9.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [mprov-ldap-manager]: Downloading https://files.pythonhosted.org/packages/9f/db/040fb3fb7216dc26b8b690c20ba2fea215d5b389be506c848205320f0c08/mprov_ldap_manager-0.0.2.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/8e/3d/5c42e5be156cd1acdd04a976aa049d2ebb9860e6d9904b9b052d0ad91263/bthome_ble-2.9.0.tar.gz
+[2023-05-19 20:39:18] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.2.tar.gz tmp/tailraiders-0.0.3.tar.gz --markdown 20230519/t/tailraiders/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230519/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-19 20:39:18] INFO root fetch - processPackages [mprov-ldap-manager]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [mprov-ldap-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mprov_ldap_manager-0.0.1.tar.gz tmp/mprov_ldap_manager-0.0.2.tar.gz --markdown 20230519/m/mprov-ldap-manager/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 20:39:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-19 20:39:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.59.8.tar.gz tmp/Simba-UW-tf-dev-1.59.9.tar.gz --markdown 20230519/S/Simba-UW-tf-dev/1.59.8-1.59.9/diff.md --exclude *.pyd
+[2023-05-19 20:39:19] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/36/c7/da7e7e51114ff7f4fdf8e1f110936d73131c1f23c71385e5ab4666ad04c4/ladybug-grasshopper-1.9.4.tar.gz
+[2023-05-19 20:39:19] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-05-19 20:39:19] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.8.tar.gz tmp/lmanage-0.3.9.tar.gz --markdown 20230519/l/lmanage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 20:39:19] INFO root fetch - processPackages [bthome-ble]: executing diffoscope
+[2023-05-19 20:39:19] INFO root fetch - processPackages [bthome-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bthome_ble-2.8.0.tar.gz tmp/bthome_ble-2.9.0.tar.gz --markdown 20230519/b/bthome-ble/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-19 20:39:19] INFO root fetch - processPackages [ladybug-grasshopper]: executing diffoscope
+[2023-05-19 20:39:19] INFO root fetch - processPackages [ladybug-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-grasshopper-1.9.3.tar.gz tmp/ladybug-grasshopper-1.9.4.tar.gz --markdown 20230519/l/ladybug-grasshopper/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-19 20:39:19] INFO root fetch - processPackages [ciphercore]: Downloading https://files.pythonhosted.org/packages/ce/38/8d84bf6af7f39b28e97218037b11f053024a5d629695ab01d0e03daffaf6/ciphercore-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-19 20:39:19] INFO root fetch - processPackages [copyright-claim]: Start processing: truss
+[2023-05-19 20:39:19] INFO root fetch - main [MainThread]: End processing [copyright-claim]: success
+[2023-05-19 20:39:19] INFO root fetch - processPackages [truss]: New version: [0.4.6rc3] Old Version: [0.4.6rc2]
+[2023-05-19 20:39:20] INFO root fetch - processPackages [ciphercore]: executing diffoscope
+[2023-05-19 20:39:20] INFO root fetch - processPackages [ciphercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphercore-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ciphercore-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230519/c/ciphercore/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 20:39:20] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-19 20:39:20] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/40/cb/8cfcd047946fda69e65c04518ae458e84d2d2cacebefceb527de20cb55cb/truss-0.4.6rc3.tar.gz
+[2023-05-19 20:39:20] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-05-19 20:39:20] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.6rc2.tar.gz tmp/truss-0.4.6rc3.tar.gz --markdown 20230519/t/truss/0.4.6rc2-0.4.6rc3/diff.md --exclude *.pyd
+[2023-05-19 20:39:20] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 20:39:20] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-05-19 20:39:20] INFO root fetch - main [MainThread]: End processing [mprov-ldap-manager]: success
+[2023-05-19 20:39:20] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
+[2023-05-19 20:39:21] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-05-19 20:39:22] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-05-19 20:39:22] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
+[2023-05-19 20:39:24] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-19 20:40:04] INFO root fetch - main [MainThread]: End processing [ciphercore]: success
+[2023-05-19 20:40:04] INFO root fetch - main [MainThread]: Store serial: [18174139]
