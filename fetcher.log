@@ -14291,3 +14291,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:16:58] INFO root fetch - main [MainThread]: End processing [phiterm]: success
 [2023-05-19 13:16:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
 [2023-05-19 13:16:58] INFO root fetch - main [MainThread]: Store serial: [18168772]
+[2023-05-19 13:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168772]
+[2023-05-19 13:22:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddadevops
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FFHT-non-official
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phidata
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosec
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fetchify
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlinks
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cgt-calc
+[2023-05-19 13:22:08] INFO root fetch - processPackages [phidata]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-05-19 13:22:08] WARNING root fetch - processPackages [fetchify]: Skipping, unable to determine old version
+[2023-05-19 13:22:08] INFO root fetch - processPackages [fetchify]: Start processing: auto-archiver
+[2023-05-19 13:22:08] INFO root fetch - main [MainThread]: End processing [fetchify] error
+[2023-05-19 13:22:08] INFO root fetch - processPackages [FFHT-non-official]: New version: [1.2.1] Old Version: [1.2]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [cgt-calc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-19 13:22:08] WARNING root fetch - processPackages [sqlinks]: Skipping, unable to determine old version
+[2023-05-19 13:22:08] INFO root fetch - processPackages [sqlinks]: Start processing: medsenger-api
+[2023-05-19 13:22:08] INFO root fetch - main [MainThread]: End processing [sqlinks] error
+[2023-05-19 13:22:08] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.4.tar.gz tmp/phidata-1.6.5.tar.gz --markdown 20230519/p/phidata/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [mosec]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.93.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230519/n/nwebclient/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.93.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230519/n/nwebclient/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230519/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [FFHT-non-official]: Downloading https://files.pythonhosted.org/packages/06/36/26463b4d2e4de4e5a7978f02f4d93ad6567756eb47b8951bde78926af3a6/FFHT-non-official-1.2.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230519/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [cgt-calc]: Downloading https://files.pythonhosted.org/packages/14/77/78f24a17f641844505ec5dabe59014ec0b3a7dd38cada688c6a76c7c670f/cgt_calc-1.9.0.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/41/8f/856d59be5337b3b30be1217fd588f0177bdc4db5e5f0241d6c5adaea0c33/mosec-0.6.6.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [cgt-calc]: Downloading https://files.pythonhosted.org/packages/df/73/fcea55fa4fc95816ce83791cde6b0048925e980e6e996e2e729ea042eaaa/cgt_calc-1.9.1.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230519/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-19 13:22:08] INFO root fetch - processPackages [FFHT-non-official]: Downloading https://files.pythonhosted.org/packages/e8/77/3d7ddf3cdb6788a83b24754398d318f6c4dbddb15aef4a55d41936bb5390/FFHT-non-official-1.2.1.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/8b/01/72bc005eeb063e56cc95937d11776a9d397bcc68f7508abd289b04b4d4c4/mosec-0.6.7.tar.gz
+[2023-05-19 13:22:08] INFO root fetch - processPackages [cgt-calc]: executing diffoscope
+[2023-05-19 13:22:08] INFO root fetch - processPackages [cgt-calc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgt_calc-1.9.0.tar.gz tmp/cgt_calc-1.9.1.tar.gz --markdown 20230519/c/cgt-calc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-19 13:22:09] INFO root fetch - processPackages [FFHT-non-official]: executing diffoscope
+[2023-05-19 13:22:09] INFO root fetch - processPackages [FFHT-non-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FFHT-non-official-1.2.tar.gz tmp/FFHT-non-official-1.2.1.tar.gz --markdown 20230519/F/FFHT-non-official/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-05-19 13:22:09] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2023-05-19 13:22:09] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.6.6.tar.gz tmp/mosec-0.6.7.tar.gz --markdown 20230519/m/mosec/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-19 13:22:09] INFO root fetch - processPackages [ddadevops]: Start processing: optimade
+[2023-05-19 13:22:09] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [nwebclient]: Start processing: magnus
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [optimade]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 13:22:10] INFO root fetch - processPackages [medsenger-api]: Start processing: FFHT-non-official
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [FFHT-non-official]: New version: [1.2.1] Old Version: [1.2]
+[2023-05-19 13:22:10] INFO root fetch - processPackages [FFHT-non-official]: executing diffoscope
+[2023-05-19 13:22:10] INFO root fetch - processPackages [FFHT-non-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FFHT-non-official-1.2.tar.gz tmp/FFHT-non-official-1.2.1.tar.gz --markdown 20230519/F/FFHT-non-official/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [magnus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-19 13:22:10] INFO root fetch - processPackages [optimade]: Downloading https://files.pythonhosted.org/packages/02/c6/cafbc61161f78826675f9229903769393f4bf4c5821545c4ef9a09e3574f/optimade-0.9.7.tar.gz
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [cgt-calc]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/90/39/6e79fcb32eeb63890ea90c481570e93e3cc96f5428dd4de86e0421b4a87d/magnus-0.4.8.tar.gz
+[2023-05-19 13:22:10] INFO root fetch - processPackages [optimade]: Downloading https://files.pythonhosted.org/packages/8a/64/873248662edf13bbc4833f4e2ad9e9b7cfbd5e2bdd32266610c9d4e54a15/optimade-0.9.8.tar.gz
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [FFHT-non-official]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [optimade]: executing diffoscope
+[2023-05-19 13:22:10] INFO root fetch - processPackages [optimade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimade-0.9.7.tar.gz tmp/optimade-0.9.8.tar.gz --markdown 20230519/o/optimade/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 13:22:10] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/44/a5/abfc74ee3d541331891e45d0986c3171ab5084231cebacc144a6afd310b0/magnus-0.4.9.tar.gz
+[2023-05-19 13:22:10] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-05-19 13:22:10] INFO root fetch - processPackages [magnus]: executing diffoscope
+[2023-05-19 13:22:10] INFO root fetch - processPackages [magnus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus-0.4.8.tar.gz tmp/magnus-0.4.9.tar.gz --markdown 20230519/m/magnus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-19 13:22:11] INFO root fetch - main [MainThread]: End processing [FFHT-non-official]: success
+[2023-05-19 13:22:11] INFO root fetch - main [MainThread]: End processing [optimade]: success
+[2023-05-19 13:22:12] INFO root fetch - main [MainThread]: End processing [magnus]: success
+[2023-05-19 13:22:12] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-19 13:22:12] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2023-05-19 13:22:14] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-19 13:22:14] INFO root fetch - main [MainThread]: Store serial: [18168842]
