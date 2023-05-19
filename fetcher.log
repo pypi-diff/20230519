@@ -5406,3 +5406,78 @@
 [2023-05-19 04:19:18] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
 [2023-05-19 04:19:18] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
 [2023-05-19 04:19:18] INFO root fetch - main [MainThread]: Store serial: [18163988]
+[2023-05-19 04:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163988]
+[2023-05-19 04:24:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyodps
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tangerine-auth
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metalattice
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timey-wimey
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bohrium-sdk
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet-core
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-pyodide
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: npgbq
+[2023-05-19 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: range-compression
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [metalattice]: New version: [0.1.21] Old Version: [0.0.25]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 04:24:27] WARNING root fetch - processPackages [timey-wimey]: Skipping, unable to determine old version
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 04:24:27] WARNING root fetch - processPackages [tangerine-auth]: Skipping, unable to determine old version
+[2023-05-19 04:24:27] INFO root fetch - processPackages [timey-wimey]: Start processing: bohrium-sdk
+[2023-05-19 04:24:27] INFO root fetch - main [MainThread]: End processing [timey-wimey] error
+[2023-05-19 04:24:27] INFO root fetch - processPackages [tangerine-auth]: Start processing: tator
+[2023-05-19 04:24:27] INFO root fetch - main [MainThread]: End processing [tangerine-auth] error
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [metalattice]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [metalattice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalattice-0.0.25.tar.gz tmp/metalattice-0.1.21.tar.gz --markdown 20230519/m/metalattice/0.0.25-0.1.21/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.8.tar.gz tmp/bohrium-sdk-0.0.9.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] WARNING root fetch - processPackages [range-compression]: Skipping, unable to determine old version
+[2023-05-19 04:24:27] INFO root fetch - processPackages [range-compression]: Start processing: pywss
+[2023-05-19 04:24:27] INFO root fetch - main [MainThread]: End processing [range-compression] error
+[2023-05-19 04:24:27] INFO root fetch - processPackages [npgbq]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1441.tar.gz tmp/flet_pyodide-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet-pyodide/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1441.tar.gz tmp/flet_core-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet-core/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] INFO root fetch - processPackages [tator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.8.tar.gz tmp/bohrium-sdk-0.0.9.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-19 04:24:27] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1441.tar.gz tmp/flet-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 04:24:27] INFO root fetch - processPackages [pywss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 04:24:27] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/e3/76/301e39c3a7a42bebbb145f2cfccd19a02e53c3b0eaae781b01ac4f27f057/tator-1.0.1.tar.gz
+[2023-05-19 04:24:27] INFO root fetch - processPackages [pywss]: Downloading https://files.pythonhosted.org/packages/2b/99/9555a39c94485d3d3e7978752cc3269d5cbaa5a204c995bfc33e4ed1d5fe/pywss-0.1.8.tar.gz
+[2023-05-19 04:24:27] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/bc/46/b24630de85f485a571588b036e6a4f3b2ee994e7da7d331f1890a2c09e91/npgbq-2.1.8.tar.gz
+[2023-05-19 04:24:28] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/77/af/168be8bd0c890144cd749d12d29e4d53b9a0f785ff5e73978b6a43d448ea/tator-1.0.2.tar.gz
+[2023-05-19 04:24:28] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2023-05-19 04:24:28] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20230519/p/pyodps/0.9.3.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-19 04:24:28] INFO root fetch - processPackages [pywss]: Downloading https://files.pythonhosted.org/packages/45/08/6818f333b5949b0ff72966a006454a899cb2ba4b58340dc89b00494cb323/pywss-0.1.9.tar.gz
+[2023-05-19 04:24:28] INFO root fetch - processPackages [pywss]: executing diffoscope
+[2023-05-19 04:24:28] INFO root fetch - processPackages [pywss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywss-0.1.8.tar.gz tmp/pywss-0.1.9.tar.gz --markdown 20230519/p/pywss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 04:24:28] INFO root fetch - processPackages [npgbq]: Downloading https://files.pythonhosted.org/packages/f5/bd/62b479770cc4e08977d4172a5c293321ed064faab5c3473f3cc44d9962f3/npgbq-2.1.9.tar.gz
+[2023-05-19 04:24:28] INFO root fetch - processPackages [tator]: executing diffoscope
+[2023-05-19 04:24:28] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.0.1.tar.gz tmp/tator-1.0.2.tar.gz --markdown 20230519/t/tator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 04:24:28] INFO root fetch - processPackages [npgbq]: executing diffoscope
+[2023-05-19 04:24:28] INFO root fetch - processPackages [npgbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npgbq-2.1.8.tar.gz tmp/npgbq-2.1.9.tar.gz --markdown 20230519/n/npgbq/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-19 04:24:29] INFO root fetch - processPackages [flet-pyodide]: Start processing: disposable-email-domains
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [metalattice]: success
+[2023-05-19 04:24:29] INFO root fetch - processPackages [disposable-email-domains]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 04:24:29] INFO root fetch - processPackages [disposable-email-domains]: Downloading https://files.pythonhosted.org/packages/a1/b0/01c0bdd615009f0286d7d0d227578c2b8974b6efaa16205e962f80d3131a/disposable-email-domains-0.0.89.tar.gz
+[2023-05-19 04:24:29] INFO root fetch - processPackages [disposable-email-domains]: Downloading https://files.pythonhosted.org/packages/7e/e3/ece5491f59e100b426eb24d96bd80f819795dab3131aa0442fadd7e3ca36/disposable-email-domains-0.0.9.tar.gz
+[2023-05-19 04:24:29] INFO root fetch - processPackages [disposable-email-domains]: executing diffoscope
+[2023-05-19 04:24:29] INFO root fetch - processPackages [disposable-email-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disposable-email-domains-0.0.89.tar.gz tmp/disposable-email-domains-0.0.9.tar.gz --markdown 20230519/d/disposable-email-domains/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-19 04:24:29] INFO root fetch - main [MainThread]: End processing [pywss]: success
+[2023-05-19 04:24:30] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-19 04:24:30] INFO root fetch - main [MainThread]: End processing [npgbq]: success
+[2023-05-19 04:24:31] INFO root fetch - main [MainThread]: End processing [disposable-email-domains]: success
+[2023-05-19 04:24:31] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2023-05-19 04:24:32] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2023-05-19 04:24:32] INFO root fetch - main [MainThread]: Store serial: [18164046]
