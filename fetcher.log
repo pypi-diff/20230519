@@ -13959,3 +13959,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:45:12] INFO root fetch - main [MainThread]: End processing [introspection]: success
 [2023-05-19 12:45:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-19 12:45:14] INFO root fetch - main [MainThread]: Store serial: [18168613]
+[2023-05-19 12:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168613]
+[2023-05-19 12:50:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colrev
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: r2diaphora
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protes
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archmd
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BTKSorgu
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semisup-segmentation
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-jtoman-source-copy-refactor
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-05-19 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 1password-secrets
+[2023-05-19 12:50:25] INFO root fetch - processPackages [protes]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [BTKSorgu]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [archmd]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [1password-secrets]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [colrev]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-19 12:50:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-source-copy-refactor]: New version: [20230519.10.48.850368] Old Version: [20230509.2.1.997423]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230519/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:50:25] INFO root fetch - processPackages [returnn]: New version: [1.20230519.94459] Old Version: [1.20230519.90323]
+[2023-05-19 12:50:25] INFO root fetch - processPackages [protes]: executing diffoscope
+[2023-05-19 12:50:25] INFO root fetch - processPackages [protes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protes-0.2.3-py3-none-any.whl.zip tmp/protes-0.3.0.tar.gz --markdown 20230519/p/protes/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 12:50:25] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/3f/81/b60a05a8438b078b2613e9e6b01651c657461ceb2ece5e4a0f1f095c88e6/BTKSorgu-1.1.5.tar.gz
+[2023-05-19 12:50:25] INFO root fetch - processPackages [1password-secrets]: Downloading https://files.pythonhosted.org/packages/93/29/88a8f234c72003209865ddc1410c9bf43a465220d09d6fa76696f16be0cc/1password-secrets-0.0.2.tar.gz
+[2023-05-19 12:50:25] INFO root fetch - processPackages [certora-cli-alpha-jtoman-source-copy-refactor]: Downloading https://files.pythonhosted.org/packages/c1/0a/faa0fdb808b74f685bd364ffd93791898636c0551723071d97a6c12b0f46/certora-cli-alpha-jtoman-source-copy-refactor-20230509.2.1.997423.tar.gz
+[2023-05-19 12:50:25] INFO root fetch - processPackages [archmd]: Downloading https://files.pythonhosted.org/packages/7f/15/ce5973ba975e1adf942c7d35e0d5daef1a1e9d0654fded229f0b80e479e9/archmd-0.2.0.tar.gz
+[2023-05-19 12:50:25] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-19 12:50:25] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.1.4.tar.gz tmp/BTKSorgu-1.1.5.tar.gz --markdown 20230519/B/BTKSorgu/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-19 12:50:25] INFO root fetch - processPackages [colrev]: Downloading https://files.pythonhosted.org/packages/fb/44/891c7795fe64b9204886e1253960e29e05ee2efd4d80ca6880e78b0af753/colrev-0.8.3.tar.gz
+[2023-05-19 12:50:25] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/e6/4d/f162bddcad443ea37b6b424a0dab6d7401c6f25ba5f2a109e4af55652601/r2diaphora-0.2.6.tar.gz
+[2023-05-19 12:50:25] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-source-copy-refactor]: Skipping package: exceeds size limit 38477086>=10485760
+[2023-05-19 12:50:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-source-copy-refactor] error
+[2023-05-19 12:50:26] INFO root fetch - processPackages [archmd]: Downloading https://files.pythonhosted.org/packages/e5/c0/cb74b15958fe95a1a9e35b37694adc2a3480d15af6e4f06afff27944c6e7/archmd-0.3.0.tar.gz
+[2023-05-19 12:50:26] INFO root fetch - processPackages [1password-secrets]: Downloading https://files.pythonhosted.org/packages/ce/2b/8aa38f956bc670b28f664887bd65b56797ba7ad155a6726cdb39a3a43d7c/1password-secrets-0.0.3.tar.gz
+[2023-05-19 12:50:26] INFO root fetch - processPackages [colrev]: Downloading https://files.pythonhosted.org/packages/ac/a5/38773421529b8ffd020ebacd800fbdef12ab2b2d6c23e73120accaacd817/colrev-0.8.4.tar.gz
+[2023-05-19 12:50:26] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-19 12:50:26] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230519.90323.tar.gz tmp/returnn-1.20230519.94459.tar.gz --markdown 20230519/r/returnn/1.20230519.90323-1.20230519.94459/diff.md --exclude *.pyd
+[2023-05-19 12:50:26] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-05-19 12:50:26] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.5.tar.gz tmp/r2diaphora-0.2.6.tar.gz --markdown 20230519/r/r2diaphora/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-19 12:50:26] INFO root fetch - processPackages [archmd]: executing diffoscope
+[2023-05-19 12:50:26] INFO root fetch - processPackages [archmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archmd-0.2.0.tar.gz tmp/archmd-0.3.0.tar.gz --markdown 20230519/a/archmd/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 12:50:26] INFO root fetch - processPackages [1password-secrets]: executing diffoscope
+[2023-05-19 12:50:26] INFO root fetch - processPackages [1password-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/1password-secrets-0.0.2.tar.gz tmp/1password-secrets-0.0.3.tar.gz --markdown 20230519/1/1password-secrets/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 12:50:26] INFO root fetch - processPackages [colrev]: executing diffoscope
+[2023-05-19 12:50:26] INFO root fetch - processPackages [colrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colrev-0.8.3.tar.gz tmp/colrev-0.8.4.tar.gz --markdown 20230519/c/colrev/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-19 12:50:26] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-19 12:50:27] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-19 12:50:27] INFO root fetch - main [MainThread]: End processing [archmd]: success
+[2023-05-19 12:50:27] INFO root fetch - main [MainThread]: End processing [1password-secrets]: success
+[2023-05-19 12:50:27] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-05-19 12:50:28] INFO root fetch - main [MainThread]: End processing [protes]: success
+[2023-05-19 12:50:30] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-19 12:50:31] INFO root fetch - main [MainThread]: End processing [colrev]: success
+[2023-05-19 12:50:31] INFO root fetch - main [MainThread]: Store serial: [18168637]
