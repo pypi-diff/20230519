@@ -17594,3 +17594,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [sorted-nearest]: success
 [2023-05-19 16:36:45] INFO root fetch - main [MainThread]: End processing [rasa]: success
 [2023-05-19 16:36:45] INFO root fetch - main [MainThread]: Store serial: [18171175]
+[2023-05-19 16:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171175]
+[2023-05-19 16:41:55] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphql-service-framework
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mse-lib-sgx
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: makim
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-aside
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kedro-graphql
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sealights-python-agent
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhmmer
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perun.connector
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zypl-macro
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySide6-Fluent-Widgets
+[2023-05-19 16:41:55] INFO root fetch - processPackages [kedro-graphql]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 16:41:55] WARNING root fetch - processPackages [ai-aside]: Skipping, unable to determine old version
+[2023-05-19 16:41:55] INFO root fetch - processPackages [ai-aside]: Start processing: eloquentcls
+[2023-05-19 16:41:55] INFO root fetch - main [MainThread]: End processing [ai-aside] error
+[2023-05-19 16:41:55] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a4] Old Version: [2.0a3]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [zypl-macro]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [perun.connector]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [perun.connector]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [makim]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [perun.connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.connector-3.6.0.tar.gz tmp/perun.connector-3.7.0.tar.gz --markdown 20230519/p/perun.connector/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [sealights-python-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [pyhmmer]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-19 16:41:55] WARNING root fetch - processPackages [eloquentcls]: Skipping, unable to determine old version
+[2023-05-19 16:41:55] INFO root fetch - processPackages [eloquentcls]: Start processing: jwt-validate
+[2023-05-19 16:41:55] INFO root fetch - main [MainThread]: End processing [eloquentcls] error
+[2023-05-19 16:41:55] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/42/f9/89445512085d0c8e4222a5bf43cb716b0ca87434d3550a58b7788f87a5c8/kedro-graphql-0.1.2.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [zypl-macro]: Downloading https://files.pythonhosted.org/packages/47/db/c428bccb912973dd968fa433f444f1efc8bddcb2a4ff0a81dc71d82f0564/zypl_macro-1.0.3.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/31/55/14511aa3b0e3ac54be656ceba27f972dbd0eedffc528a00a6ae4e9022015/graphql_service_framework-1.1.8.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/04/e0/e29588a1f2ce9279256214b038a15cd293676cdf1b978375915fc893d9fa/mse_lib_sgx-2.0a4.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [pyhmmer]: Downloading https://files.pythonhosted.org/packages/0f/5c/14aaa03cfdaaf956e079eb555c17b6307858b99f1c3f80ef027dbe3910bf/pyhmmer-0.8.0.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/95/34/fb2e4ecb5d4e66d744ae5451fefcd543ddd61028cb1840b13727b62e6ce7/PySide6-Fluent-Widgets-0.8.9.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [kedro-graphql]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [kedro-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-graphql-0.1.1.tar.gz tmp/kedro-graphql-0.1.2.tar.gz --markdown 20230519/k/kedro-graphql/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [zypl-macro]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [zypl-macro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zypl_macro-1.0.2.tar.gz tmp/zypl_macro-1.0.3.tar.gz --markdown 20230519/z/zypl-macro/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [jwt-validate]: Downloading https://files.pythonhosted.org/packages/ab/a4/848c8d7c3b4cd37829cedd1bf44f6e118718599efb703f260904f14eb8ee/jwt_validate-0.3.3.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/35/25/310f417f67e7c3cb7b214d8ad49063238ddd397f1a051479e8caa27b9831/makim-1.8.0.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a3.tar.gz tmp/mse_lib_sgx-2.0a4.tar.gz --markdown 20230519/m/mse-lib-sgx/2.0a3-2.0a4/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] WARNING root fetch - processPackages [pyhmmer]: Skipping package: exceeds size limit 10979955>=10485760
+[2023-05-19 16:41:55] INFO root fetch - processPackages [pyhmmer]: Start processing: jinja2-async-environment
+[2023-05-19 16:41:55] INFO root fetch - main [MainThread]: End processing [pyhmmer] error
+[2023-05-19 16:41:55] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/7e/b8/dd09eda7d33ac33cafb5aafd7b9e54bcefc5b2235a82625cdcff9ccd6196/graphql_service_framework-1.1.9.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.2.tar.gz tmp/jwt_validate-0.3.3.tar.gz --markdown 20230519/j/jwt-validate/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [makim]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [makim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makim-1.7.1.tar.gz tmp/makim-1.8.0.tar.gz --markdown 20230519/m/makim/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [jinja2-async-environment]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-05-19 16:41:55] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-1.0.5.tar.gz tmp/sealights-python-agent-1.0.6.tar.gz --markdown 20230519/s/sealights-python-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-19 16:41:55] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/12/36/7e3afd8c9d53b244393bd3a7ca3c5d417bb25ed76ee1110d60a122d1deca/PySide6-Fluent-Widgets-0.9.0.tar.gz
+[2023-05-19 16:41:55] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-19 16:41:55] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230519/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-19 16:41:56] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/51/91/2dc92bc5502e3b618051614b3cec79e0a62ccfe8e3cf0cc3ce8d73c8e8ec/jinja2_async_environment-0.1.1.tar.gz
+[2023-05-19 16:41:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-05-19 16:41:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.8.9.tar.gz tmp/PySide6-Fluent-Widgets-0.9.0.tar.gz --markdown 20230519/P/PySide6-Fluent-Widgets/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 16:41:56] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/d8/0a/6f0db60d40ccd509cde75518620eb540f8c625bb3553d90fd089609b7a70/jinja2_async_environment-0.1.4.tar.gz
+[2023-05-19 16:41:56] INFO root fetch - processPackages [jinja2-async-environment]: executing diffoscope
+[2023-05-19 16:41:56] INFO root fetch - processPackages [jinja2-async-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_async_environment-0.1.1.tar.gz tmp/jinja2_async_environment-0.1.4.tar.gz --markdown 20230519/j/jinja2-async-environment/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 16:41:57] INFO root fetch - processPackages [zypl-macro]: Start processing: hectorp
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [zypl-macro]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [kedro-graphql]: Start processing: aimmo
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [kedro-graphql]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [hectorp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [jwt-validate]: Start processing: acryl-datahub
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/e1/3d/299f82d77800572001e3d785e4dcf833eb3a0637b9e3fb6265a091a4cfdb/hectorp-0.1.1.tar.gz
+[2023-05-19 16:41:57] INFO root fetch - processPackages [mse-lib-sgx]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/e9/7d/2ef78f92e73eeef2979fc8a5a5be2d20ec86500f9959ce968d2e5b486dcb/hectorp-0.1.2.tar.gz
+[2023-05-19 16:41:57] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [makim]: Start processing: modbedtools
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [makim]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [jinja2-async-environment]: Start processing: awkward
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
+[2023-05-19 16:41:57] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-05-19 16:41:57] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230519/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-05-19 16:41:57] INFO root fetch - processPackages [hectorp]: executing diffoscope
+[2023-05-19 16:41:57] INFO root fetch - processPackages [hectorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hectorp-0.1.1.tar.gz tmp/hectorp-0.1.2.tar.gz --markdown 20230519/h/hectorp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 16:41:57] INFO root fetch - processPackages [modbedtools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [awkward]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-19 16:41:57] INFO root fetch - processPackages [modbedtools]: Downloading https://files.pythonhosted.org/packages/13/f7/035888306fc720b71ec25fa58de7d956c763e613de6ea6433beac959853b/modbedtools-0.1.0.tar.gz
+[2023-05-19 16:41:57] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-19 16:41:58] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/21/77/5a3f966d0baf0206e48a7ac33375f7faf28565e66c3f9c488ad63676f971/awkward-2.2.0.tar.gz
+[2023-05-19 16:41:58] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-19 16:41:58] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230519/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-19 16:41:58] INFO root fetch - processPackages [modbedtools]: Downloading https://files.pythonhosted.org/packages/43/ea/a4d76bfd88296847fcbbb266f4db852ccc970549efb3133a482f0b1fcb6b/modbedtools-0.1.1.tar.gz
+[2023-05-19 16:41:58] INFO root fetch - processPackages [modbedtools]: executing diffoscope
+[2023-05-19 16:41:58] INFO root fetch - processPackages [modbedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbedtools-0.1.0.tar.gz tmp/modbedtools-0.1.1.tar.gz --markdown 20230519/m/modbedtools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 16:41:58] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/f9/88/3a8951a6e53ad197b073f5296f115b44a70e4ef2e531188647992130d504/awkward-2.2.1.tar.gz
+[2023-05-19 16:41:58] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-05-19 16:41:59] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-19 16:41:59] INFO root fetch - main [MainThread]: End processing [modbedtools]: success
+[2023-05-19 16:41:59] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-19 16:41:59] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230519/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-19 16:41:59] INFO root fetch - processPackages [awkward]: executing diffoscope
+[2023-05-19 16:41:59] INFO root fetch - processPackages [awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-2.2.0.tar.gz tmp/awkward-2.2.1.tar.gz --markdown 20230519/a/awkward/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-19 16:41:59] INFO root fetch - main [MainThread]: End processing [perun.connector]: success
+[2023-05-19 16:41:59] INFO root fetch - main [MainThread]: End processing [hectorp]: success
+[2023-05-19 16:42:02] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2023-05-19 16:42:03] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-05-19 16:42:04] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-19 16:42:10] INFO root fetch - main [MainThread]: End processing [awkward]: success
+[2023-05-19 16:42:10] INFO root fetch - main [MainThread]: Store serial: [18171291]
