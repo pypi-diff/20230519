@@ -22105,3 +22105,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:23:36] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
 [2023-05-19 20:23:36] INFO root fetch - main [MainThread]: End processing [gsd]: success
 [2023-05-19 20:23:36] INFO root fetch - main [MainThread]: Store serial: [18173993]
+[2023-05-19 20:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173993]
+[2023-05-19 20:28:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartmeter-datacollector
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idcode
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtdb
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywb
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PatryksAutoAI
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebeer
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kedro-graphql
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: memory-graph
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlglot
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-amcards
+[2023-05-19 20:28:45] INFO root fetch - processPackages [xtdb]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [idcode]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [kedro-graphql]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [ebeer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-19 20:28:45] WARNING root fetch - processPackages [memory-graph]: Skipping, unable to determine old version
+[2023-05-19 20:28:45] INFO root fetch - processPackages [memory-graph]: Start processing: dag-dq-generator
+[2023-05-19 20:28:45] INFO root fetch - main [MainThread]: End processing [memory-graph] error
+[2023-05-19 20:28:45] INFO root fetch - processPackages [dag-dq-generator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [smartmeter-datacollector]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [pywb]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-19 20:28:45] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-19 20:28:46] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/37/dc/124159fd226a9d37e89c82d93997bb8c20655a924f0d62161d2d13a8f5a1/ebeer-0.0.9.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/f0/c1/3a60369beb32b3a0bb184be4ed1d75a39bb6bb7f3908e2fa728daedb2c8f/idcode-0.1.4.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/1d/83/115f76d573638b37473eda633319f5d6f20411994e1713960d22086c3e6c/xtdb-0.1.0.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/fa/fb/65dd708affba0b2ef271bd27a091f384ef87425de0191070425d26180a9c/kedro-graphql-0.1.3.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/2d/2d/3dfec91ec00f927cb770a656fca2ba27596381725ac7975154d7d18ec88f/PatryksAutoAI-1.4.9.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [dag-dq-generator]: Downloading https://files.pythonhosted.org/packages/61/4d/9cb80ba940345e6dcf5fe53f85307afedfb038add3ff12684528d9154c73/dag-dq-generator-1.0.1.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.8.tar.gz tmp/ebeer-0.0.9.tar.gz --markdown 20230519/e/ebeer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [smartmeter-datacollector]: Downloading https://files.pythonhosted.org/packages/58/26/d6c86e9237d4beb7b19fecc07dccef95d0ea21507c0452f90e35ba771cd0/smartmeter-datacollector-1.0.2.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.4.8.tar.gz tmp/PatryksAutoAI-1.4.9.tar.gz --markdown 20230519/P/PatryksAutoAI/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [pywb]: Downloading https://files.pythonhosted.org/packages/00/2f/ed43ac29c4ff3c82c4090b5a002b9feeb52feaf6ea1b21d609991a265109/pywb-2.7.3.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/2d/b6/9b87dbf33b87811a8f9ac6e1bf94aac65dcef8d727a8b65bb105369718b5/python-amcards-1.2.8.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/36/fa/a885a8077712cda2a66e9e1ea24e8f400c266d8b55af6c7ff1e79e4b1408/xtdb-0.1.1a0.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [dag-dq-generator]: Downloading https://files.pythonhosted.org/packages/4e/5f/76960d38db0cc6cf97a648f0cbbb1f50260a3320471f77cb96e83f426933/dag-dq-generator-1.0.2.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/82/43/2a95c786a5538e552b5a404089f75f2539897a3be22b63305a07272a55ea/idcode-0.2.0.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [smartmeter-datacollector]: Downloading https://files.pythonhosted.org/packages/aa/e8/64480b6e23baac7609b7e7f4fd810c76dbe27c6b0b7da51a1426da852243/smartmeter-datacollector-1.1.0.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/86/bc/65140ecc0dd40549420d076ec034cbaa2e29798199865c945af86e4c0668/kedro-graphql-0.1.4.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [dag-dq-generator]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [dag-dq-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dag-dq-generator-1.0.1.tar.gz tmp/dag-dq-generator-1.0.2.tar.gz --markdown 20230519/d/dag-dq-generator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230519/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [idcode]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [idcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idcode-0.1.4.tar.gz tmp/idcode-0.2.0.tar.gz --markdown 20230519/i/idcode/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2023-05-19 20:28:46] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.1.0.tar.gz tmp/xtdb-0.1.1a0.tar.gz --markdown 20230519/x/xtdb/0.1.0-0.1.1a0/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [kedro-graphql]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [kedro-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-graphql-0.1.3.tar.gz tmp/kedro-graphql-0.1.4.tar.gz --markdown 20230519/k/kedro-graphql/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [smartmeter-datacollector]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [smartmeter-datacollector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartmeter-datacollector-1.0.2.tar.gz tmp/smartmeter-datacollector-1.1.0.tar.gz --markdown 20230519/s/smartmeter-datacollector/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2023-05-19 20:28:46] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20230519/p/python-amcards/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-19 20:28:46] INFO root fetch - processPackages [pywb]: Downloading https://files.pythonhosted.org/packages/27/6c/8ee370aa44097a784349c8a1e135b67b97919f2b1a6ef26c5586c9ea3fb8/pywb-2.7.4.tar.gz
+[2023-05-19 20:28:47] INFO root fetch - processPackages [pywb]: executing diffoscope
+[2023-05-19 20:28:47] INFO root fetch - processPackages [pywb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywb-2.7.3.tar.gz tmp/pywb-2.7.4.tar.gz --markdown 20230519/p/pywb/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-05-19 20:28:47] INFO root fetch - processPackages [ebeer]: Start processing: django-connectwise
+[2023-05-19 20:28:47] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-19 20:28:47] INFO root fetch - processPackages [django-connectwise]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-19 20:28:47] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/76/da/7f1fe30ce655a81bcf944dce48514da0e536eb135434cb87a74f0148297c/django-connectwise-1.0.4.tar.gz
+[2023-05-19 20:28:47] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: trogon
+[2023-05-19 20:28:47] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 20:28:47] INFO root fetch - main [MainThread]: End processing [idcode]: success
+[2023-05-19 20:28:48] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/92/3d/fc771e9364d27804fd045da205f908d62a241b55d2c779d7aba86422ce8e/django-connectwise-1.1.0.tar.gz
+[2023-05-19 20:28:48] WARNING root fetch - processPackages [trogon]: Skipping, unable to determine old version
+[2023-05-19 20:28:48] INFO root fetch - main [MainThread]: End processing [trogon] error
+[2023-05-19 20:28:48] INFO root fetch - main [MainThread]: End processing [dag-dq-generator]: success
+[2023-05-19 20:28:48] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2023-05-19 20:28:48] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.0.4.tar.gz tmp/django-connectwise-1.1.0.tar.gz --markdown 20230519/d/django-connectwise/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 20:28:48] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2023-05-19 20:28:48] INFO root fetch - main [MainThread]: End processing [smartmeter-datacollector]: success
+[2023-05-19 20:28:48] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-19 20:28:49] INFO root fetch - main [MainThread]: End processing [kedro-graphql]: success
+[2023-05-19 20:28:49] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2023-05-19 20:28:52] INFO root fetch - main [MainThread]: End processing [pywb]: success
+[2023-05-19 20:28:53] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2023-05-19 20:28:53] INFO root fetch - main [MainThread]: Store serial: [18174037]
