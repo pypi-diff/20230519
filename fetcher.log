@@ -15176,3 +15176,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 14:10:32] INFO root fetch - main [MainThread]: End processing [pytorch-optimizer]: success
 [2023-05-19 14:10:36] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-19 14:10:36] INFO root fetch - main [MainThread]: Store serial: [18169505]
+[2023-05-19 14:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18169505]
+[2023-05-19 14:15:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myoquant
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-lingua-franca
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serializator-scocs
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddadevops
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cuid2
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jwt-validate
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: viggofiscal
+[2023-05-19 14:15:45] INFO root fetch - processPackages [myoquant]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-19 14:15:45] INFO root fetch - processPackages [serializator-scocs]: New version: [1.4] Old Version: [1.3]
+[2023-05-19 14:15:45] INFO root fetch - processPackages [sdkit]: New version: [1.0.95] Old Version: [1.0.94]
+[2023-05-19 14:15:45] WARNING root fetch - processPackages [cuid2]: Skipping, unable to determine old version
+[2023-05-19 14:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 14:15:45] INFO root fetch - main [MainThread]: End processing [cuid2] error
+[2023-05-19 14:15:45] WARNING root fetch - processPackages [jwt-validate]: Skipping, unable to determine old version
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ovos-lingua-franca]: New version: [0.4.8a2] Old Version: [0.4.8a1]
+[2023-05-19 14:15:45] INFO root fetch - main [MainThread]: End processing [jwt-validate] error
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 14:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 14:15:45] INFO root fetch - processPackages [myoquant]: Downloading https://files.pythonhosted.org/packages/17/88/0d63f2b5abe24abf7900c0f43f24bb5cb368fac9018c1703ed060d784412/myoquant-0.3.3.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [serializator-scocs]: Downloading https://files.pythonhosted.org/packages/4f/15/5fc09ffacb2a4033c0f5591e1ea865ce7c783abf75a1cdc182bfe798e30a/serializator-scocs-1.3.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [viggofiscal]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-19 14:15:45] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/64/7e/497d4e0678e5379fef6ff0d4753ec39f03905f7a89f846a535231d1baa93/sdkit-1.0.95.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ovos-lingua-franca]: Downloading https://files.pythonhosted.org/packages/4f/7c/a6f3d994892f0fad4da412bf647c9f0df7f98e9a967f93754ca448a8858b/ovos_lingua_franca-0.4.8a1-py3-none-any.whl
+[2023-05-19 14:15:45] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.94.tar.gz tmp/sdkit-1.0.95.tar.gz --markdown 20230519/s/sdkit/1.0.94-1.0.95/diff.md --exclude *.pyd
+[2023-05-19 14:15:45] INFO root fetch - processPackages [myoquant]: Downloading https://files.pythonhosted.org/packages/e7/93/a432b8fdf0ffd80b364d8340015eaa7288e23594c877e4eeed60b1985f54/myoquant-0.3.5.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [serializator-scocs]: Downloading https://files.pythonhosted.org/packages/ad/1d/02db2ffb080652debc4367e8f7e7a821569509f1bde6fd89f1e54194f9df/serializator-scocs-1.4.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [myoquant]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [myoquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myoquant-0.3.3.tar.gz tmp/myoquant-0.3.5.tar.gz --markdown 20230519/m/myoquant/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-19 14:15:45] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/dc/b3/fffeb9f62dd2f3d65188c7f826f1a37f970ac286414410380937635777d5/viggofiscal-1.3.8.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [serializator-scocs]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [serializator-scocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializator-scocs-1.3.tar.gz tmp/serializator-scocs-1.4.tar.gz --markdown 20230519/s/serializator-scocs/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ovos-lingua-franca]: Downloading https://files.pythonhosted.org/packages/ea/86/0e5329ae1399dc80c9ddbd0384268a4cccd9d87cc4a4f11821f2bde454ce/ovos_lingua_franca-0.4.8a2-py3-none-any.whl
+[2023-05-19 14:15:45] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/0d/20/1b088925a46a0a66035e1904018e65164f2aab9a67e236aa47e54ac0b077/viggofiscal-1.3.9.tar.gz
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ovos-lingua-franca]: executing diffoscope
+[2023-05-19 14:15:45] INFO root fetch - processPackages [ovos-lingua-franca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_lingua_franca-0.4.8a1-py3-none-any.whl.zip tmp/ovos_lingua_franca-0.4.8a2-py3-none-any.whl.zip --markdown 20230519/o/ovos-lingua-franca/0.4.8a1-0.4.8a2/diff.md --exclude *.pyd
+[2023-05-19 14:15:46] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-05-19 14:15:46] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.3.8.tar.gz tmp/viggofiscal-1.3.9.tar.gz --markdown 20230519/v/viggofiscal/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-19 14:15:46] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 14:15:46] INFO root fetch - main [MainThread]: End processing [serializator-scocs]: success
+[2023-05-19 14:15:46] INFO root fetch - main [MainThread]: End processing [myoquant]: success
+[2023-05-19 14:15:47] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-05-19 14:15:48] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-19 14:15:49] INFO root fetch - main [MainThread]: End processing [ovos-lingua-franca]: success
+[2023-05-19 14:16:27] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 14:16:27] INFO root fetch - main [MainThread]: Store serial: [18169542]
