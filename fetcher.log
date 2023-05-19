@@ -18686,3 +18686,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:36:47] INFO root fetch - main [MainThread]: End processing [kiara]: success
 [2023-05-19 17:37:02] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-19 17:37:02] INFO root fetch - main [MainThread]: Store serial: [18171850]
+[2023-05-19 17:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171850]
+[2023-05-19 17:42:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlit
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flyem-segmentation-pipeline
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cai-modeling
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clubscore
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiddifypanel
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpler-sf
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-code-ui
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: noise2read
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-when
+[2023-05-19 17:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdstools
+[2023-05-19 17:42:13] INFO root fetch - processPackages [chainlit]: New version: [0.2.0] Old Version: [0.1.103]
+[2023-05-19 17:42:13] WARNING root fetch - processPackages [flyem-segmentation-pipeline]: Skipping, unable to determine old version
+[2023-05-19 17:42:13] INFO root fetch - processPackages [flyem-segmentation-pipeline]: Start processing: DKCloudCommand
+[2023-05-19 17:42:13] INFO root fetch - main [MainThread]: End processing [flyem-segmentation-pipeline] error
+[2023-05-19 17:42:13] INFO root fetch - processPackages [simpler-sf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 17:42:13] WARNING root fetch - processPackages [cai-modeling]: Skipping, unable to determine old version
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pdstools]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [cai-modeling]: Start processing: gedcomx-v1
+[2023-05-19 17:42:13] INFO root fetch - main [MainThread]: End processing [cai-modeling] error
+[2023-05-19 17:42:13] INFO root fetch - processPackages [noise2read]: New version: [0.0.97] Old Version: [0.0.95]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [clubscore]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pytest-when]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gedcomx-v1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev8] Old Version: [7.0.0.dev7]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.272rc1] Old Version: [1.1.271rc2]
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230519/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [simpler-sf]: Downloading https://files.pythonhosted.org/packages/d1/70/23756d641b0e5a8d1db175bb5cb686da790b3b8cac55beaf2bc363ca08a0/simpler_sf-1.0.0.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pdstools]: Downloading https://files.pythonhosted.org/packages/22/53/8afb798291fba6175906c952fb8454bac6c6cf960c8246b85d968da6e874/pdstools-3.1.8.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/73/c7/08df3529c227587e941ace15a8d780ae6058d6e6fff2fcf811d8e1d23c02/noise2read-0.0.97.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gedcomx-v1]: Downloading https://files.pythonhosted.org/packages/87/44/4b3be53ba53e77122e02ac5a4436f7d397cef6782212558fd2c4e403d2d4/gedcomx-v1-1.0.8.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/79/49/18bbdeb763306229ae2edb216ef978a17cad69246c48143072c6a2ad4482/pytest_when-0.0.1.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/65/7f/247c2714e34f40c44b2e63bc5c4d130d7cf25fadff21ac41d94d601fd2b9/clubscore-0.1.7.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/e9/c4/a685a2a8af1ccffb32cba561f41455136529f90511f854ea753d8b92cb67/DKCloudCommand-1.1.271rc2-py2.py3-none-any.whl
+[2023-05-19 17:42:13] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/4f/41/b42d609b78955c588b456a6b1284e5ad19946dda06e41530d4a84a293350/hiddifypanel-7.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 17:42:13] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.95.tar.gz tmp/noise2read-0.0.97.tar.gz --markdown 20230519/n/noise2read/0.0.95-0.0.97/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/c4/74/55c18051982204d6a2bbb8957c0bff64b9bc8fc6c61d19f93ed277f1d60a/chainlit-0.2.0.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [simpler-sf]: Downloading https://files.pythonhosted.org/packages/4a/c6/b8fdc67c6c256e6b960165e9713cc7c979696108e47116d9aa5cfab5eeb4/simpler_sf-1.0.1.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/b6/2e/c943f670f1ec6da2f97baeab55e1ce552d17bfc3eb863a6b3ed5b83325f9/clubscore-0.1.8.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/54/95/fab7e31f60eb694c086446001fc4d24c0c39e37160be674bb22716945596/pytest_when-1.0.0.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pdstools]: Downloading https://files.pythonhosted.org/packages/5f/0b/6dccc85fc189fd2f8575f9520f1278083c32f83ca628c7dce5cde41abbc1/pdstools-3.1.9.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [simpler-sf]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [simpler-sf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpler_sf-1.0.0.tar.gz tmp/simpler_sf-1.0.1.tar.gz --markdown 20230519/s/simpler-sf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/a2/8a/f69b0ab15d1fa11e022a20b76825dc2e13ebc312cb73cf9fec4ea462c534/DKCloudCommand-1.1.272rc1-py2.py3-none-any.whl
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gedcomx-v1]: Downloading https://files.pythonhosted.org/packages/05/00/6568ce71a6cfd600592de3559f2ccf1e4814fda6ddb9c44f7cea0a807a44/gedcomx-v1-1.0.9.tar.gz
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pytest-when]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pytest-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_when-0.0.1.tar.gz tmp/pytest_when-1.0.0.tar.gz --markdown 20230519/p/pytest-when/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pdstools]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [pdstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdstools-3.1.8.tar.gz tmp/pdstools-3.1.9.tar.gz --markdown 20230519/p/pdstools/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.1.103.tar.gz tmp/chainlit-0.2.0.tar.gz --markdown 20230519/c/chainlit/0.1.103-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gedcomx-v1]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [gedcomx-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedcomx-v1-1.0.8.tar.gz tmp/gedcomx-v1-1.0.9.tar.gz --markdown 20230519/g/gedcomx-v1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.7.tar.gz tmp/clubscore-0.1.8.tar.gz --markdown 20230519/c/clubscore/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 17:42:13] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-05-19 17:42:13] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.271rc2-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.272rc1-py2.py3-none-any.whl.zip --markdown 20230519/D/DKCloudCommand/1.1.271rc2-1.1.272rc1/diff.md --exclude *.pyd
+[2023-05-19 17:42:14] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-19 17:42:14] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230519/h/hiddifypanel/7.0.0.dev7-7.0.0.dev8/diff.md --exclude *.pyd
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [simpler-sf]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [pytest-when]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [gedcomx-v1]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [pdstools]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-19 17:42:15] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-05-19 17:42:30] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-05-19 17:42:35] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-19 17:42:35] INFO root fetch - main [MainThread]: Store serial: [18171910]
