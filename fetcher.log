@@ -8066,3 +8066,96 @@
 [2023-05-19 05:56:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract]: success
 [2023-05-19 05:56:57] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2023-05-19 05:56:57] INFO root fetch - main [MainThread]: Store serial: [18165342]
+[2023-05-19 06:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165342]
+[2023-05-19 06:02:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.identity
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez0th
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aspose-barcode-cloud
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aspose-barcode-cloud]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ez0th]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.9.tar.gz --markdown 20230519/a/aws-prototyping-sdk.type-safe-api/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/72/52/8a5e581fae163036b86ffc8733a411650eda068e08543ab966b787b14839/aspose-barcode-cloud-23.4.0.tar.gz
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/3b/c5/5fd25fb528b05f6a840bdc71e1cc2cdd9edb226d7f67d15644520031db87/ez0th-0.0.0.tar.gz
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230519/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/16/bd/d2b7619a47286d21c043c53783fc327b205688eecdba5f8d25443025cfc5/ez0th-0.0.1.tar.gz
+[2023-05-19 06:02:07] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/1f/af/10353162178b29efbba1712da90297d1d7642dc39c6596b34c4b56c68443/aspose-barcode-cloud-23.5.0.tar.gz
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-05-19 06:02:07] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.0.0.tar.gz tmp/ez0th-0.0.1.tar.gz --markdown 20230519/e/ez0th/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-19 06:02:08] INFO root fetch - processPackages [aspose-barcode-cloud]: executing diffoscope
+[2023-05-19 06:02:08] INFO root fetch - processPackages [aspose-barcode-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-barcode-cloud-23.4.0.tar.gz tmp/aspose-barcode-cloud-23.5.0.tar.gz --markdown 20230519/a/aspose-barcode-cloud/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-19 06:02:08] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: django-softdelete-ts
+[2023-05-19 06:02:08] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-19 06:02:08] WARNING root fetch - processPackages [django-softdelete-ts]: Skipping, unable to determine old version
+[2023-05-19 06:02:08] INFO root fetch - processPackages [django-softdelete-ts]: Start processing: minari
+[2023-05-19 06:02:08] INFO root fetch - main [MainThread]: End processing [django-softdelete-ts] error
+[2023-05-19 06:02:08] INFO root fetch - processPackages [minari]: New version: [0.3.0b0] Old Version: [0.3.0]
+[2023-05-19 06:02:09] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: nonebot-plugin-stockhelper
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-19 06:02:09] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: gtocclient
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-19 06:02:09] WARNING root fetch - processPackages [nonebot-plugin-stockhelper]: Skipping, unable to determine old version
+[2023-05-19 06:02:09] INFO root fetch - processPackages [nonebot-plugin-stockhelper]: Start processing: eas-prediction
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stockhelper] error
+[2023-05-19 06:02:09] INFO root fetch - processPackages [minari]: executing diffoscope
+[2023-05-19 06:02:09] INFO root fetch - processPackages [minari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minari-0.3.0.tar.gz tmp/minari-0.3.0b0.tar.gz --markdown 20230519/m/minari/0.3.0-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-19 06:02:09] INFO root fetch - processPackages [gtocclient]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-19 06:02:09] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: agsi
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-19 06:02:09] INFO root fetch - processPackages [eas-prediction]: New version: [0.9] Old Version: [0.8]
+[2023-05-19 06:02:09] INFO root fetch - processPackages [agsi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 06:02:09] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: pycelium
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-19 06:02:09] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 06:02:09] INFO root fetch - processPackages [gtocclient]: Downloading https://files.pythonhosted.org/packages/64/a8/381b8aa541e41e146581a797a102149e7a58c2b562ae3449405750dcf8e2/gtocclient-0.7.8.tar.gz
+[2023-05-19 06:02:09] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-19 06:02:09] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230519/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-05-19 06:02:09] INFO root fetch - processPackages [eas-prediction]: Downloading https://files.pythonhosted.org/packages/b7/fd/87fd0646bcfea17334916c884dc6fbd3d0fbb77e88e653c6d0fda5330b90/eas-prediction-0.8.tar.gz
+[2023-05-19 06:02:09] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/74/8e/236ac3d60766bb584fa66ad317b79981eca56a2f67dc8f30b9c5d139489d/agsi-1.0.5.tar.gz
+[2023-05-19 06:02:09] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-19 06:02:09] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.4.tar.gz tmp/agsi-1.0.5.tar.gz --markdown 20230519/a/agsi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-19 06:02:09] INFO root fetch - main [MainThread]: End processing [aspose-barcode-cloud]: success
+[2023-05-19 06:02:09] INFO root fetch - processPackages [gtocclient]: Downloading https://files.pythonhosted.org/packages/f7/fb/7efb046da2aa6973d05e6a51309c7735733e2940c52035e52754f8db0d78/gtocclient-0.7.9.tar.gz
+[2023-05-19 06:02:10] INFO root fetch - processPackages [eas-prediction]: Downloading https://files.pythonhosted.org/packages/ea/90/877a18efe9af669c7fc7529a8d18605c57871efc60c61dd0c03cd815fe01/eas-prediction-0.9.tar.gz
+[2023-05-19 06:02:10] INFO root fetch - processPackages [gtocclient]: executing diffoscope
+[2023-05-19 06:02:10] INFO root fetch - processPackages [gtocclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtocclient-0.7.8.tar.gz tmp/gtocclient-0.7.9.tar.gz --markdown 20230519/g/gtocclient/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-19 06:02:10] INFO root fetch - processPackages [eas-prediction]: executing diffoscope
+[2023-05-19 06:02:10] INFO root fetch - processPackages [eas-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eas-prediction-0.8.tar.gz tmp/eas-prediction-0.9.tar.gz --markdown 20230519/e/eas-prediction/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-19 06:02:10] INFO root fetch - main [MainThread]: End processing [minari]: success
+[2023-05-19 06:02:10] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-19 06:02:11] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-19 06:02:11] INFO root fetch - main [MainThread]: End processing [eas-prediction]: success
+[2023-05-19 06:02:11] INFO root fetch - main [MainThread]: End processing [gtocclient]: success
+[2023-05-19 06:02:11] INFO root fetch - main [MainThread]: Store serial: [18165393]
