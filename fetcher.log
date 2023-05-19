@@ -2274,3 +2274,32 @@
 [2023-05-19 03:06:33] INFO root fetch - main [MainThread]: End processing [wslink]: success
 [2023-05-19 03:06:34] INFO root fetch - main [MainThread]: End processing [noise2read]: success
 [2023-05-19 03:06:34] INFO root fetch - main [MainThread]: Store serial: [18162447]
+[2023-05-19 03:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162447]
+[2023-05-19 03:11:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-19 03:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-poet
+[2023-05-19 03:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guten
+[2023-05-19 03:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-envs
+[2023-05-19 03:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-05-19 03:11:42] INFO root fetch - processPackages [poetry-poet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 03:11:42] INFO root fetch - processPackages [np-envs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 03:11:42] INFO root fetch - processPackages [guten]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-19 03:11:43] INFO root fetch - processPackages [poetry-poet]: Downloading https://files.pythonhosted.org/packages/28/41/98bfdbec53b72a7330f059940f61a641471f858f3a03e14b372499e681fd/poetry_poet-0.1.8.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [guten]: Downloading https://files.pythonhosted.org/packages/02/44/9caca4b597028d5fccd6c0b461ce7eec5eb2b2945fa895a307be54653b4a/guten-0.1.9.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [np-envs]: Downloading https://files.pythonhosted.org/packages/6d/d7/f708217c0b11d891983dccfcef286caa296102685c8b4972be3307349a80/np_envs-0.1.0.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [poetry-poet]: Downloading https://files.pythonhosted.org/packages/8a/e2/db608408a6ca3d302643945dd54f0f38c8c7c002150bcf45174c04dcd2d7/poetry_poet-0.1.9.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [guten]: Downloading https://files.pythonhosted.org/packages/cb/9c/e8aa8bacdbbb1be63d3e5add59212dd96126dec55a4e995d736abe853613/guten-0.2.0.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [np-envs]: Downloading https://files.pythonhosted.org/packages/05/16/66e1ee5b7b5010d6a1077b7e83abbcbb1e1023431604289a878ae00e6aef/np_envs-0.1.1.tar.gz
+[2023-05-19 03:11:43] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-19 03:11:43] INFO root fetch - processPackages [poetry-poet]: executing diffoscope
+[2023-05-19 03:11:43] INFO root fetch - processPackages [poetry-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_poet-0.1.8.tar.gz tmp/poetry_poet-0.1.9.tar.gz --markdown 20230519/p/poetry-poet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 03:11:43] INFO root fetch - processPackages [guten]: executing diffoscope
+[2023-05-19 03:11:43] INFO root fetch - processPackages [guten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guten-0.1.9.tar.gz tmp/guten-0.2.0.tar.gz --markdown 20230519/g/guten/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 03:11:43] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-19 03:11:43] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230519/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-19 03:11:43] INFO root fetch - processPackages [np-envs]: executing diffoscope
+[2023-05-19 03:11:43] INFO root fetch - processPackages [np-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_envs-0.1.0.tar.gz tmp/np_envs-0.1.1.tar.gz --markdown 20230519/n/np-envs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 03:11:44] INFO root fetch - main [MainThread]: End processing [poetry-poet]: success
+[2023-05-19 03:11:44] INFO root fetch - main [MainThread]: End processing [guten]: success
+[2023-05-19 03:11:44] INFO root fetch - main [MainThread]: End processing [np-envs]: success
+[2023-05-19 03:11:45] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-19 03:11:45] INFO root fetch - main [MainThread]: Store serial: [18162456]
