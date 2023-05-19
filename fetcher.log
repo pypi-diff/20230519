@@ -20743,3 +20743,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:36:45] INFO root fetch - main [MainThread]: End processing [callingcardstools]: success
 [2023-05-19 19:36:45] INFO root fetch - main [MainThread]: End processing [hippogym]: success
 [2023-05-19 19:36:45] INFO root fetch - main [MainThread]: Store serial: [18173153]
+[2023-05-19 19:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173153]
+[2023-05-19 19:41:55] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-aggrid-bugfix
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DUELink
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaphor-connectors
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bohrium-sdk
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SBMLDiagrams
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soral-data-test-01
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyVLMP
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flyem-segmentation-pipeline
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fennel-ai
+[2023-05-19 19:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elifecleaner
+[2023-05-19 19:41:55] WARNING root fetch - processPackages [streamlit-aggrid-bugfix]: Skipping, unable to determine old version
+[2023-05-19 19:41:55] INFO root fetch - processPackages [streamlit-aggrid-bugfix]: Start processing: sidewinder-db
+[2023-05-19 19:41:55] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid-bugfix] error
+[2023-05-19 19:41:55] WARNING root fetch - processPackages [DUELink]: Skipping, unable to determine old version
+[2023-05-19 19:41:55] INFO root fetch - processPackages [DUELink]: Start processing: symgt
+[2023-05-19 19:41:55] INFO root fetch - main [MainThread]: End processing [DUELink] error
+[2023-05-19 19:41:55] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [flyem-segmentation-pipeline]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:41:55] WARNING root fetch - processPackages [soral-data-test-01]: Skipping, unable to determine old version
+[2023-05-19 19:41:55] INFO root fetch - processPackages [soral-data-test-01]: Start processing: pypura
+[2023-05-19 19:41:55] INFO root fetch - main [MainThread]: End processing [soral-data-test-01] error
+[2023-05-19 19:41:55] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [SBMLDiagrams]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [symgt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [pypura]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 19:41:55] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-19 19:41:55] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230519/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:41:55] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 19:41:55] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.8.tar.gz tmp/bohrium-sdk-0.0.9.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:41:55] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-05-19 19:41:55] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230519/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-19 19:41:55] INFO root fetch - processPackages [flyem-segmentation-pipeline]: Downloading https://files.pythonhosted.org/packages/89/92/03dd51ceb1749f379436d7e9f4cb9e2d6015b10325eb92e11493a53bb2d7/flyem_segmentation_pipeline-1.3.1.tar.gz
+[2023-05-19 19:41:55] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-05-19 19:41:55] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/e7/8e/4d034c8460324e74516a1fee22596e201703403edddf87fd6a73b5c71046/SBMLDiagrams-1.3.4.tar.gz
+[2023-05-19 19:41:55] INFO root fetch - processPackages [symgt]: Downloading https://files.pythonhosted.org/packages/93/6e/b02057689064acb97909bb82ef7b2b5249495c9be09c402da343ff8c6b79/symgt-0.0.1.tar.gz
+[2023-05-19 19:41:55] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-05-19 19:41:55] INFO root fetch - processPackages [flyem-segmentation-pipeline]: executing diffoscope
+[2023-05-19 19:41:55] INFO root fetch - processPackages [flyem-segmentation-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyem_segmentation_pipeline-1.3.0.tar.gz tmp/flyem_segmentation_pipeline-1.3.1.tar.gz --markdown 20230519/f/flyem-segmentation-pipeline/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-19 19:41:55] INFO root fetch - processPackages [pypura]: Downloading https://files.pythonhosted.org/packages/91/f9/15b3e84d1bb76b8e9cce4c626060f2493bc85115417d96cfea8a7d90fb23/pypura-0.1.3.tar.gz
+[2023-05-19 19:41:56] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230519/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 19:41:56] INFO root fetch - processPackages [pypura]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [pypura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypura-0.1.2.tar.gz tmp/pypura-0.1.3.tar.gz --markdown 20230519/p/pypura/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-19 19:41:56] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/8d/92/54e79bb0fb14c73dc40bd2f5bb26631ab6545a968504835b6935a2b75621/SBMLDiagrams-1.3.5.tar.gz
+[2023-05-19 19:41:56] INFO root fetch - processPackages [symgt]: Downloading https://files.pythonhosted.org/packages/88/8f/ad441419f63a58c8e46ad26f06d702911348f885390af3e530ae50b4a7c7/symgt-0.0.2.tar.gz
+[2023-05-19 19:41:56] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-05-19 19:41:56] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-05-19 19:41:56] INFO root fetch - processPackages [SBMLDiagrams]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [SBMLDiagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBMLDiagrams-1.3.4.tar.gz tmp/SBMLDiagrams-1.3.5.tar.gz --markdown 20230519/S/SBMLDiagrams/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-19 19:41:56] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230519/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 19:41:56] INFO root fetch - processPackages [symgt]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [symgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symgt-0.0.1.tar.gz tmp/symgt-0.0.2.tar.gz --markdown 20230519/s/symgt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 19:41:56] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-05-19 19:41:56] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230519/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:41:57] INFO root fetch - processPackages [bohrium-sdk]: Start processing: mesh-sandbox
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 19:41:57] INFO root fetch - processPackages [mesh-sandbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 19:41:57] INFO root fetch - processPackages [flyem-segmentation-pipeline]: Start processing: pysast
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [flyem-segmentation-pipeline]: success
+[2023-05-19 19:41:57] INFO root fetch - processPackages [pyVLMP]: Start processing: dbt-coves
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-19 19:41:57] WARNING root fetch - processPackages [pysast]: Skipping, unable to determine old version
+[2023-05-19 19:41:57] INFO root fetch - processPackages [pysast]: Start processing: nyckel
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [pysast] error
+[2023-05-19 19:41:57] INFO root fetch - processPackages [dbt-coves]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-19 19:41:57] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-05-19 19:41:57] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-0.1.8-py3-none-any.whl.zip tmp/mesh_sandbox-0.1.9-py3-none-any.whl.zip --markdown 20230519/m/mesh-sandbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 19:41:57] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:41:57] INFO root fetch - processPackages [pypura]: Start processing: honeybee-doe2
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [pypura]: success
+[2023-05-19 19:41:57] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-19 19:41:57] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-19 19:41:57] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230519/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:41:57] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-19 19:41:57] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.2.1.tar.gz tmp/honeybee-doe2-0.3.0.tar.gz --markdown 20230519/h/honeybee-doe2/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 19:41:57] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/61/4f/08ba3d9e995851c90819a08b4d3ec477a6cdceed7f540e2c4584f5b2f3cd/dbt_coves-1.5.1.tar.gz
+[2023-05-19 19:41:57] INFO root fetch - processPackages [elifecleaner]: Start processing: pythonGPT3
+[2023-05-19 19:41:57] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-05-19 19:41:57] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-19 19:41:57] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.5.0.tar.gz tmp/dbt_coves-1.5.1.tar.gz --markdown 20230519/d/dbt-coves/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-19 19:41:58] WARNING root fetch - processPackages [pythonGPT3]: Skipping, unable to determine old version
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [pythonGPT3] error
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-19 19:41:58] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-05-19 19:41:59] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-19 19:41:59] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-19 19:42:00] INFO root fetch - main [MainThread]: End processing [SBMLDiagrams]: success
+[2023-05-19 19:42:04] INFO root fetch - main [MainThread]: End processing [symgt]: success
+[2023-05-19 19:42:04] INFO root fetch - main [MainThread]: Store serial: [18173217]
