@@ -13819,3 +13819,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 12:34:42] INFO root fetch - main [MainThread]: End processing [loko-cli]: success
 [2023-05-19 12:34:42] INFO root fetch - main [MainThread]: End processing [volume-segmantics-vsui]: success
 [2023-05-19 12:34:42] INFO root fetch - main [MainThread]: Store serial: [18168487]
+[2023-05-19 12:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168487]
+[2023-05-19 12:39:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-contributor-assets
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-expense-tier-validation
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acrclient
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: license-authorize
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RistLang
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anipy-cli
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr-ds
+[2023-05-19 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cliptry1
+[2023-05-19 12:39:53] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: New version: [20230519.10.34.755092] Old Version: [20230518.18.49.674347]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [syngen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [cliptry1]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 12:39:53] WARNING root fetch - processPackages [odoo-addon-hr-expense-tier-validation]: Skipping, unable to determine old version
+[2023-05-19 12:39:53] INFO root fetch - processPackages [odoo-addon-hr-expense-tier-validation]: Start processing: extr-ds
+[2023-05-19 12:39:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-tier-validation] error
+[2023-05-19 12:39:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post790] Old Version: [1.0.0.post789]
+[2023-05-19 12:39:53] WARNING root fetch - processPackages [license-authorize]: Skipping, unable to determine old version
+[2023-05-19 12:39:53] INFO root fetch - processPackages [license-authorize]: Start processing: neulabs-cdk-constructs
+[2023-05-19 12:39:53] INFO root fetch - processPackages [RistLang]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [acrclient]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-19 12:39:53] INFO root fetch - main [MainThread]: End processing [license-authorize] error
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [anipy-cli]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Downloading https://files.pythonhosted.org/packages/54/58/1f389f3ecb405ce898f6305c77597426e738c20bc958fbdbfedeab2a936d/certora-cli-alpha-andrew-satisfy-20230518.18.49.674347.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.1.tar.gz tmp/syngen-0.1.2.tar.gz --markdown 20230519/s/syngen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.2.0.tar.gz tmp/cliptry1-0.2.1.tar.gz --markdown 20230519/c/cliptry1/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-19 12:39:53] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping package: exceeds size limit 39026201>=10485760
+[2023-05-19 12:39:53] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Start processing: arxivai
+[2023-05-19 12:39:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-19 12:39:53] INFO root fetch - processPackages [RistLang]: Downloading https://files.pythonhosted.org/packages/15/ee/82c6c13d01e3c7776140e855d5b05c663a8a908b54d5701a92543d6b804f/RistLang-1.1.0.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [acrclient]: Downloading https://files.pythonhosted.org/packages/c6/6b/e887f587bbdd8b796de145713cbed3523563a0a0563497b2b92068c9aeca/acrclient-0.3.0.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [anipy-cli]: Downloading https://files.pythonhosted.org/packages/c7/ec/72c3f49bbb1f007116e167b4dc23914cdc4f104489fbecb72278641a13e5/anipy_cli-2.7.8.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/d3/b6/40657b9ade5bd6750747e356ea424a127847f12ec625aaa9ad3852cbf338/neulabs-cdk-constructs-0.3.6.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 12:39:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/82/70/e3a6f0ff80e2c8c6724ef823b7c4d530c5dabc2d084abb570ee1a396bdca/nucliadb_contributor_assets-1.0.0.post790-py3-none-any.whl
+[2023-05-19 12:39:53] INFO root fetch - processPackages [RistLang]: Downloading https://files.pythonhosted.org/packages/b9/ed/b28fa5af9a779272d7aea570d37bfddc59b2eb4302a3972bea77aeebaaa2/RistLang-1.1.1.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230519/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230519/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/f1/1c/1a95aa4f184480f6080e8e747f39ae62a47629e3d4e4d453ea139dcc6ccd/neulabs-cdk-constructs-0.3.7.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [anipy-cli]: Downloading https://files.pythonhosted.org/packages/18/ad/854d891575b230f33c069488f969016184a51451b3c45ecc09da4b5ae43b/anipy_cli-2.7.9.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [acrclient]: Downloading https://files.pythonhosted.org/packages/bf/47/b524c90660f07da561df46d42f923c97d7f6c010909599c0851687625b68/acrclient-0.4.0.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post789-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post790-py3-none-any.whl.zip --markdown 20230519/n/nucliadb-contributor-assets/1.0.0.post789-1.0.0.post790/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/e1/2a/e14d8197ac444b660824efc96ad53058c0350101b717fa49eb0c015099d7/arxivai-0.0.8.tar.gz
+[2023-05-19 12:39:53] INFO root fetch - processPackages [RistLang]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [RistLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RistLang-1.1.0.tar.gz tmp/RistLang-1.1.1.tar.gz --markdown 20230519/R/RistLang/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-19 12:39:53] INFO root fetch - processPackages [anipy-cli]: executing diffoscope
+[2023-05-19 12:39:53] INFO root fetch - processPackages [anipy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipy_cli-2.7.8.tar.gz tmp/anipy_cli-2.7.9.tar.gz --markdown 20230519/a/anipy-cli/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-19 12:39:54] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-05-19 12:39:54] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.3.6.tar.gz tmp/neulabs-cdk-constructs-0.3.7.tar.gz --markdown 20230519/n/neulabs-cdk-constructs/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-19 12:39:54] INFO root fetch - processPackages [acrclient]: executing diffoscope
+[2023-05-19 12:39:54] INFO root fetch - processPackages [acrclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acrclient-0.3.0.tar.gz tmp/acrclient-0.4.0.tar.gz --markdown 20230519/a/acrclient/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 12:39:54] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/50/53/aac61452e0dd2d1eb59209b6cf623c394cecccd2f0e5f37c3586f04aa94c/arxivai-0.0.9.tar.gz
+[2023-05-19 12:39:54] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-19 12:39:54] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230519/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 12:39:54] INFO root fetch - processPackages [cliptry1]: Start processing: ontolol
+[2023-05-19 12:39:54] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-19 12:39:54] WARNING root fetch - processPackages [ontolol]: Skipping, unable to determine old version
+[2023-05-19 12:39:54] INFO root fetch - main [MainThread]: End processing [ontolol] error
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [acrclient]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [RistLang]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [anipy-cli]: success
+[2023-05-19 12:39:55] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-19 12:39:57] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-19 12:39:57] INFO root fetch - main [MainThread]: Store serial: [18168539]
