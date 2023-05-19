@@ -4876,3 +4876,118 @@
 [2023-05-19 03:28:49] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-pipes]: success
 [2023-05-19 03:30:40] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-19 03:30:40] INFO root fetch - main [MainThread]: Store serial: [18163368]
+[2023-05-19 03:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163368]
+[2023-05-19 03:35:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocode
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edge-logger
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pychuck
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isoCycle
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cdn20180510-py2
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-cdn20180510
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: txtorcon
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-wordpress
+[2023-05-19 03:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hx-requests
+[2023-05-19 03:35:52] INFO root fetch - processPackages [edge-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [isoCycle]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [pychuck]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [vocode]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [txtorcon]: New version: [23.5.0] Old Version: [23.0.0]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev2] Old Version: [0.8.0]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230519/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/b2/9e/fcd379d76d9e45d60e37348a391b10516bed8bccdbed3e4a0ac325aadc50/edge_logger-0.0.8.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/36/f1/f12d75b4bedc83720ec7fe3500f58f38cc34e8b88ac0f6aae76036b07839/isoCycle-0.0.18.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [txtorcon]: Downloading https://files.pythonhosted.org/packages/82/aa/19402a91e9e5ca153fe14bb7f6b6bc987a78d65828cebdc7d00c927720d8/txtorcon-23.0.0.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [pychuck]: Downloading https://files.pythonhosted.org/packages/14/09/cbf2a4ecd043bb24857eed5d8791c7d75e8f5d8013fe634eb16e8bcf931e/pychuck-0.0.0.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/9b/68/4e26c8902b37e36c68a46d8b570691b84e7d37f260fb090e9ca714c682b2/vocode-0.1.98.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/6f/71/bdcc4e11decd5927f07cd9eb917168f6a8dbda77d6916d8504bc89d60fe3/duckdb-0.8.0.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [txtorcon]: Downloading https://files.pythonhosted.org/packages/77/ae/38b568f8daa3d41009688458399bd7a969e2d2d9965f923da3743904e263/txtorcon-23.5.0.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230519/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/8b/f4/dd2c1531e1354a1fe55f30c302fc0317ae5e0fb9537e0ac329060d80fe33/edge_logger-0.0.9.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/c0/ab/4534fca9a4233612688ff128425b4cb3ed491595e204a4732512452a2096/alibabacloud_cdn20180510_py2-1.2.9.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [txtorcon]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [txtorcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtorcon-23.0.0.tar.gz tmp/txtorcon-23.5.0.tar.gz --markdown 20230519/t/txtorcon/23.0.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [pychuck]: Downloading https://files.pythonhosted.org/packages/42/ae/b55f8d9bab2b3513b52c3dd7f5ef9bda4289b87ec3a63a6713dca64afca3/pychuck-1.0.0.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.8.tar.gz tmp/edge_logger-0.0.9.tar.gz --markdown 20230519/e/edge-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17973954>=10485760
+[2023-05-19 03:35:52] INFO root fetch - processPackages [isoCycle]: Start processing: nvosscript
+[2023-05-19 03:35:52] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz --markdown 20230519/a/alibabacloud-cdn20180510-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [pychuck]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [pychuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychuck-0.0.0.tar.gz tmp/pychuck-1.0.0.tar.gz --markdown 20230519/p/pychuck/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [nvosscript]: New version: [1.3.1] Old Version: [1.3.0.7]
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/27/ed/4efd8c76dab91dff011f164093a515b4c95ad1b26a477f6ad015a3a19599/alibabacloud_cdn20180510-1.2.9.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/79/9a/76431e75273e7f7acedd1ec3030dcca2abb2ca6b950c3032e6e481efd30f/vocode-0.1.99.tar.gz
+[2023-05-19 03:35:52] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.8.tar.gz tmp/alibabacloud_cdn20180510-1.2.9.tar.gz --markdown 20230519/a/alibabacloud-cdn20180510/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/d2/56/3508f715deed274c2dd7a37fa2d376a018e0c984e4c6fdd23062beb157b7/duckdb-0.8.1.dev2-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-05-19 03:35:52] INFO root fetch - processPackages [vocode]: executing diffoscope
+[2023-05-19 03:35:52] INFO root fetch - processPackages [vocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode-0.1.98.tar.gz tmp/vocode-0.1.99.tar.gz --markdown 20230519/v/vocode/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-19 03:35:52] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/e1/09/05c61e7916392fc6cb618f23d12bad0d0f72de83934ce3c5d4ba50a14b9e/nvosscript-1.3.0.7.tar.gz
+[2023-05-19 03:35:53] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14631444>=10485760
+[2023-05-19 03:35:53] INFO root fetch - processPackages [duckdb]: Start processing: aliyun-python-sdk-dcdn
+[2023-05-19 03:35:53] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-19 03:35:53] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-19 03:35:53] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/1e/eb/47fd5c666857f843b5c06091db5a60c1ba222b130f7b07c4ac22e3faa16b/aliyun-python-sdk-dcdn-2.2.8.tar.gz
+[2023-05-19 03:35:53] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/b5/1e/dd2f89400a5e48b99f9a5806ca7b715c3a949c97a6de036ea6ce6fa9c5be/nvosscript-1.3.1.tar.gz
+[2023-05-19 03:35:53] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-19 03:35:53] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.7.tar.gz tmp/nvosscript-1.3.1.tar.gz --markdown 20230519/n/nvosscript/1.3.0.7-1.3.1/diff.md --exclude *.pyd
+[2023-05-19 03:35:53] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/08/51/46939f5f8ee69a1412536c44967efb482ce3c80b096c94a291fdfb642bb0/aliyun-python-sdk-dcdn-2.2.9.tar.gz
+[2023-05-19 03:35:53] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: executing diffoscope
+[2023-05-19 03:35:53] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dcdn-2.2.8.tar.gz tmp/aliyun-python-sdk-dcdn-2.2.9.tar.gz --markdown 20230519/a/aliyun-python-sdk-dcdn/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-19 03:35:53] INFO root fetch - processPackages [hx-requests]: Start processing: nbdev-stdlib
+[2023-05-19 03:35:53] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-19 03:35:53] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:35:54] INFO root fetch - processPackages [cdk-wordpress]: Start processing: adnbidder
+[2023-05-19 03:35:54] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-19 03:35:54] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-19 03:35:54] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230519/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:35:54] INFO root fetch - processPackages [adnbidder]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 03:35:54] INFO root fetch - processPackages [pychuck]: Start processing: automation_rest_server
+[2023-05-19 03:35:54] INFO root fetch - main [MainThread]: End processing [pychuck]: success
+[2023-05-19 03:35:54] INFO root fetch - processPackages [automation_rest_server]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-05-19 03:35:54] INFO root fetch - processPackages [edge-logger]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-19 03:35:54] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-05-19 03:35:54] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-19 03:35:54] INFO root fetch - processPackages [adnbidder]: Downloading https://files.pythonhosted.org/packages/2f/65/b4b217e9383052be8cde5e89f96fb4738c7e960a5ba445690afca9f3bbcd/adnbidder-1.0.0.tar.gz
+[2023-05-19 03:35:54] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/27/00/1065abacfc542764277654dd4e5d570f2ad816679d1585e43ac3d7e20366/automation_rest_server-3.7.1.tar.gz
+[2023-05-19 03:35:54] INFO root fetch - processPackages [adnbidder]: Downloading https://files.pythonhosted.org/packages/b0/12/7d18aba844f63ab512e62b1b2b8d1f91839af45c4b6a0aef4e5767e51420/adnbidder-1.0.1.tar.gz
+[2023-05-19 03:35:54] INFO root fetch - processPackages [adnbidder]: executing diffoscope
+[2023-05-19 03:35:54] INFO root fetch - processPackages [adnbidder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnbidder-1.0.0.tar.gz tmp/adnbidder-1.0.1.tar.gz --markdown 20230519/a/adnbidder/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 03:35:54] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-19 03:35:54] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230519/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-19 03:35:54] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/20/e9/ade2fd67b42785a2bac098add91a2b14d6230d62b3719e687b9a4349af1f/automation_rest_server-3.7.2.tar.gz
+[2023-05-19 03:35:54] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-05-19 03:35:54] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.7.1.tar.gz tmp/automation_rest_server-3.7.2.tar.gz --markdown 20230519/a/automation_rest_server/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-05-19 03:35:54] INFO root fetch - processPackages [nvosscript]: Start processing: inhandtest
+[2023-05-19 03:35:54] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-19 03:35:54] INFO root fetch - processPackages [inhandtest]: New version: [0.0.49] Old Version: [0.0.48]
+[2023-05-19 03:35:55] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/22/ad/8fb59ff612abbc8c996e5d9017c9f7e7de6b4daae0969acbce2d3a55227a/inhandtest-0.0.49.tar.gz
+[2023-05-19 03:35:55] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-19 03:35:55] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.48.tar.gz tmp/inhandtest-0.0.49.tar.gz --markdown 20230519/i/inhandtest/0.0.48-0.0.49/diff.md --exclude *.pyd
+[2023-05-19 03:35:55] INFO root fetch - processPackages [vocode]: Start processing: nbdev-numpy
+[2023-05-19 03:35:55] INFO root fetch - main [MainThread]: End processing [vocode]: success
+[2023-05-19 03:35:55] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 03:35:55] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-19 03:35:55] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-19 03:35:55] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230519/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:35:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [txtorcon]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [adnbidder]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dcdn]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-05-19 03:35:56] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-19 03:35:57] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-05-19 03:35:57] INFO root fetch - main [MainThread]: Store serial: [18163716]
