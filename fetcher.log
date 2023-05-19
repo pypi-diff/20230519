@@ -2183,3 +2183,94 @@
 [2023-05-19 02:58:54] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-19 03:01:21] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-05-19 03:01:21] INFO root fetch - main [MainThread]: Store serial: [18162404]
+[2023-05-19 03:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18162404]
+[2023-05-19 03:06:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycommremover
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rabe-cridlib
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aemcmc-nightly
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trame
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structure-py
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d20-securityLayer
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multisig-ci
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inhandtest
+[2023-05-19 03:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-ip-calc
+[2023-05-19 03:06:29] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-19 03:06:29] INFO root fetch - processPackages [rabe-cridlib]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a1] Old Version: [1.1.0a6]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [pycommremover]: New version: [0.2] Old Version: [0.1]
+[2023-05-19 03:06:30] WARNING root fetch - processPackages [my-ip-calc]: Skipping, unable to determine old version
+[2023-05-19 03:06:30] INFO root fetch - processPackages [my-ip-calc]: Start processing: anyon
+[2023-05-19 03:06:30] INFO root fetch - main [MainThread]: End processing [my-ip-calc] error
+[2023-05-19 03:06:30] INFO root fetch - processPackages [trame]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [multisig-ci]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [inhandtest]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [anyon]: New version: [3.2.4] Old Version: [3.2.2]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230519] Old Version: [0.0.8.dev20230518]
+[2023-05-19 03:06:30] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/86/f6/6e0ce44e756c1ac519d50796239958877652c99c0dd7246701399f0c4859/d20-securityLayer-1.1.0a6.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/ed/42/2d7e42b1deb2b9b6e35fb2c98f23757013d8ee585858b642ec22d7a2492e/rabe_cridlib-0.7.0.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [pycommremover]: Downloading https://files.pythonhosted.org/packages/23/c4/5ef68a07ae6243bd2e00a096e7f4a543eccfcc11b75bddf8f04fce4f3ac7/pycommremover-0.1.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/28/5d/c945b7b03198469d2258b7f300bb06a61656969b0c328994c5a2c6f5117a/inhandtest-0.0.46.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/34/e6/4a113fa4cb711fb261b62eab423a8e257c627cda1320b7c2c044075a920d/trame-2.4.2.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/35/cb/c41b99757c413dd76c741ecfd91d926d186a23bcc4f9f04ef34d06b61191/multisig_ci-0.4.6.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/53/67/527e80032e7693766ab225d6f0eff9032ebde6693a21220b85abaa370424/aemcmc-nightly-0.0.8.dev20230518.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/55/7e/dd42bf72da7ecda7e823d26c1986913962fa50df5bcb38c6cf1261909179/anyon-3.2.4-cp311-cp311-macosx_10_9_universal2.whl
+[2023-05-19 03:06:30] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/a7/18/ed0fc17b87961f68e107cc40ce8d5dfe01408796304c8c581209cac8f168/rabe_cridlib-0.8.0.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230519/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/42/8c/c1517c8425e1cdd4455db99281a24f61a76917350732a3569263d5fa88a6/inhandtest-0.0.47.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230519/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/c5/dd/a30a8a8119069f2fc8514363d3b8772ec9797797be40c9edbc52b1a0d49a/d20-securityLayer-2.0.0a1.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/1e/be/6b0a5fd5676d80d309b9d3481256f42838c239521043fdf4f090d3c87b04/aemcmc-nightly-0.0.8.dev20230519.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/ba/56/4713836cc4bed4c920114cd80a08c90f5a6b88528962a630e5b810f97d6f/trame-2.5.0.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [pycommremover]: Downloading https://files.pythonhosted.org/packages/71/8c/6e1c2bb4cfe1af6aa1a3d293333dd69de6b0a9d9847da7be26fb51241938/pycommremover-0.2-py3-none-any.whl
+[2023-05-19 03:06:30] INFO root fetch - processPackages [rabe-cridlib]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [rabe-cridlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabe_cridlib-0.7.0.tar.gz tmp/rabe_cridlib-0.8.0.tar.gz --markdown 20230519/r/rabe-cridlib/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [multisig-ci]: Downloading https://files.pythonhosted.org/packages/b3/55/b80050bab992d8fd1debc8d88f825f6b6fc5adf1ce8513934225e7d8108c/multisig_ci-0.4.7.tar.gz
+[2023-05-19 03:06:30] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.46.tar.gz tmp/inhandtest-0.0.47.tar.gz --markdown 20230519/i/inhandtest/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-1.1.0a6.tar.gz tmp/d20-securityLayer-2.0.0a1.tar.gz --markdown 20230519/d/d20-securityLayer/1.1.0a6-2.0.0a1/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230518.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230519.tar.gz --markdown 20230519/a/aemcmc-nightly/0.0.8.dev20230518-0.0.8.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.2.2-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.2.4-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230519/a/anyon/3.2.2-3.2.4/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [trame]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [pycommremover]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [pycommremover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommremover-0.1.tar.gz tmp/pycommremover-0.2-py3-none-any.whl.zip --markdown 20230519/p/pycommremover/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-2.4.2.tar.gz tmp/trame-2.5.0.tar.gz --markdown 20230519/t/trame/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-05-19 03:06:30] INFO root fetch - processPackages [multisig-ci]: executing diffoscope
+[2023-05-19 03:06:30] INFO root fetch - processPackages [multisig-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multisig_ci-0.4.6.tar.gz tmp/multisig_ci-0.4.7.tar.gz --markdown 20230519/m/multisig-ci/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-19 03:06:31] INFO root fetch - processPackages [structure-py]: Start processing: wslink
+[2023-05-19 03:06:31] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-19 03:06:31] INFO root fetch - processPackages [wslink]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-19 03:06:32] INFO root fetch - processPackages [rabe-cridlib]: Start processing: nerfstudio
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [rabe-cridlib]: success
+[2023-05-19 03:06:32] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/ee/c8/b9d4c578dbb47f72024bf5247ead7468e23fc46f2ae5bd249d68bfd7e6d7/wslink-1.9.2.tar.gz
+[2023-05-19 03:06:32] INFO root fetch - processPackages [nerfstudio]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-19 03:06:32] INFO root fetch - processPackages [pycommremover]: Start processing: noise2read
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [pycommremover]: success
+[2023-05-19 03:06:32] INFO root fetch - processPackages [noise2read]: New version: [0.0.95] Old Version: [0.0.90]
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [multisig-ci]: success
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-19 03:06:32] INFO root fetch - processPackages [nerfstudio]: Downloading https://files.pythonhosted.org/packages/4b/cd/d1faa3117e72e8d0e73d473b634e90d709365c435d0d85ce4d4f1e20782c/nerfstudio-0.2.2.tar.gz
+[2023-05-19 03:06:32] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/24/d1/5d6141a76f18b5bcb873d3557a067cdd805899fce6c1b5544735e438096e/noise2read-0.0.90.tar.gz
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-05-19 03:06:32] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/1c/99/b50331a1b9b0b2ff8ba98439bbf0ee2d9b0ea8836d4ab373f50a6566f30d/wslink-1.9.3.tar.gz
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-19 03:06:32] INFO root fetch - processPackages [nerfstudio]: Downloading https://files.pythonhosted.org/packages/dd/70/84dd26dabf41d4e5db1392cb6c372cfcfd492e76eceeb461640b6f7c1858/nerfstudio-0.3.0.tar.gz
+[2023-05-19 03:06:32] WARNING root fetch - processPackages [nerfstudio]: Skipping package: exceeds size limit 13637222>=10485760
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [nerfstudio] error
+[2023-05-19 03:06:32] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/b3/09/10f4b2bdc0c8a12f27bf368bf613a5a4d6fc6675d15fabc2a0731f5c8cba/noise2read-0.0.95.tar.gz
+[2023-05-19 03:06:32] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2023-05-19 03:06:32] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-1.9.2.tar.gz tmp/wslink-1.9.3.tar.gz --markdown 20230519/w/wslink/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-19 03:06:32] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-19 03:06:32] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.90.tar.gz tmp/noise2read-0.0.95.tar.gz --markdown 20230519/n/noise2read/0.0.90-0.0.95/diff.md --exclude *.pyd
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2023-05-19 03:06:32] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-19 03:06:33] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2023-05-19 03:06:34] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-19 03:06:34] INFO root fetch - main [MainThread]: Store serial: [18162447]
