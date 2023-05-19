@@ -12658,3 +12658,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 11:20:58] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
 [2023-05-19 11:20:59] INFO root fetch - main [MainThread]: End processing [pydwf]: success
 [2023-05-19 11:20:59] INFO root fetch - main [MainThread]: Store serial: [18167832]
+[2023-05-19 11:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18167832]
+[2023-05-19 11:26:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmfit-additional-models
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrainy
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bastion-api
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flagsmith
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hermes-mail
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: staircase-kit
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmfit-additional-models
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homewizard-climate-ws
+[2023-05-19 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bldr
+[2023-05-19 11:26:13] INFO root fetch - processPackages [hermes-mail]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bastion-api]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [homewizard-climate-ws]: New version: [0.0.9] Old Version: [0.0.19]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [terrainy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [homewizard-climate-ws]: executing diffoscope
+[2023-05-19 11:26:13] INFO root fetch - processPackages [homewizard-climate-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homewizard_climate_ws-0.0.19.tar.gz tmp/homewizard_climate_ws-0.0.9.tar.gz --markdown 20230519/h/homewizard-climate-ws/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [flagsmith]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bldr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bastion-api]: Downloading https://files.pythonhosted.org/packages/b8/2c/a7c69c5b8d8ef44cc990aab7391b5de37a5934f412850ae1c63ee3771095/bastion_api-0.2.4.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [hermes-mail]: Downloading https://files.pythonhosted.org/packages/30/2f/2e40256c82e9dd2676a7703c5af24317d50e2ea9b9a0c01ca48f9b1b9424/hermes_mail-0.1.0.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/ee/4f/43d4519bd1f27f03998a70fedb02a7e317a49aa5eaf35d2ce64f380bac1f/lmfit_additional_models-1.0.1-py3-none-any.whl
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/ee/4f/43d4519bd1f27f03998a70fedb02a7e317a49aa5eaf35d2ce64f380bac1f/lmfit_additional_models-1.0.1-py3-none-any.whl
+[2023-05-19 11:26:13] INFO root fetch - processPackages [terrainy]: Downloading https://files.pythonhosted.org/packages/bf/d4/bf2853f06621262c30785fbaa88ec0a2caabd3eda1564ed8104b112d2db8/terrainy-0.0.4.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [flagsmith]: Downloading https://files.pythonhosted.org/packages/ae/f5/2e056e3e444860f77406ab53922a55d52444d5d2dcc5fe5848a20b339ac5/flagsmith-3.2.0.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bastion-api]: executing diffoscope
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bastion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastion_api-0.2.3.tar.gz tmp/bastion_api-0.2.4.tar.gz --markdown 20230519/b/bastion-api/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 11:26:13] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/70/a0/ba7192aa39b6b280409446b0bf8109c5bc1d5effe7f54d2f459e36deaeb9/staircase_kit-0.1.8.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [bldr]: Downloading https://files.pythonhosted.org/packages/e1/fc/5e2b9356f0d7cd601c4641d0074234eddc930f0f7886d4d5c4bd24619759/bldr-0.0.8.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [hermes-mail]: executing diffoscope
+[2023-05-19 11:26:13] INFO root fetch - processPackages [hermes-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_mail-0.0.2.tar.gz tmp/hermes_mail-0.1.0.tar.gz --markdown 20230519/h/hermes-mail/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/56/0c/13ddf6563dd20b3aecb66e05c2b40296e4f1678126c7e55fe28d95718daf/lmfit-additional-models-1.0.2.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/56/0c/13ddf6563dd20b3aecb66e05c2b40296e4f1678126c7e55fe28d95718daf/lmfit-additional-models-1.0.2.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-19 11:26:13] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230519/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-19 11:26:13] INFO root fetch - processPackages [flagsmith]: Downloading https://files.pythonhosted.org/packages/90/74/77559d31c5369aee186b3c9ffb245074aa537f3b7ecd9c1c2aea021b509b/flagsmith-3.2.1.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/01/96/15a40885ce958da4972b51b06600031ea9983c0e9522cd8ef1e964283364/staircase_kit-0.1.9.tar.gz
+[2023-05-19 11:26:13] INFO root fetch - processPackages [flagsmith]: executing diffoscope
+[2023-05-19 11:26:13] INFO root fetch - processPackages [flagsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-3.2.0.tar.gz tmp/flagsmith-3.2.1.tar.gz --markdown 20230519/f/flagsmith/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-19 11:26:14] INFO root fetch - processPackages [lmfit-additional-models]: executing diffoscope
+[2023-05-19 11:26:14] INFO root fetch - processPackages [lmfit-additional-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmfit_additional_models-1.0.1-py3-none-any.whl.zip tmp/lmfit-additional-models-1.0.2.tar.gz --markdown 20230519/l/lmfit-additional-models/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:26:14] INFO root fetch - processPackages [lmfit-additional-models]: executing diffoscope
+[2023-05-19 11:26:14] INFO root fetch - processPackages [lmfit-additional-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmfit_additional_models-1.0.1-py3-none-any.whl.zip tmp/lmfit-additional-models-1.0.2.tar.gz --markdown 20230519/l/lmfit-additional-models/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:26:14] INFO root fetch - processPackages [bldr]: Downloading https://files.pythonhosted.org/packages/70/2a/19cde03cb30f3f35ed489d5bb9bba319bc975734cd5d34b2b72c9b079032/bldr-0.0.9.tar.gz
+[2023-05-19 11:26:14] INFO root fetch - processPackages [terrainy]: Downloading https://files.pythonhosted.org/packages/1f/84/cc7cba3d2474394e5d8cacfda7df21763a742cf97bbd2f072faa86b43af8/terrainy-0.0.5.tar.gz
+[2023-05-19 11:26:14] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-05-19 11:26:14] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230519/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 11:26:14] INFO root fetch - processPackages [bldr]: executing diffoscope
+[2023-05-19 11:26:14] INFO root fetch - processPackages [bldr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bldr-0.0.8.tar.gz tmp/bldr-0.0.9.tar.gz --markdown 20230519/b/bldr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:26:14] INFO root fetch - processPackages [terrainy]: executing diffoscope
+[2023-05-19 11:26:14] INFO root fetch - processPackages [terrainy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainy-0.0.4.tar.gz tmp/terrainy-0.0.5.tar.gz --markdown 20230519/t/terrainy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 11:26:15] INFO root fetch - processPackages [hermes-mail]: Start processing: dunamai
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [hermes-mail]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [dunamai]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 11:26:15] INFO root fetch - processPackages [lmfit-additional-models]: Start processing: biocartograph
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [lmfit-additional-models]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [homewizard-climate-ws]: Start processing: example-pkg-matkoniecz
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [homewizard-climate-ws]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [dunamai]: Downloading https://files.pythonhosted.org/packages/d5/1c/5771298a326ccae3fbe36c548014a5cb7dd1ab4dba1da7dfeeb10d4606f0/dunamai-1.8.0.tar.gz
+[2023-05-19 11:26:15] INFO root fetch - processPackages [lmfit-additional-models]: Start processing: msaBase
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [lmfit-additional-models]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [biocartograph]: New version: [0.5.3] Old Version: [0.5.1]
+[2023-05-19 11:26:15] WARNING root fetch - processPackages [example-pkg-matkoniecz]: Skipping, unable to determine old version
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [example-pkg-matkoniecz] error
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [bastion-api]: success
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [flagsmith]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 11:26:15] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/17/58/971aa4116533836ff0f70b2cce799f5ea212f17b32ad34d85a9e31f85c4c/biocartograph-0.5.1.tar.gz
+[2023-05-19 11:26:15] INFO root fetch - processPackages [dunamai]: Downloading https://files.pythonhosted.org/packages/0c/cb/0b91e5e7ef6ce73cfaf57867e2dea2c7db8b293fd5fd321b57e6942612d3/dunamai-1.9.0.tar.gz
+[2023-05-19 11:26:15] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-05-19 11:26:15] INFO root fetch - processPackages [dunamai]: executing diffoscope
+[2023-05-19 11:26:15] INFO root fetch - processPackages [dunamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dunamai-1.8.0.tar.gz tmp/dunamai-1.9.0.tar.gz --markdown 20230519/d/dunamai/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 11:26:15] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/8f/92/50b2ef3676f30407196e685165bf74083f5fb01085d0ffa1e84267490775/biocartograph-0.5.3.tar.gz
+[2023-05-19 11:26:15] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-19 11:26:15] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230519/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:26:16] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2023-05-19 11:26:16] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.5.1.tar.gz tmp/biocartograph-0.5.3.tar.gz --markdown 20230519/b/biocartograph/0.5.1-0.5.3/diff.md --exclude *.pyd
+[2023-05-19 11:26:16] INFO root fetch - main [MainThread]: End processing [dunamai]: success
+[2023-05-19 11:26:17] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-19 11:26:17] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2023-05-19 11:26:17] INFO root fetch - main [MainThread]: End processing [bldr]: success
+[2023-05-19 11:26:18] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-19 11:29:14] ERROR root fetch - processPackages [terrainy]: Timeout during execution of pkgdiff
+[2023-05-19 11:29:14] INFO root fetch - main [MainThread]: End processing [terrainy] error
+[2023-05-19 11:29:14] INFO root fetch - main [MainThread]: Store serial: [18167872]
