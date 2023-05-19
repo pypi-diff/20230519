@@ -13238,3 +13238,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 11:50:40] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-19 11:50:41] INFO root fetch - main [MainThread]: End processing [rnspure]: success
 [2023-05-19 11:50:41] INFO root fetch - main [MainThread]: Store serial: [18168185]
+[2023-05-19 11:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168185]
+[2023-05-19 11:55:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-source-oracle
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-adjudicator
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydropandas
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Phanatic
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensesame-extension-osweb
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textual-fspicker
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensesame-extension-updater
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agsi
+[2023-05-19 11:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensesame-core
+[2023-05-19 11:55:50] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-19 11:55:50] INFO root fetch - processPackages [python-adjudicator]: New version: [0.1.1] Old Version: [0.1.0.post0]
+[2023-05-19 11:55:50] INFO root fetch - processPackages [Phanatic]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-19 11:55:50] INFO root fetch - processPackages [phidata]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a35]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [agsi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-updater]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [textual-fspicker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [hydropandas]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/06/29/d4ee7510b7179e29662f6a113fe46d4c4663f4786e465ba638d790fd849f/opensesame_core-4.0.0a35.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [textual-fspicker]: Downloading https://files.pythonhosted.org/packages/33/80/4908bce3fe828200e4225b76493af75e275bc49d0906628cf8cea16418c7/textual_fspicker-0.0.1-py3-none-any.whl
+[2023-05-19 11:55:51] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/e6/29/df06d74f26afc294f4dcb268ed4453e88902de352d37f76f6429f9b41df7/agsi-1.0.9.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/9b/11/dc6e79ec47381997d6a2a3e1e79763c969a675217cee8f14d7df61827340/Phanatic-2.2.0.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/d8/e9/093128a745b8fe628223728b65e843c8ab586691978e50f5dae6b7212a40/python_adjudicator-0.1.1.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [hydropandas]: Downloading https://files.pythonhosted.org/packages/61/07/e27e7d619033a384cef76895de38e244f73b7d504bc4362ae4b967fe9d4b/hydropandas-0.7.3.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/27/02/a140fdc45e1988fbc5b10fb951bdfe6895c2b82921714139c38d99be6873/opensesame_extension_updater-0.1.8.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/2f/11/22068e2d3be2a12ef3eb08d53eaba9e8b737452e1cd52e254e4648b47c19/macrometa-source-oracle-0.0.34.tar.gz
+[2023-05-19 11:55:51] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923815>=10485760
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-core]: Start processing: cfgrib
+[2023-05-19 11:55:51] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-05-19 11:55:51] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.1.0.post0.tar.gz tmp/python_adjudicator-0.1.1.tar.gz --markdown 20230519/p/python-adjudicator/0.1.0.post0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.8.tar.gz tmp/agsi-1.0.9.tar.gz --markdown 20230519/a/agsi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/38/3d/0448b48a25f9a812c182f4974ce8e725ef7b46d536204e5524f717fe26db/phidata-1.6.5.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.4.tar.gz tmp/phidata-1.6.5.tar.gz --markdown 20230519/p/phidata/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [cfgrib]: New version: [0.9.9.1] Old Version: [0.9.9.0]
+[2023-05-19 11:55:51] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/73/68/b35389cee20394fc2c48aafb94c240242a8067b751a208675b021b24db8a/macrometa-source-oracle-0.0.35.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [textual-fspicker]: Downloading https://files.pythonhosted.org/packages/b8/87/8b7e09c059eccbbe7a565af6b334179ac9a556f7eba4c7a7a381e17e0873/textual_fspicker-0.0.2-py3-none-any.whl
+[2023-05-19 11:55:51] INFO root fetch - processPackages [hydropandas]: Downloading https://files.pythonhosted.org/packages/62/ab/52a4a43d58391fe7f800f66573bcd4122ce3397fdda39cbaa12c40d04224/hydropandas-0.8.0.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/a1/40/788d39fb96d6c32970d964bc4a5c65dafc4a56f2c6de69ac63ab82e12f23/Phanatic-2.2.1.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.34.tar.gz tmp/macrometa-source-oracle-0.0.35.tar.gz --markdown 20230519/m/macrometa-source-oracle/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [textual-fspicker]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [textual-fspicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_fspicker-0.0.1-py3-none-any.whl.zip tmp/textual_fspicker-0.0.2-py3-none-any.whl.zip --markdown 20230519/t/textual-fspicker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [hydropandas]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [hydropandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydropandas-0.7.3.tar.gz tmp/hydropandas-0.8.0.tar.gz --markdown 20230519/h/hydropandas/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [Phanatic]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [Phanatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phanatic-2.2.0.tar.gz tmp/Phanatic-2.2.1.tar.gz --markdown 20230519/P/Phanatic/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/da/7d/7e4365ec82cca407f06986e78fd186e4147a316db47de355e241393ff47f/opensesame_extension_updater-0.1.9.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [cfgrib]: Downloading https://files.pythonhosted.org/packages/25/a5/8b3033325f0c61b1f69ad77ae547b523855f8b8ec272f7390765935e6f99/cfgrib-0.9.9.0.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-updater]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_updater-0.1.8.tar.gz tmp/opensesame_extension_updater-0.1.9.tar.gz --markdown 20230519/o/opensesame-extension-updater/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-19 11:55:51] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230519/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-19 11:55:52] INFO root fetch - processPackages [cfgrib]: Downloading https://files.pythonhosted.org/packages/0f/16/1843cc8eeb4debaba309e1e99d6b249c675ab566fe05163575421eca649a/cfgrib-0.9.9.1.tar.gz
+[2023-05-19 11:55:52] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-05-19 11:55:53] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-05-19 11:55:53] INFO root fetch - main [MainThread]: End processing [textual-fspicker]: success
+[2023-05-19 11:55:53] INFO root fetch - main [MainThread]: End processing [Phanatic]: success
+[2023-05-19 11:55:53] INFO root fetch - main [MainThread]: End processing [opensesame-extension-updater]: success
+[2023-05-19 11:55:53] INFO root fetch - processPackages [cfgrib]: executing diffoscope
+[2023-05-19 11:55:53] INFO root fetch - processPackages [cfgrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgrib-0.9.9.0.tar.gz tmp/cfgrib-0.9.9.1.tar.gz --markdown 20230519/c/cfgrib/0.9.9.0-0.9.9.1/diff.md --exclude *.pyd
+[2023-05-19 11:55:53] INFO root fetch - main [MainThread]: End processing [hydropandas]: success
+[2023-05-19 11:55:54] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-19 11:55:54] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-19 11:55:55] INFO root fetch - main [MainThread]: End processing [cfgrib]: success
+[2023-05-19 11:55:56] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-19 11:55:56] INFO root fetch - main [MainThread]: Store serial: [18168217]
