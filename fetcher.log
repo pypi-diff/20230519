@@ -20065,3 +20065,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 18:57:23] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
 [2023-05-19 18:57:24] INFO root fetch - main [MainThread]: End processing [basic-pitch]: success
 [2023-05-19 18:57:24] INFO root fetch - main [MainThread]: Store serial: [18172766]
+[2023-05-19 19:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18172766]
+[2023-05-19 19:02:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-lav
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyliteadmin
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invisibleroads-macros-web
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3d
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inmanta-dev-dependencies
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsp
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyliteadmin
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Chill-Streams
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vision-datasets
+[2023-05-19 19:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llp-learn
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [invisibleroads-macros-web]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [llp-learn]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [py-lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:02:33] INFO root fetch - processPackages [tsp]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: executing diffoscope
+[2023-05-19 19:02:33] INFO root fetch - processPackages [pyliteadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyliteadmin-0.0.8.tar.gz tmp/pyliteadmin-0.0.9.tar.gz --markdown 20230519/p/pyliteadmin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:02:33] INFO root fetch - processPackages [Chill-Streams]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [llp-learn]: executing diffoscope
+[2023-05-19 19:02:33] INFO root fetch - processPackages [llp-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llp_learn-1.0.4.tar.gz tmp/llp_learn-1.0.5.tar.gz --markdown 20230519/l/llp-learn/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 19:02:33] INFO root fetch - processPackages [vision-datasets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 19:02:33] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/88/0a/d6bc10b7125914367e138244df45ef38ff785b4e2003495a1b5dd6c23abe/py3d-0.0.89.tar.gz
+[2023-05-19 19:02:33] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2023-05-19 19:02:33] INFO root fetch - processPackages [invisibleroads-macros-web]: Downloading https://files.pythonhosted.org/packages/a2/7c/c67f4a6626873a3f76455157b1f89daf4a9ef57c556808f88cca022c23eb/invisibleroads-macros-web-0.3.1.tar.gz
+[2023-05-19 19:02:33] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/a7/46/214378646a99a91221dc71abb67439f6a0c0215cd3c41aaada2a93fe0511/inmanta-dev-dependencies-2.8.0.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [vision-datasets]: Downloading https://files.pythonhosted.org/packages/cf/59/93f150f8c678390e29176da116b34a9e68aeb315e13b2568b3c7aff73011/vision_datasets-0.2.8.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [tsp]: Downloading https://files.pythonhosted.org/packages/6d/dd/c389b9394103c29d7b8313077525169704b44aaac18e5098afe971ad0043/tsp-1.5.3-py3-none-any.whl
+[2023-05-19 19:02:34] INFO root fetch - processPackages [Chill-Streams]: Downloading https://files.pythonhosted.org/packages/a4/ac/dc7128fbc7ca0a463ddc9c2a16feba8e551a533c8d92d2afe9260feee278/Chill-Streams-0.3.2.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [invisibleroads-macros-web]: Downloading https://files.pythonhosted.org/packages/8e/29/ebd79369075026710a2259dbf44001ec80397b9fa146d8615f1ef86516c4/invisibleroads-macros-web-0.3.2.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.89.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230519/p/py3d/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [invisibleroads-macros-web]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [invisibleroads-macros-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invisibleroads-macros-web-0.3.1.tar.gz tmp/invisibleroads-macros-web-0.3.2.tar.gz --markdown 20230519/i/invisibleroads-macros-web/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [py-lav]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [py-lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20230519/p/py-lav/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [inmanta-dev-dependencies]: Downloading https://files.pythonhosted.org/packages/6e/d6/4b81b4f539003cb2b65af1a32f5a66e6362d70ee9e7920c96cd4a868671f/inmanta-dev-dependencies-2.9.0.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230519/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [Chill-Streams]: Downloading https://files.pythonhosted.org/packages/49/40/ee3b0c3a215d6f01a0ad34fbd6c5e3edd77a0767a2100f26a019c4527716/Chill-Streams-0.4.0.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [vision-datasets]: Downloading https://files.pythonhosted.org/packages/b3/ae/c5c5ac2d9bb2baff02b3feb3edf3240d498dc61566b6e99ad1e5dea6fc3d/vision_datasets-0.2.9.tar.gz
+[2023-05-19 19:02:34] INFO root fetch - processPackages [vision-datasets]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [vision-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_datasets-0.2.8.tar.gz tmp/vision_datasets-0.2.9.tar.gz --markdown 20230519/v/vision-datasets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [tsp]: Downloading https://files.pythonhosted.org/packages/0a/e1/bd938892efa05225893f7008ff4a54a6ad3290211d083831daf829be73c2/tsp-1.5.4-py3-none-any.whl
+[2023-05-19 19:02:34] INFO root fetch - processPackages [Chill-Streams]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [Chill-Streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chill-Streams-0.3.2.tar.gz tmp/Chill-Streams-0.4.0.tar.gz --markdown 20230519/C/Chill-Streams/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-19 19:02:34] INFO root fetch - processPackages [tsp]: executing diffoscope
+[2023-05-19 19:02:34] INFO root fetch - processPackages [tsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsp-1.5.3-py3-none-any.whl.zip tmp/tsp-1.5.4-py3-none-any.whl.zip --markdown 20230519/t/tsp/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-19 19:02:35] INFO root fetch - processPackages [pyliteadmin]: Start processing: echoloader
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 19:02:35] INFO root fetch - processPackages [pyliteadmin]: Start processing: pantsbuild.pants
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [pyliteadmin]: success
+[2023-05-19 19:02:35] INFO root fetch - processPackages [echoloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 19:02:35] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/0b/91/36a5d473efe57fb90f171c6f3e1d81224ea9bdc4a213c36d50a39ce3b5ff/echoloader-0.1.8.tar.gz
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [llp-learn]: success
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [invisibleroads-macros-web]: success
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-05-19 19:02:35] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-19 19:02:35] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-19 19:02:36] INFO root fetch - main [MainThread]: End processing [Chill-Streams]: success
+[2023-05-19 19:02:36] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/b7/f3/470c40bb2ae59cc22bb0d30cdbadad02e309abc8d3fc8fa3d69cdc370fbd/echoloader-0.1.9.tar.gz
+[2023-05-19 19:02:36] INFO root fetch - processPackages [echoloader]: executing diffoscope
+[2023-05-19 19:02:36] INFO root fetch - processPackages [echoloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoloader-0.1.8.tar.gz tmp/echoloader-0.1.9.tar.gz --markdown 20230519/e/echoloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 19:02:36] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 19:02:36] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-05-19 19:02:36] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-05-19 19:02:36] INFO root fetch - main [MainThread]: End processing [vision-datasets]: success
+[2023-05-19 19:02:36] INFO root fetch - main [MainThread]: End processing [tsp]: success
+[2023-05-19 19:02:37] INFO root fetch - main [MainThread]: End processing [echoloader]: success
+[2023-05-19 19:03:15] INFO root fetch - main [MainThread]: End processing [py-lav]: success
+[2023-05-19 19:03:15] INFO root fetch - main [MainThread]: Store serial: [18172815]
