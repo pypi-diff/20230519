@@ -22373,3 +22373,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:39:24] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-19 20:40:04] INFO root fetch - main [MainThread]: End processing [ciphercore]: success
 [2023-05-19 20:40:04] INFO root fetch - main [MainThread]: Store serial: [18174139]
+[2023-05-19 20:45:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18174139]
+[2023-05-19 20:45:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shogun-build
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igv-flask
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysqlx-engine
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vecs
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampleproject-prashant
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ImageEnhancementTools
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rubin-squarebot
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: podlozhnyy-module
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellworld-tracking
+[2023-05-19 20:45:20] WARNING root fetch - processPackages [igv-flask]: Skipping, unable to determine old version
+[2023-05-19 20:45:20] INFO root fetch - processPackages [shogun-build]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [igv-flask]: Start processing: cellworld-tracking
+[2023-05-19 20:45:20] INFO root fetch - main [MainThread]: End processing [igv-flask] error
+[2023-05-19 20:45:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [vecs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [pysqlx-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: New version: [6.0.0] Old Version: [5.5.5]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [cellworld-tracking]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [podlozhnyy-module]: New version: [2.1] Old Version: [2.0]
+[2023-05-19 20:45:20] WARNING root fetch - processPackages [rubin-squarebot]: Skipping, unable to determine old version
+[2023-05-19 20:45:20] INFO root fetch - processPackages [rubin-squarebot]: Start processing: sampleproject-prashant
+[2023-05-19 20:45:20] INFO root fetch - main [MainThread]: End processing [rubin-squarebot] error
+[2023-05-19 20:45:20] WARNING root fetch - processPackages [ImageEnhancementTools]: Skipping, unable to determine old version
+[2023-05-19 20:45:20] INFO root fetch - processPackages [ImageEnhancementTools]: Start processing: archetypal
+[2023-05-19 20:45:20] INFO root fetch - main [MainThread]: End processing [ImageEnhancementTools] error
+[2023-05-19 20:45:20] INFO root fetch - processPackages [cellworld-tracking]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: New version: [6.0.0] Old Version: [5.5.5]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [archetypal]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 20:45:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:45:20] INFO root fetch - processPackages [shogun-build]: Downloading https://files.pythonhosted.org/packages/37/42/7262daec6ab2a1c4f0f0a37a904a9d52ec5d896f62461129552324423286/shogun-build-0.3.1.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: Downloading https://files.pythonhosted.org/packages/9e/7f/95072e760685e5c23602d2523b599d0463bb3e0fecacf4f141a4ae0d11b8/sampleproject-prashant-5.5.5.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: Downloading https://files.pythonhosted.org/packages/9e/7f/95072e760685e5c23602d2523b599d0463bb3e0fecacf4f141a4ae0d11b8/sampleproject-prashant-5.5.5.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/19/f7/17d3cb38fdbdc3da59ba30e1cfd16b450f8dc387d8109c2022d924fac7df/pysqlx_engine-0.2.8.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [cellworld-tracking]: Downloading https://files.pythonhosted.org/packages/ab/83/a8b45b00b184989135256b3f0f012db1ba89cb18e8b72bb5bfe7f3c19489/cellworld-tracking-0.0.5.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [cellworld-tracking]: Downloading https://files.pythonhosted.org/packages/ab/83/a8b45b00b184989135256b3f0f012db1ba89cb18e8b72bb5bfe7f3c19489/cellworld-tracking-0.0.5.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [vecs]: Downloading https://files.pythonhosted.org/packages/4e/9b/cb323f945dfe22e8f8a7182854509c2afa5fffa6d2caac30b6160b412a33/vecs-0.2.4.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [podlozhnyy-module]: Downloading https://files.pythonhosted.org/packages/56/a4/33c00500ac5b8d68d3e65b07bd11e73dbafc378edc54defa1b0aff9301d0/podlozhnyy_module-2.1.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [archetypal]: Downloading https://files.pythonhosted.org/packages/b3/b7/d67498bbe5519dffdffa940ff2f44cfd723a3d3408fdf24fa9e7c7783b0c/archetypal-2.9.3.tar.gz
+[2023-05-19 20:45:20] ERROR root fetch - processPackages [netbox-cisco-maintenance]: Diffoscope failed: Error: error creating container storage: the container name "brave_wozniak" is already in use by "ef00aa2bda612b5a5d227ea8668517cbb08ebc353bd9849ef8389c58f8d7d454". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-19 20:45:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: dioptra
+[2023-05-19 20:45:20] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance] error
+[2023-05-19 20:45:20] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-05-19 20:45:20] INFO root fetch - processPackages [podlozhnyy-module]: executing diffoscope
+[2023-05-19 20:45:20] INFO root fetch - processPackages [podlozhnyy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podlozhnyy_module-2.0.tar.gz tmp/podlozhnyy_module-2.1.tar.gz --markdown 20230519/p/podlozhnyy-module/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-19 20:45:20] INFO root fetch - processPackages [vecs]: executing diffoscope
+[2023-05-19 20:45:20] INFO root fetch - processPackages [vecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vecs-0.2.3.tar.gz tmp/vecs-0.2.4.tar.gz --markdown 20230519/v/vecs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 20:45:20] INFO root fetch - processPackages [shogun-build]: Downloading https://files.pythonhosted.org/packages/06/c7/896308cf1b49dbca4e43b4f9ffbbd49733e6b330b413037204745492d43b/shogun-build-0.3.2.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: Downloading https://files.pythonhosted.org/packages/f2/88/25ae59cfa5b996f2aa20485933986e982ffd6b4ff9462e6084bcfd1e8b67/sampleproject-prashant-6.0.0.tar.gz
+[2023-05-19 20:45:20] INFO root fetch - processPackages [sampleproject-prashant]: Downloading https://files.pythonhosted.org/packages/f2/88/25ae59cfa5b996f2aa20485933986e982ffd6b4ff9462e6084bcfd1e8b67/sampleproject-prashant-6.0.0.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: Downloading https://files.pythonhosted.org/packages/2b/e6/63ad2487da48f326cbc0de900de75f7b311a61e8d485f7b63a616e66dd0d/cellworld-tracking-0.0.6.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: Downloading https://files.pythonhosted.org/packages/2b/e6/63ad2487da48f326cbc0de900de75f7b311a61e8d485f7b63a616e66dd0d/cellworld-tracking-0.0.6.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [shogun-build]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [shogun-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shogun-build-0.3.1.tar.gz tmp/shogun-build-0.3.2.tar.gz --markdown 20230519/s/shogun-build/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [sampleproject-prashant]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [sampleproject-prashant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampleproject-prashant-5.5.5.tar.gz tmp/sampleproject-prashant-6.0.0.tar.gz --markdown 20230519/s/sampleproject-prashant/5.5.5-6.0.0/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [sampleproject-prashant]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [sampleproject-prashant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampleproject-prashant-5.5.5.tar.gz tmp/sampleproject-prashant-6.0.0.tar.gz --markdown 20230519/s/sampleproject-prashant/5.5.5-6.0.0/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/dc/14/709634a224813a402ca73268b88331344258a22f8633c264927371636aa8/dioptra-1.0.9.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/68/67/90501dec28862d0f37c95ce4e60fca5cd2c1fd6853314a69c11d89877c3a/pysqlx_engine-0.2.9.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-tracking-0.0.5.tar.gz tmp/cellworld-tracking-0.0.6.tar.gz --markdown 20230519/c/cellworld-tracking/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] WARNING root fetch - processPackages [archetypal]: Skipping package: exceeds size limit 12147208>=10485760
+[2023-05-19 20:45:21] INFO root fetch - processPackages [archetypal]: Start processing: dkist-inventory
+[2023-05-19 20:45:21] INFO root fetch - main [MainThread]: End processing [archetypal] error
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [cellworld-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-tracking-0.0.5.tar.gz tmp/cellworld-tracking-0.0.6.tar.gz --markdown 20230519/c/cellworld-tracking/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [pysqlx-engine]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [pysqlx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlx_engine-0.2.8.tar.gz tmp/pysqlx_engine-0.2.9.tar.gz --markdown 20230519/p/pysqlx-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dkist-inventory]: New version: [0.9.4rc1] Old Version: [0.9.3]
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dkist-inventory]: Downloading https://files.pythonhosted.org/packages/22/08/f950c3c33b58e45a4e5551b0847a321acefb64b85f0ca7b994f55d73b860/dkist-inventory-0.9.3.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dioptra]: Downloading https://files.pythonhosted.org/packages/1d/13/3cad3e0ce2f9da6fbc18ec087b89268ea80c892aec346ce49e078f3189ef/dioptra-1.0.9rc1.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230519/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dkist-inventory]: Downloading https://files.pythonhosted.org/packages/ed/bb/7e71a05cc79d0f9ec7a64452d3e4f4d6a96f30c1677d5ddbb70de64800d0/dkist-inventory-0.9.4rc1.tar.gz
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dkist-inventory]: executing diffoscope
+[2023-05-19 20:45:21] INFO root fetch - processPackages [dkist-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-inventory-0.9.3.tar.gz tmp/dkist-inventory-0.9.4rc1.tar.gz --markdown 20230519/d/dkist-inventory/0.9.3-0.9.4rc1/diff.md --exclude *.pyd
+[2023-05-19 20:45:22] INFO root fetch - processPackages [podlozhnyy-module]: Start processing: laff
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [podlozhnyy-module]: success
+[2023-05-19 20:45:22] INFO root fetch - processPackages [laff]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-19 20:45:22] INFO root fetch - processPackages [sampleproject-prashant]: Start processing: tamp
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [sampleproject-prashant]: success
+[2023-05-19 20:45:22] INFO root fetch - processPackages [tamp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 20:45:22] INFO root fetch - processPackages [vecs]: Start processing: ucampurestorage
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [vecs]: success
+[2023-05-19 20:45:22] INFO root fetch - processPackages [ucampurestorage]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 20:45:22] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/89/43/e77ae33c5918022e3cfe6d0afdeb606e841f2690540bf0966cbc4f6af19e/laff-0.5.0.tar.gz
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [shogun-build]: success
+[2023-05-19 20:45:22] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/19/61/ddb3ce3f77199a612bc8cc7cc2cba897dd3da5ca706595ecb74596df1dce/tamp-1.0.2.tar.gz
+[2023-05-19 20:45:22] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-19 20:45:22] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.3.tar.gz tmp/ucampurestorage-1.0.4.tar.gz --markdown 20230519/u/ucampurestorage/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [cellworld-tracking]: success
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [sampleproject-prashant]: success
+[2023-05-19 20:45:22] INFO root fetch - main [MainThread]: End processing [cellworld-tracking]: success
+[2023-05-19 20:45:22] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/bf/52/ff01e1f9747b7e575cbc06a5fb4a441daed43e52f9206f9d8da19205dffa/laff-0.6.0.tar.gz
+[2023-05-19 20:45:22] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/50/16/baa55ac54b5c82fc90f105110a06fb5813968d480f74aa0a392bad28c345/tamp-1.0.3.tar.gz
+[2023-05-19 20:45:23] INFO root fetch - processPackages [laff]: executing diffoscope
+[2023-05-19 20:45:23] INFO root fetch - processPackages [laff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laff-0.5.0.tar.gz tmp/laff-0.6.0.tar.gz --markdown 20230519/l/laff/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-19 20:45:23] INFO root fetch - processPackages [tamp]: executing diffoscope
+[2023-05-19 20:45:23] INFO root fetch - processPackages [tamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamp-1.0.2.tar.gz tmp/tamp-1.0.3.tar.gz --markdown 20230519/t/tamp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 20:45:23] INFO root fetch - main [MainThread]: End processing [dkist-inventory]: success
+[2023-05-19 20:45:23] INFO root fetch - main [MainThread]: End processing [pysqlx-engine]: success
+[2023-05-19 20:45:23] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-05-19 20:45:24] INFO root fetch - main [MainThread]: End processing [laff]: success
+[2023-05-19 20:45:24] INFO root fetch - main [MainThread]: End processing [tamp]: success
+[2023-05-19 20:45:25] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-19 20:45:25] INFO root fetch - main [MainThread]: Store serial: [18174197]
