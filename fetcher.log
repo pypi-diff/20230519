@@ -18169,3 +18169,148 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:09:13] INFO root fetch - main [MainThread]: End processing [cryton-core]: success
 [2023-05-19 17:09:49] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-05-19 17:09:49] INFO root fetch - main [MainThread]: Store serial: [18171498]
+[2023-05-19 17:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171498]
+[2023-05-19 17:15:01] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddadevops
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstef
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supergood
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plone.restapi
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xuanpolicy
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-utils-sqlalch2
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perun.connector
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: delphix-dct-api
+[2023-05-19 17:15:01] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [perun.connector]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-05-19 17:15:01] WARNING root fetch - processPackages [xuanpolicy]: Skipping, unable to determine old version
+[2023-05-19 17:15:01] INFO root fetch - processPackages [xuanpolicy]: Start processing: sense-emu
+[2023-05-19 17:15:01] INFO root fetch - main [MainThread]: End processing [xuanpolicy] error
+[2023-05-19 17:15:01] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-19 17:15:01] WARNING root fetch - processPackages [fastapi-utils-sqlalch2]: Skipping, unable to determine old version
+[2023-05-19 17:15:01] INFO root fetch - processPackages [fastapi-utils-sqlalch2]: Start processing: coiled
+[2023-05-19 17:15:01] INFO root fetch - main [MainThread]: End processing [fastapi-utils-sqlalch2] error
+[2023-05-19 17:15:01] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [delphix-dct-api]: New version: [7.0.1rc1] Old Version: [7.0.1]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [sense-emu]: New version: [1.2.1] Old Version: [1.1]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-05-19 17:15:01] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230519/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:15:01] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [perun.connector]: Downloading https://files.pythonhosted.org/packages/c1/78/e1d278fb1ea303cd6147f7580733d7471e4bc548de302d48f69845e8e649/perun.connector-3.7.1.tar.gz
+[2023-05-19 17:15:01] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/5b/e3/f84d48deecde6ae146df67211a2337c9f9457010fd924e124536a6dd4b82/delphix-dct-api-7.0.1.tar.gz
+[2023-05-19 17:15:01] INFO root fetch - processPackages [coiled]: New version: [0.6.6.dev5] Old Version: [0.6.6.dev4]
+[2023-05-19 17:15:01] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-05-19 17:15:01] INFO root fetch - processPackages [sense-emu]: Downloading https://files.pythonhosted.org/packages/e5/b1/a8d1fd5c78f7b265b2271bf8d134404ccdf56b2b34f218c3d40c04cdd15a/sense-emu-1.1.tar.gz
+[2023-05-19 17:15:01] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/16/a5/4072c136091c636b41e19e77997027cd60aa089a9015d15962c9a043e5f8/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl
+[2023-05-19 17:15:02] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/6d/e8/e32eb898d045619683790f432ac985e414f02b7acdf3035d4b2e7d92a046/plone.restapi-8.9.0.tar.gz
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-05-19 17:15:02] INFO root fetch - processPackages [perun.connector]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [perun.connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.connector-3.7.0.tar.gz tmp/perun.connector-3.7.1.tar.gz --markdown 20230519/p/perun.connector/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [sense-emu]: Downloading https://files.pythonhosted.org/packages/52/37/695133955ac48aedce8666278da4801e1abfa632a26675c33dbb5711a720/sense-emu-1.2.1.tar.gz
+[2023-05-19 17:15:02] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/09/a3/95a1d727b2fd5fb3f534fe16c54ff9e86561bf8b2e96fd6ccbd407a5e75a/coiled-0.6.6.dev5.tar.gz
+[2023-05-19 17:15:02] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-7.0.1.tar.gz tmp/delphix-dct-api-7.0.1rc1.tar.gz --markdown 20230519/d/delphix-dct-api/7.0.1-7.0.1rc1/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-05-19 17:15:02] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-05-19 17:15:02] INFO root fetch - processPackages [sense-emu]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [sense-emu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sense-emu-1.1.tar.gz tmp/sense-emu-1.2.1.tar.gz --markdown 20230519/s/sense-emu/1.1-1.2.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip --markdown 20230519/p/pyarmor.cli/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.6.dev4.tar.gz tmp/coiled-0.6.6.dev5.tar.gz --markdown 20230519/c/coiled/0.6.6.dev4-0.6.6.dev5/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230519/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/33/68/6801f068e5c970b2e51849ae5831a9c2172d1179cfbfdb656bdcf249b4bf/plone.restapi-8.9.1.tar.gz
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230519/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-05-19 17:15:02] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-05-19 17:15:02] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230519/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:03] INFO root fetch - processPackages [supergood]: Start processing: LFake
+[2023-05-19 17:15:03] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-05-19 17:15:03] WARNING root fetch - processPackages [LFake]: Skipping, unable to determine old version
+[2023-05-19 17:15:03] INFO root fetch - processPackages [LFake]: Start processing: calitp-map-utils
+[2023-05-19 17:15:03] INFO root fetch - main [MainThread]: End processing [LFake] error
+[2023-05-19 17:15:03] INFO root fetch - processPackages [calitp-map-utils]: New version: [2023.5.19.1] Old Version: [2023.5.19]
+[2023-05-19 17:15:03] INFO root fetch - processPackages [calitp-map-utils]: Downloading https://files.pythonhosted.org/packages/e0/f1/9e056de1dc78de7822e4599bbb1ebff71976bbe7f75eeef3c1ededb3f417/calitp_map_utils-2023.5.19.tar.gz
+[2023-05-19 17:15:03] INFO root fetch - processPackages [calitp-map-utils]: Downloading https://files.pythonhosted.org/packages/61/fa/a961eaf5f44e3c7906064c064823a9d269e4af84219349f881be2235e28a/calitp_map_utils-2023.5.19.1.tar.gz
+[2023-05-19 17:15:03] INFO root fetch - processPackages [calitp-map-utils]: executing diffoscope
+[2023-05-19 17:15:03] INFO root fetch - processPackages [calitp-map-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_map_utils-2023.5.19.tar.gz tmp/calitp_map_utils-2023.5.19.1.tar.gz --markdown 20230519/c/calitp-map-utils/2023.5.19-2023.5.19.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:03] INFO root fetch - processPackages [pyarmor.cli]: Start processing: open_source_insights_api
+[2023-05-19 17:15:03] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [pyarmor.cli.core]: Start processing: PatryksAutoAI
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-19 17:15:04] WARNING root fetch - processPackages [open_source_insights_api]: Skipping, unable to determine old version
+[2023-05-19 17:15:04] INFO root fetch - processPackages [open_source_insights_api]: Start processing: wbddh
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [open_source_insights_api] error
+[2023-05-19 17:15:04] INFO root fetch - processPackages [wbddh]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 17:15:04] INFO root fetch - processPackages [coiled]: Start processing: enhancedocs
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [ddadevops]: Start processing: ddadevops
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/97/42/172c8a58ddefa34776f55105d95b99fb6f5a3593a20b63f5e99d7b3a88e0/PatryksAutoAI-1.3.7.tar.gz
+[2023-05-19 17:15:04] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 17:15:04] INFO root fetch - processPackages [enhancedocs]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-19 17:15:04] INFO root fetch - processPackages [sense-emu]: Start processing: honeybee-doe2
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [sense-emu]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [wbddh]: Downloading https://files.pythonhosted.org/packages/2c/08/32050aa5b294d48dbb9ef470f75c2a3db29e714f0305c2b1faac585ff317/wbddh-0.0.1-py3-none-any.whl
+[2023-05-19 17:15:04] INFO root fetch - processPackages [openstef]: Start processing: supergood
+[2023-05-19 17:15:04] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-05-19 17:15:04] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:15:04] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 17:15:04] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 17:15:04] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 17:15:04] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.6.tar.gz tmp/PatryksAutoAI-1.3.7.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-19 17:15:04] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 17:15:04] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-05-19 17:15:04] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230519/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:15:04] INFO root fetch - processPackages [enhancedocs]: Downloading https://files.pythonhosted.org/packages/d4/76/b9e2b3be8dc54711cd564789bc70a91791288d7fd3d3dcbdac000fd2bd80/enhancedocs-0.5.8.tar.gz
+[2023-05-19 17:15:04] INFO root fetch - processPackages [wbddh]: Downloading https://files.pythonhosted.org/packages/c8/1f/6cc7454cd1b2b355835a690ee526e5e388756178684893e9aff0beb1fb61/wbddh-0.0.2-py3-none-any.whl
+[2023-05-19 17:15:04] INFO root fetch - processPackages [wbddh]: executing diffoscope
+[2023-05-19 17:15:04] INFO root fetch - processPackages [wbddh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbddh-0.0.1-py3-none-any.whl.zip tmp/wbddh-0.0.2-py3-none-any.whl.zip --markdown 20230519/w/wbddh/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 17:15:04] INFO root fetch - processPackages [enhancedocs]: Downloading https://files.pythonhosted.org/packages/f6/0a/6b0ea1c18e8dfc8c1d73abc6531cf8e30ddc583a7344d0d1a5019eade36b/enhancedocs-0.5.9.tar.gz
+[2023-05-19 17:15:04] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/05/0b/82136d212c257a684841673c197aa2b4e26e07cc8070b3dd375ccb4ba691/honeybee-doe2-0.2.1.tar.gz
+[2023-05-19 17:15:04] INFO root fetch - processPackages [enhancedocs]: executing diffoscope
+[2023-05-19 17:15:04] INFO root fetch - processPackages [enhancedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancedocs-0.5.8.tar.gz tmp/enhancedocs-0.5.9.tar.gz --markdown 20230519/e/enhancedocs/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-19 17:15:05] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-19 17:15:05] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.2.0.tar.gz tmp/honeybee-doe2-0.2.1.tar.gz --markdown 20230519/h/honeybee-doe2/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:05] INFO root fetch - processPackages [calitp-map-utils]: Start processing: genki-signals
+[2023-05-19 17:15:05] INFO root fetch - main [MainThread]: End processing [calitp-map-utils]: success
+[2023-05-19 17:15:05] WARNING root fetch - processPackages [genki-signals]: Skipping, unable to determine old version
+[2023-05-19 17:15:05] INFO root fetch - processPackages [genki-signals]: Start processing: etl-jobs
+[2023-05-19 17:15:05] INFO root fetch - main [MainThread]: End processing [genki-signals] error
+[2023-05-19 17:15:05] INFO root fetch - processPackages [etl-jobs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 17:15:05] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/6e/15/82193a65925b47003945eedf6fa79819ed15cfd4397b740c84e1e5f84681/etl_jobs-0.1.1.tar.gz
+[2023-05-19 17:15:05] INFO root fetch - processPackages [ddadevops]: Start processing: strawberry-django-plus
+[2023-05-19 17:15:05] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 17:15:05] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/20/30/2d93cce84b67ff133f0ac22c561a6a4c88cf69d7b3d665d6edeebe0459ec/etl_jobs-0.1.2.tar.gz
+[2023-05-19 17:15:05] INFO root fetch - processPackages [supergood]: Start processing: PatryksAutoAI
+[2023-05-19 17:15:05] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-05-19 17:15:05] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-19 17:15:05] INFO root fetch - processPackages [strawberry-django-plus]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-19 17:15:06] INFO root fetch - processPackages [etl-jobs]: executing diffoscope
+[2023-05-19 17:15:06] INFO root fetch - processPackages [etl-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_jobs-0.1.1.tar.gz tmp/etl_jobs-0.1.2.tar.gz --markdown 20230519/e/etl-jobs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 17:15:06] INFO root fetch - main [MainThread]: End processing [wbddh]: success
+[2023-05-19 17:15:06] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/fc/76/dbc83336c09b75729de5d659bfaee565900c56f6ef15949a1f264800b76b/PatryksAutoAI-1.3.8.tar.gz
+[2023-05-19 17:15:06] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 17:15:06] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/de/72/70552d0feba0dc166af5fb1c02de8d8241ffee3fd0df2a2a93af1e7ca62e/strawberry_django_plus-2.4.0.tar.gz
+[2023-05-19 17:15:06] INFO root fetch - main [MainThread]: End processing [enhancedocs]: success
+[2023-05-19 17:15:06] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/62/d3/6206753fb2aa5e0df42e556389f7867ca3f92eaf894c2e978f0daa0eb800/strawberry_django_plus-2.4.1.tar.gz
+[2023-05-19 17:15:06] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/13/67/b7276bc425b1dfe86a623581110d817eabb9c13fee23805b5021fb705a74/PatryksAutoAI-1.3.9.tar.gz
+[2023-05-19 17:15:06] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-05-19 17:15:06] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-2.4.0.tar.gz tmp/strawberry_django_plus-2.4.1.tar.gz --markdown 20230519/s/strawberry-django-plus/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-19 17:15:06] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 17:15:06] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.8.tar.gz tmp/PatryksAutoAI-1.3.9.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-19 17:15:07] INFO root fetch - main [MainThread]: End processing [etl-jobs]: success
+[2023-05-19 17:15:07] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-19 17:15:07] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-05-19 17:15:07] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 17:15:09] INFO root fetch - main [MainThread]: End processing [perun.connector]: success
+[2023-05-19 17:15:10] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-05-19 17:15:12] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-05-19 17:15:12] INFO root fetch - main [MainThread]: Store serial: [18171617]
