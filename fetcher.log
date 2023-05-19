@@ -20631,3 +20631,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 19:31:08] INFO root fetch - main [MainThread]: End processing [eden-simulator]: success
 [2023-05-19 19:31:26] INFO root fetch - main [MainThread]: End processing [file-managers]: success
 [2023-05-19 19:31:26] INFO root fetch - main [MainThread]: Store serial: [18173095]
+[2023-05-19 19:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173095]
+[2023-05-19 19:36:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat-vertica
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flyem-segmentation-pipeline
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstructured
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outerbounds
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sketchlib
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autil
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tsp
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangocms-layouttools
+[2023-05-19 19:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: callingcardstools
+[2023-05-19 19:36:39] WARNING root fetch - processPackages [mat-vertica]: Skipping, unable to determine old version
+[2023-05-19 19:36:39] INFO root fetch - processPackages [mat-vertica]: Start processing: sparclclient
+[2023-05-19 19:36:39] INFO root fetch - main [MainThread]: End processing [mat-vertica] error
+[2023-05-19 19:36:39] INFO root fetch - processPackages [flyem-segmentation-pipeline]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [djangocms-layouttools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [autil]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [sketchlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [tsp]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [callingcardstools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [unstructured]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [sparclclient]: New version: [1.2.0b4.dev2] Old Version: [1.2.0b4.dev1]
+[2023-05-19 19:36:39] INFO root fetch - processPackages [tsp]: Downloading https://files.pythonhosted.org/packages/77/9a/822e7ff719d57b288ac7981b5cf8dfd8b23d46edd29b207bdcea0a86859b/tsp-1.5.5-py3-none-any.whl
+[2023-05-19 19:36:39] INFO root fetch - processPackages [sketchlib]: Downloading https://files.pythonhosted.org/packages/b7/06/b5c1ca4a42bb4bebe761159654393b224859ae98427fc40d7bb5baf410d5/sketchlib-0.0.1.tar.gz
+[2023-05-19 19:36:39] INFO root fetch - processPackages [flyem-segmentation-pipeline]: Downloading https://files.pythonhosted.org/packages/98/c0/9fbeb43e99ff2c88fc6aa6ea230be0d752a5f5eb2745ad225944adb0f9fb/flyem_segmentation_pipeline-1.3.0.tar.gz
+[2023-05-19 19:36:39] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-05-19 19:36:39] INFO root fetch - processPackages [autil]: Downloading https://files.pythonhosted.org/packages/38/a0/c937a3b4f978e124c7eaf3c4faf7dc5fd16272d043646d15841c6ae54db5/autil-0.2.2.tar.gz
+[2023-05-19 19:36:39] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-05-19 19:36:39] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/50/52/1bd419a5f9da53df57c1ec05b5710f704f851a0ea49120fab096b43faf6e/unstructured-0.6.6.tar.gz
+[2023-05-19 19:36:39] INFO root fetch - processPackages [callingcardstools]: Downloading https://files.pythonhosted.org/packages/79/93/11f4b6b4e95d005879aad88afb24a64b704712c35f3133f8640f2e48c520/callingcardstools-0.1.5.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [flyem-segmentation-pipeline]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [flyem-segmentation-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyem_segmentation_pipeline-1.2.1.tar.gz tmp/flyem_segmentation_pipeline-1.3.0.tar.gz --markdown 20230519/f/flyem-segmentation-pipeline/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sparclclient]: Downloading https://files.pythonhosted.org/packages/3d/86/c3659f176513d11bccda10c9a22c4f87d324a0f9f77c45826192824331be/sparclclient-1.2.0b4.dev2-py3-none-any.whl
+[2023-05-19 19:36:40] INFO root fetch - processPackages [djangocms-layouttools]: Downloading https://files.pythonhosted.org/packages/2a/ba/9b3ac47dfb7a9b65d2c2a5263ff70178f6884df2bfdc44674541a40b3ae8/djangocms-layouttools-0.1.4.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sketchlib]: Downloading https://files.pythonhosted.org/packages/7b/fc/1a608e2d082fe3a666150293cce997be24091264cdcdb41531e18f7bc449/sketchlib-0.0.2.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [autil]: Downloading https://files.pythonhosted.org/packages/d4/1b/e5c4d80cd6cb6f30f085698f295d038f60f273844dc02ec0f94510f27918/autil-0.2.3.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [djangocms-layouttools]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [djangocms-layouttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-layouttools-0.1.3.tar.gz tmp/djangocms-layouttools-0.1.4.tar.gz --markdown 20230519/d/djangocms-layouttools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sparclclient]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sparclclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparclclient-1.2.0b4.dev1-py3-none-any.whl.zip tmp/sparclclient-1.2.0b4.dev2-py3-none-any.whl.zip --markdown 20230519/s/sparclclient/1.2.0b4.dev1-1.2.0b4.dev2/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [tsp]: Downloading https://files.pythonhosted.org/packages/d7/f6/66843d61834dbe77e0acbc4c7cacf6f4b18a95ee0554539f8bf455b6b0a7/tsp-1.6.0-py3-none-any.whl
+[2023-05-19 19:36:40] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sketchlib]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [sketchlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchlib-0.0.1.tar.gz tmp/sketchlib-0.0.2.tar.gz --markdown 20230519/s/sketchlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/12/f5/b8e2a68fa3211ffb2042db3982570e897eb76450f02472443885205bef9c/unstructured-0.6.7.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [autil]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [autil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autil-0.2.2.tar.gz tmp/autil-0.2.3.tar.gz --markdown 20230519/a/autil/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [callingcardstools]: Downloading https://files.pythonhosted.org/packages/45/20/fb5b100e417ad3c9cf85033f1405c2a4a96cc75a526129f102a3403e44eb/callingcardstools-0.1.6.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230519/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-05-19 19:36:40] INFO root fetch - processPackages [tsp]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [tsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsp-1.5.5-py3-none-any.whl.zip tmp/tsp-1.6.0-py3-none-any.whl.zip --markdown 20230519/t/tsp/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.6.tar.gz tmp/unstructured-0.6.7.tar.gz --markdown 20230519/u/unstructured/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230519/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 19:36:40] INFO root fetch - processPackages [callingcardstools]: executing diffoscope
+[2023-05-19 19:36:40] INFO root fetch - processPackages [callingcardstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callingcardstools-0.1.5.tar.gz tmp/callingcardstools-0.1.6.tar.gz --markdown 20230519/c/callingcardstools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 19:36:41] INFO root fetch - processPackages [flyem-segmentation-pipeline]: Start processing: fast-poisson-solver
+[2023-05-19 19:36:41] INFO root fetch - main [MainThread]: End processing [flyem-segmentation-pipeline]: success
+[2023-05-19 19:36:41] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 19:36:41] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/6e/1e/17656912264c45cf913ad7fdff10a381fb50dc9987411a66fc3df7d1b01a/fast_poisson_solver-0.1.7.tar.gz
+[2023-05-19 19:36:41] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping package: exceeds size limit 12297635>=10485760
+[2023-05-19 19:36:41] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: RL-OM
+[2023-05-19 19:36:41] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-19 19:36:41] WARNING root fetch - processPackages [RL-OM]: Skipping, unable to determine old version
+[2023-05-19 19:36:41] INFO root fetch - processPackages [RL-OM]: Start processing: jadecobra
+[2023-05-19 19:36:41] INFO root fetch - main [MainThread]: End processing [RL-OM] error
+[2023-05-19 19:36:41] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.68]
+[2023-05-19 19:36:41] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-05-19 19:36:41] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.68.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230519/j/jadecobra/0.3.68-0.3.7/diff.md --exclude *.pyd
+[2023-05-19 19:36:41] INFO root fetch - processPackages [sketchlib]: Start processing: xmodel
+[2023-05-19 19:36:41] INFO root fetch - main [MainThread]: End processing [sketchlib]: success
+[2023-05-19 19:36:41] INFO root fetch - processPackages [xmodel]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-19 19:36:42] INFO root fetch - processPackages [sparclclient]: Start processing: ofscraper
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [sparclclient]: success
+[2023-05-19 19:36:42] INFO root fetch - processPackages [ofscraper]: New version: [1.93] Old Version: [1.87]
+[2023-05-19 19:36:42] INFO root fetch - processPackages [djangocms-layouttools]: Start processing: streamlit-octostar-research
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [djangocms-layouttools]: success
+[2023-05-19 19:36:42] INFO root fetch - processPackages [outerbounds]: Start processing: hippogym
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-05-19 19:36:42] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-05-19 19:36:42] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.87.tar.gz tmp/ofscraper-1.93.tar.gz --markdown 20230519/o/ofscraper/1.87-1.93/diff.md --exclude *.pyd
+[2023-05-19 19:36:42] INFO root fetch - processPackages [xmodel]: Downloading https://files.pythonhosted.org/packages/28/89/c337ad186652bb7a0ce8732784df4730d5ca39e487a984a0acecc28d3a4d/xmodel-0.5.0.tar.gz
+[2023-05-19 19:36:42] INFO root fetch - processPackages [streamlit-octostar-research]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [autil]: success
+[2023-05-19 19:36:42] INFO root fetch - processPackages [hippogym]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-05-19 19:36:42] INFO root fetch - processPackages [streamlit-octostar-research]: Downloading https://files.pythonhosted.org/packages/de/15/db637a34135849304c106bb2a21ee7a705b797dbae2e9fcf06eb18f49663/streamlit-octostar-research-0.1.5.tar.gz
+[2023-05-19 19:36:42] INFO root fetch - processPackages [xmodel]: Downloading https://files.pythonhosted.org/packages/c7/d1/22f5b545654bcf24d077c3cb6ac6c0c0dff77fd0d341caa86921e5ea75a8/xmodel-0.6.0.tar.gz
+[2023-05-19 19:36:42] INFO root fetch - processPackages [hippogym]: Downloading https://files.pythonhosted.org/packages/b5/7d/7d305b4196d536fbc06da669711a218c0d53a6cce3a97f08b1fb8b4fa323/hippogym-2.0.0a1.tar.gz
+[2023-05-19 19:36:42] INFO root fetch - processPackages [xmodel]: executing diffoscope
+[2023-05-19 19:36:42] INFO root fetch - processPackages [xmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmodel-0.5.0.tar.gz tmp/xmodel-0.6.0.tar.gz --markdown 20230519/x/xmodel/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-19 19:36:42] INFO root fetch - processPackages [streamlit-octostar-research]: Downloading https://files.pythonhosted.org/packages/6d/a5/5674102e965fda7fa09cd0730c76ceae01b08b8a7e8b4e572d504e66dc07/streamlit-octostar-research-0.1.6.tar.gz
+[2023-05-19 19:36:42] INFO root fetch - processPackages [streamlit-octostar-research]: executing diffoscope
+[2023-05-19 19:36:42] INFO root fetch - processPackages [streamlit-octostar-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-octostar-research-0.1.5.tar.gz tmp/streamlit-octostar-research-0.1.6.tar.gz --markdown 20230519/s/streamlit-octostar-research/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 19:36:42] INFO root fetch - main [MainThread]: End processing [tsp]: success
+[2023-05-19 19:36:43] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-05-19 19:36:43] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-05-19 19:36:43] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-05-19 19:36:43] INFO root fetch - processPackages [hippogym]: Downloading https://files.pythonhosted.org/packages/3c/af/4e5f3270330a8699d511b652d68dffec24e8358d34ef959ed19db0792483/hippogym-2.0.0a2.tar.gz
+[2023-05-19 19:36:43] INFO root fetch - processPackages [hippogym]: executing diffoscope
+[2023-05-19 19:36:43] INFO root fetch - processPackages [hippogym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippogym-2.0.0a1.tar.gz tmp/hippogym-2.0.0a2.tar.gz --markdown 20230519/h/hippogym/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-05-19 19:36:44] INFO root fetch - main [MainThread]: End processing [streamlit-octostar-research]: success
+[2023-05-19 19:36:45] INFO root fetch - main [MainThread]: End processing [xmodel]: success
+[2023-05-19 19:36:45] INFO root fetch - main [MainThread]: End processing [callingcardstools]: success
+[2023-05-19 19:36:45] INFO root fetch - main [MainThread]: End processing [hippogym]: success
+[2023-05-19 19:36:45] INFO root fetch - main [MainThread]: Store serial: [18173153]
