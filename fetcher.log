@@ -5388,3 +5388,21 @@
 [2023-05-19 04:14:04] INFO root fetch - main [MainThread]: End processing [pyvesync]: success
 [2023-05-19 04:14:07] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
 [2023-05-19 04:14:07] INFO root fetch - main [MainThread]: Store serial: [18163971]
+[2023-05-19 04:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163971]
+[2023-05-19 04:19:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-19 04:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bohrium-sdk
+[2023-05-19 04:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvosklivesubtitle
+[2023-05-19 04:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timey-wimey
+[2023-05-19 04:19:17] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 04:19:17] WARNING root fetch - processPackages [timey-wimey]: Skipping, unable to determine old version
+[2023-05-19 04:19:17] INFO root fetch - main [MainThread]: End processing [timey-wimey] error
+[2023-05-19 04:19:17] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-19 04:19:17] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/55/f9/eb522583d59300c919687265b804b2e877196697d37dc3c2f130e71945eb/bohrium-sdk-0.0.8.tar.gz
+[2023-05-19 04:19:17] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/78/49/93a51937df8c1f37c3fc53f795ad62ae49fa3c51093e16f9062d57c7c2a2/bohrium-sdk-0.0.9.tar.gz
+[2023-05-19 04:19:17] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-05-19 04:19:17] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.4.tar.gz tmp/pyvosklivesubtitle-0.1.5.tar.gz --markdown 20230519/p/pyvosklivesubtitle/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-19 04:19:17] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-19 04:19:17] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.8.tar.gz tmp/bohrium-sdk-0.0.9.tar.gz --markdown 20230519/b/bohrium-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:19:18] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-19 04:19:18] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-05-19 04:19:18] INFO root fetch - main [MainThread]: Store serial: [18163988]
