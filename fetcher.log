@@ -9622,3 +9622,167 @@
 [2023-05-19 08:14:04] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
 [2023-05-19 08:14:05] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-05-19 08:14:05] INFO root fetch - main [MainThread]: Store serial: [18166144]
+[2023-05-19 08:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166144]
+[2023-05-19 08:19:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcema
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keeper-secrets-manager-storage
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funasr
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorado
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-listing
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-dop20221130-py2
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyspeaker
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cm-two
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pydule
+[2023-05-19 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gunfolds
+[2023-05-19 08:19:15] INFO root fetch - processPackages [rcema]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [funasr]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [Pydule]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [pyspeaker]: New version: [6.0] Old Version: [5.0]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [keeper-secrets-manager-storage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 08:19:15] WARNING root fetch - processPackages [alibabacloud-dop20221130-py2]: Skipping, unable to determine old version
+[2023-05-19 08:19:15] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: Start processing: types-setuptools
+[2023-05-19 08:19:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-dop20221130-py2] error
+[2023-05-19 08:19:15] INFO root fetch - processPackages [gunfolds]: New version: [0.3] Old Version: [0.2]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [django-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [cm-two]: New version: [2.3.14] Old Version: [2.3.13]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [types-setuptools]: New version: [67.7.0.3] Old Version: [67.7.0.2]
+[2023-05-19 08:19:15] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/94/96/7c4696e999c9377eb3d78fce41e642ec251eeb60c92172d7083837271bf1/pyspeaker-5.0.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/a3/59/905c67a72e8b857c31c798d6e0cc0030c1ee535d793a4ea094ecda645d18/django-listing-0.0.8.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [rcema]: Downloading https://files.pythonhosted.org/packages/e3/49/3d5562faf49cc360c8052f86dd3f891e04face09879bb0e6f73ed5bd5ba4/rcema-0.0.1.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [gunfolds]: Downloading https://files.pythonhosted.org/packages/e4/73/0a3ac1f2c34a172fedcf23575989a4fad39f66fb01e027ca441064b7cb1b/gunfolds-0.2.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/f0/62/557fde2470fb6b5a37b8a6457f2fe771ad9c8e55a09848f4f8879374f54d/Pydule-3.3.3.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/54/5a/6579b5b197c0f344775dfce47d2d5e1669c5bc1756a37e973761cff40a23/types-setuptools-67.7.0.2.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/9b/df/f1fd3e205ecdc4e6766c10893a80b0ab607df9534351cdf63dd6db84c629/funasr-0.5.4.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/8b/cf/27f2d96c18579f770422fb6e7e7c7c275a47f0cfe66847c60f445a39ecdf/cm_two-2.3.14-py3-none-any.whl
+[2023-05-19 08:19:15] INFO root fetch - processPackages [keeper-secrets-manager-storage]: Downloading https://files.pythonhosted.org/packages/69/8e/8081ca76046ecc839fb80ad35506adb6f27e55c47615e69db2f813450d86/keeper-secrets-manager-storage-1.0.0.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/5b/51/22f60833d6a977fb286075facc489ef6b1f65bf748dc481448b0b49406ef/pyspeaker-6.0.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [rcema]: Downloading https://files.pythonhosted.org/packages/f2/3b/e56c92488c4aab2ea86ab111e968932af45ba9bde85d707e625772a02a90/rcema-0.0.2.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/65/39/0f22b7e5ad673505f78c7cc66e68849802a38902a1904adf64d2f2797dea/Pydule-3.3.4.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.3.tar.gz tmp/funasr-0.5.4.tar.gz --markdown 20230519/f/funasr/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.13-py3-none-any.whl.zip tmp/cm_two-2.3.14-py3-none-any.whl.zip --markdown 20230519/c/cm-two/2.3.13-2.3.14/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/36/b5/8586923d028b409a49b3a4b40b855f09eeba833cb2bacab0ecae6f8f4200/django-listing-0.0.9.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-5.0.tar.gz tmp/pyspeaker-6.0.tar.gz --markdown 20230519/p/pyspeaker/5.0-6.0/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/87/1a/a134b27b852ba1871e97121af046e41de2198aa47d42a331b3097552de0e/types-setuptools-67.7.0.3.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [gunfolds]: Downloading https://files.pythonhosted.org/packages/f9/d3/9d60b2c5b1874ba28b6c7e5901e128701535c3e5ee398857857f4aefaf0a/gunfolds-0.3.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [rcema]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [rcema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcema-0.0.1.tar.gz tmp/rcema-0.0.2.tar.gz --markdown 20230519/r/rcema/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.3.3.tar.gz tmp/Pydule-3.3.4.tar.gz --markdown 20230519/P/Pydule/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [keeper-secrets-manager-storage]: Downloading https://files.pythonhosted.org/packages/b1/b4/09db339205d74e5588c5d4a218f2378ff6e9cefcb547a99562bb32582d62/keeper-secrets-manager-storage-1.0.1.tar.gz
+[2023-05-19 08:19:15] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.8.tar.gz tmp/django-listing-0.0.9.tar.gz --markdown 20230519/d/django-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 08:19:15] INFO root fetch - processPackages [keeper-secrets-manager-storage]: executing diffoscope
+[2023-05-19 08:19:15] INFO root fetch - processPackages [keeper-secrets-manager-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keeper-secrets-manager-storage-1.0.0.tar.gz tmp/keeper-secrets-manager-storage-1.0.1.tar.gz --markdown 20230519/k/keeper-secrets-manager-storage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 08:19:16] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-05-19 08:19:16] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-67.7.0.2.tar.gz tmp/types-setuptools-67.7.0.3.tar.gz --markdown 20230519/t/types-setuptools/67.7.0.2-67.7.0.3/diff.md --exclude *.pyd
+[2023-05-19 08:19:16] INFO root fetch - processPackages [gunfolds]: executing diffoscope
+[2023-05-19 08:19:16] INFO root fetch - processPackages [gunfolds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gunfolds-0.2.tar.gz tmp/gunfolds-0.3.tar.gz --markdown 20230519/g/gunfolds/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-19 08:19:16] INFO root fetch - processPackages [dorado]: Start processing: pretext
+[2023-05-19 08:19:16] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 08:19:17] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-19 08:19:17] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230519] Old Version: [1.5.4.dev20230518]
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [rcema]: success
+[2023-05-19 08:19:17] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/33/06/f784957372ee362c05d42f500c73e3d6ee9f3d7a8a4f38d158e831a2d5d1/pretext-1.5.4.dev20230519.tar.gz
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [keeper-secrets-manager-storage]: success
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-05-19 08:19:17] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-19 08:19:17] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230518.tar.gz tmp/pretext-1.5.4.dev20230519.tar.gz --markdown 20230519/p/pretext/1.5.4.dev20230518-1.5.4.dev20230519/diff.md --exclude *.pyd
+[2023-05-19 08:19:17] INFO root fetch - main [MainThread]: End processing [gunfolds]: success
+[2023-05-19 08:19:18] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-05-19 08:19:18] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-05-19 08:19:22] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-19 08:19:22] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-19 08:19:22] INFO root fetch - main [MainThread]: Store serial: [18166181]
