@@ -17876,3 +17876,196 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:52:40] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-05-19 16:52:40] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2023-05-19 16:52:40] INFO root fetch - main [MainThread]: Store serial: [18171387]
+[2023-05-19 16:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171387]
+[2023-05-19 16:57:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modbedtools
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sspqdd
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-maintenance
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherpa-ncnn
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-vulture
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jautomate
+[2023-05-19 16:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echostream-node
+[2023-05-19 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-05-19 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mse-lib-sgx
+[2023-05-19 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symmer
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [jautomate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a5] Old Version: [2.0a4]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230518.9.17.425198] Old Version: [20230518.7.52.527498]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b0/0a/b86a2ca631c1d75b6b32d1d8073e42c36c74e28e8e4d37fab7dac4bb02c2/certora-cli-alpha-master-20230518.7.52.527498.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [modbedtools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [symmer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [pytest-vulture]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [jautomate]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [jautomate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jautomate-0.0.8.tar.gz tmp/jautomate-0.0.9.tar.gz --markdown 20230519/j/jautomate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [echostream-node]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38976688>=10485760
+[2023-05-19 16:57:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: rhods-model-registry-poc
+[2023-05-19 16:57:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sherpa-ncnn]: New version: [2.0] Old Version: [1.9.0]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/74/84/dee7a352a0f6e5428c36d6e5f30f857096ad4ed6e606753f5691e46fbbbf/sspqdd-1.0.8.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/70/7c/ed748c15cd6eb8b18dc791bc5331069273e82e795b23b1b15e2c6c9b1979/mse_lib_sgx-2.0a5.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [symmer]: Downloading https://files.pythonhosted.org/packages/c0/f5/9d85dad7d505b6d9a0a75f2fe1e84c1ca0d1d1ec8f0999b64b5a4f60e23e/symmer-0.0.2.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [pytest-vulture]: Downloading https://files.pythonhosted.org/packages/64/d6/3c21fdedd70126941379692097c8acfffa24aac4bfbd7a26b8efcc3d601f/pytest-vulture-2.0.2.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a4.tar.gz tmp/mse_lib_sgx-2.0a5.tar.gz --markdown 20230519/m/mse-lib-sgx/2.0a4-2.0a5/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/30/43/0c78de8d8e632745db3692f615fd039076c9fa24d037ba0d09dd39a8996d/echostream-node-0.3.8.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/3a/8e/e08062daa5395ab2dc0633bbba5605780b6895f8b3250d796b3d896c36d0/sherpa_ncnn-1.9.0-cp39-cp39-win_amd64.whl
+[2023-05-19 16:57:51] INFO root fetch - processPackages [modbedtools]: Downloading https://files.pythonhosted.org/packages/89/3f/778a632f57ad1fcb338ec38e09da9db99738f5866ee6b86967587ee8a470/modbedtools-0.1.2.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/a2/74/5eb7c50051e82829030ce9db964560aa321c7989562ef5343379c44c67b0/sspqdd-1.0.9.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [symmer]: Downloading https://files.pythonhosted.org/packages/ea/e0/986365792ed9396d34175b430bf45a9365abd6b159479bf4c976b4243dbf/symmer-0.0.3.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [pytest-vulture]: Downloading https://files.pythonhosted.org/packages/63/00/cf9f26bb9c5d6af6450de4d6fa96b00c2fe7176088fb4053749bc882eae4/pytest-vulture-2.1.0.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [modbedtools]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [modbedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbedtools-0.1.1.tar.gz tmp/modbedtools-0.1.2.tar.gz --markdown 20230519/m/modbedtools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [rhods-model-registry-poc]: Downloading https://files.pythonhosted.org/packages/2a/66/b21aa3cbbeed80e17569756a8701f01fd041919bcbf32058a710239681ef/rhods_model_registry_poc-0.1.6.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/6f/11/5701b60a253c7c8e19523c27d3ee31217e0a53f9d2c5b649fbf30db653f5/echostream-node-0.3.9.tar.gz
+[2023-05-19 16:57:51] INFO root fetch - processPackages [symmer]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [symmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symmer-0.0.2.tar.gz tmp/symmer-0.0.3.tar.gz --markdown 20230519/s/symmer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230519/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [pytest-vulture]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [pytest-vulture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-vulture-2.0.2.tar.gz tmp/pytest-vulture-2.1.0.tar.gz --markdown 20230519/p/pytest-vulture/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.5.tar.gz tmp/rhods_model_registry_poc-0.1.6.tar.gz --markdown 20230519/r/rhods-model-registry-poc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-19 16:57:51] INFO root fetch - processPackages [echostream-node]: executing diffoscope
+[2023-05-19 16:57:51] INFO root fetch - processPackages [echostream-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echostream-node-0.3.8.tar.gz tmp/echostream-node-0.3.9.tar.gz --markdown 20230519/e/echostream-node/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:52] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/ad/74/42dee9cbe7ee64f6ea26c5b1da6db02b014bff430700d17348282d5d76b3/sherpa_ncnn-2.0-cp39-cp39-win_amd64.whl
+[2023-05-19 16:57:52] INFO root fetch - processPackages [jautomate]: Start processing: fabcohort
+[2023-05-19 16:57:52] INFO root fetch - main [MainThread]: End processing [jautomate]: success
+[2023-05-19 16:57:52] INFO root fetch - processPackages [fabcohort]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-19 16:57:52] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/07/15/40d2d1b2dd3d0267522adaa38c2ca88e376d1cdf1b8aeb4c3d4c3b802ba8/fabcohort-0.2.1.tar.gz
+[2023-05-19 16:57:52] INFO root fetch - processPackages [fabcohort]: executing diffoscope
+[2023-05-19 16:57:52] INFO root fetch - processPackages [fabcohort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabcohort-0.1.1.tar.gz tmp/fabcohort-0.2.1.tar.gz --markdown 20230519/f/fabcohort/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 16:57:52] INFO root fetch - processPackages [mse-lib-sgx]: Start processing: shinherpro
+[2023-05-19 16:57:52] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-19 16:57:52] INFO root fetch - processPackages [shinherpro]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-19 16:57:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: NlpToolkit-SpellChecker
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 16:57:53] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/e8/64/dc8923cd090c913b4f75ac5fb6a6b74c7317514ace4fcc014dc1b88fc93a/shinherpro-1.5.1.tar.gz
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 16:57:53] INFO root fetch - processPackages [sspqdd]: Start processing: NlpToolkit-SpellChecker-Cy
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 16:57:53] INFO root fetch - processPackages [modbedtools]: Start processing: pyany
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [modbedtools]: success
+[2023-05-19 16:57:53] WARNING root fetch - processPackages [pyany]: Skipping, unable to determine old version
+[2023-05-19 16:57:53] INFO root fetch - processPackages [pyany]: Start processing: calitp-map-utils
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [pyany] error
+[2023-05-19 16:57:53] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-05-19 16:57:53] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.5.0.tar.gz tmp/shinherpro-1.5.1.tar.gz --markdown 20230519/s/shinherpro/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-19 16:57:53] WARNING root fetch - processPackages [calitp-map-utils]: Skipping, unable to determine old version
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [calitp-map-utils] error
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker-Cy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker]: Downloading https://files.pythonhosted.org/packages/8a/37/a6039749459736f0b2e3bb38a0e3efcd8fb989ee4be410c7ef5036cb66da/NlpToolkit-SpellChecker-1.0.8.tar.gz
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [echostream-node]: success
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [symmer]: success
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker-Cy]: Downloading https://files.pythonhosted.org/packages/70/9e/a877682aa85f6936745aee9fb08625b27f4e993085845c899ef9096c7e96/NlpToolkit-SpellChecker-Cy-1.0.8.tar.gz
+[2023-05-19 16:57:53] INFO root fetch - main [MainThread]: End processing [pytest-vulture]: success
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker]: Downloading https://files.pythonhosted.org/packages/98/90/cc9a59ead68e76490c0602dbf5dec6a61432089652aef45aba9c3a5cad1c/NlpToolkit-SpellChecker-1.0.9.tar.gz
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker]: executing diffoscope
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NlpToolkit-SpellChecker-1.0.8.tar.gz tmp/NlpToolkit-SpellChecker-1.0.9.tar.gz --markdown 20230519/N/NlpToolkit-SpellChecker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker-Cy]: Downloading https://files.pythonhosted.org/packages/51/cf/c7d87dd14b729a23da0515c50b18722edf6394996375c31dd1a7118f681d/NlpToolkit-SpellChecker-Cy-1.0.9.tar.gz
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker-Cy]: executing diffoscope
+[2023-05-19 16:57:53] INFO root fetch - processPackages [NlpToolkit-SpellChecker-Cy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NlpToolkit-SpellChecker-Cy-1.0.8.tar.gz tmp/NlpToolkit-SpellChecker-Cy-1.0.9.tar.gz --markdown 20230519/N/NlpToolkit-SpellChecker-Cy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:57:53] INFO root fetch - processPackages [sherpa-ncnn]: executing diffoscope
+[2023-05-19 16:57:53] INFO root fetch - processPackages [sherpa-ncnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa_ncnn-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/sherpa_ncnn-2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230519/s/sherpa-ncnn/1.9.0-2.0/diff.md --exclude *.pyd
+[2023-05-19 16:57:54] INFO root fetch - main [MainThread]: End processing [fabcohort]: success
+[2023-05-19 16:57:54] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-05-19 16:57:54] INFO root fetch - main [MainThread]: End processing [NlpToolkit-SpellChecker]: success
+[2023-05-19 16:57:55] INFO root fetch - main [MainThread]: End processing [NlpToolkit-SpellChecker-Cy]: success
+[2023-05-19 16:58:44] ERROR root fetch - processPackages [sherpa-ncnn]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140594076720528)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140593942502864)
+
+[2023-05-19 16:58:44] INFO root fetch - main [MainThread]: End processing [sherpa-ncnn] error
+[2023-05-19 16:58:44] INFO root fetch - main [MainThread]: Store serial: [18171443]
