@@ -16096,3 +16096,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:05:35] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-05-19 15:06:25] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-19 15:06:25] INFO root fetch - main [MainThread]: Store serial: [18170144]
+[2023-05-19 15:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170144]
+[2023-05-19 15:11:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedops
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpmpy
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: copul
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccf
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dumbo-asp
+[2023-05-19 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flarespy
+[2023-05-19 15:11:44] WARNING root fetch - processPackages [fedops]: Skipping, unable to determine old version
+[2023-05-19 15:11:44] INFO root fetch - processPackages [fedops]: Start processing: spotPython
+[2023-05-19 15:11:44] INFO root fetch - main [MainThread]: End processing [fedops] error
+[2023-05-19 15:11:44] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [spotPython]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [cpmpy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230519/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] WARNING root fetch - processPackages [copul]: Skipping, unable to determine old version
+[2023-05-19 15:11:44] INFO root fetch - processPackages [copul]: Start processing: ddadevops
+[2023-05-19 15:11:44] INFO root fetch - main [MainThread]: End processing [copul] error
+[2023-05-19 15:11:44] INFO root fetch - processPackages [sdkit]: New version: [1.0.96] Old Version: [1.0.95]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ccf]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.1.0.tar.gz tmp/spotPython-0.1.1.tar.gz --markdown 20230519/s/spotPython/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [cpmpy]: Downloading https://files.pythonhosted.org/packages/41/04/5fc7ed64800ef1ab394abf9d6b4bbe414d845fa8a27a86a2e67525779e9e/cpmpy-0.9.8.tar.gz
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/72/03/34fbcae26887c256a420f7c1b5e7f14c45819d5d9fe2aee90e5da59fab87/ccf-4.0.1-py3-none-any.whl
+[2023-05-19 15:11:44] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/1c/75/e1e56c116a508661882b589200c2ad7a3220bbd4ad752227e031d4073e51/sdkit-1.0.96.tar.gz
+[2023-05-19 15:11:44] INFO root fetch - processPackages [cpmpy]: Downloading https://files.pythonhosted.org/packages/19/a6/662252c7f32390052145cddf9353522f852b9de3336d17869235408f578d/cpmpy-0.9.9.tar.gz
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/83/e3/274804c539307e002ff18434e8e7c3af17c58a6ad41d19db6e116e5555e8/ccf-4.0.2-py3-none-any.whl
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230519/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230519/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230519/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230519/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.95.tar.gz tmp/sdkit-1.0.96.tar.gz --markdown 20230519/s/sdkit/1.0.95-1.0.96/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-4.0.1-py3-none-any.whl.zip tmp/ccf-4.0.2-py3-none-any.whl.zip --markdown 20230519/c/ccf/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-19 15:11:44] INFO root fetch - processPackages [cpmpy]: executing diffoscope
+[2023-05-19 15:11:44] INFO root fetch - processPackages [cpmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpmpy-0.9.8.tar.gz tmp/cpmpy-0.9.9.tar.gz --markdown 20230519/c/cpmpy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-19 15:11:45] INFO root fetch - processPackages [dumbo-asp]: Start processing: nbdev-pytorch
+[2023-05-19 15:11:45] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-19 15:11:45] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:11:45] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-19 15:11:45] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230519/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:11:45] INFO root fetch - processPackages [nbdev-pandas]: Start processing: netbox-cisco-maintenance
+[2023-05-19 15:11:45] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-19 15:11:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 15:11:46] INFO root fetch - processPackages [flarespy]: Start processing: cai-benchmarking
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-19 15:11:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-19 15:11:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230519/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:11:46] WARNING root fetch - processPackages [cai-benchmarking]: Skipping, unable to determine old version
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [cai-benchmarking] error
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 15:11:46] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-19 15:11:47] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-19 15:11:47] INFO root fetch - main [MainThread]: End processing [cpmpy]: success
+[2023-05-19 15:11:47] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-19 15:11:48] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-19 15:11:49] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-19 15:11:49] INFO root fetch - main [MainThread]: Store serial: [18170197]
