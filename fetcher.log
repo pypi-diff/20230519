@@ -8326,3 +8326,54 @@
 [2023-05-19 06:24:21] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-05-19 06:25:32] INFO root fetch - main [MainThread]: End processing [rcwa]: success
 [2023-05-19 06:25:32] INFO root fetch - main [MainThread]: Store serial: [18165486]
+[2023-05-19 06:30:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165486]
+[2023-05-19 06:30:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twitter-api-client
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyers-token-manager-v2
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptw
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-universal
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-queuey
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pandora-Cloud
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xklb
+[2023-05-19 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansible-risk-insight
+[2023-05-19 06:30:41] INFO root fetch - processPackages [gptw]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [xklb]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [twitter-api-client]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.7rc1] Old Version: [0.1.6rc2]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [core-universal]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-19 06:30:41] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-19 06:30:41] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.2.1.tar.gz tmp/gptw-0.3.0.tar.gz --markdown 20230519/g/gptw/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 06:30:41] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-19 06:30:41] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.8.tar.gz tmp/xklb-1.28.9.tar.gz --markdown 20230519/x/xklb/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-05-19 06:30:41] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/aa/ac/bc3e1c1e4f54adddc8421a7ed71c1870fce07567d9d61f281a0ab7788093/twitter-api-client-0.7.9.tar.gz
+[2023-05-19 06:30:41] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/d9/30/81e7b2995fe64b06403fb668637745f643b23fcd8e6618102a582ec1b386/fyers_token_manager_v2-0.0.8.tar.gz
+[2023-05-19 06:30:41] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/a1/ee/c832fa4cb44ba4c692620c516247719e7163d58e54bdd63edeb43b4821d6/core_universal-3.0.1-py2.py3-none-win_amd64.whl
+[2023-05-19 06:30:41] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/36/e1/6905b6c06a328a773ca3e1b64497d8e9fa0216bbb8e1f4b44a42f2fcd241/Pandora-Cloud-0.2.0.tar.gz
+[2023-05-19 06:30:41] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/10/08/b807ed3eb34275577f767748e63f3e4a120821c1c1f381ef99fad1302711/ansible-risk-insight-0.1.6rc2.tar.gz
+[2023-05-19 06:30:41] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/f6/6b/80a52f7830d9f503df5ff143958fe36992cb6f5e19dc13eaef06e3c9e301/twitter-api-client-0.8.0.tar.gz
+[2023-05-19 06:30:41] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/2d/f4/dec3fc6da2c60079ef62f12c1977ce6c5838d71e797cdbb47d82495b7ba8/fyers_token_manager_v2-0.0.9.tar.gz
+[2023-05-19 06:30:41] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 25851426>=10485760
+[2023-05-19 06:30:41] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-05-19 06:30:41] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-19 06:30:41] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230519/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 06:30:41] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-05-19 06:30:41] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-05-19 06:30:41] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.7.9.tar.gz tmp/twitter-api-client-0.8.0.tar.gz --markdown 20230519/t/twitter-api-client/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-05-19 06:30:41] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.0.8.tar.gz tmp/fyers_token_manager_v2-0.0.9.tar.gz --markdown 20230519/f/fyers-token-manager-v2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 06:30:42] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/14/8f/5561c6ca36004f4149181ec821b21563a05f0010c2416e340234350a2599/Pandora-Cloud-0.2.1.tar.gz
+[2023-05-19 06:30:42] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-19 06:30:42] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-19 06:30:42] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/5b/7f/992af8b20d3983a44dbe9a5f129949eaf9fbbe36ece010926e9bc4595ce8/ansible-risk-insight-0.1.7rc1.tar.gz
+[2023-05-19 06:30:42] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-05-19 06:30:42] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-19 06:30:42] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-05-19 06:30:42] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.2.0.tar.gz tmp/Pandora-Cloud-0.2.1.tar.gz --markdown 20230519/P/Pandora-Cloud/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-19 06:30:43] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-05-19 06:30:43] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.6rc2.tar.gz tmp/ansible-risk-insight-0.1.7rc1.tar.gz --markdown 20230519/a/ansible-risk-insight/0.1.6rc2-0.1.7rc1/diff.md --exclude *.pyd
+[2023-05-19 06:30:43] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-05-19 06:30:45] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-05-19 06:30:47] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-05-19 06:30:47] INFO root fetch - main [MainThread]: Store serial: [18165520]
