@@ -7960,3 +7960,40 @@
 [2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [kentik-api]: success
 [2023-05-19 05:45:55] INFO root fetch - main [MainThread]: Store serial: [18165286]
+[2023-05-19 05:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165286]
+[2023-05-19 05:51:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llp-learn
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epic-free-games
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dorado
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptw
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cukcuk
+[2023-05-19 05:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-05-19 05:51:04] INFO root fetch - processPackages [cukcuk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-19 05:51:04] INFO root fetch - processPackages [llp-learn]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-19 05:51:05] WARNING root fetch - processPackages [epic-free-games]: Skipping, unable to determine old version
+[2023-05-19 05:51:05] INFO root fetch - main [MainThread]: End processing [epic-free-games] error
+[2023-05-19 05:51:05] INFO root fetch - processPackages [gptw]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-19 05:51:05] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-19 05:51:05] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 05:51:05] INFO root fetch - processPackages [cukcuk]: executing diffoscope
+[2023-05-19 05:51:05] INFO root fetch - processPackages [cukcuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cukcuk-0.5.1.tar.gz tmp/cukcuk-0.5.2.tar.gz --markdown 20230519/c/cukcuk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-19 05:51:05] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/6b/9a/c20446282bdd4f6cc5f4bc646e05d2551857fb944240dc9333c3df34e6ea/llp_learn-0.0.1.tar.gz
+[2023-05-19 05:51:05] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/a0/15/420c12f4da384b4f4eb8eac8dc9522edbe7840f16732bb32f3228365667f/gptw-0.2.1.tar.gz
+[2023-05-19 05:51:05] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-05-19 05:51:05] INFO root fetch - processPackages [llp-learn]: Downloading https://files.pythonhosted.org/packages/87/ce/79093bfb37baf272c962211e9e3bd933788e77fb4bf6f5213741873e7758/llp_learn-0.1.0.tar.gz
+[2023-05-19 05:51:05] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-19 05:51:05] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230519/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 05:51:05] INFO root fetch - processPackages [llp-learn]: executing diffoscope
+[2023-05-19 05:51:05] INFO root fetch - processPackages [llp-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llp_learn-0.0.1.tar.gz tmp/llp_learn-0.1.0.tar.gz --markdown 20230519/l/llp-learn/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-19 05:51:05] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/cc/60/421b8e5d6089e01bccf1f86f40bd90b055511305418b2386739c2960e6f9/gptw-0.3.0.tar.gz
+[2023-05-19 05:51:05] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-19 05:51:05] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.2.1.tar.gz tmp/gptw-0.3.0.tar.gz --markdown 20230519/g/gptw/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 05:51:06] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-05-19 05:51:06] INFO root fetch - main [MainThread]: End processing [cukcuk]: success
+[2023-05-19 05:51:06] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 05:51:06] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 05:51:06] INFO root fetch - main [MainThread]: End processing [llp-learn]: success
+[2023-05-19 05:51:06] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-19 05:51:07] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 05:51:41] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-05-19 05:51:41] INFO root fetch - main [MainThread]: Store serial: [18165307]
