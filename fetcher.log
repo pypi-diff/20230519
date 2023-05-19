@@ -22604,3 +22604,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:55:52] INFO root fetch - main [MainThread]: End processing [noiftimer]: success
 [2023-05-19 20:55:54] INFO root fetch - main [MainThread]: End processing [portforward]: success
 [2023-05-19 20:55:54] INFO root fetch - main [MainThread]: Store serial: [18174278]
+[2023-05-19 21:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18174278]
+[2023-05-19 21:01:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pantsbuild.pants.testutil
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prodvana
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantsbuild.pants
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hive-archeology-bot
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scpkit
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soundstorm-pytorch
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-wavefront
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prodvana
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invisibleroads-macros-web
+[2023-05-19 21:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alacorder
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [invisibleroads-macros-web]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [scpkit]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [soundstorm-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 21:01:04] WARNING root fetch - processPackages [hive-archeology-bot]: Skipping, unable to determine old version
+[2023-05-19 21:01:04] INFO root fetch - processPackages [hive-archeology-bot]: Start processing: gpt-json
+[2023-05-19 21:01:04] INFO root fetch - main [MainThread]: End processing [hive-archeology-bot] error
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [alacorder]: New version: [80.6.7] Old Version: [80.6.6]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [gpt-json]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.4.0a1684521558] Old Version: [1.4.0a1684391615]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [soundstorm-pytorch]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [soundstorm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundstorm-pytorch-0.0.6.tar.gz tmp/soundstorm-pytorch-0.0.7.tar.gz --markdown 20230519/s/soundstorm-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [invisibleroads-macros-web]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [invisibleroads-macros-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invisibleroads-macros-web-0.3.1.tar.gz tmp/invisibleroads-macros-web-0.3.2.tar.gz --markdown 20230519/i/invisibleroads-macros-web/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/f3/75/1bd4d7e194ba60a32f3bd39ecd14f5a0affda9cadc45c5d0c64814c66e67/prodvana-0.1.0.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/f3/75/1bd4d7e194ba60a32f3bd39ecd14f5a0affda9cadc45c5d0c64814c66e67/prodvana-0.1.0.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [scpkit]: Downloading https://files.pythonhosted.org/packages/da/a0/c7d274f53c77fe05ab4e0dad5e61bd51946132e6575c8aa5faa4d788a837/scpkit-0.2.0.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-19 21:01:04] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/fe/5c/721aadf83f68f7e3827bfeaabf2ed0993aaa651c2363d15833512b1e7451/gpt_json-0.1.8.tar.gz
+[2023-05-19 21:01:04] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: hive-archeology-bot
+[2023-05-19 21:01:04] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-05-19 21:01:04] INFO root fetch - processPackages [hive-archeology-bot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 21:01:04] INFO root fetch - processPackages [gpt-json]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [gpt-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_json-0.1.7.tar.gz tmp/gpt_json-0.1.8.tar.gz --markdown 20230519/g/gpt-json/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230519/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/f7/2d/8a00ff0167b942365179171fbf9dd4e5fc4b2fe393d4251c590f93fbc1c6/pulumi_wavefront-1.4.0a1684521558.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/01/bd/5c20061e584782f3d5b83bf3ee9989ea8befcce2623636b796e02309e50b/alacorder-80.6.7.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/87/ab/3b42c26585e3b222dc9d5920e06ae167acac8983a5ac95a4abebb547fbbf/prodvana-0.1.1.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/87/ab/3b42c26585e3b222dc9d5920e06ae167acac8983a5ac95a4abebb547fbbf/prodvana-0.1.1.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [scpkit]: Downloading https://files.pythonhosted.org/packages/87/6e/00c1875303bf5c5e2a744f99adf8399c983a44900f811a9dfa2e5c0de676/scpkit-0.3.0.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [hive-archeology-bot]: Downloading https://files.pythonhosted.org/packages/c1/1c/51bcfedc4ff9464cf9c7505c7220796f65aa9bdd3e92564fa585d718b48a/hive-archeology-bot-0.1.1.tar.gz
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.4.0a1684391615.tar.gz tmp/pulumi_wavefront-1.4.0a1684521558.tar.gz --markdown 20230519/p/pulumi-wavefront/1.4.0a1684391615-1.4.0a1684521558/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [scpkit]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [scpkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scpkit-0.2.0.tar.gz tmp/scpkit-0.3.0.tar.gz --markdown 20230519/s/scpkit/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.1.0.tar.gz tmp/prodvana-0.1.1.tar.gz --markdown 20230519/p/prodvana/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2023-05-19 21:01:04] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.6.6.tar.gz tmp/alacorder-80.6.7.tar.gz --markdown 20230519/a/alacorder/80.6.6-80.6.7/diff.md --exclude *.pyd
+[2023-05-19 21:01:04] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.1.0.tar.gz tmp/prodvana-0.1.1.tar.gz --markdown 20230519/p/prodvana/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 21:01:05] INFO root fetch - processPackages [hive-archeology-bot]: Downloading https://files.pythonhosted.org/packages/4b/aa/0eb2084db29fafea81c1e8fa043f754c4cdeab800fea598b05c9ae4b6ebc/hive-archeology-bot-0.1.2.tar.gz
+[2023-05-19 21:01:05] INFO root fetch - processPackages [hive-archeology-bot]: executing diffoscope
+[2023-05-19 21:01:05] INFO root fetch - processPackages [hive-archeology-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-archeology-bot-0.1.1.tar.gz tmp/hive-archeology-bot-0.1.2.tar.gz --markdown 20230519/h/hive-archeology-bot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 21:01:05] INFO root fetch - processPackages [invisibleroads-macros-web]: Start processing: fastapi-injector
+[2023-05-19 21:01:05] INFO root fetch - main [MainThread]: End processing [invisibleroads-macros-web]: success
+[2023-05-19 21:01:05] INFO root fetch - processPackages [soundstorm-pytorch]: Start processing: odoo-addon-website-sale-product-description
+[2023-05-19 21:01:05] INFO root fetch - main [MainThread]: End processing [soundstorm-pytorch]: success
+[2023-05-19 21:01:05] INFO root fetch - processPackages [fastapi-injector]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-19 21:01:05] INFO root fetch - processPackages [odoo-addon-website-sale-product-description]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0]
+[2023-05-19 21:01:06] INFO root fetch - processPackages [fastapi-injector]: Downloading https://files.pythonhosted.org/packages/63/07/196a54184e39476709a22d3b75d7c1105358d907112145b6c08257044ad0/fastapi_injector-0.4.0.tar.gz
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-05-19 21:01:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-description]: Downloading https://files.pythonhosted.org/packages/6e/76/34fca86a17f0633f01565d03a0a676e8cfe2c69284b5fb6df939c2cd491b/odoo_addon_website_sale_product_description-15.0.1.1.0-py3-none-any.whl
+[2023-05-19 21:01:06] INFO root fetch - processPackages [fastapi-injector]: Downloading https://files.pythonhosted.org/packages/a8/79/95d0f2178b9e19a6cd5cfd3afdadf8a587963eb907e2f76dc2dc1fe0b2b0/fastapi_injector-0.5.0.tar.gz
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
+[2023-05-19 21:01:06] INFO root fetch - processPackages [fastapi-injector]: executing diffoscope
+[2023-05-19 21:01:06] INFO root fetch - processPackages [fastapi-injector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_injector-0.4.0.tar.gz tmp/fastapi_injector-0.5.0.tar.gz --markdown 20230519/f/fastapi-injector/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [scpkit]: success
+[2023-05-19 21:01:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-description]: Downloading https://files.pythonhosted.org/packages/d1/05/a5187b3788e015a98e7a26e4f3162007674192adb77035a29eb3f39b4643/odoo_addon_website_sale_product_description-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-19 21:01:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-description]: executing diffoscope
+[2023-05-19 21:01:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_description-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_description-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-website-sale-product-description/15.0.1.1.0-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-19 21:01:06] INFO root fetch - main [MainThread]: End processing [hive-archeology-bot]: success
+[2023-05-19 21:01:07] INFO root fetch - main [MainThread]: End processing [fastapi-injector]: success
+[2023-05-19 21:01:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-description]: success
+[2023-05-19 21:01:08] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2023-05-19 21:01:08] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2023-05-19 21:01:08] INFO root fetch - main [MainThread]: Store serial: [18174329]
