@@ -8159,3 +8159,25 @@
 [2023-05-19 06:02:11] INFO root fetch - main [MainThread]: End processing [eas-prediction]: success
 [2023-05-19 06:02:11] INFO root fetch - main [MainThread]: End processing [gtocclient]: success
 [2023-05-19 06:02:11] INFO root fetch - main [MainThread]: Store serial: [18165393]
+[2023-05-19 06:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165393]
+[2023-05-19 06:07:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-19 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flarespy
+[2023-05-19 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-lettermgmt
+[2023-05-19 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmldb-exporter
+[2023-05-19 06:07:20] INFO root fetch - processPackages [openmldb-exporter]: New version: [0.7.1] Old Version: [0.6.0]
+[2023-05-19 06:07:20] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev8]
+[2023-05-19 06:07:20] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-19 06:07:20] INFO root fetch - processPackages [openmldb-exporter]: Downloading https://files.pythonhosted.org/packages/d9/7a/8239ac031c6f1dfcaacf4fa16e5f1a3bbf4138dce64d35052a0a2d74cf36/openmldb-exporter-0.6.0.tar.gz
+[2023-05-19 06:07:20] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Downloading https://files.pythonhosted.org/packages/e2/8a/787e3a2ed6c67759fff3ed4db462422938a2d867e45c93d91b43a9aceb57/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-05-19 06:07:20] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-19 06:07:20] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230519/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-19 06:07:20] INFO root fetch - processPackages [openmldb-exporter]: Downloading https://files.pythonhosted.org/packages/ec/00/90caa5c8753286619fc8173a7d0128b84125a42420d498280eac623e33c5/openmldb_exporter-0.7.1.tar.gz
+[2023-05-19 06:07:20] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Downloading https://files.pythonhosted.org/packages/e3/55/24c71b244ead706980bafe42915887041142d9032ae740fd2e1e3f0ba22c/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-05-19 06:07:20] INFO root fetch - processPackages [openmldb-exporter]: executing diffoscope
+[2023-05-19 06:07:20] INFO root fetch - processPackages [openmldb-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmldb-exporter-0.6.0.tar.gz tmp/openmldb_exporter-0.7.1.tar.gz --markdown 20230519/o/openmldb-exporter/0.6.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-19 06:07:20] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: executing diffoscope
+[2023-05-19 06:07:20] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-lettermgmt/8.0.2.0.0.99.dev8-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 06:07:21] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-19 06:07:21] INFO root fetch - main [MainThread]: End processing [openmldb-exporter]: success
+[2023-05-19 06:07:22] INFO root fetch - main [MainThread]: End processing [odoo8-addon-lettermgmt]: success
+[2023-05-19 06:07:22] INFO root fetch - main [MainThread]: Store serial: [18165411]
