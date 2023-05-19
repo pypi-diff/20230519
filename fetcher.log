@@ -10323,3 +10323,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 09:06:29] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
 [2023-05-19 09:06:41] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-19 09:06:41] INFO root fetch - main [MainThread]: Store serial: [18166482]
+[2023-05-19 09:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166482]
+[2023-05-19 09:11:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UnivariateMonitoring
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e2enetworks
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-report-qweb-operating-unit
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvosklivesubtitle
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-operating-unit
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transphone
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-partner-contact-gender
+[2023-05-19 09:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Econ-linux
+[2023-05-19 09:11:50] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-19 09:11:50] WARNING root fetch - processPackages [UnivariateMonitoring]: Skipping, unable to determine old version
+[2023-05-19 09:11:50] INFO root fetch - main [MainThread]: End processing [UnivariateMonitoring] error
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230412.0] Old Version: [15.0.20230518.2]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [transphone]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-05-19 09:11:50] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.4.tar.gz tmp/pyvosklivesubtitle-0.1.5.tar.gz --markdown 20230519/p/pyvosklivesubtitle/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-19 09:11:50] WARNING root fetch - processPackages [Econ-linux]: Skipping, unable to determine old version
+[2023-05-19 09:11:50] INFO root fetch - main [MainThread]: End processing [Econ-linux] error
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo9-addon-partner-contact-gender]: New version: [9.0.1.1.0.99.dev36] Old Version: [9.0.1.1.0.99.dev35]
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/ff/83/b84caa42b85a9c36bc0e539a729a0e8518362bbcecc90dc69b022afd1e44/odoo_addons_oca_operating_unit-15.0.20230518.2-py3-none-any.whl
+[2023-05-19 09:11:50] INFO root fetch - processPackages [transphone]: Downloading https://files.pythonhosted.org/packages/51/44/3a47e52c924ce0e636255b69a213d2295c4ac7633177ca33a4e9bc545fa3/transphone-1.4.2.tar.gz
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: Downloading https://files.pythonhosted.org/packages/b6/47/eef0ea83127014e2efb907a4a3775e0ab72a51a0aadfb68a05c307fa7ae5/odoo_addon_report_qweb_operating_unit-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo9-addon-partner-contact-gender]: Downloading https://files.pythonhosted.org/packages/10/08/7e7e1669e8886b307f08cfb99521ab9a797e1970128aba0feeb7637521ce/odoo9_addon_partner_contact_gender-9.0.1.1.0.99.dev35-py2-none-any.whl
+[2023-05-19 09:11:50] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-19 09:11:50] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.8.tar.gz tmp/e2enetworks-0.0.9.tar.gz --markdown 20230519/e/e2enetworks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 09:11:50] INFO root fetch - processPackages [transphone]: Downloading https://files.pythonhosted.org/packages/a2/54/156d05021f3df200e3fc36b3176b549076160faca787912b3ebb1c9ebf92/transphone-1.5.0.tar.gz
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: Downloading https://files.pythonhosted.org/packages/e2/7c/090cb27685c383138ca68864ea6afbb3cfa76da2b911252d4069f9b2423f/odoo_addon_report_qweb_operating_unit-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-15.0.20230518.2-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip --markdown 20230519/o/odoo-addons-oca-operating-unit/15.0.20230518.2-16.0.20230412.0/diff.md --exclude *.pyd
+[2023-05-19 09:11:50] INFO root fetch - processPackages [transphone]: executing diffoscope
+[2023-05-19 09:11:50] INFO root fetch - processPackages [transphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transphone-1.4.2.tar.gz tmp/transphone-1.5.0.tar.gz --markdown 20230519/t/transphone/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: executing diffoscope
+[2023-05-19 09:11:50] INFO root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_qweb_operating_unit-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_qweb_operating_unit-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230519/o/odoo-addon-report-qweb-operating-unit/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-19 09:11:51] INFO root fetch - processPackages [odoo9-addon-partner-contact-gender]: Downloading https://files.pythonhosted.org/packages/e4/1b/4718fffb615a4adb921a33d2ac106909612fe92baf5509d83e11bc787344/odoo9_addon_partner_contact_gender-9.0.1.1.0.99.dev36-py2-none-any.whl
+[2023-05-19 09:11:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-19 09:11:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230519/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-19 09:11:51] INFO root fetch - processPackages [odoo9-addon-partner-contact-gender]: executing diffoscope
+[2023-05-19 09:11:51] INFO root fetch - processPackages [odoo9-addon-partner-contact-gender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_contact_gender-9.0.1.1.0.99.dev35-py2-none-any.whl.zip tmp/odoo9_addon_partner_contact_gender-9.0.1.1.0.99.dev36-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-partner-contact-gender/9.0.1.1.0.99.dev35-9.0.1.1.0.99.dev36/diff.md --exclude *.pyd
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-operating-unit]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [transphone]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-contact-gender]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-19 09:11:52] INFO root fetch - main [MainThread]: Store serial: [18166513]
