@@ -9961,3 +9961,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
 [2023-05-19 08:29:56] INFO root fetch - main [MainThread]: End processing [heaserver-people]: success
 [2023-05-19 08:29:56] INFO root fetch - main [MainThread]: Store serial: [18166287]
+[2023-05-19 08:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166287]
+[2023-05-19 08:35:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dorado
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyWaves
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspeaker
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-mrp-operations-extension
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2023-05-19 08:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: instamatic
+[2023-05-19 08:35:05] INFO root fetch - processPackages [pyspeaker]: New version: [6.0] Old Version: [5.0]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [instamatic]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-19 08:35:05] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-5.0.tar.gz tmp/pyspeaker-6.0.tar.gz --markdown 20230519/p/pyspeaker/5.0-6.0/diff.md --exclude *.pyd
+[2023-05-19 08:35:05] INFO root fetch - processPackages [PyWaves]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [odoo8-addon-mrp-operations-extension]: New version: [8.0.2.0.1.99.dev5] Old Version: [8.0.2.0.1.99.dev4]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-19 08:35:05] INFO root fetch - processPackages [PyWaves]: Downloading https://files.pythonhosted.org/packages/85/aa/f6ee95e1d45f4c69df0eaf8b83872530ccb6c6e24449383848d2928332e5/PyWaves-1.0.3.tar.gz
+[2023-05-19 08:35:05] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/7d/85/c5f92d25bd62f799f0bad54453d5f8aed775cb35bce41371c98c7e5aead7/instamatic-1.8.0.tar.gz
+[2023-05-19 08:35:05] INFO root fetch - processPackages [odoo8-addon-mrp-operations-extension]: Downloading https://files.pythonhosted.org/packages/00/0d/75ba57fb06c83ad91bbc359cd5a8fc723d918cd1a70f659e265bfcb2d8d3/odoo8_addon_mrp_operations_extension-8.0.2.0.1.99.dev5-py2-none-any.whl
+[2023-05-19 08:35:05] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 08:35:05] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 08:35:05] INFO root fetch - processPackages [PyWaves]: Downloading https://files.pythonhosted.org/packages/c6/cf/5a2fa10d9df22af52251a51e0aa03ac5fcf518fce5b8e7048110d1758f7d/PyWaves-1.0.4.tar.gz
+[2023-05-19 08:35:05] INFO root fetch - processPackages [odoo8-addon-mrp-operations-extension]: executing diffoscope
+[2023-05-19 08:35:05] INFO root fetch - processPackages [odoo8-addon-mrp-operations-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mrp_operations_extension-8.0.2.0.1.99.dev4-py2-none-any.whl.zip tmp/odoo8_addon_mrp_operations_extension-8.0.2.0.1.99.dev5-py2-none-any.whl.zip --markdown 20230519/o/odoo8-addon-mrp-operations-extension/8.0.2.0.1.99.dev4-8.0.2.0.1.99.dev5/diff.md --exclude *.pyd
+[2023-05-19 08:35:05] INFO root fetch - processPackages [PyWaves]: executing diffoscope
+[2023-05-19 08:35:05] INFO root fetch - processPackages [PyWaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWaves-1.0.3.tar.gz tmp/PyWaves-1.0.4.tar.gz --markdown 20230519/P/PyWaves/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 08:35:06] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/4b/64/cdda92787f9c3fc3341987e600e904a6d2b2c0836d3bb80e6adf52d6d283/instamatic-1.9.0.tar.gz
+[2023-05-19 08:35:06] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-19 08:35:06] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230519/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-19 08:35:06] INFO root fetch - processPackages [instamatic]: executing diffoscope
+[2023-05-19 08:35:06] INFO root fetch - processPackages [instamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instamatic-1.8.0.tar.gz tmp/instamatic-1.9.0.tar.gz --markdown 20230519/i/instamatic/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 08:35:06] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-19 08:35:07] INFO root fetch - main [MainThread]: End processing [PyWaves]: success
+[2023-05-19 08:35:07] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 08:35:07] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mrp-operations-extension]: success
+[2023-05-19 08:35:07] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-19 08:35:10] INFO root fetch - main [MainThread]: End processing [instamatic]: success
+[2023-05-19 08:35:10] INFO root fetch - main [MainThread]: Store serial: [18166309]
