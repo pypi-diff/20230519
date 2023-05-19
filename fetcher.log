@@ -18841,3 +18841,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 17:47:50] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-05-19 17:47:50] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-05-19 17:47:50] INFO root fetch - main [MainThread]: Store serial: [18171955]
+[2023-05-19 17:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171955]
+[2023-05-19 17:53:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sspqdd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OASYS1
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csv-parakeet
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnus-extensions
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catus
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlm
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extr
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gto
+[2023-05-19 17:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: civics-cdf-validator
+[2023-05-19 17:53:01] INFO root fetch - processPackages [Signal8]: New version: [0.9] Old Version: [0.7]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [magnus-extensions]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [openlm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-19 17:53:01] WARNING root fetch - processPackages [csv-parakeet]: Skipping, unable to determine old version
+[2023-05-19 17:53:01] INFO root fetch - processPackages [csv-parakeet]: Start processing: sspqdd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:53:01] INFO root fetch - main [MainThread]: End processing [csv-parakeet] error
+[2023-05-19 17:53:01] INFO root fetch - processPackages [gto]: New version: [0.3.0rc3] Old Version: [0.3.0rc2]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [catus]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [OASYS1]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230519/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230519/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230519/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230519/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [magnus-extensions]: Downloading https://files.pythonhosted.org/packages/41/63/a98d73322f674648703c7773170e3520d91492f6e8de3fd9f7af733fc5cb/magnus_extensions-0.2.8.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [openlm]: Downloading https://files.pythonhosted.org/packages/94/5c/1a5b84f3213bb889f0db5fe657b74f992307a046d1c508cceb3dc22cf0d1/openlm-0.0.4.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/20/61/6a5b6e7428f0421a7fb45707bc487cfbffb617085eb10b87794f00e60736/Signal8-0.9.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/ce/c4/ca5a1477bd83eac2e130807935eb94745c69b651589600b5a767d1f18c69/gto-0.3.0rc2.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [catus]: Downloading https://files.pythonhosted.org/packages/93/83/6b4def8048934d8902857119cadbda84315db43d402da104d737a26a4d71/catus-0.0.6.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [OASYS1]: Downloading https://files.pythonhosted.org/packages/58/b3/637797a4fbb6a91be9445f0b035570648262464d7b2e03df714a013666b2/OASYS1-1.2.98.tar.gz
+[2023-05-19 17:53:01] INFO root fetch - processPackages [openlm]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [openlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlm-0.0.3.tar.gz tmp/openlm-0.0.4.tar.gz --markdown 20230519/o/openlm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-19 17:53:01] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-19 17:53:01] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-0.7.tar.gz tmp/Signal8-0.9.tar.gz --markdown 20230519/S/Signal8/0.7-0.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:02] ERROR root fetch - processPackages [catus]: Unable to fetch info: No such project/version 'catus' 0.0.7
+[2023-05-19 17:53:02] INFO root fetch - processPackages [catus]: Start processing: secureli
+[2023-05-19 17:53:02] INFO root fetch - main [MainThread]: End processing [catus] error
+[2023-05-19 17:53:02] INFO root fetch - processPackages [magnus-extensions]: Downloading https://files.pythonhosted.org/packages/42/de/ab6b84cc6437381642296b3756d5e34f03f996218287d05fabd1dfeffd92/magnus_extensions-0.2.9.tar.gz
+[2023-05-19 17:53:02] INFO root fetch - processPackages [magnus-extensions]: executing diffoscope
+[2023-05-19 17:53:02] INFO root fetch - processPackages [magnus-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus_extensions-0.2.8.tar.gz tmp/magnus_extensions-0.2.9.tar.gz --markdown 20230519/m/magnus-extensions/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:02] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/90/4f/ebd8c55debff4e94953206bf9f8a8da1673bfb0dd4a0b2a01c2292f20696/gto-0.3.0rc3.tar.gz
+[2023-05-19 17:53:02] INFO root fetch - processPackages [secureli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-19 17:53:02] INFO root fetch - processPackages [gto]: executing diffoscope
+[2023-05-19 17:53:02] INFO root fetch - processPackages [gto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gto-0.3.0rc2.tar.gz tmp/gto-0.3.0rc3.tar.gz --markdown 20230519/g/gto/0.3.0rc2-0.3.0rc3/diff.md --exclude *.pyd
+[2023-05-19 17:53:02] INFO root fetch - processPackages [OASYS1]: Downloading https://files.pythonhosted.org/packages/4c/89/5d1253eb3e9cda48439a0fcafd238a94b10df12c6d9c662e5b3e95591eb2/OASYS1-1.2.99.tar.gz
+[2023-05-19 17:53:02] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/f7/e2/2a031cc6c69b1d2caf9ff6166aba869fb5f50e98e0fe27ee01b192029578/secureli-0.3.2.tar.gz
+[2023-05-19 17:53:02] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/29/8a/4757fcb2a55c4a73a1173cb3936c871d5b84920262f5556048b31ef5a870/secureli-0.3.3.tar.gz
+[2023-05-19 17:53:02] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-05-19 17:53:02] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.3.2.tar.gz tmp/secureli-0.3.3.tar.gz --markdown 20230519/s/secureli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-19 17:53:02] INFO root fetch - processPackages [OASYS1]: executing diffoscope
+[2023-05-19 17:53:02] INFO root fetch - processPackages [OASYS1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OASYS1-1.2.98.tar.gz tmp/OASYS1-1.2.99.tar.gz --markdown 20230519/O/OASYS1/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-19 17:53:03] INFO root fetch - processPackages [sspqdd]: Start processing: utilki
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [sspqdd]: Start processing: lbt-honeybee
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [utilki]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-19 17:53:03] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-19 17:53:03] INFO root fetch - processPackages [openlm]: Start processing: quantplay
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [openlm]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.84]
+[2023-05-19 17:53:03] INFO root fetch - processPackages [civics-cdf-validator]: Start processing: gridappsd-python
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/09/fc/a514b1220342d07753fd19fafa20b154bc05d99aadd5cbcb0417a5c5915c/utilki-0.1.8.tar.gz
+[2023-05-19 17:53:03] INFO root fetch - processPackages [extr]: Start processing: extr-ds
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 17:53:03] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-19 17:53:03] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.84.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230519/q/quantplay/1.2.84-1.2.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:03] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-19 17:53:03] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.5.1a4] Old Version: [2023.5.1a1]
+[2023-05-19 17:53:03] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-19 17:53:03] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230519/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 17:53:03] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/39/a2/0cee6b4394d6fad261f638994bdda2bcaea39b1119a26ce9da64378c7763/utilki-0.2.0.tar.gz
+[2023-05-19 17:53:03] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/8d/ac/2d99b1a4e7097b122a3d65fff851851db1432162bfe080a1bae18a124e2b/gridappsd_python-2023.5.1a1.tar.gz
+[2023-05-19 17:53:03] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-19 17:53:03] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230519/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-19 17:53:03] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-05-19 17:53:03] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.1.8.tar.gz tmp/utilki-0.2.0.tar.gz --markdown 20230519/u/utilki/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 17:53:04] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/6f/5b/01adbc9e5a7f59a36fc9733e3bebdf1a43ecf98641a633e379ddf2745375/gridappsd_python-2023.5.1a4.tar.gz
+[2023-05-19 17:53:04] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-05-19 17:53:04] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-05-19 17:53:04] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.5.1a1.tar.gz tmp/gridappsd_python-2023.5.1a4.tar.gz --markdown 20230519/g/gridappsd-python/2023.5.1a1-2023.5.1a4/diff.md --exclude *.pyd
+[2023-05-19 17:53:04] INFO root fetch - main [MainThread]: End processing [magnus-extensions]: success
+[2023-05-19 17:53:04] INFO root fetch - main [MainThread]: End processing [gto]: success
+[2023-05-19 17:53:04] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-19 17:53:04] INFO root fetch - main [MainThread]: End processing [OASYS1]: success
+[2023-05-19 17:53:05] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-05-19 17:53:05] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-19 17:53:05] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-19 17:53:06] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-05-19 17:53:06] INFO root fetch - main [MainThread]: Store serial: [18172010]
