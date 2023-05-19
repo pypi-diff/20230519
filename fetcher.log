@@ -9425,3 +9425,36 @@
 [2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [mlxu]: success
 [2023-05-19 07:47:52] INFO root fetch - main [MainThread]: End processing [gardener-component-model]: success
 [2023-05-19 07:47:52] INFO root fetch - main [MainThread]: Store serial: [18166039]
+[2023-05-19 07:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166039]
+[2023-05-19 07:53:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-19 07:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpaframework
+[2023-05-19 07:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specmatic
+[2023-05-19 07:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dorado
+[2023-05-19 07:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-05-19 07:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EmaCalc
+[2023-05-19 07:53:02] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 07:53:02] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-19 07:53:02] INFO root fetch - processPackages [specmatic]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-19 07:53:02] INFO root fetch - processPackages [EmaCalc]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-05-19 07:53:02] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.32] Old Version: [4.2.31]
+[2023-05-19 07:53:02] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/1a/4a/8e40197bc16e6a82e5150c8bb5c4b02bc9f53009dd0f8346ca9868a026d7/specmatic-0.2.4.tar.gz
+[2023-05-19 07:53:02] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 07:53:02] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 07:53:02] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2023-05-19 07:53:02] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79080839>=10485760
+[2023-05-19 07:53:02] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-19 07:53:02] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/37/ca/0fdba2e838c3bab7292eb684d94d7de965b56eec6b500cd235a7e0b4af4d/EmaCalc-0.9.6.tar.gz
+[2023-05-19 07:53:02] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a8/8a/6a3306d620713680fa5a7f8e5074fce61ab7eaadac10f4f39dac8ae46446/cyberdrop-dl-4.2.32.tar.gz
+[2023-05-19 07:53:02] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/e6/d2/ed2881489576357ff70d4fd7a5c96ed537d4930545cc1389718c46c3581e/EmaCalc-1.0.0.tar.gz
+[2023-05-19 07:53:02] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-19 07:53:02] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.31.tar.gz tmp/cyberdrop-dl-4.2.32.tar.gz --markdown 20230519/c/cyberdrop-dl/4.2.31-4.2.32/diff.md --exclude *.pyd
+[2023-05-19 07:53:02] INFO root fetch - processPackages [EmaCalc]: executing diffoscope
+[2023-05-19 07:53:02] INFO root fetch - processPackages [EmaCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmaCalc-0.9.6.tar.gz tmp/EmaCalc-1.0.0.tar.gz --markdown 20230519/E/EmaCalc/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-19 07:53:03] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2023-05-19 07:53:03] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 07:53:04] INFO root fetch - main [MainThread]: End processing [EmaCalc]: success
+[2023-05-19 07:53:04] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-19 07:53:04] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2023-05-19 07:53:04] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20230519/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-05-19 07:53:07] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2023-05-19 07:53:07] INFO root fetch - main [MainThread]: Store serial: [18166054]
