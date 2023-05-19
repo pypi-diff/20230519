@@ -7910,3 +7910,53 @@
 [2023-05-19 05:40:37] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-05-19 05:40:44] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-19 05:40:44] INFO root fetch - main [MainThread]: Store serial: [18165256]
+[2023-05-19 05:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165256]
+[2023-05-19 05:45:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmlab-lightning
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whylogs
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griseo
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kentik-api
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msm-has-base
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llp-learn
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tangerine-auth
+[2023-05-19 05:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-softdelete-ts
+[2023-05-19 05:45:53] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230518.9.46.894574] Old Version: [20230518.13.56.201072]
+[2023-05-19 05:45:53] INFO root fetch - processPackages [msm-has-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 05:45:53] WARNING root fetch - processPackages [llp-learn]: Skipping, unable to determine old version
+[2023-05-19 05:45:53] INFO root fetch - main [MainThread]: End processing [llp-learn] error
+[2023-05-19 05:45:53] INFO root fetch - processPackages [tangerine-auth]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 05:45:53] INFO root fetch - processPackages [griseo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-19 05:45:53] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-19 05:45:53] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/c7/60/764a3e5b7ab96d67a596b2bd70d575fe64ecfe4dc81b582cf70719d1c3bf/certora-cli-alpha-rahav-cert-1987_update_regTest-20230518.13.56.201072.tar.gz
+[2023-05-19 05:45:53] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38976320>=10485760
+[2023-05-19 05:45:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-19 05:45:53] INFO root fetch - processPackages [mmlab-lightning]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-19 05:45:53] WARNING root fetch - processPackages [django-softdelete-ts]: Skipping, unable to determine old version
+[2023-05-19 05:45:53] INFO root fetch - main [MainThread]: End processing [django-softdelete-ts] error
+[2023-05-19 05:45:53] INFO root fetch - processPackages [kentik-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-19 05:45:53] INFO root fetch - processPackages [msm-has-base]: executing diffoscope
+[2023-05-19 05:45:53] INFO root fetch - processPackages [msm-has-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msm_has_base-0.1.8.tar.gz tmp/msm_has_base-0.1.9.tar.gz --markdown 20230519/m/msm-has-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 05:45:53] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-19 05:45:53] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230519/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-19 05:45:53] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-05-19 05:45:53] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.8.0.tar.gz tmp/griseo-0.9.0.tar.gz --markdown 20230519/g/griseo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-19 05:45:53] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/5b/aa/ccd5a2e85fb57646378b058c95a609ca3cf47d48095b065fe5b9ecc43706/tangerine_auth-0.0.1-py3-none-any.whl
+[2023-05-19 05:45:53] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/b2/e7/23b1cfe8b7fe4cfeb3760d28e489a2ccae9a4340e7c5fb6f744bec0e1c92/mmlab_lightning-1.0.5.tar.gz
+[2023-05-19 05:45:53] INFO root fetch - processPackages [kentik-api]: Downloading https://files.pythonhosted.org/packages/8f/c1/4c569cc212a902a10859f33ec222c433910f5e9680a3a4e0da648f764ff2/kentik-api-1.0.6.tar.gz
+[2023-05-19 05:45:53] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/35/22/101328c075b6597b9a770b9fef28a0fa416e04cb0bd8ce923b8c4202bc18/mmlab-lightning-1.0.6.tar.gz
+[2023-05-19 05:45:54] INFO root fetch - processPackages [mmlab-lightning]: executing diffoscope
+[2023-05-19 05:45:54] INFO root fetch - processPackages [mmlab-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmlab_lightning-1.0.5.tar.gz tmp/mmlab-lightning-1.0.6.tar.gz --markdown 20230519/m/mmlab-lightning/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-19 05:45:54] INFO root fetch - processPackages [kentik-api]: Downloading https://files.pythonhosted.org/packages/d1/52/c851941a1e8cf761559835999c21fb5a4629bcd6ce2d297ca8ca9e87bd1a/kentik-api-1.0.7.tar.gz
+[2023-05-19 05:45:54] INFO root fetch - processPackages [tangerine-auth]: Downloading https://files.pythonhosted.org/packages/f2/c4/1bed711472c2d3854b071be36845d06d64b12588e7a3c87211a0fbf326b8/tangerine_auth-0.0.2-py3-none-any.whl
+[2023-05-19 05:45:54] INFO root fetch - processPackages [tangerine-auth]: executing diffoscope
+[2023-05-19 05:45:54] INFO root fetch - processPackages [tangerine-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangerine_auth-0.0.1-py3-none-any.whl.zip tmp/tangerine_auth-0.0.2-py3-none-any.whl.zip --markdown 20230519/t/tangerine-auth/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 05:45:54] INFO root fetch - processPackages [kentik-api]: executing diffoscope
+[2023-05-19 05:45:54] INFO root fetch - processPackages [kentik-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kentik-api-1.0.6.tar.gz tmp/kentik-api-1.0.7.tar.gz --markdown 20230519/k/kentik-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-19 05:45:54] INFO root fetch - main [MainThread]: End processing [msm-has-base]: success
+[2023-05-19 05:45:54] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [tangerine-auth]: success
+[2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
+[2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-19 05:45:55] INFO root fetch - main [MainThread]: End processing [kentik-api]: success
+[2023-05-19 05:45:55] INFO root fetch - main [MainThread]: Store serial: [18165286]
