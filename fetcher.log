@@ -17530,3 +17530,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:31:29] INFO root fetch - main [MainThread]: End processing [SBM-VBEM]: success
 [2023-05-19 16:31:30] INFO root fetch - main [MainThread]: End processing [sfkit]: success
 [2023-05-19 16:31:30] INFO root fetch - main [MainThread]: Store serial: [18171122]
+[2023-05-19 16:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171122]
+[2023-05-19 16:36:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikitextparser
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwt-validate
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codenames
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edwh
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SupervisedDiscretization
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycryptographytoolsV2
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ds-env
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rasa
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: photcalib
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycryptographytoolsV2
+[2023-05-19 16:36:39] INFO root fetch - processPackages [jwt-validate]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [codenames]: New version: [2.2.1] Old Version: [2.1.1]
+[2023-05-19 16:36:39] WARNING root fetch - processPackages [ds-env]: Skipping, unable to determine old version
+[2023-05-19 16:36:39] INFO root fetch - processPackages [ds-env]: Start processing: sorted-nearest
+[2023-05-19 16:36:39] INFO root fetch - processPackages [pycryptographytoolsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-19 16:36:39] INFO root fetch - main [MainThread]: End processing [ds-env] error
+[2023-05-19 16:36:39] INFO root fetch - processPackages [pycryptographytoolsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [jwt-validate]: executing diffoscope
+[2023-05-19 16:36:39] INFO root fetch - processPackages [jwt-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_validate-0.3.1.tar.gz tmp/jwt_validate-0.3.2.tar.gz --markdown 20230519/j/jwt-validate/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 16:36:39] WARNING root fetch - processPackages [SupervisedDiscretization]: Skipping, unable to determine old version
+[2023-05-19 16:36:39] INFO root fetch - main [MainThread]: End processing [SupervisedDiscretization] error
+[2023-05-19 16:36:39] WARNING root fetch - processPackages [photcalib]: Skipping, unable to determine old version
+[2023-05-19 16:36:39] INFO root fetch - main [MainThread]: End processing [photcalib] error
+[2023-05-19 16:36:39] INFO root fetch - processPackages [rasa]: New version: [3.6.0a1] Old Version: [3.5.8]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [wikitextparser]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [codenames]: Downloading https://files.pythonhosted.org/packages/52/f4/baf20afdce7bf5e5293652e36a00772119ed12fd250e020e098a82437f85/codenames-2.1.1.tar.gz
+[2023-05-19 16:36:39] INFO root fetch - processPackages [pycryptographytoolsV2]: Downloading https://files.pythonhosted.org/packages/59/80/ed1eb0b052b3351aeb5830cff2dedee9ea367f509820f72f38961f5c15a1/pycryptographytoolsV2-1.0.0.tar.gz
+[2023-05-19 16:36:39] INFO root fetch - processPackages [pycryptographytoolsV2]: Downloading https://files.pythonhosted.org/packages/59/80/ed1eb0b052b3351aeb5830cff2dedee9ea367f509820f72f38961f5c15a1/pycryptographytoolsV2-1.0.0.tar.gz
+[2023-05-19 16:36:39] INFO root fetch - processPackages [sorted-nearest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:36:39] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/6f/93/c5b71f691b2995822f12e68410a4c00434f8e5c6a7a1220424e32b2ccd3f/wikitextparser-0.9.0.dev1.tar.gz
+[2023-05-19 16:36:39] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/a1/cc/891c00e4e0917edc1721c5128be55579a449466a67800b2856f7a23a3a1f/rasa-3.5.8.tar.gz
+[2023-05-19 16:36:39] INFO root fetch - processPackages [sorted-nearest]: Downloading https://files.pythonhosted.org/packages/ff/87/588f2d895f1d5f5a85904f5524f7ae9f55b82991bc2f1bdac6160a8b6057/sorted_nearest-0.0.8.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [codenames]: Downloading https://files.pythonhosted.org/packages/65/a2/5b3adf6fb0f4a0604d44dcf3d4097fe83f26e335ac9bee7ebc6e5f8c5d66/codenames-2.2.1.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: Downloading https://files.pythonhosted.org/packages/4a/22/327772c82b105940757a67a9ce82d0f7b7dde243e5720ab7e05759b5df55/pycryptographytoolsV2-1.1.0.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: Downloading https://files.pythonhosted.org/packages/4a/22/327772c82b105940757a67a9ce82d0f7b7dde243e5720ab7e05759b5df55/pycryptographytoolsV2-1.1.0.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/da/45/de2673626a6ca5377038aa29335660eb7e3c9f18a0f4e84fe43258886b83/rasa-3.6.0a1.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [codenames]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [wikitextparser]: Downloading https://files.pythonhosted.org/packages/4a/61/3eb816801c68e7fd8b698d04ce74275480d5a3381b157c3813e7f5039b2a/wikitextparser-0.9.1.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [codenames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codenames-2.1.1.tar.gz tmp/codenames-2.2.1.tar.gz --markdown 20230519/c/codenames/2.1.1-2.2.1/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [wikitextparser]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [wikitextparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitextparser-0.9.0.dev1.tar.gz tmp/wikitextparser-0.9.1.tar.gz --markdown 20230519/w/wikitextparser/0.9.0.dev1-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptographytoolsV2-1.0.0.tar.gz tmp/pycryptographytoolsV2-1.1.0.tar.gz --markdown 20230519/p/pycryptographytoolsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [pycryptographytoolsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptographytoolsV2-1.0.0.tar.gz tmp/pycryptographytoolsV2-1.1.0.tar.gz --markdown 20230519/p/pycryptographytoolsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.8.tar.gz tmp/rasa-3.6.0a1.tar.gz --markdown 20230519/r/rasa/3.5.8-3.6.0a1/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [sorted-nearest]: Downloading https://files.pythonhosted.org/packages/55/e3/2a2fba9b352dcd3de81108e6cc45c599c322585a8d4db410a29bed44fb39/sorted_nearest-0.0.9.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - processPackages [sorted-nearest]: executing diffoscope
+[2023-05-19 16:36:40] INFO root fetch - processPackages [sorted-nearest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorted_nearest-0.0.8.tar.gz tmp/sorted_nearest-0.0.9.tar.gz --markdown 20230519/s/sorted-nearest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:36:40] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-19 16:36:40] INFO root fetch - main [MainThread]: End processing [jwt-validate]: success
+[2023-05-19 16:36:40] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-19 16:36:40] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [pycryptographytoolsV2]: success
+[2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [codenames]: success
+[2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [pycryptographytoolsV2]: success
+[2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [wikitextparser]: success
+[2023-05-19 16:36:41] INFO root fetch - main [MainThread]: End processing [sorted-nearest]: success
+[2023-05-19 16:36:45] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-05-19 16:36:45] INFO root fetch - main [MainThread]: Store serial: [18171175]
