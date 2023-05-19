@@ -7475,3 +7475,87 @@
 [2023-05-19 05:14:05] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
 [2023-05-19 05:14:05] INFO root fetch - main [MainThread]: End processing [base-system]: success
 [2023-05-19 05:14:05] INFO root fetch - main [MainThread]: Store serial: [18165062]
+[2023-05-19 05:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165062]
+[2023-05-19 05:19:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AIFloodMaster
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domjudge-utility
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dspawpy
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagrid
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-connector
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-sqlalchemy
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webint-live
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-github
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo9-addon-account-banking-mandate
+[2023-05-19 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-account-payment-order
+[2023-05-19 05:19:14] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [AIFloodMaster]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-19 05:19:14] WARNING root fetch - processPackages [domjudge-utility]: Skipping, unable to determine old version
+[2023-05-19 05:19:14] INFO root fetch - processPackages [domjudge-utility]: Start processing: canopy-platform
+[2023-05-19 05:19:14] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [dspawpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-19 05:19:14] INFO root fetch - main [MainThread]: End processing [domjudge-utility] error
+[2023-05-19 05:19:14] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: New version: [9.0.1.4.0.99.dev9] Old Version: [9.0.1.4.0.99.dev8]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: New version: [9.0.2.0.0.99.dev8] Old Version: [9.0.2.0.0.99.dev7]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-05-19 05:19:14] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230519/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 05:19:14] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: New version: [8.0.3] Old Version: [8.0.2]
+[2023-05-19 05:19:14] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-19 05:19:15] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/5a/71/afb2a1a4e2255fab876071a8f353453d17c022c18097226d23b8e2d7ea4e/dspawpy-0.9.3-py3-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [AIFloodMaster]: Downloading https://files.pythonhosted.org/packages/cc/64/db315c0f8aad56e1e0386a1b723064906867833a43d4f88be08119918d36/AIFloodMaster-1.0.2.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/18/0c/142a76cb2901be1ca56f2d3b3997bfa9ac66da747249fdcaf77e02147224/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev8-py2-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/3b/95/4f291f0c27e6467bc10423e543df35ebb17d2973adcca32188cda98d99c1/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev7-py2-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ed/9e/db3032fbb821bac1480b7938a42d3f013675487ae48917023709ddaee861/clickzetta-sqlalchemy-0.7.1.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/79/81/57ef2cdbd711d61acadba17760c7d8bbbfb4d1f5c1901897d32dd73d3510/cdktf-cdktf-provider-github-8.0.2.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230519/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/ad/ed/a272262ee9ee347499830d1231ab00bb8ade8212502ea6af361e954520c1/clickzetta-connector-0.7.1.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [AIFloodMaster]: Downloading https://files.pythonhosted.org/packages/10/35/302cabc519f88e96ecceee8f4897cd3f6bede685815521ddc4eaa9948c9e/AIFloodMaster-1.1.0.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/ba/59/9ec332e3a440c84e6161ce7ee37cc474af4ce2b9e15125043df00d6744e2/dspawpy-0.9.4-py3-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.7.0.tar.gz tmp/clickzetta-sqlalchemy-0.7.1.tar.gz --markdown 20230519/c/clickzetta-sqlalchemy/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/9b/84/7b8c589173c7f8c83ac5a59ab761b633fb2ab57bf9f6d19584b2e67c2333/cdktf-cdktf-provider-github-8.0.3.tar.gz
+[2023-05-19 05:19:15] INFO root fetch - processPackages [AIFloodMaster]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [AIFloodMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIFloodMaster-1.0.2.tar.gz tmp/AIFloodMaster-1.1.0.tar.gz --markdown 20230519/A/AIFloodMaster/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230519/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/60/77/233e95d9dd377747eaf0575c18aa6391c3b63293cb5dea59ef839b852d24/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.3-py3-none-any.whl.zip tmp/dspawpy-0.9.4-py3-none-any.whl.zip --markdown 20230519/d/dspawpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.7.0.tar.gz tmp/clickzetta-connector-0.7.1.tar.gz --markdown 20230519/c/clickzetta-connector/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/2f/36/bd1b2e5b16ce4addb6a2a4c5f36d71ea3bbf98f7338851c98b39ea7b9c56/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev9-py2-none-any.whl
+[2023-05-19 05:19:15] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-github-8.0.2.tar.gz tmp/cdktf-cdktf-provider-github-8.0.3.tar.gz --markdown 20230519/c/cdktf-cdktf-provider-github/8.0.2-8.0.3/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-account-banking-mandate/9.0.2.0.0.99.dev7-9.0.2.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: executing diffoscope
+[2023-05-19 05:19:15] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev9-py2-none-any.whl.zip --markdown 20230519/o/odoo9-addon-account-payment-order/9.0.1.4.0.99.dev8-9.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-19 05:19:16] INFO root fetch - processPackages [webint-live]: Start processing: odoo10-addon-account-payment-order
+[2023-05-19 05:19:16] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-05-19 05:19:16] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: New version: [10.0.1.7.0.99.dev5] Old Version: [10.0.1.7.0.99.dev4]
+[2023-05-19 05:19:16] INFO root fetch - processPackages [canopy-platform]: Start processing: odoo11-addon-account-payment-order
+[2023-05-19 05:19:16] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-19 05:19:16] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/08/85/c84ebc56978188f0580442e96ceed76572d8b69c1690d97ce62a22064a44/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev4-py2-none-any.whl
+[2023-05-19 05:19:16] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: New version: [11.0.1.4.0.99.dev4] Old Version: [11.0.1.4.0.99.dev3]
+[2023-05-19 05:19:16] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/fa/cb/b81684d90b4acd8f68f577e2077d41410c6e615db3f2e8039148148275e5/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev3-py2.py3-none-any.whl
+[2023-05-19 05:19:16] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-19 05:19:16] INFO root fetch - main [MainThread]: End processing [AIFloodMaster]: success
+[2023-05-19 05:19:16] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/05/e6/5baec778003e8dae3cca7abc94bc99d7f6fefdaf4733a25b25761e9f5719/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev5-py2-none-any.whl
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: executing diffoscope
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev4-py2-none-any.whl.zip tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev5-py2-none-any.whl.zip --markdown 20230519/o/odoo10-addon-account-payment-order/10.0.1.7.0.99.dev4-10.0.1.7.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/43/32/c9897a0213a1c4bd592d48c8c927fff14ed87687d65e41d69faa13580667/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev4-py2.py3-none-any.whl
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: executing diffoscope
+[2023-05-19 05:19:17] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev3-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev4-py2.py3-none-any.whl.zip --markdown 20230519/o/odoo11-addon-account-payment-order/11.0.1.4.0.99.dev3-11.0.1.4.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-19 05:19:17] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-19 05:19:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-banking-mandate]: success
+[2023-05-19 05:19:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-payment-order]: success
+[2023-05-19 05:19:17] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-05-19 05:19:18] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-payment-order]: success
+[2023-05-19 05:19:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-payment-order]: success
+[2023-05-19 05:19:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
+[2023-05-19 05:19:20] INFO root fetch - main [MainThread]: Store serial: [18165094]
