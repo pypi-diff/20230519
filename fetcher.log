@@ -5307,3 +5307,28 @@
 [2023-05-19 04:03:43] INFO root fetch - main [MainThread]: End processing [caucase]: success
 [2023-05-19 04:03:43] INFO root fetch - main [MainThread]: End processing [PythonTwitchBotFramework]: success
 [2023-05-19 04:03:43] INFO root fetch - main [MainThread]: Store serial: [18163929]
+[2023-05-19 04:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18163929]
+[2023-05-19 04:08:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-19 04:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: disklru
+[2023-05-19 04:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-05-19 04:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biometeo
+[2023-05-19 04:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webint-live
+[2023-05-19 04:08:52] INFO root fetch - processPackages [disklru]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-19 04:08:52] INFO root fetch - processPackages [biometeo]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-19 04:08:52] INFO root fetch - processPackages [disklru]: executing diffoscope
+[2023-05-19 04:08:52] INFO root fetch - processPackages [disklru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disklru-1.0.3.tar.gz tmp/disklru-1.0.4.tar.gz --markdown 20230519/d/disklru/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 04:08:52] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 04:08:52] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 04:08:52] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/0b/19/d5a77707596aff5f4baf92dbf56f233f02c3773923a99384e56e2d736cd0/webint_live-0.0.8.tar.gz
+[2023-05-19 04:08:52] INFO root fetch - processPackages [biometeo]: executing diffoscope
+[2023-05-19 04:08:52] INFO root fetch - processPackages [biometeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biometeo-0.2.3-cp39-cp39-win_amd64.whl.zip tmp/biometeo-0.2.4-cp39-cp39-win_amd64.whl.zip --markdown 20230519/b/biometeo/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-19 04:08:52] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-19 04:08:52] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230519/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:08:52] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/20/9a/f65def255dae7b73a23ef5acd66eb77b88d274db4ad514bc29195693bb72/webint_live-0.0.9.tar.gz
+[2023-05-19 04:08:53] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-05-19 04:08:53] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230519/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [disklru]: success
+[2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [biometeo]: success
+[2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-19 04:08:53] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-05-19 04:08:53] INFO root fetch - main [MainThread]: Store serial: [18163942]
