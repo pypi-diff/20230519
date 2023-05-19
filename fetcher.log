@@ -8492,3 +8492,55 @@
 [2023-05-19 06:41:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
 [2023-05-19 06:41:20] INFO root fetch - main [MainThread]: End processing [mlflow-tmp]: success
 [2023-05-19 06:41:20] INFO root fetch - main [MainThread]: Store serial: [18165575]
+[2023-05-19 06:46:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18165575]
+[2023-05-19 06:46:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmachine
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysbapi
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keystem
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: new-component
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betwatch
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: browsr
+[2023-05-19 06:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Signal8
+[2023-05-19 06:46:28] INFO root fetch - processPackages [new-component]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-19 06:46:28] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-19 06:46:28] INFO root fetch - processPackages [pysbapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 06:46:28] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-19 06:46:28] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230519/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-19 06:46:28] WARNING root fetch - processPackages [keystem]: Skipping, unable to determine old version
+[2023-05-19 06:46:28] INFO root fetch - main [MainThread]: End processing [keystem] error
+[2023-05-19 06:46:28] INFO root fetch - processPackages [Signal8]: New version: [0.4] Old Version: [0.2]
+[2023-05-19 06:46:29] INFO root fetch - processPackages [betwatch]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-19 06:46:29] INFO root fetch - processPackages [pysbapi]: Downloading https://files.pythonhosted.org/packages/4a/54/f2c1605071d480e404a152168e68ca794bb85b6cb2a3827d835adedb3bb7/pysbapi-0.1.0-py3-none-any.whl
+[2023-05-19 06:46:29] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/a2/56/b08e2d40a4011302c70bcc804643d0534794e0f19c77f3f66e7f780097b3/betwatch-1.0.4.tar.gz
+[2023-05-19 06:46:29] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/3c/fb/bcce773875bf39b85347ee530c9ae430cbbb576675a39928a1444605e2d0/Signal8-0.2.tar.gz
+[2023-05-19 06:46:29] INFO root fetch - processPackages [new-component]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [new-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new-component-0.3.1.tar.gz tmp/new-component-0.3.2.tar.gz --markdown 20230519/n/new-component/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [pysbapi]: Downloading https://files.pythonhosted.org/packages/53/53/7c5a69a63a3466c2c77e648d55c868e17ac840c29023dbdbbc51a2c8d5d6/pysbapi-0.1.1.tar.gz
+[2023-05-19 06:46:29] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/01/13/82ae9656d55dc01b2ed23b5ad8c7c18736e23bcbb93bde5a07244d07ae23/betwatch-1.0.5.tar.gz
+[2023-05-19 06:46:29] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/b5/1d/cb427e3fb1d809de1dcb8a5d6a0640dfbbcd939d4ca9a4b23e3f5c6aceb3/Signal8-0.4.tar.gz
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230519/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230519/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.0.4.tar.gz tmp/betwatch-1.0.5.tar.gz --markdown 20230519/b/betwatch/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230519/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [pysbapi]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [pysbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysbapi-0.1.0-py3-none-any.whl.zip tmp/pysbapi-0.1.1.tar.gz --markdown 20230519/p/pysbapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 06:46:29] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-19 06:46:29] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-0.2.tar.gz tmp/Signal8-0.4.tar.gz --markdown 20230519/S/Signal8/0.2-0.4/diff.md --exclude *.pyd
+[2023-05-19 06:46:30] INFO root fetch - main [MainThread]: End processing [new-component]: success
+[2023-05-19 06:46:30] INFO root fetch - main [MainThread]: End processing [pysbapi]: success
+[2023-05-19 06:46:30] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-19 06:46:30] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-19 06:46:30] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-19 06:46:31] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-19 06:46:31] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-05-19 06:46:31] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-19 06:46:31] INFO root fetch - main [MainThread]: Store serial: [18165600]
