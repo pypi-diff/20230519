@@ -17705,3 +17705,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 16:42:04] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-19 16:42:10] INFO root fetch - main [MainThread]: End processing [awkward]: success
 [2023-05-19 16:42:10] INFO root fetch - main [MainThread]: Store serial: [18171291]
+[2023-05-19 16:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18171291]
+[2023-05-19 16:47:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercoa
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diamond-env
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wikitextparser
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-oai-pmh-harvester
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-skip-traceback
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alacorder
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: isoCycle
+[2023-05-19 16:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starlette-async-jinja
+[2023-05-19 16:47:21] INFO root fetch - processPackages [diamond-env]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [wikitextparser]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2.3b14] Old Version: [7.4.2.2b1]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [isoCycle]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [diamond-env]: executing diffoscope
+[2023-05-19 16:47:21] INFO root fetch - processPackages [diamond-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamond_env-1.0.0.tar.gz tmp/diamond_env-1.0.1.tar.gz --markdown 20230519/d/diamond-env/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 16:47:21] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/ca/3b/4679f55774a86df1b6fe59b50621e8980156e6a315bea87e5c2979e31837/isoCycle-0.0.22.tar.gz
+[2023-05-19 16:47:21] INFO root fetch - processPackages [mercoa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [starlette-async-jinja]: New version: [1.2.0] Old Version: [0.1.1]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [jupyterlab-skip-traceback]: New version: [5.0.0] Old Version: [4.0.4]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-05-19 16:47:21] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.8.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.9.tar.gz --markdown 20230519/o/oarepo-oai-pmh-harvester/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:47:21] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-19 16:47:21] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.2.2b1.tar.gz tmp/dcicutils-7.4.2.3b14.tar.gz --markdown 20230519/d/dcicutils/7.4.2.2b1-7.4.2.3b14/diff.md --exclude *.pyd
+[2023-05-19 16:47:21] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [wikitextparser]: executing diffoscope
+[2023-05-19 16:47:21] INFO root fetch - processPackages [wikitextparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitextparser-0.9.0.dev1.tar.gz tmp/wikitextparser-0.9.1.tar.gz --markdown 20230519/w/wikitextparser/0.9.0.dev1-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 16:47:21] INFO root fetch - processPackages [alacorder]: New version: [80.6.6] Old Version: [80.6.5]
+[2023-05-19 16:47:21] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e3/e1/e7d8116a4f074a01a719bd606fdbfb95c20cbab3b10330568c14172a09c3/mercoa-0.0.8.tar.gz
+[2023-05-19 16:47:21] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/98/71/b83df1646120a836de66e24179f1705198ea1e794e2a353b493d7b1bc7e4/starlette_async_jinja-0.1.1.tar.gz
+[2023-05-19 16:47:21] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-19 16:47:21] INFO root fetch - processPackages [jupyterlab-skip-traceback]: Downloading https://files.pythonhosted.org/packages/56/16/ac1903e66bb271bbabd501ac7212b3de668a70ac828e91cb504c4c830b5e/jupyterlab-skip-traceback-4.0.4.tar.gz
+[2023-05-19 16:47:21] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/d4/81/7a5c6614979226805c6916518f9f5361a69034ad6bd5bd24215b61c8d1b2/alacorder-80.6.6.tar.gz
+[2023-05-19 16:47:22] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-19 16:47:22] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17970944>=10485760
+[2023-05-19 16:47:22] INFO root fetch - processPackages [vollseg]: Start processing: supergood
+[2023-05-19 16:47:22] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-19 16:47:22] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-19 16:47:22] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-19 16:47:22] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-19 16:47:22] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.6.5.tar.gz tmp/alacorder-80.6.6.tar.gz --markdown 20230519/a/alacorder/80.6.5-80.6.6/diff.md --exclude *.pyd
+[2023-05-19 16:47:22] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/48/40/1a4b26628a70af70f130c6c126c500862e89d03ad72643c1728eb6668aca/mercoa-0.0.9.tar.gz
+[2023-05-19 16:47:22] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 16:47:22] INFO root fetch - main [MainThread]: End processing [diamond-env]: success
+[2023-05-19 16:47:22] INFO root fetch - main [MainThread]: End processing [wikitextparser]: success
+[2023-05-19 16:47:22] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/a9/c5/d40c64cc379f8ea5b851c1adfea6b6ba315a3ee6cb1fe4070dbdf01ce800/starlette_async_jinja-1.2.0.tar.gz
+[2023-05-19 16:47:22] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-05-19 16:47:22] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.0.8.tar.gz tmp/mercoa-0.0.9.tar.gz --markdown 20230519/m/mercoa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:47:22] INFO root fetch - processPackages [starlette-async-jinja]: executing diffoscope
+[2023-05-19 16:47:22] INFO root fetch - processPackages [starlette-async-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_async_jinja-0.1.1.tar.gz tmp/starlette_async_jinja-1.2.0.tar.gz --markdown 20230519/s/starlette-async-jinja/0.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-19 16:47:22] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/28/c5/3ab705df57f14777b495ed9b8a66063bb41031ac2e1904bc97a9acd97948/supergood-1.0.8.tar.gz
+[2023-05-19 16:47:22] INFO root fetch - processPackages [jupyterlab-skip-traceback]: Downloading https://files.pythonhosted.org/packages/e3/bd/2b53368c4c56ece64afede4501ceec054c27b4d849721ed2ee03446c2707/jupyterlab_skip_traceback-5.0.0.tar.gz
+[2023-05-19 16:47:23] INFO root fetch - processPackages [jupyterlab-skip-traceback]: executing diffoscope
+[2023-05-19 16:47:23] INFO root fetch - processPackages [jupyterlab-skip-traceback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-skip-traceback-4.0.4.tar.gz tmp/jupyterlab_skip_traceback-5.0.0.tar.gz --markdown 20230519/j/jupyterlab-skip-traceback/4.0.4-5.0.0/diff.md --exclude *.pyd
+[2023-05-19 16:47:23] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/e0/90/107e6f9e2341cc77260c782fc2d59e333377258cf316bda0948a905e1413/supergood-1.0.9.tar.gz
+[2023-05-19 16:47:23] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-05-19 16:47:23] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230519/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 16:47:23] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-05-19 16:47:23] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
+[2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-skip-traceback]: success
+[2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-05-19 16:47:24] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-19 16:47:25] INFO root fetch - main [MainThread]: Store serial: [18171329]
