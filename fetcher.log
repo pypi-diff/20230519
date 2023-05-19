@@ -14377,3 +14377,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:22:12] INFO root fetch - main [MainThread]: End processing [mosec]: success
 [2023-05-19 13:22:14] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-05-19 13:22:14] INFO root fetch - main [MainThread]: Store serial: [18168842]
+[2023-05-19 13:27:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168842]
+[2023-05-19 13:27:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tars-scocs-serialization
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: license-authorize
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enhanced-google-search
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpxj
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensordict-nightly
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jcloud
+[2023-05-19 13:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emmett
+[2023-05-19 13:27:24] WARNING root fetch - processPackages [license-authorize]: Skipping, unable to determine old version
+[2023-05-19 13:27:24] INFO root fetch - main [MainThread]: End processing [license-authorize] error
+[2023-05-19 13:27:24] WARNING root fetch - processPackages [tars-scocs-serialization]: Skipping, unable to determine old version
+[2023-05-19 13:27:24] INFO root fetch - main [MainThread]: End processing [tars-scocs-serialization] error
+[2023-05-19 13:27:24] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2023-05-19 13:27:24] WARNING root fetch - processPackages [enhanced-google-search]: Skipping, unable to determine old version
+[2023-05-19 13:27:24] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-19 13:27:24] INFO root fetch - main [MainThread]: End processing [enhanced-google-search] error
+[2023-05-19 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-19 13:27:24] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-05-19 13:27:24] INFO root fetch - processPackages [emmett]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-05-19 13:27:24] INFO root fetch - processPackages [emmett]: Downloading https://files.pythonhosted.org/packages/ca/23/911510b619bc9976a9f0123e2ec6140ace945d0272b34821101e51ae9fad/emmett-2.5.1.tar.gz
+[2023-05-19 13:27:24] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2023-05-19 13:27:24] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-19 13:27:24] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230519/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-05-19 13:27:24] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-19 13:27:24] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230519/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-19 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-19 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230519/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-19 13:27:25] INFO root fetch - processPackages [emmett]: Downloading https://files.pythonhosted.org/packages/63/18/6141f5af378e578bd8957c79957142b9ad2276302b440ee476b0e1929dbc/emmett-2.5.2.tar.gz
+[2023-05-19 13:27:25] INFO root fetch - processPackages [emmett]: executing diffoscope
+[2023-05-19 13:27:25] INFO root fetch - processPackages [emmett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett-2.5.1.tar.gz tmp/emmett-2.5.2.tar.gz --markdown 20230519/e/emmett/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-05-19 13:27:25] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2023-05-19 13:27:25] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2023-05-19 13:27:25] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-19 13:27:26] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-19 13:27:26] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-19 13:27:27] INFO root fetch - main [MainThread]: End processing [emmett]: success
+[2023-05-19 13:27:27] INFO root fetch - main [MainThread]: Store serial: [18168872]
