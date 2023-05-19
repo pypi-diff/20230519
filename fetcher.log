@@ -16173,3 +16173,116 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:11:48] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-05-19 15:11:49] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-05-19 15:11:49] INFO root fetch - main [MainThread]: Store serial: [18170197]
+[2023-05-19 15:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170197]
+[2023-05-19 15:16:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: map-apply
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karellen-llvm-clang
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minecraft-monitoring-api
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karellen-llvm-core
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-limit-output
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circuitpython-bmp384
+[2023-05-19 15:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-05-19 15:16:59] INFO root fetch - processPackages [map-apply]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [16.0.4.post3] Old Version: [16.0.3.post1]
+[2023-05-19 15:16:59] WARNING root fetch - processPackages [minecraft-monitoring-api]: Skipping, unable to determine old version
+[2023-05-19 15:16:59] INFO root fetch - processPackages [minecraft-monitoring-api]: Start processing: rekuest
+[2023-05-19 15:16:59] INFO root fetch - main [MainThread]: End processing [minecraft-monitoring-api] error
+[2023-05-19 15:16:59] INFO root fetch - processPackages [karellen-llvm-core]: New version: [16.0.4.post3] Old Version: [16.0.3.post1]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [circuitpython-bmp384]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [jupyterlab-limit-output]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305191315] Old Version: [99.0.202305191159]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [map-apply]: Downloading https://files.pythonhosted.org/packages/cd/46/76dd2c7adb6eeeadefa6f78932cb7cb8936956767b6a2759f64fa576b096/map_apply-0.1.5.tar.gz
+[2023-05-19 15:16:59] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 15:16:59] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/b7/ee/e069d841400ea2d953d209c89590448511223a5b45e38f6bed9c608564b6/karellen_llvm_clang-16.0.3.post1-py3-none-manylinux2014_x86_64.whl
+[2023-05-19 15:16:59] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/da/d1/86ea2c5f8110b2f713c8d084064ccf8ffdded9a0b6941973061f435a9369/karellen_llvm_core-16.0.3.post1-py3-none-manylinux2014_x86_64.whl
+[2023-05-19 15:16:59] INFO root fetch - processPackages [jupyterlab-limit-output]: Downloading https://files.pythonhosted.org/packages/69/2e/f0f527fa20ebd35cb1df7c5b4eeae2839f271575998bf0ef3386e51a18df/jupyterlab_limit_output-1.0.1.tar.gz
+[2023-05-19 15:16:59] INFO root fetch - processPackages [circuitpython-bmp384]: Downloading https://files.pythonhosted.org/packages/85/9f/5e6777e27311ddf88aab5c4e37d5cd2d99949eee442c44d3b48a25d991ab/circuitpython-bmp384-0.1.0.tar.gz
+[2023-05-19 15:17:00] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 72661633>=10485760
+[2023-05-19 15:17:00] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [karellen-llvm-clang]: Start processing: fakts
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230519/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230519/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [map-apply]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [map-apply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/map_apply-0.1.3.tar.gz tmp/map_apply-0.1.5.tar.gz --markdown 20230519/m/map-apply/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230519/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fakts]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 15:17:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1b/31/6337adc7c45a405c660e65fc77e87d420d58c91075f8b1b397aeac728a45/kcli-99.0.202305191315-py3-none-any.whl
+[2023-05-19 15:17:00] INFO root fetch - processPackages [jupyterlab-limit-output]: Downloading https://files.pythonhosted.org/packages/b7/d5/b9ce957a97f4d9bd8670bf83a149cd60c49f3fac2b5693f3e592c02ccfc6/jupyterlab_limit_output-2.0.0.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [circuitpython-bmp384]: Downloading https://files.pythonhosted.org/packages/3f/9b/caefa593159b4bec72a34cad3dab1dfdeb107bac7554d34e07aac340ce07/circuitpython-bmp384-0.1.1.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [circuitpython-bmp384]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305191159-py3-none-any.whl.zip tmp/kcli-99.0.202305191315-py3-none-any.whl.zip --markdown 20230519/k/kcli/99.0.202305191159-99.0.202305191315/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [circuitpython-bmp384]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-bmp384-0.1.0.tar.gz tmp/circuitpython-bmp384-0.1.1.tar.gz --markdown 20230519/c/circuitpython-bmp384/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 26350223>=10485760
+[2023-05-19 15:17:00] INFO root fetch - processPackages [karellen-llvm-core]: Start processing: fluss
+[2023-05-19 15:17:00] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2023-05-19 15:17:00] INFO root fetch - processPackages [jupyterlab-limit-output]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [jupyterlab-limit-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_limit_output-1.0.1.tar.gz tmp/jupyterlab_limit_output-2.0.0.tar.gz --markdown 20230519/j/jupyterlab-limit-output/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/5a/a4/14cb2968fbacda9dd314323bde31ae7a791c382b650b9b24910dd76ba6a4/fakts-0.3.8.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 15:17:00] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230519/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/53/b7/8ff92a5a6685a4072ae111d8bec915e15a5682020fcc403fa91a69346a35/fluss-0.1.8.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/9e/32/d9aa913287bae00909a2329df410f1d75b0f8e71b8e77faa8960ee123f85/fakts-0.3.9.tar.gz
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fakts]: executing diffoscope
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fakts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakts-0.3.8.tar.gz tmp/fakts-0.3.9.tar.gz --markdown 20230519/f/fakts/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:00] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/50/76/9edfc881baab8d439ab2edc2727312771bb676cf387e48ce1a149177f1f6/fluss-0.1.9.tar.gz
+[2023-05-19 15:17:01] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-05-19 15:17:01] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230519/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:01] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: reaktion
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-19 15:17:01] INFO root fetch - processPackages [map-apply]: Start processing: herre
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [map-apply]: success
+[2023-05-19 15:17:01] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-19 15:17:01] INFO root fetch - processPackages [nbdev-scipy]: Start processing: mikro
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-19 15:17:01] INFO root fetch - processPackages [herre]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 15:17:01] INFO root fetch - processPackages [nbdev-django]: Start processing: upconan
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-19 15:17:01] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-19 15:17:01] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-05-19 15:17:01] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/1a/f0/614035b9abe8f3c2e2c0e2d460cea1e0418a77254cf0ad04ac338b4c099a/herre-0.3.8.tar.gz
+[2023-05-19 15:17:01] WARNING root fetch - processPackages [upconan]: Skipping, unable to determine old version
+[2023-05-19 15:17:01] INFO root fetch - processPackages [upconan]: Start processing: extr
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [upconan] error
+[2023-05-19 15:17:01] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 15:17:01] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-19 15:17:01] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230519/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:01] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/da/db/ba3f2a6a19c4fe4587c28d1c120e23982141fa95b4e06ebe64308502e82f/mikro-0.3.8.tar.gz
+[2023-05-19 15:17:01] INFO root fetch - processPackages [circuitpython-bmp384]: Start processing: nbdev-apl
+[2023-05-19 15:17:01] INFO root fetch - main [MainThread]: End processing [circuitpython-bmp384]: success
+[2023-05-19 15:17:02] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.782] Old Version: [0.0.781]
+[2023-05-19 15:17:02] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/ad/3b/cc609ef17a70e1020a31355e1955623f121da1caa3ab50af521161885c6b/herre-0.3.9.tar.gz
+[2023-05-19 15:17:02] INFO root fetch - processPackages [herre]: executing diffoscope
+[2023-05-19 15:17:02] INFO root fetch - processPackages [herre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herre-0.3.8.tar.gz tmp/herre-0.3.9.tar.gz --markdown 20230519/h/herre/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:02] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-05-19 15:17:02] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-19 15:17:02] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230519/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:02] INFO root fetch - main [MainThread]: End processing [fakts]: success
+[2023-05-19 15:17:02] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/45/45/4c762c165f6ce4a79bb410217662db5e815d580fabcd2f8af4cdf717b567/nbdev-apl-0.0.782.tar.gz
+[2023-05-19 15:17:02] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/26/a6/7ee733ac462341b8ca4423365288b9a6988a89d4d02f56e536dd8f8672a7/mikro-0.3.9.tar.gz
+[2023-05-19 15:17:02] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-05-19 15:17:02] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-19 15:17:02] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.781.tar.gz tmp/nbdev-apl-0.0.782.tar.gz --markdown 20230519/n/nbdev-apl/0.0.781-0.0.782/diff.md --exclude *.pyd
+[2023-05-19 15:17:02] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-19 15:17:02] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230519/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-19 15:17:02] INFO root fetch - main [MainThread]: End processing [jupyterlab-limit-output]: success
+[2023-05-19 15:17:03] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-19 15:17:03] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-19 15:17:03] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-19 15:17:03] INFO root fetch - main [MainThread]: End processing [herre]: success
+[2023-05-19 15:17:03] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-19 15:17:04] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-19 15:17:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-19 15:17:09] INFO root fetch - main [MainThread]: Store serial: [18170268]
