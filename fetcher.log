@@ -9903,3 +9903,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-19 08:24:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-19 08:24:41] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-19 08:24:41] INFO root fetch - main [MainThread]: Store serial: [18166227]
+[2023-05-19 08:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18166227]
+[2023-05-19 08:29:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-oci
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dorado
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoclint
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-maintenance-stock
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-dop20221130-py2
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycryptodome
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaserver-people
+[2023-05-19 08:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-oceanbasepro
+[2023-05-19 08:29:53] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [pydoclint]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [odoo12-addon-maintenance-stock]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev6]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [heaserver-people]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [pycryptodome]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-19 08:29:53] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/3a/06/e60595961df5c05d36142095e53ec32b2ab6746f8496bc07eeb489715b71/aliyun-python-sdk-oceanbasepro-1.0.7.tar.gz
+[2023-05-19 08:29:53] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: Downloading https://files.pythonhosted.org/packages/6d/bf/fbc4d557e6b98fb32d318036cf52506fa8c43903682ed8caa66a7020e803/alibabacloud_dop20221130_py2-1.0.0.tar.gz
+[2023-05-19 08:29:53] INFO root fetch - processPackages [odoo12-addon-maintenance-stock]: Downloading https://files.pythonhosted.org/packages/a6/0c/599d5a23490d26747aa23a512ca0069cde3b05dfc1d6f13529171517aec0/odoo12_addon_maintenance_stock-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-05-19 08:29:53] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/15/bf/2af73f426f85680c0091ed486e4fbb3dca9404bc8b4c5d6cc2f31e511601/pydoclint-0.0.2.tar.gz
+[2023-05-19 08:29:53] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/aa/96/ee6e416f8f216b66a434833123aa43cd68175797ddd93bdaeee5b464f112/heaserver-people-1.0.0a8.tar.gz
+[2023-05-19 08:29:53] INFO root fetch - processPackages [pycryptodome]: Downloading https://files.pythonhosted.org/packages/4c/2b/eddbfc56076fae8deccca274a5c70a9eb1e0b334da0a33f894a420d0fe93/pycryptodome-3.9.8.tar.gz
+[2023-05-19 08:29:53] WARNING root fetch - processPackages [pycryptodome]: Skipping package: exceeds size limit 15633268>=10485760
+[2023-05-19 08:29:53] INFO root fetch - main [MainThread]: End processing [pycryptodome] error
+[2023-05-19 08:29:53] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-19 08:29:53] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230519/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-19 08:29:53] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-19 08:29:53] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230519/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 08:29:53] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/90/5f/1de7337bae3cc1b8f259096a42eec2dca760cbfc604fd20cd82329bab5dd/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz
+[2023-05-19 08:29:54] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/fa/4a/742fb4eaf5dcbb56d375cd68da875e6240ae9e7f4bb03c5bb2b50d7f2dd5/pydoclint-0.0.3.tar.gz
+[2023-05-19 08:29:54] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: Downloading https://files.pythonhosted.org/packages/5a/e6/a95fa77845924214df9ce9f05e632c2784441814b573f3d4cd6f2ae12eb0/alibabacloud_dop20221130_py2-1.0.1.tar.gz
+[2023-05-19 08:29:54] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230519/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-19 08:29:54] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.2.tar.gz tmp/pydoclint-0.0.3.tar.gz --markdown 20230519/p/pydoclint/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 08:29:54] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/cd/73/d91c281ea405d8f59c53fc541af87ea9d4aad7600247bb0cefc74f0cac7b/heaserver-people-1.0.0a9.tar.gz
+[2023-05-19 08:29:54] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oceanbasepro-1.0.7.tar.gz tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz --markdown 20230519/a/aliyun-python-sdk-oceanbasepro/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-19 08:29:54] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [alibabacloud-dop20221130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dop20221130_py2-1.0.0.tar.gz tmp/alibabacloud_dop20221130_py2-1.0.1.tar.gz --markdown 20230519/a/alibabacloud-dop20221130-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-19 08:29:54] INFO root fetch - processPackages [odoo12-addon-maintenance-stock]: Downloading https://files.pythonhosted.org/packages/a2/c2/4aaeb1c1045bc5c83eb7d1bf33b1506e88ee0a7454d3ca2726c549c5f8e6/odoo12_addon_maintenance_stock-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-19 08:29:54] INFO root fetch - processPackages [odoo12-addon-maintenance-stock]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [odoo12-addon-maintenance-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_maintenance_stock-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_maintenance_stock-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230519/o/odoo12-addon-maintenance-stock/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-19 08:29:54] INFO root fetch - processPackages [heaserver-people]: executing diffoscope
+[2023-05-19 08:29:54] INFO root fetch - processPackages [heaserver-people]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-people-1.0.0a8.tar.gz tmp/heaserver-people-1.0.0a9.tar.gz --markdown 20230519/h/heaserver-people/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-dop20221130-py2]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-maintenance-stock]: success
+[2023-05-19 08:29:55] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
+[2023-05-19 08:29:56] INFO root fetch - main [MainThread]: End processing [heaserver-people]: success
+[2023-05-19 08:29:56] INFO root fetch - main [MainThread]: Store serial: [18166287]
