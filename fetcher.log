@@ -14540,3 +14540,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 13:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-05-19 13:32:44] INFO root fetch - main [MainThread]: End processing [pelican-katex]: success
 [2023-05-19 13:32:44] INFO root fetch - main [MainThread]: Store serial: [18168936]
+[2023-05-19 13:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18168936]
+[2023-05-19 13:37:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubed
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etdd
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddadevops
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superinvoke
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitsnet-py
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FFHT-non-official
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spatk
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvat-sdk
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-19 13:37:54] INFO root fetch - processPackages [etdd]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [FFHT-non-official]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-05-19 13:37:54] WARNING root fetch - processPackages [superinvoke]: Skipping, unable to determine old version
+[2023-05-19 13:37:54] INFO root fetch - processPackages [superinvoke]: Start processing: cvat-cli
+[2023-05-19 13:37:54] INFO root fetch - main [MainThread]: End processing [superinvoke] error
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-sdk]: New version: [2.4.4] Old Version: [2.4.0]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 13:37:54] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230519.11.36.915994] Old Version: [20230517.9.18.788519]
+[2023-05-19 13:37:54] WARNING root fetch - processPackages [spatk]: Skipping, unable to determine old version
+[2023-05-19 13:37:54] INFO root fetch - main [MainThread]: End processing [spatk] error
+[2023-05-19 13:37:54] INFO root fetch - processPackages [etdd]: Downloading https://files.pythonhosted.org/packages/4f/2f/814ffd84b97098cc795753ff6f2d974c7443245dc6b94f9943872b2e0150/etdd-0.0.3.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [FFHT-non-official]: Downloading https://files.pythonhosted.org/packages/a7/30/1aa38a97552655226d2eef03635ec81ebbe58e296caacc2e07f6c402f631/FFHT-non-official-1.2.2.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-cli]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/3c/8b/4f33cca614719259398e21fa99dc733882bce9d619eb8ff2fd9bd535e363/PatryksAutoAI-1.3.5.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/ef/83/df9e8c8bf9790614a569f15cab94ccc56e8e5b452f096ca18c8c41aed776/unitsnet-py-0.1.33.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cubed]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/a7/6d/d5d17bb2a0ab0f6898acdf99624ea0c4553983701f8179eba31ceb33900c/cvat_sdk-2.4.0.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [etdd]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [etdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etdd-0.0.2.tar.gz tmp/etdd-0.0.3.tar.gz --markdown 20230519/e/etdd/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-19 13:37:54] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/9d/b9/4fef25b5686accd5657db92bfffffe4eabc44f3b7071772a05b5398a0f40/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230517.9.18.788519.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.3.4.tar.gz tmp/PatryksAutoAI-1.3.5.tar.gz --markdown 20230519/P/PatryksAutoAI/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-19 13:37:54] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38742499>=10485760
+[2023-05-19 13:37:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-19 13:37:54] INFO root fetch - processPackages [FFHT-non-official]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [FFHT-non-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FFHT-non-official-1.2.1.tar.gz tmp/FFHT-non-official-1.2.2.tar.gz --markdown 20230519/F/FFHT-non-official/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/bc/08/ca4e7e76933329c16313bdf672bb77763c9f29276241252817c021e51249/cvat-cli-2.3.0.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/1c/26/7ee9255961b91a2854e3aa7da2c1ee4a172510e591188168104849bdb13c/cubed-0.6.2.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/64/33/f308059acb9f9d27e2bf5f1669a2810ec5e8637800108cda9c51b4314b65/unitsnet-py-0.1.34.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/14/0a/8024456f096f1b6b2884429b541bea477d9625730a208b3a9758d1856d02/cvat_sdk-2.4.4.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.33.tar.gz tmp/unitsnet-py-0.1.34.tar.gz --markdown 20230519/u/unitsnet-py/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/46/f5/4b8efb8be9057c3a1fc6cb79408318343fbb5c39c973f1cb5d7c309cb765/cvat-cli-2.4.0.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/df/da/0b60fce33db3bbbbaca56511a833d2e05281a313e4a815f02fb9df1fe701/cubed-0.6.3.tar.gz
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2023-05-19 13:37:54] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.4.0.tar.gz tmp/cvat_sdk-2.4.4.tar.gz --markdown 20230519/c/cvat-sdk/2.4.0-2.4.4/diff.md --exclude *.pyd
+[2023-05-19 13:37:55] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2023-05-19 13:37:55] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.3.0.tar.gz tmp/cvat-cli-2.4.0.tar.gz --markdown 20230519/c/cvat-cli/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-19 13:37:55] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2023-05-19 13:37:55] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.6.2.tar.gz tmp/cubed-0.6.3.tar.gz --markdown 20230519/c/cubed/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-19 13:37:55] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 13:37:55] INFO root fetch - main [MainThread]: End processing [etdd]: success
+[2023-05-19 13:37:55] INFO root fetch - main [MainThread]: End processing [FFHT-non-official]: success
+[2023-05-19 13:37:56] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2023-05-19 13:37:57] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-05-19 13:37:57] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-19 13:38:00] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2023-05-19 13:38:35] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2023-05-19 13:38:35] INFO root fetch - main [MainThread]: Store serial: [18168973]
