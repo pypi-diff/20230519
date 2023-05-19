@@ -16381,3 +16381,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-19 15:22:21] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
 [2023-05-19 15:22:22] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
 [2023-05-19 15:22:22] INFO root fetch - main [MainThread]: Store serial: [18170335]
+[2023-05-19 15:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18170335]
+[2023-05-19 15:27:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkitekt
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazylinop
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typer-shell
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: big
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HOGBEN
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataspike
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyowletapi
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zenroom
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sysnet-pyutils
+[2023-05-19 15:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cai-root-cause-analysis
+[2023-05-19 15:27:33] INFO root fetch - processPackages [typer-shell]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [dataspike]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [HOGBEN]: New version: [1.1.2.2023.5.19] Old Version: [1.1.2.2023.3.2.1]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 15:27:33] WARNING root fetch - processPackages [cai-root-cause-analysis]: Skipping, unable to determine old version
+[2023-05-19 15:27:33] INFO root fetch - processPackages [cai-root-cause-analysis]: Start processing: ddadevops
+[2023-05-19 15:27:33] INFO root fetch - main [MainThread]: End processing [cai-root-cause-analysis] error
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sysnet-pyutils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [big]: New version: [0.8.1] Old Version: [0.8]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [zenroom]: New version: [3.0.1] Old Version: [2.9.0]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230519/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [typer-shell]: Downloading https://files.pythonhosted.org/packages/ad/6f/67b8e20c0430fa466818a00546c65b509e182ab3a087727fcebe7d64bb3b/typer_shell-0.1.0.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [dataspike]: Downloading https://files.pythonhosted.org/packages/d7/83/45e0ef4d41aad889784500a99d5325e80efb64d83a520f4759684734fc0b/dataspike-0.0.8.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sysnet-pyutils]: Downloading https://files.pythonhosted.org/packages/a0/ef/ae65e80ec29fe6a9e5ca29f1b0a01bc610e48a697a187fc0a6ee6b11cc33/sysnet-pyutils-1.0.1.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230519/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/5c/fd/39e677779966df2318a92fd88e0cd8305aa4971e4644fb3c00f928fb58cd/lazylinop-1.0.8-py3-none-any.whl
+[2023-05-19 15:27:33] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/0a/6e/e535e3443a1cc5cf71b7bb6cfa738b3cfc9cb9cd98d081b611a30b47f370/zenroom-2.9.0.tar.gz
+[2023-05-19 15:27:33] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 82603261>=10485760
+[2023-05-19 15:27:33] INFO root fetch - processPackages [zenroom]: Start processing: sunsynk
+[2023-05-19 15:27:33] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-05-19 15:27:33] INFO root fetch - processPackages [dataspike]: Downloading https://files.pythonhosted.org/packages/bc/70/cf8a594a6777149fe19d8b42ea0ca13e0f677fbc8c24e45faad2fcb96e26/dataspike-0.0.9.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sysnet-pyutils]: Downloading https://files.pythonhosted.org/packages/48/4b/c1193659f01395355d65e11e60e5be62ebf73434d443ced69069a0b85280/sysnet-pyutils-1.0.2.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/52/ab/591115b2515fc6115635adf69fd191a6f105ef04cc4411c59b9dab45b1fb/HOGBEN-1.1.2.2023.5.19.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [big]: Downloading https://files.pythonhosted.org/packages/ca/4d/38f8e3cedeff7ec609b06c7824aed9fe53308c74762f7614385012a3bb4c/big-0.8.1.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [typer-shell]: Downloading https://files.pythonhosted.org/packages/c5/c2/b15f8c035fe27caf7936bdd228ec996078b5dab03e2625f71524ef0d92f9/typer_shell-0.1.1.tar.gz
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sunsynk]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-19 15:27:33] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230519/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [dataspike]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [dataspike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataspike-0.0.8.tar.gz tmp/dataspike-0.0.9.tar.gz --markdown 20230519/d/dataspike/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [typer-shell]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [typer-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_shell-0.1.0.tar.gz tmp/typer_shell-0.1.1.tar.gz --markdown 20230519/t/typer-shell/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sysnet-pyutils]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [sysnet-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysnet-pyutils-1.0.1.tar.gz tmp/sysnet-pyutils-1.0.2.tar.gz --markdown 20230519/s/sysnet-pyutils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [HOGBEN]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [HOGBEN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HOGBEN-1.1.2.2023.3.2.1.tar.gz tmp/HOGBEN-1.1.2.2023.5.19.tar.gz --markdown 20230519/H/HOGBEN/1.1.2.2023.3.2.1-1.1.2.2023.5.19/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/ca/89/57b51bd98b2b2782824472a535a5bfd5667a9313ad46677730a1a4e6993d/lazylinop-1.0.9-py3-none-any.whl
+[2023-05-19 15:27:33] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230519/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 15:27:33] INFO root fetch - processPackages [big]: executing diffoscope
+[2023-05-19 15:27:33] INFO root fetch - processPackages [big]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big-0.8.tar.gz tmp/big-0.8.1.tar.gz --markdown 20230519/b/big/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-05-19 15:27:34] INFO root fetch - processPackages [sunsynk]: Downloading https://files.pythonhosted.org/packages/06/14/ff9acd1c340e56024dceb6cdf57011402965f71045c652e0af7bcb481bfe/sunsynk-0.3.6.tar.gz
+[2023-05-19 15:27:34] INFO root fetch - processPackages [sunsynk]: executing diffoscope
+[2023-05-19 15:27:34] INFO root fetch - processPackages [sunsynk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunsynk-0.3.5.tar.gz tmp/sunsynk-0.3.6.tar.gz --markdown 20230519/s/sunsynk/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [dataspike]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [typer-shell]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [sysnet-pyutils]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [HOGBEN]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [sunsynk]: success
+[2023-05-19 15:27:35] INFO root fetch - main [MainThread]: End processing [big]: success
+[2023-05-19 15:27:36] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-19 15:27:36] INFO root fetch - main [MainThread]: Store serial: [18170392]
