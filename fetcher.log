@@ -1336,3 +1336,83 @@
 [2023-05-19 01:59:45] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-19 02:00:21] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
 [2023-05-19 02:00:21] INFO root fetch - main [MainThread]: Store serial: [18161878]
+[2023-05-19 02:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18161878]
+[2023-05-19 02:05:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-core
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-pyodide
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-utils
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jautomate
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchdatasets-nightly
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: circuitpython-bmp180
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whylogs
+[2023-05-19 02:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-05-19 02:05:31] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1684454410] Old Version: [0.1.1684454230]
+[2023-05-19 02:05:31] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 02:05:31] INFO root fetch - processPackages [jautomate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 02:05:31] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 02:05:31] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1443] Old Version: [0.8.0.dev1441]
+[2023-05-19 02:05:31] INFO root fetch - processPackages [neon-utils]: New version: [1.5.0a6] Old Version: [1.5.0a5]
+[2023-05-19 02:05:32] INFO root fetch - processPackages [circuitpython-bmp180]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-19 02:05:32] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-19 02:05:32] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-19 02:05:32] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1684454599] Old Version: [1684368198]
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/0f/b7/9cd980b86fb380b7e2ae71f792e99cff333e5166cc5bcc0f793f9692a3bf/flet_core-0.8.0.dev1443.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/6b/c9/b61dcb0252ec391c98362bbf56c38f8c4fb33da628482cb75a4905ea540c/flet_pyodide-0.8.0.dev1443.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [jautomate]: Downloading https://files.pythonhosted.org/packages/52/1d/211c666b52992b98ce220c2522d9446c069578d12dc6736d761f7a0715cc/jautomate-0.0.9.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/bc/29/7c27a1e4dd7e2557c8ab70fa53599b771528fa9dbdbadb11e21a7b20c1f2/eia-odin-pkg-rioatmadja2018-0.1.1684454410.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [circuitpython-bmp180]: Downloading https://files.pythonhosted.org/packages/e7/02/779a447a207f09c78447ca1123e262a1c7bfa2391195f93b3f98458fe0a3/circuitpython-bmp180-0.1.1.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [jautomate]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [jautomate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jautomate-0.0.8.tar.gz tmp/jautomate-0.0.9.tar.gz --markdown 20230519/j/jautomate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/61/5e/1dc0b47cde45011da5f248812f85a37351afe51b31ba87a86fe05eb2c1eb/flet-0.8.0.dev1443.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/9b/9f/b77058e00a9af43af9c1c43ee78f234b0cdb8c52bb6c75d8689074e5abbb/neon_utils-1.5.0a6-py3-none-any.whl
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1441.tar.gz tmp/flet_pyodide-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet-pyodide/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1441.tar.gz tmp/flet_core-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet-core/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1684454230.tar.gz tmp/eia-odin-pkg-rioatmadja2018-0.1.1684454410.tar.gz --markdown 20230519/e/eia-odin-pkg-rioatmadja2018/0.1.1684454230-0.1.1684454410/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230519/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/1e/bd/b394319ddaf59b5bda786f1a25c5bd4bd1d4c7310bf7ba9c5bf741ab8ba0/torchdatasets-nightly-1684454599.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230519/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a5-py3-none-any.whl.zip tmp/neon_utils-1.5.0a6-py3-none-any.whl.zip --markdown 20230519/n/neon-utils/1.5.0a5-1.5.0a6/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [circuitpython-bmp180]: Downloading https://files.pythonhosted.org/packages/22/32/c93b50231b7629241a74f675cb9254a6c7a5f0e645afebb4b020711d7011/circuitpython-bmp180-0.2.0.tar.gz
+[2023-05-19 02:05:32] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1684368198.tar.gz tmp/torchdatasets-nightly-1684454599.tar.gz --markdown 20230519/t/torchdatasets-nightly/1684368198-1684454599/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [circuitpython-bmp180]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [circuitpython-bmp180]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-bmp180-0.1.1.tar.gz tmp/circuitpython-bmp180-0.2.0.tar.gz --markdown 20230519/c/circuitpython-bmp180/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-19 02:05:32] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1441.tar.gz tmp/flet-0.8.0.dev1443.tar.gz --markdown 20230519/f/flet/0.8.0.dev1441-0.8.0.dev1443/diff.md --exclude *.pyd
+[2023-05-19 02:05:33] INFO root fetch - processPackages [jautomate]: Start processing: libheader
+[2023-05-19 02:05:33] INFO root fetch - main [MainThread]: End processing [jautomate]: success
+[2023-05-19 02:05:33] INFO root fetch - processPackages [libheader]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-19 02:05:33] INFO root fetch - processPackages [flet-pyodide]: Start processing: adafruit-circuitpython-gps
+[2023-05-19 02:05:33] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-19 02:05:34] INFO root fetch - processPackages [circuitpython-bmp180]: Start processing: jaxkern-nightly
+[2023-05-19 02:05:34] INFO root fetch - main [MainThread]: End processing [circuitpython-bmp180]: success
+[2023-05-19 02:05:34] INFO root fetch - processPackages [adafruit-circuitpython-gps]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-19 02:05:34] INFO root fetch - processPackages [libheader]: Downloading https://files.pythonhosted.org/packages/c8/bd/76f85ab9bbf8cd4816b96f701934e2a228e7da54f8c40bf12314f75575a2/libheader-1.0.3.tar.gz
+[2023-05-19 02:05:34] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-19 02:05:34] INFO root fetch - processPackages [libheader]: executing diffoscope
+[2023-05-19 02:05:34] INFO root fetch - processPackages [libheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libheader-1.0.2.tar.gz tmp/libheader-1.0.3.tar.gz --markdown 20230519/l/libheader/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-19 02:05:34] INFO root fetch - processPackages [adafruit-circuitpython-gps]: Downloading https://files.pythonhosted.org/packages/28/56/a2303385135efa2c6b94ce4f07e9d07d1db7c9e0e2c2c98f093a29ccc1bb/adafruit-circuitpython-gps-3.9.8.tar.gz
+[2023-05-19 02:05:34] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-19 02:05:34] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-19 02:05:34] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230519/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-19 02:05:34] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-19 02:05:34] INFO root fetch - processPackages [adafruit-circuitpython-gps]: Downloading https://files.pythonhosted.org/packages/cd/35/67be53f05d19fbb642e0340b2451382cccb3b1549cd644b38ff21f87fdab/adafruit-circuitpython-gps-3.9.9.tar.gz
+[2023-05-19 02:05:34] INFO root fetch - processPackages [adafruit-circuitpython-gps]: executing diffoscope
+[2023-05-19 02:05:34] INFO root fetch - processPackages [adafruit-circuitpython-gps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-gps-3.9.8.tar.gz tmp/adafruit-circuitpython-gps-3.9.9.tar.gz --markdown 20230519/a/adafruit-circuitpython-gps/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-05-19 02:05:35] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-19 02:05:35] INFO root fetch - main [MainThread]: End processing [libheader]: success
+[2023-05-19 02:05:35] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-05-19 02:05:35] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-19 02:05:36] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-gps]: success
+[2023-05-19 02:05:37] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-19 02:05:38] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-19 02:05:45] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-19 02:05:45] INFO root fetch - main [MainThread]: Store serial: [18161928]
