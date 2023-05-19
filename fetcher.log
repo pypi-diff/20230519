@@ -22021,3 +22021,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-19 20:17:45] INFO root fetch - main [MainThread]: End processing [hspylib-kafman]: success
 [2023-05-19 20:18:21] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-05-19 20:18:21] INFO root fetch - main [MainThread]: Store serial: [18173874]
+[2023-05-19 20:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18173874]
+[2023-05-19 20:23:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msgspec
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iron-toolbox
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchtower-browser-testing
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtfutil
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: copyright-claim
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-utils
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audiolm-pytorch
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeeves-yeti-pyproject
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: logol
+[2023-05-19 20:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fabric-fim
+[2023-05-19 20:23:32] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [copyright-claim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [jeeves-yeti-pyproject]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-05-19 20:23:32] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.4.6.tar.gz tmp/watchtower_browser_testing-0.4.7.tar.gz --markdown 20230519/w/watchtower-browser-testing/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-19 20:23:32] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [msgspec]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [logol]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [jeeves-yeti-pyproject]: executing diffoscope
+[2023-05-19 20:23:32] INFO root fetch - processPackages [jeeves-yeti-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_yeti_pyproject-0.2.8.tar.gz tmp/jeeves_yeti_pyproject-0.2.9.tar.gz --markdown 20230519/j/jeeves-yeti-pyproject/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-19 20:23:32] INFO root fetch - processPackages [neon-utils]: New version: [1.5.0a7] Old Version: [1.5.0a6]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [fabric-fim]: New version: [1.5.0b4] Old Version: [1.5.0b3]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-19 20:23:32] INFO root fetch - processPackages [copyright-claim]: Downloading https://files.pythonhosted.org/packages/85/76/b3b32acf4cec32be8426d61861690ad5b51454053d423e2f75cc3a8af90e/copyright_claim-0.0.1.tar.gz
+[2023-05-19 20:23:32] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/c8/7c/e552245f3f74a3b0ce79478c264c39b0b8f680465bf475f5858e0069fcfc/wtfutil-1.0.8-py2.py3-none-any.whl
+[2023-05-19 20:23:32] INFO root fetch - processPackages [fabric-fim]: Downloading https://files.pythonhosted.org/packages/9e/05/e14be16632a12b5607ee7d77d5c26dc9819b38df65700e42dad15dd1f0fb/fabric_fim-1.5.0b3.tar.gz
+[2023-05-19 20:23:32] INFO root fetch - processPackages [logol]: Downloading https://files.pythonhosted.org/packages/c2/72/897325643f71f3e0303569c7de20c65f5718203e8b2f6eca19f79389f1a8/logol-0.0.4.tar.gz
+[2023-05-19 20:23:32] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/b2/11/ec75058f046fa1792136bdaea4215dc4d57c0685e8b4ae89d06848500241/msgspec-0.9.0.tar.gz
+[2023-05-19 20:23:32] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/ef/cd/14a37f997cedf42c6e9d13e69aaf73c5f30ed44d733bb4b94f1628069e11/neon_utils-1.5.0a7-py3-none-any.whl
+[2023-05-19 20:23:32] INFO root fetch - processPackages [copyright-claim]: Downloading https://files.pythonhosted.org/packages/bf/39/8f5a9ad0479c20e6a0b9cfc2040edf3dea36298a5cd7214f5392216026c0/copyright_claim-0.0.2.tar.gz
+[2023-05-19 20:23:32] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/7c/17/9753ffecedc6f31909b872005fdc062bfb889f54193d4a2cb1463cabc305/wtfutil-1.0.9-py2.py3-none-any.whl
+[2023-05-19 20:23:32] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-19 20:23:32] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230519/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip --markdown 20230519/w/wtfutil/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/46/4a/86b834cc4b368ef7f76d74b50e523126b6df014ad0fe27472be1a6a76c75/msgspec-0.9.1.tar.gz
+[2023-05-19 20:23:33] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/15/0e0b9eb49ef216d6fd8be64140f668a94155b4cc8344cd1318e3b495750e/audiolm-pytorch-1.0.4.tar.gz
+[2023-05-19 20:23:33] INFO root fetch - processPackages [fabric-fim]: Downloading https://files.pythonhosted.org/packages/f9/8d/fc7d7357e40c783edb5e6cd80d9a292621be71e800d9682496ba76845756/fabric_fim-1.5.0b4.tar.gz
+[2023-05-19 20:23:33] INFO root fetch - processPackages [copyright-claim]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [copyright-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyright_claim-0.0.1.tar.gz tmp/copyright_claim-0.0.2.tar.gz --markdown 20230519/c/copyright-claim/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a6-py3-none-any.whl.zip tmp/neon_utils-1.5.0a7-py3-none-any.whl.zip --markdown 20230519/n/neon-utils/1.5.0a6-1.5.0a7/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [msgspec]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [msgspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgspec-0.9.0.tar.gz tmp/msgspec-0.9.1.tar.gz --markdown 20230519/m/msgspec/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [logol]: Downloading https://files.pythonhosted.org/packages/6a/3f/19423a15461c6d0fe7f87e6c424d326ba8884b039ea70231ef1ad2bb02b3/logol-0.0.5.tar.gz
+[2023-05-19 20:23:33] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.0.2.tar.gz tmp/audiolm-pytorch-1.0.4.tar.gz --markdown 20230519/a/audiolm-pytorch/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [fabric-fim]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [fabric-fim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fim-1.5.0b3.tar.gz tmp/fabric_fim-1.5.0b4.tar.gz --markdown 20230519/f/fabric-fim/1.5.0b3-1.5.0b4/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [logol]: executing diffoscope
+[2023-05-19 20:23:33] INFO root fetch - processPackages [logol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logol-0.0.4.tar.gz tmp/logol-0.0.5.tar.gz --markdown 20230519/l/logol/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-19 20:23:33] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Start processing: irisml-tasks-training
+[2023-05-19 20:23:33] INFO root fetch - main [MainThread]: End processing [jeeves-yeti-pyproject]: success
+[2023-05-19 20:23:34] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-19 20:23:34] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: gsd
+[2023-05-19 20:23:34] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-05-19 20:23:34] INFO root fetch - processPackages [gsd]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-19 20:23:34] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/f8/cc/6efe51b69185877b6919dee71b862e04c8ee4e8905f3276391f86dcc56cc/irisml-tasks-training-0.0.8.tar.gz
+[2023-05-19 20:23:34] INFO root fetch - processPackages [gsd]: Downloading https://files.pythonhosted.org/packages/ac/4b/d5ede794944deec7629cba6bef9332ea9e5c3871c137ffd1cf85e74362c8/gsd-2.8.1.tar.gz
+[2023-05-19 20:23:34] INFO root fetch - processPackages [wtfutil]: Start processing: velour-client
+[2023-05-19 20:23:34] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2023-05-19 20:23:34] INFO root fetch - processPackages [velour-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-19 20:23:34] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-05-19 20:23:34] INFO root fetch - main [MainThread]: End processing [copyright-claim]: success
+[2023-05-19 20:23:34] INFO root fetch - processPackages [velour-client]: executing diffoscope
+[2023-05-19 20:23:34] INFO root fetch - processPackages [velour-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velour-client-0.1.1.tar.gz tmp/velour-client-0.1.2.tar.gz --markdown 20230519/v/velour-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-19 20:23:34] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-05-19 20:23:34] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.8.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230519/i/irisml-tasks-training/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-19 20:23:34] INFO root fetch - processPackages [gsd]: Downloading https://files.pythonhosted.org/packages/d3/c6/b6d9d26a445b716977932412598961f7dc30d3cef9d7d18d04799aa1e01d/gsd-2.9.0.tar.gz
+[2023-05-19 20:23:34] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-19 20:23:34] INFO root fetch - processPackages [gsd]: executing diffoscope
+[2023-05-19 20:23:34] INFO root fetch - processPackages [gsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230519:/home/abi/fetcher/20230519:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsd-2.8.1.tar.gz tmp/gsd-2.9.0.tar.gz --markdown 20230519/g/gsd/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-19 20:23:34] INFO root fetch - main [MainThread]: End processing [logol]: success
+[2023-05-19 20:23:35] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-05-19 20:23:35] INFO root fetch - main [MainThread]: End processing [msgspec]: success
+[2023-05-19 20:23:35] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-19 20:23:35] INFO root fetch - main [MainThread]: End processing [fabric-fim]: success
+[2023-05-19 20:23:36] INFO root fetch - main [MainThread]: End processing [velour-client]: success
+[2023-05-19 20:23:36] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-05-19 20:23:36] INFO root fetch - main [MainThread]: End processing [gsd]: success
+[2023-05-19 20:23:36] INFO root fetch - main [MainThread]: Store serial: [18173993]
